@@ -261,6 +261,31 @@ img, svg, picture, video, canvas {
   height: auto;
 }
 
+/* ── Specific Critical Image & Logo Constraints ── */
+.nav-logo,
+.brand-logo-img {
+  width: 44px !important;
+  height: 44px !important;
+  max-width: 44px !important;
+  max-height: 44px !important;
+  object-fit: contain !important;
+}
+
+.footer-logo {
+  max-width: 240px !important;
+  max-height: 52px !important;
+  width: auto !important;
+  height: auto !important;
+  object-fit: contain !important;
+}
+
+.hero-photo {
+  max-width: 100% !important;
+  max-height: 100% !important;
+  object-fit: cover !important;
+}
+
+
 button, input, textarea, select {
   font: inherit;
   color: inherit;
