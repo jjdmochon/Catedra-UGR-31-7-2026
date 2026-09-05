@@ -1,0 +1,3298 @@
+// Consolidated Application Data: Catedra UGR Concurso 31/7/2026
+window.APP_DATA = {
+  "concurso": {
+    "codigo": "31/7/2026",
+    "cuerpo": "Catedrático de Universidad",
+    "area": "Química Orgánica",
+    "departamento": "Química Farmacéutica y Orgánica",
+    "universidad": "Universidad de Granada",
+    "facultad": "Facultad de Farmacia",
+    "centro_investigacion": "Centro GENYO (Pfizer / Universidad de Granada / Junta de Andalucía)",
+    "boe_resolucion": "Resolución de 22 de julio de 2026",
+    "boe_publicacion": "BOE núm. 183, de 28 de julio de 2026",
+    "boe_id": "BOE-A-2026-16414",
+    "boe_url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-16414",
+    "perfil_docente": "Química Orgánica 1 y 2 y Química Farmacéutica 1 y 2 en el Grado de Farmacia, Química Orgánica y Química de los Fármacos y Marcadores Orgánicos de los alimentos. Trazabilidad en el Grado de CTA, Química General en el Grado de NHD.",
+    "perfil_investigador": "Desarrollo de estrategias químicas basadas en química dinámica para la detección de ácidos nucleicos como herramienta de diagnóstico.",
+    "tribunal_titular": [
+      {
+        "cargo": "Presidenta titular",
+        "nombre": "Dra. Laura Rodríguez Raurell",
+        "categoria": "Catedrática de Universidad",
+        "universidad": "Universidad de Barcelona (UB)",
+        "area": "Química Orgánica / Química Inorgánica",
+        "especialidad": "Sistemas supramoleculares, metalomacrociclos y sensores químicos moleculares",
+        "icon": "👑"
+      },
+      {
+        "cargo": "Secretario titular",
+        "nombre": "Dr. Juan Manuel Cuerva Carvajal",
+        "categoria": "Catedrático de Universidad",
+        "universidad": "Universidad de Granada (UGR)",
+        "area": "Química Orgánica",
+        "especialidad": "Catálisis organometálica, química de radicales libres, titanocenos y síntesis de productos naturales",
+        "icon": "📝"
+      },
+      {
+        "cargo": "Vocal titular 1º",
+        "nombre": "Dra. Eva María Talavera Rodríguez",
+        "categoria": "Catedrática de Universidad",
+        "universidad": "Universidad de Granada (UGR)",
+        "area": "Química Orgánica / Química Física",
+        "especialidad": "Espectroscopía de fluorescencia resuelta en el tiempo y dinámica de biomacromoléculas",
+        "icon": "🔬"
+      },
+      {
+        "cargo": "Vocal titular 2º",
+        "nombre": "Dr. Manuel Nogueras Montiel",
+        "categoria": "Catedrático de Universidad",
+        "universidad": "Universidad de Jaén (UJA)",
+        "area": "Química Orgánica",
+        "especialidad": "Química de heterociclos, síntesis de análogos de nucleósidos y química médica",
+        "icon": "🧪"
+      },
+      {
+        "cargo": "Vocal titular 3º",
+        "nombre": "Dra. M. Jesús Ortega Agüera",
+        "categoria": "Catedrática de Universidad",
+        "universidad": "Universidad de Cádiz (UCA)",
+        "area": "Química Orgánica",
+        "especialidad": "Química de productos naturales marinos y metabolitos secundarios bioactivos",
+        "icon": "🌊"
+      }
+    ],
+    "tribunal_suplente": [
+      {
+        "cargo": "Presidenta suplente",
+        "nombre": "Dra. Rosario Hernández Galán",
+        "categoria": "Catedrática de Universidad",
+        "universidad": "Universidad de Cádiz (UCA)"
+      },
+      {
+        "cargo": "Secretaria suplente",
+        "nombre": "Dra. Alegría Carrasco Pancorbo",
+        "categoria": "Catedrática de Universidad",
+        "universidad": "Universidad de Granada (UGR)"
+      },
+      {
+        "cargo": "Vocal suplente 1º",
+        "nombre": "Dr. Manuel Sánchez Polo",
+        "categoria": "Catedrático de Universidad",
+        "universidad": "Universidad de Granada (UGR)"
+      },
+      {
+        "cargo": "Vocal suplente 2º",
+        "nombre": "Dr. Ramón Martínez Máñez",
+        "categoria": "Catedrático de Universidad",
+        "universidad": "Universidad Politécnica de Valencia (UPV)"
+      },
+      {
+        "cargo": "Vocal suplente 3º",
+        "nombre": "Dra. Marina Gordaliza Escobar",
+        "categoria": "Catedrática de Universidad",
+        "universidad": "Universidad de Salamanca (USAL)"
+      }
+    ]
+  },
+  "anexo_iv": [
+    {
+      "num": 1,
+      "titulo": "Datos personales",
+      "count": "1 expediente",
+      "desc": "Datos identificativos, adscripción al Dpto. de Química Farmacéutica y Orgánica de la UGR y centro GENYO."
+    },
+    {
+      "num": 2,
+      "titulo": "Títulos académicos",
+      "count": "2 títulos",
+      "desc": "Licenciado en Farmacia (Sobresaliente, 1996) y Doctor en Farmacia (Sobresaliente cum laude, 2001, UGR)."
+    },
+    {
+      "num": 3,
+      "titulo": "Puestos docentes desempeñados",
+      "count": "6 nombramientos",
+      "desc": "Profesor Titular (2019-act), Contratado Doctor (2017-19), Ramón y Cajal (2011-17), Research Fellow en Univ. Edinburgh y Southampton."
+    },
+    {
+      "num": 4,
+      "titulo": "Becas, ayudas y premios recibidos",
+      "count": "5 distinciones",
+      "desc": "Ramón y Cajal, Becas postdoctorales internacionales, EIC Accelerator Seal of Excellence (2025)."
+    },
+    {
+      "num": 5,
+      "titulo": "Puestos asistenciales desempeñados",
+      "count": "N/A",
+      "desc": "Plaza no vinculada al sistema hospitalario."
+    },
+    {
+      "num": 6,
+      "titulo": "Actividad docente desempeñada",
+      "count": ">25 años evaluados",
+      "desc": "Química Orgánica 1 y 2, Química Farmacéutica 1 y 2 (Farmacia), CTA, NHD y Máster TRANSMED."
+    },
+    {
+      "num": 7,
+      "titulo": "Contribuciones de carácter docente",
+      "count": "8 proyectos / materiales",
+      "desc": "Proyectos de innovación docente UGR, plataformas web interactivas, modelo 'Química como Software Molecular'."
+    },
+    {
+      "num": 8,
+      "titulo": "Actividad asistencial desempeñada",
+      "count": "N/A",
+      "desc": "Plaza no vinculada."
+    },
+    {
+      "num": 9,
+      "titulo": "Actividad investigadora desempeñada",
+      "count": "4 líneas activas",
+      "desc": "Química dinámica (DCL), Biopsia líquida, Nanobiosensores / Point-of-Care, y RiboTACs (eRNA-DEGRADE)."
+    },
+    {
+      "num": 10,
+      "titulo": "Proyectos subvencionados en convocatorias públicas",
+      "count": "18 proyectos",
+      "desc": "Europeos (FP7 LIQBIOPSENS, Horizon Europe, EIC Accelerator), Plan Nacional / Retos, Junta de Andalucía, EQC2024."
+    },
+    {
+      "num": 11,
+      "titulo": "Otros proyectos y contratos I+D (Transferencia / Art. 83)",
+      "count": "12 contratos",
+      "desc": "Contratos de I+D con Vitro SA, Quanterix, MilliporeSigma, Optoi, Mecwins."
+    },
+    {
+      "num": 12,
+      "titulo": "Trabajos de investigación dirigidos",
+      "count": "11 Tesis / >30 TFGs/TFMs",
+      "desc": "11 Tesis doctorales defendidas (todas Sobresaliente cum laude, mención internacional y premios extraordinarios)."
+    },
+    {
+      "num": 13,
+      "titulo": "Publicaciones (Artículos en revistas)",
+      "count": "98 artículos",
+      "desc": "98 artículos indexados en WOS/Scopus, >72% en primer cuartil Q1, H=29, >2400 citas."
+    },
+    {
+      "num": 14,
+      "titulo": "Publicaciones (Libros y capítulos)",
+      "count": "2 capítulos",
+      "desc": "Capítulos en Springer Nature (Fluorescence in Industry, Methods in Molecular Biology)."
+    },
+    {
+      "num": 15,
+      "titulo": "Comunicaciones y ponencias en congresos",
+      "count": ">60 ponencias",
+      "desc": "Comunicaciones internacionales en ACS, RNA Society, ISLB, FEBS, AACR."
+    },
+    {
+      "num": 16,
+      "titulo": "Otras publicaciones",
+      "count": "8 documentos",
+      "desc": "Informes de consenso internacional y guías clínicas promovidas desde la ISLB."
+    },
+    {
+      "num": 17,
+      "titulo": "Otros trabajos de investigación",
+      "count": "5 desarrollos",
+      "desc": "Algoritmos de análisis espectroscópico de perlas y multiplexado fluorimétrico resuelto en tiempo."
+    },
+    {
+      "num": 18,
+      "titulo": "Patentes y modelos de utilidad",
+      "count": "16 familias",
+      "desc": "16 familias internacionales (PCT/US/EP), 12 concedidas, 4 licenciadas para explotación comercial."
+    },
+    {
+      "num": 19,
+      "titulo": "Estancias en centros de investigación",
+      "count": "4 estancias (>7 años)",
+      "desc": "Univ. of Edinburgh (5 años), Univ. of Southampton (2 años), Univ. degli Studi di Perugia, Univ. di Ferrara."
+    },
+    {
+      "num": 20,
+      "titulo": "Puestos de gestión y servicios prestados",
+      "count": "6 cargos",
+      "desc": "Co-director NanoChemBio (GENYO), Tesorero y co-fundador de la ISLB (2017-2021), evaluador AEI/Horizonte Europa."
+    },
+    {
+      "num": 21,
+      "titulo": "Cursos y seminarios recibidos",
+      "count": ">20 cursos",
+      "desc": "Formación continuada en transferencia tecnológica, propiedad intelectual, bioética y metodologías docentes."
+    },
+    {
+      "num": 22,
+      "titulo": "Actividad en empresas y profesión libre",
+      "count": "3 spin-offs",
+      "desc": "DESTINA Genomics Ltd. (co-fundador, CSO 2010-20, CEO 2020-25), CRISPNA SL, NanoGetic SL."
+    },
+    {
+      "num": 23,
+      "titulo": "Periodos reconocidos (Sexenios y Quinquenios)",
+      "count": "5 Quinq. / 4 Sexenios",
+      "desc": "5 Quinquenios Docentes reconocidos (25 años). 3 Sexenios de Investigación + 1 Sexenio de Transferencia CNEAI."
+    },
+    {
+      "num": 24,
+      "titulo": "Otros méritos docentes o de investigación",
+      "count": "Calificación 4.78/5.00",
+      "desc": "Puntuación de 4.78/5.00 en encuestas DOCENTIA UGR; revisor habitual de Nature Comm, JACS, Angewandte, Biosens Bioelectron."
+    },
+    {
+      "num": 25,
+      "titulo": "Otros méritos",
+      "count": "Divulgación y Liderazgo",
+      "desc": "Divulgación científica internacional, promoción de compras públicas innovadoras en salud (SAS)."
+    }
+  ],
+  "kpis": {
+    "articulos": 98,
+    "porcentaje_q1": "72%",
+    "h_index": 29,
+    "citas": 2400,
+    "patentes_familias": 16,
+    "patentes_concedidas": 12,
+    "patentes_licenciadas": 4,
+    "tesis_dirigidas": 11,
+    "quinquenios_docentes": 5,
+    "docentia_score": "4.78 / 5.00",
+    "sexenios_investigacion": 3,
+    "sexenios_transferencia": 1,
+    "proyectos_financiados": 30
+  },
+  "articles": [
+    {
+      "year": 2026,
+      "title": "A novel Dual-guide CRISPR–Cas13 strategy improves specificity for single-nucleot...",
+      "authors": "Aguilar-González, Araceli, Martos-Jamai, Ismael, Ramos-Hernández, Iris, Molina-Estévez, Francisco Javier, Villao, Nancy Villegas, Puig-Serra, Pilar, Rodríguez-Perales, Sandra, Torres, Raúl, Labun, Kornel, Sánchez-Martín, Rosario María, Díaz-Mochón, Juan José, Martín, Francisco",
+      "summary_link": "outputs/summaries_papers/Summary_of_A_novel_Dual_guide_CRISPRCas13_strategy_improves_specificity.md",
+      "full_text_link": "sources/papers_md/Aguilar-González%20et%20al.%20-%202026%20-%20A%20novel%20Dual-guide%20CRISPR-Cas13%20strategy%20improves%20specificity%20for%20single-nucleotide%20variant%20detectio/Aguilar-González%20et%20al.%20-%202026%20-%20A%20novel%20Dual-guide%20CRISPR-Cas13%20strategy%20improves%20specificity%20for%20single-nucleotide%20variant%20detectio.md",
+      "doi": "",
+      "journal": "",
+      "preview": "- Authors: Aguilar-González, Araceli, Martos-Jamai, Ismael, Ramos-Hernández, Iris, Molina-Estévez, Francisco Javier, Villao, Nancy Villegas, Puig-Serra, Pilar, Rodríguez-Perales, Sandra, Torres, Raúl, Labun, Kornel, Sánchez-Martín, Rosario María, Díaz-Mochón, Juan José, Martín, Francisco - Journal/Citation: Nucleic Acids Research, 54, (2026) - Year: 2026 - DOI: https://doi.org/10.1093/nar/gkag161 ",
+      "images": [
+        "images/imageFile1.png",
+        "../../sources/papers_md/Aguilar-González%20et%20al.%20-%202025%20-%20A%20Novel%20Dual-Guide%20CRISPR-Cas13%20Strategy%20Improves%20Specificity%20for%20Single-Nucleotide%20Variant%20Detectio/images/imageFile1.png",
+        "../../sources/papers_md/Aguilar-González%20et%20al.%20-%202025%20-%20A%20Novel%20Dual-Guide%20CRISPR-Cas13%20Strategy%20Improves%20Specificity%20for%20Single-Nucleotide%20Variant%20Detectio/images/imageFile2.png",
+        "../../sources/papers_md/Aguilar-González%20et%20al.%20-%202025%20-%20A%20Novel%20Dual-Guide%20CRISPR-Cas13%20Strategy%20Improves%20Specificity%20for%20Single-Nucleotide%20Variant%20Detectio/images/imageFile3.png",
+        "../../sources/papers_md/Aguilar-González%20et%20al.%20-%202025%20-%20A%20Novel%20Dual-Guide%20CRISPR-Cas13%20Strategy%20Improves%20Specificity%20for%20Single-Nucleotide%20Variant%20Detectio/images/imageFile4.png",
+        "../../sources/papers_md/Aguilar-González%20et%20al.%20-%202025%20-%20A%20Novel%20Dual-Guide%20CRISPR-Cas13%20Strategy%20Improves%20Specificity%20for%20Single-Nucleotide%20Variant%20Detectio/images/imageFile5.png"
+      ]
+    },
+    {
+      "year": 2025,
+      "title": "Short communication: Dynamic chemical labelling allows the measurement of the pa...",
+      "authors": "Alzeer, Samar, Marin‐Romero, Antonio, López‐Longarela, Bárbara, Guardia‐Monteagudo, Juan J., Lopez‐Delgado, F. Javier, Pernagallo, Salvatore, Diaz‐Mochon, Juan J., Tabraue‐Chavez, Mavys, Scullion, Kathleen, Dear, James W.",
+      "summary_link": "outputs/summaries_papers/Summary_of_Short_communication_Dynamic_chemical_labelling_allows_the_me.md",
+      "full_text_link": "sources/papers_md/Alzeer%20et%20al.%20-%202025%20-%20Dynamic%20chemical%20labelling%20allows%20the%20measurement%20of%20the%20paracetamol%20toxicity%20biomarker%20microRNA-122/Alzeer%20et%20al.%20-%202025%20-%20Dynamic%20chemical%20labelling%20allows%20the%20measurement%20of%20the%20paracetamol%20toxicity%20biomarker%20microRNA-122.md",
+      "doi": "",
+      "journal": "",
+      "preview": "- Authors: Alzeer, Samar, Marin‐Romero, Antonio, López‐Longarela, Bárbara, Guardia‐Monteagudo, Juan J., Lopez‐Delgado, F. Javier, Pernagallo, Salvatore, Diaz‐Mochon, Juan J., Tabraue‐Chavez, Mavys, Scullion, Kathleen, Dear, James W. - Journal/Citation: British Journal of Clinical Pharmacology, 92, pp. 612–618, (2025) - Year: 2025 - DOI: https://doi.org/10.1002/bcp.70364 --- Received: 20 May 2025 R",
+      "images": [
+        "images/imageFile1.png",
+        "images/imageFile2.png",
+        "images/imageFile3.png",
+        "images/imageFile4.png",
+        "images/imageFile5.png",
+        "images/imageFile6.png",
+        "images/imageFile7.png",
+        "images/imageFile8.png",
+        "images/imageFile9.png",
+        "images/imageFile10.png",
+        "images/imageFile11.png",
+        "images/imageFile12.png",
+        "images/imageFile13.png",
+        "images/imageFile14.png",
+        "images/imageFile15.png",
+        "images/imageFile16.png",
+        "images/imageFile17.png",
+        "images/imageFile18.png",
+        "images/imageFile19.png",
+        "images/imageFile20.png",
+        "images/imageFile21.png",
+        "images/imageFile22.png",
+        "images/imageFile23.png",
+        "images/imageFile24.png",
+        "../../sources/papers_md/Alzeer%20et%20al.%20-%202025%20-%20Dynamic%20chemical%20labelling%20allows%20the%20measurement%20of%20the%20paracetamol%20toxicity%20biomarker%20microRNA-122/images/imageFile1.png",
+        "../../sources/papers_md/Alzeer%20et%20al.%20-%202025%20-%20Dynamic%20chemical%20labelling%20allows%20the%20measurement%20of%20the%20paracetamol%20toxicity%20biomarker%20microRNA-122/images/imageFile10.png",
+        "../../sources/papers_md/Alzeer%20et%20al.%20-%202025%20-%20Dynamic%20chemical%20labelling%20allows%20the%20measurement%20of%20the%20paracetamol%20toxicity%20biomarker%20microRNA-122/images/imageFile100.png",
+        "../../sources/papers_md/Alzeer%20et%20al.%20-%202025%20-%20Dynamic%20chemical%20labelling%20allows%20the%20measurement%20of%20the%20paracetamol%20toxicity%20biomarker%20microRNA-122/images/imageFile101.png",
+        "../../sources/papers_md/Alzeer%20et%20al.%20-%202025%20-%20Dynamic%20chemical%20labelling%20allows%20the%20measurement%20of%20the%20paracetamol%20toxicity%20biomarker%20microRNA-122/images/imageFile102.png"
+      ]
+    },
+    {
+      "year": 2025,
+      "title": "Exploring Trisubstituted adenine derivatives as adenosine A1 receptor ligands wi...",
+      "authors": "Córdoba-Gómez, L.B., Franco-Montalban, F., García, A.G., Díaz-Mochón, J.J., Las Infantas, M.J.P.D., Lorente-Macías, ?., Mok, J., King, B., Unciti-Broceta, A., Loza, M.I., Brea, J., Martínez, A.L., Matos, M.J., Guardia-Monteagudo, J.J.",
+      "summary_link": "outputs/summaries_papers/Summary_of_Exploring_Trisubstituted_adenine_derivatives_as_adenosine_A1.md",
+      "full_text_link": "sources/papers_md/Córdoba-Gómez%20et%20al.%20-%202025%20-%20Exploring%20Trisubstituted%20adenine%20derivatives%20as%20adenosine%20A1%20receptor%20ligands%20with%20antagonist%20activi/Córdoba-Gómez%20et%20al.%20-%202025%20-%20Exploring%20Trisubstituted%20adenine%20derivatives%20as%20adenosine%20A1%20receptor%20ligands%20with%20antagonist%20activi.md",
+      "doi": "",
+      "journal": "",
+      "preview": "- Authors: Córdoba-Gómez, L.B., Franco-Montalban, F., García, A.G., Díaz-Mochón, J.J., Las Infantas, M.J.P.D., Lorente-Macías, ?., Mok, J., King, B., Unciti-Broceta, A., Loza, M.I., Brea, J., Martínez, A.L., Matos, M.J., Guardia-Monteagudo, J.J. - Journal/Citation: Bioorganic Chemistry, 159, (2025) - Year: 2025 --- !image 1 Bioorganic Chemistry 159 (2025) 108395 Contents lists available at Science",
+      "images": [
+        "images/imageFile1.png",
+        "images/imageFile2.png",
+        "images/imageFile3.png",
+        "../../sources/papers_md/Córdoba-Gómez%20et%20al.%20-%202025%20-%20Exploring%20Trisubstituted%20adenine%20derivatives%20as%20adenosine%20A1%20receptor%20ligands%20with%20antagonist%20activi/images/imageFile1.png",
+        "../../sources/papers_md/Córdoba-Gómez%20et%20al.%20-%202025%20-%20Exploring%20Trisubstituted%20adenine%20derivatives%20as%20adenosine%20A1%20receptor%20ligands%20with%20antagonist%20activi/images/imageFile2.png",
+        "../../sources/papers_md/Córdoba-Gómez%20et%20al.%20-%202025%20-%20Exploring%20Trisubstituted%20adenine%20derivatives%20as%20adenosine%20A1%20receptor%20ligands%20with%20antagonist%20activi/images/imageFile3.png",
+        "../../sources/papers_md/Córdoba-Gómez%20et%20al.%20-%202025%20-%20Exploring%20Trisubstituted%20adenine%20derivatives%20as%20adenosine%20A1%20receptor%20ligands%20with%20antagonist%20activi/images/imageFile4.png",
+        "../../sources/papers_md/Córdoba-Gómez%20et%20al.%20-%202025%20-%20Exploring%20Trisubstituted%20adenine%20derivatives%20as%20adenosine%20A1%20receptor%20ligands%20with%20antagonist%20activi/images/imageFile5.png"
+      ]
+    },
+    {
+      "year": 2025,
+      "title": "Applying click chemistry principles to the design of tumor-targeted nanosystems",
+      "authors": "Díaz-Mochón, J. J., Sánchez-Martín, R. M.",
+      "summary_link": "outputs/summaries_papers/Summary_of_Applying_click_chemistry_principles_to_the_design_of_tumor_t.md",
+      "full_text_link": "sources/papers_md/Diaz-Mochon%20y%20Sanchez-Martin%20-%202025%20-%20Applying%20click%20chemistry%20principles%20to%20the%20design%20of%20tumor-targeted%20nanosystems/Diaz-Mochon%20y%20Sanchez-Martin%20-%202025%20-%20Applying%20click%20chemistry%20principles%20to%20the%20design%20of%20tumor-targeted%20nanosystems.md",
+      "doi": "",
+      "journal": "",
+      "preview": "- Authors: Díaz-Mochón, J. J., Sánchez-Martín, R. M. - Journal/Citation: Nanomedicine, 20, pp. 2809–2811, (2025) - Year: 2025 - DOI: https://doi.org/10.1080/17435889.2025.2567837 --- !image 1 Nanomedicine ISSN: 1743-5889 (Print) 1748-6963 (Online) Journal homepage: www.tandfonline.com/journals/innm20 !image 2 Applying click chemistry principles to the design of tumor-targeted nanosystems J. J. Dia",
+      "images": [
+        "images/imageFile1.png",
+        "images/imageFile2.png",
+        "images/imageFile3.png",
+        "images/imageFile4.png",
+        "images/imageFile5.png",
+        "images/imageFile6.png",
+        "images/imageFile7.png",
+        "images/imageFile8.png",
+        "images/imageFile9.png",
+        "images/imageFile10.png",
+        "images/imageFile11.png",
+        "../../sources/papers_md/Diaz-Mochon%20y%20Sanchez-Martin%20-%202025%20-%20Applying%20click%20chemistry%20principles%20to%20the%20design%20of%20tumor-targeted%20nanosystems/images/imageFile1.png",
+        "../../sources/papers_md/Diaz-Mochon%20y%20Sanchez-Martin%20-%202025%20-%20Applying%20click%20chemistry%20principles%20to%20the%20design%20of%20tumor-targeted%20nanosystems/images/imageFile10.png",
+        "../../sources/papers_md/Diaz-Mochon%20y%20Sanchez-Martin%20-%202025%20-%20Applying%20click%20chemistry%20principles%20to%20the%20design%20of%20tumor-targeted%20nanosystems/images/imageFile11.png",
+        "../../sources/papers_md/Diaz-Mochon%20y%20Sanchez-Martin%20-%202025%20-%20Applying%20click%20chemistry%20principles%20to%20the%20design%20of%20tumor-targeted%20nanosystems/images/imageFile2.png",
+        "../../sources/papers_md/Diaz-Mochon%20y%20Sanchez-Martin%20-%202025%20-%20Applying%20click%20chemistry%20principles%20to%20the%20design%20of%20tumor-targeted%20nanosystems/images/imageFile3.png"
+      ]
+    },
+    {
+      "year": 2025,
+      "title": "Short communication: miRNA122 interrogation via PCR-Free method to track liver r...",
+      "authors": "Marín-Romero, A., Tabraue-Chávez, M., Pernagallo, S., Di Zeo-Sánchez, D.E., Villanueva-Paz, M., Pinazo-Bandera, J.M., Sanabria-Cabrera, J., García-Cortés, M., Lucena, M.I., Andrade, R.J., Stephens, C., Díaz-Mochón, J.J.",
+      "summary_link": "outputs/summaries_papers/Summary_of_Short_communication_miRNA122_interrogation_via_PCR_Free_meth.md",
+      "full_text_link": "sources/papers_md/Marín-Romero%20et%20al.%20-%202025%20-%20Short%20communication%20miRNA122%20interrogation%20via%20PCR-Free%20method%20to%20track%20liver%20recovery/Marín-Romero%20et%20al.%20-%202025%20-%20Short%20communication%20miRNA122%20interrogation%20via%20PCR-Free%20method%20to%20track%20liver%20recovery.md",
+      "doi": "",
+      "journal": "",
+      "preview": "- Authors: Marín-Romero, A., Tabraue-Chávez, M., Pernagallo, S., Di Zeo-Sánchez, D.E., Villanueva-Paz, M., Pinazo-Bandera, J.M., Sanabria-Cabrera, J., García-Cortés, M., Lucena, M.I., Andrade, R.J., Stephens, C., Díaz-Mochón, J.J. - Journal/Citation: Plos One, 20, (2025) - Year: 2025 --- There is currently a need to investigate new biomarkers of acute liver injury (ALI) that are highly specific to",
+      "images": [
+        "images/imageFile3.png",
+        "images/imageFile4.png",
+        "../../sources/papers_md/Marín-Romero%20et%20al.%20-%202025%20-%20Short%20communication%20miRNA122%20interrogation%20via%20PCR-Free%20method%20to%20track%20liver%20recovery/images/imageFile1.png",
+        "../../sources/papers_md/Marín-Romero%20et%20al.%20-%202025%20-%20Short%20communication%20miRNA122%20interrogation%20via%20PCR-Free%20method%20to%20track%20liver%20recovery/images/imageFile2.png",
+        "../../sources/papers_md/Marín-Romero%20et%20al.%20-%202025%20-%20Short%20communication%20miRNA122%20interrogation%20via%20PCR-Free%20method%20to%20track%20liver%20recovery/images/imageFile3.png",
+        "../../sources/papers_md/Marín-Romero%20et%20al.%20-%202025%20-%20Short%20communication%20miRNA122%20interrogation%20via%20PCR-Free%20method%20to%20track%20liver%20recovery/images/imageFile4.png"
+      ]
+    },
+    {
+      "year": 2025,
+      "title": "Tracker Nanocatalyst for Screening of Intracellular Copper‐Catalyzed Azide‐Alkyn...",
+      "authors": "Rodríguez‐Segura, Mónica, López‐Delgado, Francisco Javier, Cano‐Cortés, María Victoria, Delgado‐González, Antonio, Diaz‐Mochon, Juan Jose, Sanchez‐Martin, Rosario Maria",
+      "summary_link": "outputs/summaries_papers/Summary_of_Tracker_Nanocatalyst_for_Screening_of_Intracellular_CopperCa.md",
+      "full_text_link": "sources/papers_md/Rodríguez-Segura%20et%20al.%20-%202025%20-%20Tracker%20Nanocatalyst%20for%20Screening%20of%20Intracellular%20Copper-Catalyzed%20Azide-Alkyne%20Cycloadditions/Rodríguez-Segura%20et%20al.%20-%202025%20-%20Tracker%20Nanocatalyst%20for%20Screening%20of%20Intracellular%20Copper-Catalyzed%20Azide-Alkyne%20Cycloadditions.md",
+      "doi": "",
+      "journal": "",
+      "preview": "- Authors: Rodríguez‐Segura, Mónica, López‐Delgado, Francisco Javier, Cano‐Cortés, María Victoria, Delgado‐González, Antonio, Diaz‐Mochon, Juan Jose, Sanchez‐Martin, Rosario Maria - Journal/Citation: Small, 21, (2025) - Year: 2025 - DOI: https://doi.org/10.1002/smll.202506185 --- !image 1 www.small-journal.com Intracellular copper-catalyzed azide-alkyne cycloaddition (CuAAC) oﬀers immense potentia",
+      "images": [
+        "images/imageFile1.png",
+        "../../sources/papers_md/Rodríguez-Segura%20et%20al.%20-%202025%20-%20Tracker%20Nanocatalyst%20for%20Screening%20of%20Intracellular%20Copper-Catalyzed%20Azide-Alkyne%20Cycloadditions/images/imageFile1.png",
+        "../../sources/papers_md/Rodríguez-Segura%20et%20al.%20-%202025%20-%20Tracker%20Nanocatalyst%20for%20Screening%20of%20Intracellular%20Copper-Catalyzed%20Azide-Alkyne%20Cycloadditions/images/imageFile10.png",
+        "../../sources/papers_md/Rodríguez-Segura%20et%20al.%20-%202025%20-%20Tracker%20Nanocatalyst%20for%20Screening%20of%20Intracellular%20Copper-Catalyzed%20Azide-Alkyne%20Cycloadditions/images/imageFile11.png",
+        "../../sources/papers_md/Rodríguez-Segura%20et%20al.%20-%202025%20-%20Tracker%20Nanocatalyst%20for%20Screening%20of%20Intracellular%20Copper-Catalyzed%20Azide-Alkyne%20Cycloadditions/images/imageFile12.png",
+        "../../sources/papers_md/Rodríguez-Segura%20et%20al.%20-%202025%20-%20Tracker%20Nanocatalyst%20for%20Screening%20of%20Intracellular%20Copper-Catalyzed%20Azide-Alkyne%20Cycloadditions/images/imageFile13.png"
+      ]
+    },
+    {
+      "year": 2025,
+      "title": "Amplification-Free Testing of microRNA Biomarkers in Cancer",
+      "authors": "Soleimanpour, Bahareh, Díaz Mochón, Juan Jose, Pernagallo, Salvatore",
+      "summary_link": "outputs/summaries_papers/Summary_of_Amplification_Free_Testing_of_microRNA_Biomarkers_in_Cancer.md",
+      "full_text_link": "sources/papers_md/Soleimanpour%20et%20al.%20-%202025%20-%20Amplification-Free%20Testing%20of%20microRNA%20Biomarkers%20in%20Cancer/Soleimanpour%20et%20al.%20-%202025%20-%20Amplification-Free%20Testing%20of%20microRNA%20Biomarkers%20in%20Cancer.md",
+      "doi": "",
+      "journal": "",
+      "preview": "- Authors: Soleimanpour, Bahareh, Díaz Mochón, Juan Jose, Pernagallo, Salvatore - Journal/Citation: Cancers, 17, pp. 2715, (2025) - Year: 2025 - DOI: https://doi.org/10.3390/cancers17162715 --- Circulating microRNAs (miRNAs) show great promise as biomarkers for diagnosing and monitoring various diseases, including cancer. However, their use in clinical diagnostics is currently limited due to the l",
+      "images": [
+        "../../sources/papers_md/Soleimanpour%20et%20al.%20-%202025%20-%20Amplification-Free%20Testing%20of%20microRNA%20Biomarkers%20in%20Cancer/images/imageFile1.png",
+        "../../sources/papers_md/Soleimanpour%20et%20al.%20-%202025%20-%20Amplification-Free%20Testing%20of%20microRNA%20Biomarkers%20in%20Cancer/images/imageFile2.png",
+        "../../sources/papers_md/Soleimanpour%20et%20al.%20-%202025%20-%20Amplification-Free%20Testing%20of%20microRNA%20Biomarkers%20in%20Cancer/images/imageFile3.png",
+        "../../sources/papers_md/Soleimanpour%20et%20al.%20-%202025%20-%20Amplification-Free%20Testing%20of%20microRNA%20Biomarkers%20in%20Cancer/images/imageFile4.png",
+        "../../sources/papers_md/Soleimanpour%20et%20al.%20-%202025%20-%20Amplification-Free%20Testing%20of%20microRNA%20Biomarkers%20in%20Cancer/images/imageFile5.png"
+      ]
+    },
+    {
+      "year": 2025,
+      "title": "A novel colorimetric assay for early differentiation of mucocutaneous and cutane...",
+      "authors": "Villao, N.V., Aguilar-Gonzalez, A., Robles-Remacho, A., Cano-Cortés, V., Díaz-Mochón, J.J., Sánchez-Martín, R.M., Tabraue-Chavez, M., Megino-Luque, C., Guardia-Monteagudo, J.J., López-Delgado, F.J., Pernagallo, S.",
+      "summary_link": "outputs/summaries_papers/Summary_of_A_novel_colorimetric_assay_for_early_differentiation_of_muco.md",
+      "full_text_link": "sources/papers_md/Villao%20et%20al.%20-%202025%20-%20A%20novel%20colorimetric%20assay%20for%20early%20differentiation%20of%20mucocutaneous%20and%20cutaneous%20leishmaniasis%20vi/Villao%20et%20al.%20-%202025%20-%20A%20novel%20colorimetric%20assay%20for%20early%20differentiation%20of%20mucocutaneous%20and%20cutaneous%20leishmaniasis%20vi.md",
+      "doi": "",
+      "journal": "",
+      "preview": "- Authors: Villao, N.V., Aguilar-Gonzalez, A., Robles-Remacho, A., Cano-Cortés, V., Díaz-Mochón, J.J., Sánchez-Martín, R.M., Tabraue-Chavez, M., Megino-Luque, C., Guardia-Monteagudo, J.J., López-Delgado, F.J., Pernagallo, S. - Journal/Citation: Talanta, 293, (2025) - Year: 2025 --- !image 1 Talanta 293 (2025) 128016 Contents lists available at ScienceDirect journal homepage: www.elsevier.com/locat",
+      "images": [
+        "images/imageFile1.png",
+        "images/imageFile2.png",
+        "images/imageFile3.png",
+        "images/imageFile4.png",
+        "images/imageFile5.png",
+        "../../sources/papers_md/Villao%20et%20al.%20-%202025%20-%20A%20novel%20colorimetric%20assay%20for%20early%20differentiation%20of%20mucocutaneous%20and%20cutaneous%20leishmaniasis%20vi/images/imageFile1.png",
+        "../../sources/papers_md/Villao%20et%20al.%20-%202025%20-%20A%20novel%20colorimetric%20assay%20for%20early%20differentiation%20of%20mucocutaneous%20and%20cutaneous%20leishmaniasis%20vi/images/imageFile10.png",
+        "../../sources/papers_md/Villao%20et%20al.%20-%202025%20-%20A%20novel%20colorimetric%20assay%20for%20early%20differentiation%20of%20mucocutaneous%20and%20cutaneous%20leishmaniasis%20vi/images/imageFile11.png",
+        "../../sources/papers_md/Villao%20et%20al.%20-%202025%20-%20A%20novel%20colorimetric%20assay%20for%20early%20differentiation%20of%20mucocutaneous%20and%20cutaneous%20leishmaniasis%20vi/images/imageFile12.png",
+        "../../sources/papers_md/Villao%20et%20al.%20-%202025%20-%20A%20novel%20colorimetric%20assay%20for%20early%20differentiation%20of%20mucocutaneous%20and%20cutaneous%20leishmaniasis%20vi/images/imageFile13.png"
+      ]
+    },
+    {
+      "year": 2024,
+      "title": "Multiplexed MicroRNA biomarker detection by bridging lifetime filtering imaging ...",
+      "authors": "Padial-Jaudenes, Maria, Tabraue-Chávez, Mavys, Detassis, Simone, Ruedas-Rama, Maria J., Gonzalez-Garcia, M. Carmen, Fara, Mario Antonio, López-Delgado, F. Javier, González-Vera, Juan A., Guardia-Monteagudo, Juan J., Díaz-Mochón, Juan J., Garcia-Fernandez, Emilio, Pernagallo, Salvatore, Orte, Angel",
+      "summary_link": "outputs/summaries_papers/Summary_of_Multiplexed_MicroRNA_biomarker_detection_by_bridging_lifetim.md",
+      "full_text_link": "sources/papers_md/Padial-Jaudenes%20et%20al.%20-%202024%20-%20Multiplexed%20MicroRNA%20biomarker%20detection%20by%20bridging%20lifetime%20filtering%20imaging%20and%20dynamic%20chemical/Padial-Jaudenes%20et%20al.%20-%202024%20-%20Multiplexed%20MicroRNA%20biomarker%20detection%20by%20bridging%20lifetime%20filtering%20imaging%20and%20dynamic%20chemical.md",
+      "doi": "",
+      "journal": "",
+      "preview": "- Authors: Padial-Jaudenes, Maria, Tabraue-Chávez, Mavys, Detassis, Simone, Ruedas-Rama, Maria J., Gonzalez-Garcia, M. Carmen, Fara, Mario Antonio, López-Delgado, F. Javier, González-Vera, Juan A., Guardia-Monteagudo, Juan J., Díaz-Mochón, Juan J., Garcia-Fernandez, Emilio, Pernagallo, Salvatore, Orte, Angel - Journal/Citation: Sensors and Actuators B: Chemical, 417, pp. 136136, (2024) - Year: 202",
+      "images": [
+        "images/imageFile1.png",
+        "images/imageFile2.png",
+        "../../sources/papers_md/Padial-Jaudenes%20et%20al.%20-%202024%20-%20Multiplexed%20MicroRNA%20biomarker%20detection%20by%20bridging%20lifetime%20filtering%20imaging%20and%20dynamic%20chemical/images/imageFile1.png",
+        "../../sources/papers_md/Padial-Jaudenes%20et%20al.%20-%202024%20-%20Multiplexed%20MicroRNA%20biomarker%20detection%20by%20bridging%20lifetime%20filtering%20imaging%20and%20dynamic%20chemical/images/imageFile10.png",
+        "../../sources/papers_md/Padial-Jaudenes%20et%20al.%20-%202024%20-%20Multiplexed%20MicroRNA%20biomarker%20detection%20by%20bridging%20lifetime%20filtering%20imaging%20and%20dynamic%20chemical/images/imageFile11.png",
+        "../../sources/papers_md/Padial-Jaudenes%20et%20al.%20-%202024%20-%20Multiplexed%20MicroRNA%20biomarker%20detection%20by%20bridging%20lifetime%20filtering%20imaging%20and%20dynamic%20chemical/images/imageFile2.png",
+        "../../sources/papers_md/Padial-Jaudenes%20et%20al.%20-%202024%20-%20Multiplexed%20MicroRNA%20biomarker%20detection%20by%20bridging%20lifetime%20filtering%20imaging%20and%20dynamic%20chemical/images/imageFile3.png"
+      ]
+    },
+    {
+      "year": 2024,
+      "title": "Click chemistry-based dual nanosystem for microRNA-122 detection with single-bas...",
+      "authors": "Robles-Remacho, Agustín, Martos-Jamai, Ismael, Tabraue-Chávez, Mavys, Aguilar-González, Araceli, Laz-Ruiz, Jose A., Cano-Cortés, M. Victoria, López-Delgado, F. Javier, Guardia-Monteagudo, Juan J., Pernagallo, Salvatore, Díaz-Mochón, Juan J., Sánchez-Martín, Rosario M.",
+      "summary_link": "outputs/summaries_papers/Summary_of_Direct_detection_of_alpha_satellite_DNA_with_single_base_res.md",
+      "full_text_link": "sources/papers_md/Robles-Remacho%20et%20al.%20-%202024%20-%20Click%20chemistry-based%20dual%20nanosystem%20for%20microRNA-122%20detection%20with%20single-base%20specificity%20from%20t/Robles-Remacho%20et%20al.%20-%202024%20-%20Click%20chemistry-based%20dual%20nanosystem%20for%20microRNA-122%20detection%20with%20single-base%20specificity%20from%20t.md",
+      "doi": "",
+      "journal": "",
+      "preview": "- Authors: Robles-Remacho, A., Luque-Gonzalez, M.A., Sánchez-Martín, R.M., Díaz-Mochón, J.J., López-Delgado, F.J., Guardia-Monteagudo, J.J., Fara, M.A., Pernagallo, S. - Journal/Citation: Biosensors and Bioelectronics, 219, (2023) - Year: 2023 --- !image 1 Biosensors and Bioelectronics 219 (2023) 114770 Contents lists available at ScienceDirect Biosensors and Bioelectronics journal homepage: www.e",
+      "images": [
+        "images/imageFile1.png",
+        "images/imageFile2.png",
+        "images/imageFile3.png",
+        "../../sources/papers_md/Robles-Remacho%20et%20al.%20-%202023%20-%20Direct%20detection%20of%20alpha%20satellite%20DNA%20with%20singl/images/imageFile1.png",
+        "../../sources/papers_md/Robles-Remacho%20et%20al.%20-%202023%20-%20Direct%20detection%20of%20alpha%20satellite%20DNA%20with%20singl/images/imageFile2.png",
+        "../../sources/papers_md/Robles-Remacho%20et%20al.%20-%202023%20-%20Direct%20detection%20of%20alpha%20satellite%20DNA%20with%20singl/images/imageFile3.png",
+        "../../sources/papers_md/Robles-Remacho%20et%20al.%20-%202023%20-%20Direct%20detection%20of%20alpha%20satellite%20DNA%20with%20singl/images/imageFile4.png",
+        "../../sources/papers_md/Robles-Remacho%20et%20al.%20-%202023%20-%20Direct%20detection%20of%20alpha%20satellite%20DNA%20with%20singl/images/imageFile5.png"
+      ]
+    },
+    {
+      "year": 2023,
+      "title": "Evaluation of diagnostic and prognostic candidate biomarkers in drug-induced liv...",
+      "authors": "Alejandro Cueto-Sá",
+      "summary_link": "outputs/summaries_papers/Summary_of_Evaluation_of_diagnostic_and_prognostic_candidate_biomarkers.md",
+      "full_text_link": "sources/papers_md/Cueto-Sánchez%20et%20al.%20-%202023%20-%20Evaluation%20of%20diagnostic%20and%20prognostic%20candidate/Cueto-Sánchez%20et%20al.%20-%202023%20-%20Evaluation%20of%20diagnostic%20and%20prognostic%20candidate%20.md",
+      "doi": "",
+      "journal": "",
+      "preview": "- Authors: Alejandro Cueto-Sá - Journal/Citation: British Journal of Clinical Pharmacology, (2023) - Year: 2023 - DOI: https://doi.org/10.1111/bcp.15724 --- Received: 13 February 2023 Revised: 13 March 2023 Accepted: 15 March 2023 DOI: 10.1111/bcp.15724 !image 1 !image 2 !image 3 !image 4 !image 5 !image 6 !image 8 !image 9 !image 10 !image 11 !image 12 !image 13 O R I G I N A L A R T I C L E !ima",
+      "images": [
+        "images/imageFile1.png",
+        "images/imageFile2.png",
+        "images/imageFile3.png",
+        "images/imageFile4.png",
+        "images/imageFile5.png",
+        "images/imageFile6.png",
+        "images/imageFile8.png",
+        "images/imageFile9.png",
+        "images/imageFile10.png",
+        "images/imageFile11.png",
+        "images/imageFile12.png",
+        "images/imageFile13.png",
+        "images/imageFile14.png",
+        "images/imageFile15.png",
+        "images/imageFile16.png",
+        "images/imageFile18.png",
+        "images/imageFile19.png",
+        "images/imageFile22.png",
+        "images/imageFile23.png",
+        "images/imageFile24.png",
+        "../../sources/papers_md/Cueto-Sánchez%20et%20al.%20-%202023%20-%20Evaluation%20of%20diagnostic%20and%20prognostic%20candidate/images/imageFile1.png",
+        "../../sources/papers_md/Cueto-Sánchez%20et%20al.%20-%202023%20-%20Evaluation%20of%20diagnostic%20and%20prognostic%20candidate/images/imageFile10.png",
+        "../../sources/papers_md/Cueto-Sánchez%20et%20al.%20-%202023%20-%20Evaluation%20of%20diagnostic%20and%20prognostic%20candidate/images/imageFile100.png",
+        "../../sources/papers_md/Cueto-Sánchez%20et%20al.%20-%202023%20-%20Evaluation%20of%20diagnostic%20and%20prognostic%20candidate/images/imageFile101.png",
+        "../../sources/papers_md/Cueto-Sánchez%20et%20al.%20-%202023%20-%20Evaluation%20of%20diagnostic%20and%20prognostic%20candidate/images/imageFile102.png"
+      ]
+    },
+    {
+      "year": 2023,
+      "title": "Identification of compounds with activity against Trypanosoma cruzi within a col...",
+      "authors": "Berta Barnadas-Carceller, Nieves Martinez-Peinado, Laura Có",
+      "summary_link": "outputs/summaries_papers/Summary_of_Identification_of_compounds_with_activity_against_Trypanosom.md",
+      "full_text_link": "sources/papers_md/Barnadas-Carceller%20et%20al.%20-%202023%20-%20Identification%20of%20compounds%20with%20activity%20against/Barnadas-Carceller%20et%20al.%20-%202023%20-%20Identification%20of%20compounds%20with%20activity%20against%20.md",
+      "doi": "",
+      "journal": "",
+      "preview": "- Authors: Berta Barnadas-Carceller, Nieves Martinez-Peinado, Laura Có - Journal/Citation: Frontiers in Cellular and Infection Microbiology, 12, (2023) - Year: 2023 - DOI: https://doi.org/10.3389/fcimb.2022.1067461 --- TYPE Original Research PUBLISHED 13 January 2023 DOI 10.3389/fcimb.2022.1067461 !image 1 OPEN ACCESS EDITED BY Nobuko Yoshida, Federal University of São Paulo, Brazil REVIEWED BY Bi",
+      "images": [
+        "images/imageFile1.png",
+        "../../sources/papers_md/Barnadas-Carceller%20et%20al.%20-%202023%20-%20Identification%20of%20compounds%20with%20activity%20against/images/imageFile1.png",
+        "../../sources/papers_md/Barnadas-Carceller%20et%20al.%20-%202023%20-%20Identification%20of%20compounds%20with%20activity%20against/images/imageFile2.png",
+        "../../sources/papers_md/Barnadas-Carceller%20et%20al.%20-%202023%20-%20Identification%20of%20compounds%20with%20activity%20against/images/imageFile3.png",
+        "../../sources/papers_md/Barnadas-Carceller%20et%20al.%20-%202023%20-%20Identification%20of%20compounds%20with%20activity%20against/images/imageFile4.png",
+        "../../sources/papers_md/Barnadas-Carceller%20et%20al.%20-%202023%20-%20Identification%20of%20compounds%20with%20activity%20against/images/imageFile5.png"
+      ]
+    },
+    {
+      "year": 2023,
+      "title": "SARS-CoV-2 viral RNA detection using the novel CoVradar device associated with t...",
+      "authors": "Carmen Martí",
+      "summary_link": "outputs/summaries_papers/Summary_of_SARS_CoV_2_viral_RNA_detection_using_the_novel_CoVradar_devi.md",
+      "full_text_link": "sources/papers_md/Martín-Sierra%20et%20al.%20-%202023%20-%20SARS-CoV-2%20viral%20RNA%20detection%20using%20the%20novel%20CoV/Martín-Sierra%20et%20al.%20-%202023%20-%20SARS-CoV-2%20viral%20RNA%20detection%20using%20the%20novel%20CoV.md",
+      "doi": "",
+      "journal": "",
+      "preview": "- Authors: Carmen Martí - Journal/Citation: Biosensors and Bioelectronics, 230, pp. 115268, (2023) - Year: 2023 - DOI: https://doi.org/10.1016/j.bios.2023.115268 --- !image 1 Biosensors and Bioelectronics 230 (2023) 115268 Contents lists available at ScienceDirect Biosensors and Bioelectronics journal homepage: www.elsevier.com/locate/bios !image 2 SARS-CoV-2 viral RNA detection using the novel Co",
+      "images": [
+        "images/imageFile1.png",
+        "images/imageFile2.png",
+        "../../sources/papers_md/Martín-Sierra%20et%20al.%20-%202023%20-%20SARS-CoV-2%20viral%20RNA%20detection%20using%20the%20novel%20CoV/images/imageFile1.png",
+        "../../sources/papers_md/Martín-Sierra%20et%20al.%20-%202023%20-%20SARS-CoV-2%20viral%20RNA%20detection%20using%20the%20novel%20CoV/images/imageFile2.png",
+        "../../sources/papers_md/Martín-Sierra%20et%20al.%20-%202023%20-%20SARS-CoV-2%20viral%20RNA%20detection%20using%20the%20novel%20CoV/images/imageFile3.png",
+        "../../sources/papers_md/Martín-Sierra%20et%20al.%20-%202023%20-%20SARS-CoV-2%20viral%20RNA%20detection%20using%20the%20novel%20CoV/images/imageFile4.png",
+        "../../sources/papers_md/Martín-Sierra%20et%20al.%20-%202023%20-%20SARS-CoV-2%20viral%20RNA%20detection%20using%20the%20novel%20CoV/images/imageFile5.png"
+      ]
+    },
+    {
+      "year": 2023,
+      "title": "Circulating epithelial cell as viral infection and tissue origin marker in patie...",
+      "authors": "Denninghoff, Valeria, Garrido-Navas, Maria del Carmen, Molina-Vallejo, Maria del Pilar, Garcia-Diaz, Abel, Perez-Villares, Jose Miguel, Colmenero-Ruiz, Manuel, Exposito-Hernandez, Jose, Lorente, Jose Antonio, Navarro-Maria, Jose Maria, Díaz-Mochón, Juan Jose, de Miguel-Perez, Diego, Rolfo, Christian, Romero-Palacios, Pedro Jose, Navarrete, Bernardino Alcazar, Serrano, Maria Jose",
+      "summary_link": null,
+      "full_text_link": null,
+      "doi": "",
+      "journal": "",
+      "preview": "",
+      "images": []
+    },
+    {
+      "year": 2023,
+      "title": "MAGPIX and FLEXMAP 3D Luminex platforms for direct detection of miR-122-5p throu...",
+      "authors": "Marín-Romero, A., Pernagallo, S., Regele, V., Kolanovic, D., Hofner, M., N\\\"ohammer, C., Díaz-Mochón, J.J.",
+      "summary_link": "outputs/summaries_papers/Summary_of_MAGPIX_and_FLEXMAP_3D_Luminex_platforms_for_direct_detection.md",
+      "full_text_link": "sources/papers_md/Marín-Romero%20et%20al.%20-%202023%20-%20MAGPIX%20and%20FLEXMAP%203D%20Luminex%20platforms%20for%20direct/Marín-Romero%20et%20al.%20-%202023%20-%20MAGPIX%20and%20FLEXMAP%203D%20Luminex%20platforms%20for%20direct.md",
+      "doi": "",
+      "journal": "",
+      "preview": "- Authors: Marín-Romero, A., Pernagallo, S., Regele, V., Kolanovic, D., Hofner, M., N\\\"ohammer, C., Díaz-Mochón, J.J. - Journal/Citation: Analyst, 148, pp. 5658-5666, (2023) - Year: 2023 --- Published on 03 October 2023. Downloaded by Universidad de Granada on 3/3/2024 7:25:56 PM. |PAPER View Article OnlineView Journal| View Issue| |---| !image 1 Cite this: Analyst, 2023, 148, 5658 Antonio Marín-R",
+      "images": [
+        "images/imageFile1.png",
+        "images/imageFile2.png",
+        "images/imageFile3.png",
+        "images/imageFile4.png",
+        "../../sources/papers_md/Marín-Romero%20et%20al.%20-%202023%20-%20MAGPIX%20and%20FLEXMAP%203D%20Luminex%20platforms%20for%20direct/images/imageFile1.png",
+        "../../sources/papers_md/Marín-Romero%20et%20al.%20-%202023%20-%20MAGPIX%20and%20FLEXMAP%203D%20Luminex%20platforms%20for%20direct/images/imageFile2.png",
+        "../../sources/papers_md/Marín-Romero%20et%20al.%20-%202023%20-%20MAGPIX%20and%20FLEXMAP%203D%20Luminex%20platforms%20for%20direct/images/imageFile3.png",
+        "../../sources/papers_md/Marín-Romero%20et%20al.%20-%202023%20-%20MAGPIX%20and%20FLEXMAP%203D%20Luminex%20platforms%20for%20direct/images/imageFile4.png",
+        "../../sources/papers_md/Marín-Romero%20et%20al.%20-%202023%20-%20MAGPIX%20and%20FLEXMAP%203D%20Luminex%20platforms%20for%20direct/images/imageFile5.png"
+      ]
+    },
+    {
+      "year": 2023,
+      "title": "Direct detection of alpha satellite DNA with single-base resolution by using aba...",
+      "authors": "Robles-Remacho, A., Luque-Gonzalez, M.A., Sánchez-Martín, R.M., Díaz-Mochón, J.J., López-Delgado, F.J., Guardia-Monteagudo, J.J., Fara, M.A., Pernagallo, S.",
+      "summary_link": "outputs/summaries_papers/Summary_of_Direct_detection_of_alpha_satellite_DNA_with_single_base_res.md",
+      "full_text_link": "sources/papers_md/Robles-Remacho%20et%20al.%20-%202023%20-%20Direct%20detection%20of%20alpha%20satellite%20DNA%20with%20singl/Robles-Remacho%20et%20al.%20-%202023%20-%20Direct%20detection%20of%20alpha%20satellite%20DNA%20with%20singl.md",
+      "doi": "",
+      "journal": "",
+      "preview": "- Authors: Robles-Remacho, A., Luque-Gonzalez, M.A., Sánchez-Martín, R.M., Díaz-Mochón, J.J., López-Delgado, F.J., Guardia-Monteagudo, J.J., Fara, M.A., Pernagallo, S. - Journal/Citation: Biosensors and Bioelectronics, 219, (2023) - Year: 2023 --- !image 1 Biosensors and Bioelectronics 219 (2023) 114770 Contents lists available at ScienceDirect Biosensors and Bioelectronics journal homepage: www.e",
+      "images": [
+        "images/imageFile1.png",
+        "images/imageFile2.png",
+        "images/imageFile3.png",
+        "../../sources/papers_md/Robles-Remacho%20et%20al.%20-%202023%20-%20Direct%20detection%20of%20alpha%20satellite%20DNA%20with%20singl/images/imageFile1.png",
+        "../../sources/papers_md/Robles-Remacho%20et%20al.%20-%202023%20-%20Direct%20detection%20of%20alpha%20satellite%20DNA%20with%20singl/images/imageFile2.png",
+        "../../sources/papers_md/Robles-Remacho%20et%20al.%20-%202023%20-%20Direct%20detection%20of%20alpha%20satellite%20DNA%20with%20singl/images/imageFile3.png",
+        "../../sources/papers_md/Robles-Remacho%20et%20al.%20-%202023%20-%20Direct%20detection%20of%20alpha%20satellite%20DNA%20with%20singl/images/imageFile4.png",
+        "../../sources/papers_md/Robles-Remacho%20et%20al.%20-%202023%20-%20Direct%20detection%20of%20alpha%20satellite%20DNA%20with%20singl/images/imageFile5.png"
+      ]
+    },
+    {
+      "year": 2023,
+      "title": "Spatial Transcriptomics: Emerging Technologies in Tissue Gene Expression Profili...",
+      "authors": "Robles-Remacho, A., Sánchez-Martín, R.M., Díaz-Mochón, J.J.",
+      "summary_link": "outputs/summaries_papers/Summary_of_Spatial_Transcriptomics_Emerging_Technologies_in_Tissue_Gene.md",
+      "full_text_link": "sources/papers_md/Robles-Remacho%20et%20al.%20-%202023%20-%20Spatial%20Transcriptomics%20Emerging%20Technologies%20in/Robles-Remacho%20et%20al.%20-%202023%20-%20Spatial%20Transcriptomics%20Emerging%20Technologies%20in%20.md",
+      "doi": "",
+      "journal": "",
+      "preview": "- Authors: Robles-Remacho, A., Sánchez-Martín, R.M., Díaz-Mochón, J.J. - Journal/Citation: Analytical Chemistry, 95, pp. 15450-15460, (2023) - Year: 2023 --- !image 1 !image 2 !image 3 This article is licensed under CC-BY 4.0 pubs.acs.org/ac Perspective Cite This: Anal. Chem. 2023, 95, 15450−15460 Read Online ACCESS Metrics&More ArticleRecommendations sı SupportingInformation ABSTRACT: In this Per",
+      "images": [
+        "images/imageFile1.png",
+        "images/imageFile2.png",
+        "images/imageFile3.png",
+        "../../sources/papers_md/Robles-Remacho%20et%20al.%20-%202023%20-%20Spatial%20Transcriptomics%20Emerging%20Technologies%20in/images/imageFile1.png",
+        "../../sources/papers_md/Robles-Remacho%20et%20al.%20-%202023%20-%20Spatial%20Transcriptomics%20Emerging%20Technologies%20in/images/imageFile2.png",
+        "../../sources/papers_md/Robles-Remacho%20et%20al.%20-%202023%20-%20Spatial%20Transcriptomics%20Emerging%20Technologies%20in/images/imageFile3.png",
+        "../../sources/papers_md/Robles-Remacho%20et%20al.%20-%202023%20-%20Spatial%20Transcriptomics%20Emerging%20Technologies%20in/images/imageFile4.png",
+        "../../sources/papers_md/Robles-Remacho%20et%20al.%20-%202023%20-%20Spatial%20Transcriptomics%20Emerging%20Technologies%20in/images/imageFile5.png"
+      ]
+    },
+    {
+      "year": 2022,
+      "title": "Hybrid Fluorescent Mass-Tag Nanotrackers as Universal Reagents for Long-Term Liv...",
+      "authors": "Delgado-Gonzalez, A., Laz-Ruiz, J.A., Cano-Cortes, M.V., Díaz-Mochón, J.J., Sánchez-Martín, R.M., Huang, Y.-W., Gonzalez, V.D., Fantl, W.J.",
+      "summary_link": "outputs/summaries_papers/Summary_of_Hybrid_Fluorescent_Mass_Tag_Nanotrackers_as_Universal_Reagen.md",
+      "full_text_link": "sources/papers_md/Delgado-Gonzalez%20et%20al.%20-%202022%20-%20Hybrid%20Fluorescent%20Mass-Tag%20Nanotrackers%20as%20Univer/Delgado-Gonzalez%20et%20al.%20-%202022%20-%20Hybrid%20Fluorescent%20Mass-Tag%20Nanotrackers%20as%20Univer.md",
+      "doi": "",
+      "journal": "",
+      "preview": "- Authors: Delgado-Gonzalez, A., Laz-Ruiz, J.A., Cano-Cortes, M.V., Díaz-Mochón, J.J., Sánchez-Martín, R.M., Huang, Y.-W., Gonzalez, V.D., Fantl, W.J. - Journal/Citation: Analytical Chemistry, 94, pp. 10626-10635, (2022) - Year: 2022 --- !image 1 !image 2 !image 3 pubs.acs.org/ac Article Cite This: Anal. Chem. 2022, 94, 10626−10635 Read Online ACCESS Metrics & More Article Recommendations sı Suppo",
+      "images": [
+        "images/imageFile1.png",
+        "images/imageFile2.png",
+        "images/imageFile3.png",
+        "images/imageFile4.png",
+        "../../sources/papers_md/Delgado-Gonzalez%20et%20al.%20-%202022%20-%20Hybrid%20Fluorescent%20Mass-Tag%20Nanotrackers%20as%20Univer/images/imageFile1.png",
+        "../../sources/papers_md/Delgado-Gonzalez%20et%20al.%20-%202022%20-%20Hybrid%20Fluorescent%20Mass-Tag%20Nanotrackers%20as%20Univer/images/imageFile10.png",
+        "../../sources/papers_md/Delgado-Gonzalez%20et%20al.%20-%202022%20-%20Hybrid%20Fluorescent%20Mass-Tag%20Nanotrackers%20as%20Univer/images/imageFile11.png",
+        "../../sources/papers_md/Delgado-Gonzalez%20et%20al.%20-%202022%20-%20Hybrid%20Fluorescent%20Mass-Tag%20Nanotrackers%20as%20Univer/images/imageFile2.png",
+        "../../sources/papers_md/Delgado-Gonzalez%20et%20al.%20-%202022%20-%20Hybrid%20Fluorescent%20Mass-Tag%20Nanotrackers%20as%20Univer/images/imageFile3.png"
+      ]
+    },
+    {
+      "year": 2022,
+      "title": "Open a new window in the world of circulating microRNAs by merging ChemiRNA Tech...",
+      "authors": "Marín-Romero, A., Tabraue-Chávez, M., Pernagallo, S., Dear, J.W., Díaz-Mochón, J.J.",
+      "summary_link": "outputs/summaries_papers/Summary_of_Open_a_new_window_in_the_world_of_circulating_microRNAs.md",
+      "full_text_link": "sources/papers_md/Mar%C3%ADn-Romero%20et%20al.%20-%202022%20-%20Open%20a%20new%20window%20in%20the%20world%20of%20circulating%20microRNAs%20by%20merging%20ChemiRNA%20Tech%20with%20a%20Luminex%20plat/Mar%C3%ADn-Romero%20et%20al.%20-%202022%20-%20Open%20a%20new%20window%20in%20the%20world%20of%20circulating%20microRNAs%20by%20merging%20ChemiRNA%20Tech%20with%20a%20Luminex%20plat.md",
+      "doi": "",
+      "journal": "",
+      "preview": "- Authors: Antonio Marín-Romero, Mavys Tabraue-Chávez, James W. Dear, Juan José Díaz-Mochón, and Salvatore Pernagallo - Journal/Citation: Sensors & Diagnostics, 1(6), pp. 1243-1251, (2022) - Year: 2022 - DOI: https://doi.org/10.1039/d2sd00111j --- microRNAs (miRs) are small noncoding RNA molecules showing huge promise as biomarkers and diagnostic tools for illnesses, as significant changes in thei",
+      "images": [
+        "../../sources/papers_md/Mar%C3%ADn-Romero%20et%20al.%20-%202022%20-%20Open%20a%20new%20window%20in%20the%20world%20of%20circulating%20microRNAs%20by%20merging%20ChemiRNA%20Tech%20with%20a%20Luminex%20plat/images/imageFile1.png",
+        "../../sources/papers_md/Mar%C3%ADn-Romero%20et%20al.%20-%202022%20-%20Open%20a%20new%20window%20in%20the%20world%20of%20circulating%20microRNAs%20by%20merging%20ChemiRNA%20Tech%20with%20a%20Luminex%20plat/images/imageFile2.png",
+        "../../sources/papers_md/Mar%C3%ADn-Romero%20et%20al.%20-%202022%20-%20Open%20a%20new%20window%20in%20the%20world%20of%20circulating%20microRNAs%20by%20merging%20ChemiRNA%20Tech%20with%20a%20Luminex%20plat/images/imageFile3.png"
+      ]
+    },
+    {
+      "year": 2021,
+      "title": "Development of a nanotechnology-based approach for capturing and detecting nucle...",
+      "authors": "Agustí",
+      "summary_link": "outputs/summaries_papers/Summary_of_Development_of_a_nanotechnology_based_approach_for_capturing.md",
+      "full_text_link": "sources/papers_md/Robles-Remacho%20et%20al.%20-%202021%20-%20Development%20of%20a%20nanotechnology-based%20approach%20for/Robles-Remacho%20et%20al.%20-%202021%20-%20Development%20of%20a%20nanotechnology-based%20approach%20for.md",
+      "doi": "",
+      "journal": "",
+      "preview": "- Authors: Agustí - Journal/Citation: Talanta, 226, pp. 122092, (2021) - Year: 2021 - DOI: https://doi.org/10.1016/j.talanta.2021.122092 --- !image 1 Since January 2020 Elsevier has created a COVID-19 resource centre with free information in English and Mandarin on the novel coronavirus COVID19. The COVID-19 resource centre is hosted on Elsevier Connect, the company's public news and information w",
+      "images": [
+        "images/imageFile1.png",
+        "images/imageFile2.png",
+        "images/imageFile3.png",
+        "../../sources/papers_md/Robles-Remacho%20et%20al.%20-%202021%20-%20Development%20of%20a%20nanotechnology-based%20approach%20for/images/imageFile1.png",
+        "../../sources/papers_md/Robles-Remacho%20et%20al.%20-%202021%20-%20Development%20of%20a%20nanotechnology-based%20approach%20for/images/imageFile10.png",
+        "../../sources/papers_md/Robles-Remacho%20et%20al.%20-%202021%20-%20Development%20of%20a%20nanotechnology-based%20approach%20for/images/imageFile2.png",
+        "../../sources/papers_md/Robles-Remacho%20et%20al.%20-%202021%20-%20Development%20of%20a%20nanotechnology-based%20approach%20for/images/imageFile3.png",
+        "../../sources/papers_md/Robles-Remacho%20et%20al.%20-%202021%20-%20Development%20of%20a%20nanotechnology-based%20approach%20for/images/imageFile4.png"
+      ]
+    },
+    {
+      "year": 2021,
+      "title": "Simultaneous Detection of Drug-Induced Liver Injury Protein and microRNA Biomark...",
+      "authors": "Antonio Marí",
+      "summary_link": "outputs/summaries_papers/Summary_of_Simultaneous_Detection_of_Drug_Induced_Liver_Injury_Protein_.md",
+      "full_text_link": "sources/papers_md/Marín-Romero%20et%20al.%20-%202021%20-%20Simultaneous%20Detection%20of%20Drug-Induced%20Liver%20Injur/Marín-Romero%20et%20al.%20-%202021%20-%20Simultaneous%20Detection%20of%20Drug-Induced%20Liver%20Injur.md",
+      "doi": "",
+      "journal": "",
+      "preview": "- Authors: Antonio Marí - Journal/Citation: Analytica, 2, pp. 130--139, (2021) - Year: 2021 - DOI: https://doi.org/10.3390/analytica2040013 --- !image 1 !image 2 !image 3 !image 4 Article Citation: Marín-Romero, A.; Tabraue-Chávez, M.; López-Longarela, B.; Fara, M.A.; Sánchez-Martín, R.M.; Dear, J.W.; Ilyine, H.; Díaz-Mochón, J.J.; Pernagallo, S. Simultaneous Detection of Drug-Induced Liver Injury",
+      "images": [
+        "images/imageFile1.png",
+        "images/imageFile2.png",
+        "images/imageFile3.png",
+        "images/imageFile4.png",
+        "../../sources/papers_md/Marín-Romero%20et%20al.%20-%202021%20-%20Simultaneous%20Detection%20of%20Drug-Induced%20Liver%20Injur/images/imageFile1.png",
+        "../../sources/papers_md/Marín-Romero%20et%20al.%20-%202021%20-%20Simultaneous%20Detection%20of%20Drug-Induced%20Liver%20Injur/images/imageFile2.png",
+        "../../sources/papers_md/Marín-Romero%20et%20al.%20-%202021%20-%20Simultaneous%20Detection%20of%20Drug-Induced%20Liver%20Injur/images/imageFile3.png",
+        "../../sources/papers_md/Marín-Romero%20et%20al.%20-%202021%20-%20Simultaneous%20Detection%20of%20Drug-Induced%20Liver%20Injur/images/imageFile4.png",
+        "../../sources/papers_md/Marín-Romero%20et%20al.%20-%202021%20-%20Simultaneous%20Detection%20of%20Drug-Induced%20Liver%20Injur/images/imageFile5.png"
+      ]
+    },
+    {
+      "year": 2021,
+      "title": "An effective polymeric nanocarrier that allows for active targeting and selectiv...",
+      "authors": "Cano-Cortes, M.V., Altea-Manzano, P., Laz-Ruiz, J.A., López-Delgado, F.J., Espejo-Roman, J.M., Díaz-Mochón, J.J., Sánchez-Martín, R.M., Unciti-Broceta, J.D.",
+      "summary_link": "outputs/summaries_papers/Summary_of_An_effective_polymeric_nanocarrier_that_allows_for_active_ta.md",
+      "full_text_link": "sources/papers_md/Cano-Cortes%20et%20al.%20-%202021%20-%20An%20effective%20polymeric%20nanocarrier%20that%20allows%20for/Cano-Cortes%20et%20al.%20-%202021%20-%20An%20effective%20polymeric%20nanocarrier%20that%20allows%20for.md",
+      "doi": "",
+      "journal": "",
+      "preview": "- Authors: Cano-Cortes, M.V., Altea-Manzano, P., Laz-Ruiz, J.A., López-Delgado, F.J., Espejo-Roman, J.M., Díaz-Mochón, J.J., Sánchez-Martín, R.M., Unciti-Broceta, J.D. - Journal/Citation: Nanoscale, 13, pp. 3500-3511, (2021) - Year: 2021 --- This article is licensed under aCreative Commons Attribution-NonCommercial 3.0 Unported Licence. Open Access Article. Published on 02 February 2021. Downloade",
+      "images": [
+        "images/imageFile2.png",
+        "images/imageFile3.png",
+        "images/imageFile4.png",
+        "images/imageFile5.png",
+        "../../sources/papers_md/Cano-Cortes%20et%20al.%20-%202021%20-%20An%20effective%20polymeric%20nanocarrier%20that%20allows%20for/images/imageFile10.png",
+        "../../sources/papers_md/Cano-Cortes%20et%20al.%20-%202021%20-%20An%20effective%20polymeric%20nanocarrier%20that%20allows%20for/images/imageFile12.png",
+        "../../sources/papers_md/Cano-Cortes%20et%20al.%20-%202021%20-%20An%20effective%20polymeric%20nanocarrier%20that%20allows%20for/images/imageFile14.png",
+        "../../sources/papers_md/Cano-Cortes%20et%20al.%20-%202021%20-%20An%20effective%20polymeric%20nanocarrier%20that%20allows%20for/images/imageFile16.png",
+        "../../sources/papers_md/Cano-Cortes%20et%20al.%20-%202021%20-%20An%20effective%20polymeric%20nanocarrier%20that%20allows%20for/images/imageFile18.png"
+      ]
+    },
+    {
+      "year": 2021,
+      "title": "Cross-Resistance to Abiraterone and Enzalutamide in Castration Resistance Prosta...",
+      "authors": "Iris Simon, Sonia Perales, Laura Casado-Medina, Alba Rodrí",
+      "summary_link": "outputs/summaries_papers/Summary_of_Cross_Resistance_to_Abiraterone_and_Enzalutamide_in_Castrati.md",
+      "full_text_link": "sources/papers_md/Simon%20et%20al.%20-%202021%20-%20Cross-Resistance%20to%20Abiraterone%20and%20Enzalutamide%20i/Simon%20et%20al.%20-%202021%20-%20Cross-Resistance%20to%20Abiraterone%20and%20Enzalutamide%20i.md",
+      "doi": "",
+      "journal": "",
+      "preview": "- Authors: Iris Simon, Sonia Perales, Laura Casado-Medina, Alba Rodrí - Journal/Citation: Cancers, 13, pp. 1483, (2021) - Year: 2021 - DOI: https://doi.org/10.3390/cancers13061483 --- !image 1 !image 2 !image 3 !image 4 Article Citation: Simon, I.; Perales, S.; Casado-Medina, L.; Rodríguez-Martínez, A.; Garrido-Navas, M.d.C.; Puche-Sanz, I.; Diaz-Mochon, J.J.; Alaminos, C.; Lupiañez, P.; Lorente, ",
+      "images": [
+        "images/imageFile1.png",
+        "images/imageFile2.png",
+        "images/imageFile3.png",
+        "images/imageFile4.png",
+        "../../sources/papers_md/Simon%20et%20al.%20-%202021%20-%20Cross-Resistance%20to%20Abiraterone%20and%20Enzalutamide%20i/images/imageFile1.png",
+        "../../sources/papers_md/Simon%20et%20al.%20-%202021%20-%20Cross-Resistance%20to%20Abiraterone%20and%20Enzalutamide%20i/images/imageFile10.png",
+        "../../sources/papers_md/Simon%20et%20al.%20-%202021%20-%20Cross-Resistance%20to%20Abiraterone%20and%20Enzalutamide%20i/images/imageFile11.png",
+        "../../sources/papers_md/Simon%20et%20al.%20-%202021%20-%20Cross-Resistance%20to%20Abiraterone%20and%20Enzalutamide%20i/images/imageFile12.png",
+        "../../sources/papers_md/Simon%20et%20al.%20-%202021%20-%20Cross-Resistance%20to%20Abiraterone%20and%20Enzalutamide%20i/images/imageFile2.png"
+      ]
+    },
+    {
+      "year": 2021,
+      "title": "Novel Purine Chemotypes with Activity against Plasmodium falciparum and Trypanos...",
+      "authors": "Nieves Martinez-Peinado, Á",
+      "summary_link": "outputs/summaries_papers/Summary_of_Identification_of_compounds_with_activity_against_Trypanosom.md",
+      "full_text_link": "sources/papers_md/Martinez-Peinado%20et%20al.%20-%202021%20-%20Novel%20Purine%20Chemotypes%20with%20Activity%20against%20Plas/Martinez-Peinado%20et%20al.%20-%202021%20-%20Novel%20Purine%20Chemotypes%20with%20Activity%20against%20Plas.md",
+      "doi": "",
+      "journal": "",
+      "preview": "- Authors: Berta Barnadas-Carceller, Nieves Martinez-Peinado, Laura Có - Journal/Citation: Frontiers in Cellular and Infection Microbiology, 12, (2023) - Year: 2023 - DOI: https://doi.org/10.3389/fcimb.2022.1067461 --- TYPE Original Research PUBLISHED 13 January 2023 DOI 10.3389/fcimb.2022.1067461 !image 1 OPEN ACCESS EDITED BY Nobuko Yoshida, Federal University of São Paulo, Brazil REVIEWED BY Bi",
+      "images": [
+        "images/imageFile1.png",
+        "../../sources/papers_md/Barnadas-Carceller%20et%20al.%20-%202023%20-%20Identification%20of%20compounds%20with%20activity%20against/images/imageFile1.png",
+        "../../sources/papers_md/Barnadas-Carceller%20et%20al.%20-%202023%20-%20Identification%20of%20compounds%20with%20activity%20against/images/imageFile2.png",
+        "../../sources/papers_md/Barnadas-Carceller%20et%20al.%20-%202023%20-%20Identification%20of%20compounds%20with%20activity%20against/images/imageFile3.png",
+        "../../sources/papers_md/Barnadas-Carceller%20et%20al.%20-%202023%20-%20Identification%20of%20compounds%20with%20activity%20against/images/imageFile4.png",
+        "../../sources/papers_md/Barnadas-Carceller%20et%20al.%20-%202023%20-%20Identification%20of%20compounds%20with%20activity%20against/images/imageFile5.png"
+      ]
+    },
+    {
+      "year": 2021,
+      "title": "Insulin Crystals Grown in Short-Peptide Supramolecular Hydrogels Show Enhanced T...",
+      "authors": "Rafael Contreras-Montoya, Marí",
+      "summary_link": "outputs/summaries_papers/Summary_of_Insulin_Crystals_Grown_in_Short_Peptide_Supramolecular_Hydro.md",
+      "full_text_link": "sources/papers_md/Contreras-Montoya%20et%20al.%20-%202021%20-%20Insulin%20Crystals%20Grown%20in%20Short-Peptide%20Supramolec/Contreras-Montoya%20et%20al.%20-%202021%20-%20Insulin%20Crystals%20Grown%20in%20Short-Peptide%20Supramolec.md",
+      "doi": "",
+      "journal": "",
+      "preview": "- Authors: Rafael Contreras-Montoya, Marí - Journal/Citation: ACS Applied Materials & Interfaces, 13, pp. 11672--11682, (2021) - Year: 2021 - DOI: https://doi.org/10.1021/acsami.1c00639 --- !image 1 !image 2 !image 3 www.acsami.org Research Article Rafael Contreras-Montoya, María Arredondo-Amador, Guillermo Escolano-Casado, Mari C. Mañas-Torres, Mercedes González, Mayte Conejero-Muriel, Vaibhav B",
+      "images": [
+        "images/imageFile1.png",
+        "images/imageFile2.png",
+        "images/imageFile3.png",
+        "../../sources/papers_md/Contreras-Montoya%20et%20al.%20-%202021%20-%20Insulin%20Crystals%20Grown%20in%20Short-Peptide%20Supramolec/images/imageFile1.png",
+        "../../sources/papers_md/Contreras-Montoya%20et%20al.%20-%202021%20-%20Insulin%20Crystals%20Grown%20in%20Short-Peptide%20Supramolec/images/imageFile10.png",
+        "../../sources/papers_md/Contreras-Montoya%20et%20al.%20-%202021%20-%20Insulin%20Crystals%20Grown%20in%20Short-Peptide%20Supramolec/images/imageFile11.png",
+        "../../sources/papers_md/Contreras-Montoya%20et%20al.%20-%202021%20-%20Insulin%20Crystals%20Grown%20in%20Short-Peptide%20Supramolec/images/imageFile12.png",
+        "../../sources/papers_md/Contreras-Montoya%20et%20al.%20-%202021%20-%20Insulin%20Crystals%20Grown%20in%20Short-Peptide%20Supramolec/images/imageFile13.png"
+      ]
+    },
+    {
+      "year": 2021,
+      "title": "Synthesis and screening of 6-alkoxy purine analogs as cell type-selective apopto...",
+      "authors": "Á",
+      "summary_link": "outputs/summaries_papers/Summary_of_Synthesis_and_screening_of_6_alkoxy_purine_analogs_as_cell_t.md",
+      "full_text_link": "sources/papers_md/Lorente-Macías%20et%20al.%20-%202021%20-%20Synthesis%20and%20screening%20of%206-alkoxy%20purine%20analogs/Lorente-Macías%20et%20al.%20-%202021%20-%20Synthesis%20and%20screening%20of%206-alkoxy%20purine%20analogs.md",
+      "doi": "",
+      "journal": "",
+      "preview": "- Authors: Á - Journal/Citation: Archiv der Pharmazie, 354, pp. 2100095, (2021) - Year: 2021 - DOI: https://doi.org/10.1002/ardp.202100095 --- Purines are ubiquitous structures in cell biology involved in a multitude of cellular processes, because of which substituted purines and analogs are considered excellent scaffolds in drug design. In this study, we explored the key structural features of a ",
+      "images": [
+        "../../sources/papers_md/Lorente-Macías%20et%20al.%20-%202021%20-%20Synthesis%20and%20screening%20of%206-alkoxy%20purine%20analogs/images/imageFile1.png",
+        "../../sources/papers_md/Lorente-Macías%20et%20al.%20-%202021%20-%20Synthesis%20and%20screening%20of%206-alkoxy%20purine%20analogs/images/imageFile2.png",
+        "../../sources/papers_md/Lorente-Macías%20et%20al.%20-%202021%20-%20Synthesis%20and%20screening%20of%206-alkoxy%20purine%20analogs/images/imageFile3.png",
+        "../../sources/papers_md/Lorente-Macías%20et%20al.%20-%202021%20-%20Synthesis%20and%20screening%20of%206-alkoxy%20purine%20analogs/images/imageFile4.png",
+        "../../sources/papers_md/Lorente-Macías%20et%20al.%20-%202021%20-%20Synthesis%20and%20screening%20of%206-alkoxy%20purine%20analogs/images/imageFile5.png"
+      ]
+    },
+    {
+      "year": 2020,
+      "title": "DatAC: A visual analytics platform to explore climate and air quality indicators...",
+      "authors": "Jordi Martorell-Marugá",
+      "summary_link": "outputs/summaries_papers/Summary_of_DatAC_A_visual_analytics_platform_to_explore_climate_and_air.md",
+      "full_text_link": "sources/papers_md/Martorell-Marugán%20et%20al.%20-%202021%20-%20DatAC%20A%20visual%20analytics%20platform%20to%20explore%20clim/Martorell-Marugán%20et%20al.%20-%202021%20-%20DatAC%20A%20visual%20analytics%20platform%20to%20explore%20clim.md",
+      "doi": "",
+      "journal": "",
+      "preview": "- Authors: Jordi Martorell-Marugá - Journal/Citation: Science of The Total Environment, 750, pp. 141424, (2021) - Year: 2021 - DOI: https://doi.org/10.1016/j.scitotenv.2020.141424 --- !image 1 Since January 2020 Elsevier has created a COVID-19 resource centre with free information in English and Mandarin on the novel coronavirus COVID19. The COVID-19 resource centre is hosted on Elsevier Connect, ",
+      "images": [
+        "images/imageFile1.png",
+        "images/imageFile2.png",
+        "images/imageFile3.png",
+        "../../sources/papers_md/Martorell-Marugán%20et%20al.%20-%202021%20-%20DatAC%20A%20visual%20analytics%20platform%20to%20explore%20clim/images/imageFile1.png",
+        "../../sources/papers_md/Martorell-Marugán%20et%20al.%20-%202021%20-%20DatAC%20A%20visual%20analytics%20platform%20to%20explore%20clim/images/imageFile2.png",
+        "../../sources/papers_md/Martorell-Marugán%20et%20al.%20-%202021%20-%20DatAC%20A%20visual%20analytics%20platform%20to%20explore%20clim/images/imageFile3.png",
+        "../../sources/papers_md/Martorell-Marugán%20et%20al.%20-%202021%20-%20DatAC%20A%20visual%20analytics%20platform%20to%20explore%20clim/images/imageFile4.png",
+        "../../sources/papers_md/Martorell-Marugán%20et%20al.%20-%202021%20-%20DatAC%20A%20visual%20analytics%20platform%20to%20explore%20clim/images/imageFile5.png"
+      ]
+    },
+    {
+      "year": 2020,
+      "title": "Amplification-free profiling of microRNA-122 biomarker in DILI patient serums, u...",
+      "authors": "Antonio Marí",
+      "summary_link": "outputs/summaries_papers/Summary_of_Amplification_Free_Testing_of_microRNA_Biomarkers_in_Cancer.md",
+      "full_text_link": "sources/papers_md/Marín-Romero%20et%20al.%20-%202020%20-%20Amplification-free%20profiling%20of%20microRNA-122%20bioma/Marín-Romero%20et%20al.%20-%202020%20-%20Amplification-free%20profiling%20of%20microRNA-122%20bioma.md",
+      "doi": "",
+      "journal": "",
+      "preview": "- Authors: Soleimanpour, Bahareh, Díaz Mochón, Juan Jose, Pernagallo, Salvatore - Journal/Citation: Cancers, 17, pp. 2715, (2025) - Year: 2025 - DOI: https://doi.org/10.3390/cancers17162715 --- Circulating microRNAs (miRNAs) show great promise as biomarkers for diagnosing and monitoring various diseases, including cancer. However, their use in clinical diagnostics is currently limited due to the l",
+      "images": [
+        "../../sources/papers_md/Soleimanpour%20et%20al.%20-%202025%20-%20Amplification-Free%20Testing%20of%20microRNA%20Biomarkers%20in%20Cancer/images/imageFile1.png",
+        "../../sources/papers_md/Soleimanpour%20et%20al.%20-%202025%20-%20Amplification-Free%20Testing%20of%20microRNA%20Biomarkers%20in%20Cancer/images/imageFile2.png",
+        "../../sources/papers_md/Soleimanpour%20et%20al.%20-%202025%20-%20Amplification-Free%20Testing%20of%20microRNA%20Biomarkers%20in%20Cancer/images/imageFile3.png",
+        "../../sources/papers_md/Soleimanpour%20et%20al.%20-%202025%20-%20Amplification-Free%20Testing%20of%20microRNA%20Biomarkers%20in%20Cancer/images/imageFile4.png",
+        "../../sources/papers_md/Soleimanpour%20et%20al.%20-%202025%20-%20Amplification-Free%20Testing%20of%20microRNA%20Biomarkers%20in%20Cancer/images/imageFile5.png"
+      ]
+    },
+    {
+      "year": 2020,
+      "title": "Direct Detection of miR-122 in Hepatotoxicity Using Dynamic Chemical Labeling Ov...",
+      "authors": "López-Longarela, Barbara, Morrison, Emma E., Tranter, John D., Chahman-Vos, Lianne, Léonard, Jean-François, Gautier, Jean-Charles, Laurent, Sébastien, Lartigau, Aude, Boitier, Eric, Sautier, Lucile, Carmona-Saez, Pedro, Martorell-Marugan, Jordi, Mellanby, Richard J., Pernagallo, Salvatore, Ilyine, Hugh, Rissin, David M., Duffy, David C., Dear, James W., Díaz-Mochón, Juan J.",
+      "summary_link": "outputs/summaries_papers/Summary_of_Direct_Detection_of_miR_122_in_Hepatotoxicity_Using_Dynamic_.md",
+      "full_text_link": "sources/papers_md/López-Longarela%20et%20al.%20-%202020%20-%20Direct%20Detection%20of%20miR-122%20in%20Hepatotoxicity%20Usin/López-Longarela%20et%20al.%20-%202020%20-%20Direct%20Detection%20of%20miR-122%20in%20Hepatotoxicity%20Usin.md",
+      "doi": "",
+      "journal": "",
+      "preview": "- Authors: López-Longarela, Barbara, Morrison, Emma E., Tranter, John D., Chahman-Vos, Lianne, Léonard, Jean-François, Gautier, Jean-Charles, Laurent, Sébastien, Lartigau, Aude, Boitier, Eric, Sautier, Lucile, Carmona-Saez, Pedro, Martorell-Marugan, Jordi, Mellanby, Richard J., Pernagallo, Salvatore, Ilyine, Hugh, Rissin, David M., Duffy, David C., Dear, James W., Díaz-Mochón, Juan J. - Journal/Ci",
+      "images": [
+        "images/imageFile1.png",
+        "../../sources/papers_md/López-Longarela%20et%20al.%20-%202020%20-%20Direct%20Detection%20of%20miR-122%20in%20Hepatotoxicity%20Usin/images/imageFile1.png",
+        "../../sources/papers_md/López-Longarela%20et%20al.%20-%202020%20-%20Direct%20Detection%20of%20miR-122%20in%20Hepatotoxicity%20Usin/images/imageFile2.png",
+        "../../sources/papers_md/López-Longarela%20et%20al.%20-%202020%20-%20Direct%20Detection%20of%20miR-122%20in%20Hepatotoxicity%20Usin/images/imageFile3.png",
+        "../../sources/papers_md/López-Longarela%20et%20al.%20-%202020%20-%20Direct%20Detection%20of%20miR-122%20in%20Hepatotoxicity%20Usin/images/imageFile4.png",
+        "../../sources/papers_md/López-Longarela%20et%20al.%20-%202020%20-%20Direct%20Detection%20of%20miR-122%20in%20Hepatotoxicity%20Usin/images/imageFile5.png"
+      ]
+    },
+    {
+      "year": 2020,
+      "title": "Characterization and Therapeutic Effect of a pH Stimuli Responsive Polymeric Nan...",
+      "authors": "Maria Victoria Cano-Cortes, Jose Antonio Laz-Ruiz, Juan Jose Díaz-Mochón, Rosario Maria Sánchez-Martín",
+      "summary_link": "outputs/summaries_papers/Summary_of_Characterization_and_Therapeutic_Effect_of_a_pH_Stimuli_Resp.md",
+      "full_text_link": "sources/papers_md/Cano-Cortes%20et%20al.%20-%202020%20-%20Characterization%20and%20Therapeutic%20Effect%20of%20a%20pH%20St/Cano-Cortes%20et%20al.%20-%202020%20-%20Characterization%20and%20Therapeutic%20Effect%20of%20a%20pH%20St.md",
+      "doi": "",
+      "journal": "",
+      "preview": "- Authors: Maria Victoria Cano-Cortes, Jose Antonio Laz-Ruiz, Juan Jose Díaz-Mochón, Rosario Maria Sánchez-Martín - Journal/Citation: Polymers, 12, pp. 1265, (2020) - Year: 2020 - DOI: https://doi.org/10.3390/polym12061265 --- !image 1 !image 2 !image 3 !image 4 Article - 1 GENYO, Centre for Genomics and Oncological Research, Pﬁzer/University of Granada/Andalusian Regional Government, PTS Granada,",
+      "images": [
+        "images/imageFile1.png",
+        "images/imageFile2.png",
+        "images/imageFile3.png",
+        "images/imageFile4.png",
+        "../../sources/papers_md/Cano-Cortes%20et%20al.%20-%202020%20-%20Characterization%20and%20Therapeutic%20Effect%20of%20a%20pH%20St/images/imageFile1.png",
+        "../../sources/papers_md/Cano-Cortes%20et%20al.%20-%202020%20-%20Characterization%20and%20Therapeutic%20Effect%20of%20a%20pH%20St/images/imageFile10.png",
+        "../../sources/papers_md/Cano-Cortes%20et%20al.%20-%202020%20-%20Characterization%20and%20Therapeutic%20Effect%20of%20a%20pH%20St/images/imageFile2.png",
+        "../../sources/papers_md/Cano-Cortes%20et%20al.%20-%202020%20-%20Characterization%20and%20Therapeutic%20Effect%20of%20a%20pH%20St/images/imageFile3.png",
+        "../../sources/papers_md/Cano-Cortes%20et%20al.%20-%202020%20-%20Characterization%20and%20Therapeutic%20Effect%20of%20a%20pH%20St/images/imageFile4.png"
+      ]
+    },
+    {
+      "year": 2020,
+      "title": "Mitochondrial pH Nanosensors for Metabolic Profiling of Breast Cancer Cell Lines",
+      "authors": "Ripoll, Consuelo, Roldan, Mar, Contreras-Montoya, Rafael, Díaz-Mochón, Juan J., Martin, Miguel, Ruedas-Rama, Maria J., Orte, Angel",
+      "summary_link": "outputs/summaries_papers/Summary_of_Mitochondrial_pH_Nanosensors_for_Metabolic_Profiling_of_Brea.md",
+      "full_text_link": "sources/papers_md/Ripoll%20et%20al.%20-%202020%20-%20Mitochondrial%20pH%20Nanosensors%20for%20Metabolic%20Profili/Ripoll%20et%20al.%20-%202020%20-%20Mitochondrial%20pH%20Nanosensors%20for%20Metabolic%20Profili.md",
+      "doi": "",
+      "journal": "",
+      "preview": "- Authors: Ripoll, Consuelo, Roldan, Mar, Contreras-Montoya, Rafael, Díaz-Mochón, Juan J., Martin, Miguel, Ruedas-Rama, Maria J., Orte, Angel - Journal/Citation: International Journal of Molecular Sciences, 21, pp. 3731, (2020) - Year: 2020 - DOI: https://doi.org/10.3390/ijms21103731 --- International Journal of !image 1 !image 2 !image 3 !image 4 Article - 1 Departamento de Fisicoquimica, Faculta",
+      "images": [
+        "images/imageFile1.png",
+        "images/imageFile2.png",
+        "images/imageFile3.png",
+        "images/imageFile4.png",
+        "../../sources/papers_md/Ripoll%20et%20al.%20-%202020%20-%20Mitochondrial%20pH%20Nanosensors%20for%20Metabolic%20Profili/images/imageFile1.png",
+        "../../sources/papers_md/Ripoll%20et%20al.%20-%202020%20-%20Mitochondrial%20pH%20Nanosensors%20for%20Metabolic%20Profili/images/imageFile10.png",
+        "../../sources/papers_md/Ripoll%20et%20al.%20-%202020%20-%20Mitochondrial%20pH%20Nanosensors%20for%20Metabolic%20Profili/images/imageFile11.png",
+        "../../sources/papers_md/Ripoll%20et%20al.%20-%202020%20-%20Mitochondrial%20pH%20Nanosensors%20for%20Metabolic%20Profili/images/imageFile2.png",
+        "../../sources/papers_md/Ripoll%20et%20al.%20-%202020%20-%20Mitochondrial%20pH%20Nanosensors%20for%20Metabolic%20Profili/images/imageFile3.png"
+      ]
+    },
+    {
+      "year": 2020,
+      "title": "Corrigendum to ?Challenges and opportunities of cfDNA analysis implementation in...",
+      "authors": "Rolfo, C., Russo, A., Cardona, A.F., Cristofanilli, M., Paz-Ares, L., Díaz Mochón, J.J., Duran, I., Raez, L.E., Lorente, J.A., Serrano, M.J., Malapelle, U., Gil-Bazo, I., Jantus-Lewintre, E., Pauwels, P., Mok, T.",
+      "summary_link": "outputs/summaries_papers/Summary_of_Challenges_and_opportunities_of_cfDNA_analysis_implementatio.md",
+      "full_text_link": "sources/papers_md/Rolfo%20et%20al.%20-%202020%20-%20Challenges%20and%20opportunities%20of%20cfDNA%20analysis%20imp/Rolfo%20et%20al.%20-%202020%20-%20Challenges%20and%20opportunities%20of%20cfDNA%20analysis%20imp.md",
+      "doi": "",
+      "journal": "",
+      "preview": "- Authors: Rolfo, Christian, Cardona, Andrés F., Cristofanilli, Massimo, Paz-Ares, Luis, Díaz Mochón, Juan Jose, Duran, Ignacio, Raez, Luis E., Russo, Alessandro, Lorente, Jose A., Malapelle, Umberto, Gil-Bazo, Ignacio, Jantus-Lewintre, Eloisa, Pauwels, Patrick, Mok, Tony, Serrano, María José - Journal/Citation: Critical Reviews in Oncology/Hematology, 151, pp. 102978, (2020) - Year: 2020 - DOI: h",
+      "images": [
+        "images/imageFile1.png",
+        "images/imageFile2.png",
+        "images/imageFile3.png",
+        "../../sources/papers_md/Rolfo%20et%20al.%20-%202020%20-%20Challenges%20and%20opportunities%20of%20cfDNA%20analysis%20imp/images/imageFile1.png",
+        "../../sources/papers_md/Rolfo%20et%20al.%20-%202020%20-%20Challenges%20and%20opportunities%20of%20cfDNA%20analysis%20imp/images/imageFile2.png",
+        "../../sources/papers_md/Rolfo%20et%20al.%20-%202020%20-%20Challenges%20and%20opportunities%20of%20cfDNA%20analysis%20imp/images/imageFile3.png",
+        "../../sources/papers_md/Rolfo%20et%20al.%20-%202020%20-%20Challenges%20and%20opportunities%20of%20cfDNA%20analysis%20imp/images/imageFile4.png",
+        "../../sources/papers_md/Rolfo%20et%20al.%20-%202020%20-%20Challenges%20and%20opportunities%20of%20cfDNA%20analysis%20imp/images/imageFile5.png"
+      ]
+    },
+    {
+      "year": 2020,
+      "title": "Challenges and opportunities of cfDNA analysis implementation in clinical practi...",
+      "authors": "Rolfo, Christian, Cardona, Andrés F., Cristofanilli, Massimo, Paz-Ares, Luis, Díaz Mochón, Juan Jose, Duran, Ignacio, Raez, Luis E., Russo, Alessandro, Lorente, Jose A., Malapelle, Umberto, Gil-Bazo, Ignacio, Jantus-Lewintre, Eloisa, Pauwels, Patrick, Mok, Tony, Serrano, María José",
+      "summary_link": null,
+      "full_text_link": null,
+      "doi": "",
+      "journal": "",
+      "preview": "",
+      "images": []
+    },
+    {
+      "year": 2020,
+      "title": "Precision Prevention and Cancer Interception: The New Challenges of Liquid Biops...",
+      "authors": "Serrano, Maria Jose, Garrido-Navas, Maria Carmen, Díaz Mochón, Juan Jose, Cristofanilli, Massimo, Gil-Bazo, Ignacio, Pauwels, Patrick, Malapelle, Umberto, Russo, Alessandro, Lorente, Jose A., Ruiz-Rodriguez, Antonio J., Paz-Ares, Luis G., Vilar, Eduardo, Raez, Luis E., Cardona, Andres F., Rolfo, Christian",
+      "summary_link": "outputs/summaries_papers/Summary_of_Precision_Prevention_and_Cancer_Interception_The_New_Challen.md",
+      "full_text_link": "sources/papers_md/Serrano%20et%20al.%20-%202020%20-%20Precision%20Prevention%20and%20Cancer%20Interception%20The/Serrano%20et%20al.%20-%202020%20-%20Precision%20Prevention%20and%20Cancer%20Interception%20The%20.md",
+      "doi": "",
+      "journal": "",
+      "preview": "- Authors: Serrano, Maria Jose, Garrido-Navas, Maria Carmen, Díaz Mochón, Juan Jose, Cristofanilli, Massimo, Gil-Bazo, Ignacio, Pauwels, Patrick, Malapelle, Umberto, Russo, Alessandro, Lorente, Jose A., Ruiz-Rodriguez, Antonio J., Paz-Ares, Luis G., Vilar, Eduardo, Raez, Luis E., Cardona, Andres F., Rolfo, Christian - Journal/Citation: Cancer Discovery, 10, pp. 1635–1644, (2020) - Year: 2020 - DOI",
+      "images": [
+        "images/imageFile1.png",
+        "images/imageFile2.png",
+        "images/imageFile3.png",
+        "../../sources/papers_md/Serrano%20et%20al.%20-%202020%20-%20Precision%20Prevention%20and%20Cancer%20Interception%20The/images/imageFile1.png",
+        "../../sources/papers_md/Serrano%20et%20al.%20-%202020%20-%20Precision%20Prevention%20and%20Cancer%20Interception%20The/images/imageFile2.png",
+        "../../sources/papers_md/Serrano%20et%20al.%20-%202020%20-%20Precision%20Prevention%20and%20Cancer%20Interception%20The/images/imageFile3.png",
+        "../../sources/papers_md/Serrano%20et%20al.%20-%202020%20-%20Precision%20Prevention%20and%20Cancer%20Interception%20The/images/imageFile4.png",
+        "../../sources/papers_md/Serrano%20et%20al.%20-%202020%20-%20Precision%20Prevention%20and%20Cancer%20Interception%20The/images/imageFile5.png"
+      ]
+    },
+    {
+      "year": 2019,
+      "title": "A versatile theranostic nanodevice based on an orthogonal bioconjugation strateg...",
+      "authors": "Juan Díaz-Mochón",
+      "summary_link": "outputs/summaries_papers/Summary_of_A_versatile_theranostic_nanodevice_based_on_an_orthogonal_bi.md",
+      "full_text_link": "sources/papers_md/Cano-Cortes%20et%20al.%20-%202020%20-%20A%20versatile%20theranostic%20nanodevice%20based%20on%20an%20ort/Cano-Cortes%20et%20al.%20-%202020%20-%20A%20versatile%20theranostic%20nanodevice%20based%20on%20an%20ort.md",
+      "doi": "",
+      "journal": "",
+      "preview": "- Authors: Juan Díaz-Mochón - Journal/Citation: Nanomedicine: Nanotechnology, Biology and Medicine, (2020) - Year: 2020 - DOI: https://doi.org/10.1016/j.nano.2019.102120 --- A novel chemical-based orthogonal bioconjugation strategy to produce tri-functionalized nanoparticles (NPs) an chemotherapy drug, doxorubicin (DOX), a near-infrared cyanine dye (Cy7) and CRGDK homing peptide, a peptide specifi",
+      "images": [
+        "images/imageFile3.png",
+        "images/imageFile4.png",
+        "images/imageFile5.png",
+        "images/imageFile6.png",
+        "images/imageFile7.png",
+        "images/imageFile8.png",
+        "../../sources/papers_md/Cano-Cortes%20et%20al.%20-%202020%20-%20A%20versatile%20theranostic%20nanodevice%20based%20on%20an%20ort/images/imageFile1.png",
+        "../../sources/papers_md/Cano-Cortes%20et%20al.%20-%202020%20-%20A%20versatile%20theranostic%20nanodevice%20based%20on%20an%20ort/images/imageFile2.png",
+        "../../sources/papers_md/Cano-Cortes%20et%20al.%20-%202020%20-%20A%20versatile%20theranostic%20nanodevice%20based%20on%20an%20ort/images/imageFile3.png",
+        "../../sources/papers_md/Cano-Cortes%20et%20al.%20-%202020%20-%20A%20versatile%20theranostic%20nanodevice%20based%20on%20an%20ort/images/imageFile4.png",
+        "../../sources/papers_md/Cano-Cortes%20et%20al.%20-%202020%20-%20A%20versatile%20theranostic%20nanodevice%20based%20on%20an%20ort/images/imageFile5.png"
+      ]
+    },
+    {
+      "year": 2019,
+      "title": "PCR-free and chemistry-based technology for miR-21 rapid detection directly from...",
+      "authors": "Delgado-Gonzalez, Antonio, Robles-Remacho, Agustin, Marin-Romero, Antonio, Detassis, Simone, López-Longarela, Barbara, López-Delgado, F. Javier, de Miguel-Perez, Diego, Guardia-Monteagudo, Juan J., Fara, Mario Antonio, Tabraue-Chavez, Mavys, Pernagallo, Salvatore, Sánchez-Martín, Rosario M., Díaz-Mochón, Juan J.",
+      "summary_link": "outputs/summaries_papers/Summary_of_PCR_free_and_chemistry_based_technology_for_miR_21_rapid_det.md",
+      "full_text_link": "sources/papers_md/Delgado-Gonzalez%20et%20al.%20-%202019%20-%20PCR-free%20and%20chemistry-based%20technology%20for%20miR-21/Delgado-Gonzalez%20et%20al.%20-%202019%20-%20PCR-free%20and%20chemistry-based%20technology%20for%20miR-21.md",
+      "doi": "",
+      "journal": "",
+      "preview": "- Authors: Delgado-Gonzalez, Antonio, Robles-Remacho, Agustin, Marin-Romero, Antonio, Detassis, Simone, López-Longarela, Barbara, López-Delgado, F. Javier, de Miguel-Perez, Diego, Guardia-Monteagudo, Juan J., Fara, Mario Antonio, Tabraue-Chavez, Mavys, Pernagallo, Salvatore, Sánchez-Martín, Rosario M., Díaz-Mochón, Juan J. - Journal/Citation: Talanta, 200, pp. 51–56, (2019) - Year: 2019 - DOI: htt",
+      "images": [
+        "images/imageFile1.png",
+        "images/imageFile2.png",
+        "images/imageFile3.png",
+        "../../sources/papers_md/Delgado-Gonzalez%20et%20al.%20-%202019%20-%20PCR-free%20and%20chemistry-based%20technology%20for%20miR-21/images/imageFile1.png",
+        "../../sources/papers_md/Delgado-Gonzalez%20et%20al.%20-%202019%20-%20PCR-free%20and%20chemistry-based%20technology%20for%20miR-21/images/imageFile2.png",
+        "../../sources/papers_md/Delgado-Gonzalez%20et%20al.%20-%202019%20-%20PCR-free%20and%20chemistry-based%20technology%20for%20miR-21/images/imageFile3.png",
+        "../../sources/papers_md/Delgado-Gonzalez%20et%20al.%20-%202019%20-%20PCR-free%20and%20chemistry-based%20technology%20for%20miR-21/images/imageFile4.png",
+        "../../sources/papers_md/Delgado-Gonzalez%20et%20al.%20-%202019%20-%20PCR-free%20and%20chemistry-based%20technology%20for%20miR-21/images/imageFile5.png"
+      ]
+    },
+    {
+      "year": 2019,
+      "title": "New Platform for the Direct Profiling of microRNAs in Biofluids",
+      "authors": "Detassis, Simone, Grasso, Margherita, Tabraue-Chávez, Mavys, Marín-Romero, Antonio, López-Longarela, Bárbara, Ilyine, Hugh, Ress, Cristina, Ceriani, Silvia, Erspan, Mirko, Maglione, Alfredo, Díaz-Mochón, Juan J., Pernagallo, Salvatore, Denti, Michela A.",
+      "summary_link": "outputs/summaries_papers/Summary_of_New_Platform_for_the_Direct_Profiling_of_microRNAs_in_Bioflu.md",
+      "full_text_link": "sources/papers_md/Detassis%20et%20al.%20-%202019%20-%20New%20Platform%20for%20the%20Direct%20Profiling%20of%20microRNAs/Detassis%20et%20al.%20-%202019%20-%20New%20Platform%20for%20the%20Direct%20Profiling%20of%20microRNAs.md",
+      "doi": "",
+      "journal": "",
+      "preview": "- Authors: Detassis, Simone, Grasso, Margherita, Tabraue-Chávez, Mavys, Marín-Romero, Antonio, López-Longarela, Bárbara, Ilyine, Hugh, Ress, Cristina, Ceriani, Silvia, Erspan, Mirko, Maglione, Alfredo, Díaz-Mochón, Juan J., Pernagallo, Salvatore, Denti, Michela A. - Journal/Citation: Analytical Chemistry, 91, pp. 5874–5880, (2019) - Year: 2019 - DOI: https://doi.org/10.1021/acs.analchem.9b00213 --",
+      "images": [
+        "../../sources/papers_md/Detassis%20et%20al.%20-%202019%20-%20New%20Platform%20for%20the%20Direct%20Profiling%20of%20microRNAs/images/imageFile1.png",
+        "../../sources/papers_md/Detassis%20et%20al.%20-%202019%20-%20New%20Platform%20for%20the%20Direct%20Profiling%20of%20microRNAs/images/imageFile2.png",
+        "../../sources/papers_md/Detassis%20et%20al.%20-%202019%20-%20New%20Platform%20for%20the%20Direct%20Profiling%20of%20microRNAs/images/imageFile3.png",
+        "../../sources/papers_md/Detassis%20et%20al.%20-%202019%20-%20New%20Platform%20for%20the%20Direct%20Profiling%20of%20microRNAs/images/imageFile4.png",
+        "../../sources/papers_md/Detassis%20et%20al.%20-%202019%20-%20New%20Platform%20for%20the%20Direct%20Profiling%20of%20microRNAs/images/imageFile5.png"
+      ]
+    },
+    {
+      "year": 2019,
+      "title": "MiR-122 direct detection in human serum by time-gated fluorescence imaging",
+      "authors": "Garcia-Fernandez, E., Gonzalez-Garcia, M.C., Ruedas-Rama, M.J., Orte, A., Pernagallo, S., Fara, M.A., López-Delgado, F.J., Díaz-Mochón, J.J., Ilyine, H., Dear, J.W., Ress, C.",
+      "summary_link": "outputs/summaries_papers/Summary_of_MiR_122_direct_detection_in_human_serum_by_time_gated_fluore.md",
+      "full_text_link": "sources/papers_md/Garcia-Fernandez%20et%20al.%20-%202019%20-%20miR-122%20direct%20detection%20in%20human%20serum%20by%20time-ga/Garcia-Fernandez%20et%20al.%20-%202019%20-%20miR-122%20direct%20detection%20in%20human%20serum%20by%20time-ga.md",
+      "doi": "",
+      "journal": "",
+      "preview": "- Authors: Garcia-Fernandez, E., Gonzalez-Garcia, M.C., Ruedas-Rama, M.J., Orte, A., Pernagallo, S., Fara, M.A., López-Delgado, F.J., Díaz-Mochón, J.J., Ilyine, H., Dear, J.W., Ress, C. - Journal/Citation: Chemical Communications, 55, pp. 14958-14961, (2019) - Year: 2019 --- This article is licensed under aCreative Commons Attribution 3.0 Unported Licence. Open Access Article. Published on 27 Nove",
+      "images": [
+        "images/imageFile1.png",
+        "images/imageFile2.png",
+        "images/imageFile3.png",
+        "images/imageFile4.png",
+        "images/imageFile5.png",
+        "images/imageFile6.png",
+        "../../sources/papers_md/Garcia-Fernandez%20et%20al.%20-%202019%20-%20miR-122%20direct%20detection%20in%20human%20serum%20by%20time-ga/images/imageFile1.png",
+        "../../sources/papers_md/Garcia-Fernandez%20et%20al.%20-%202019%20-%20miR-122%20direct%20detection%20in%20human%20serum%20by%20time-ga/images/imageFile10.png",
+        "../../sources/papers_md/Garcia-Fernandez%20et%20al.%20-%202019%20-%20miR-122%20direct%20detection%20in%20human%20serum%20by%20time-ga/images/imageFile11.png",
+        "../../sources/papers_md/Garcia-Fernandez%20et%20al.%20-%202019%20-%20miR-122%20direct%20detection%20in%20human%20serum%20by%20time-ga/images/imageFile12.png",
+        "../../sources/papers_md/Garcia-Fernandez%20et%20al.%20-%202019%20-%20miR-122%20direct%20detection%20in%20human%20serum%20by%20time-ga/images/imageFile13.png"
+      ]
+    },
+    {
+      "year": 2019,
+      "title": "A soft 3D polyacrylate hydrogel recapitulates the cartilage niche and allows gro...",
+      "authors": "Juan Díaz-Mochón",
+      "summary_link": "outputs/summaries_papers/Summary_of_A_soft_3D_polyacrylate_hydrogel_recapitulates_the_cartilage_.md",
+      "full_text_link": "sources/papers_md/Jiménez%20et%20al.%20-%202019%20-%20A%20soft%203D%20polyacrylate%20hydrogel%20recapitulates%20the/Jiménez%20et%20al.%20-%202019%20-%20A%20soft%203D%20polyacrylate%20hydrogel%20recapitulates%20the%20.md",
+      "doi": "",
+      "journal": "",
+      "preview": "- Authors: Juan Díaz-Mochón - Journal/Citation: Acta Biomaterialia, (2019) - Year: 2019 - DOI: https://doi.org/10.1016/j.actbio.2019.03.040 --- !image 1 Acta Biomaterialia 90 (2019) 146–156 Contents lists available at ScienceDirect Acta Biomaterialia journal homepage: www.elsevier.com/locate/actabiomat !image 2 Full length article A soft 3D polyacrylate hydrogel recapitulates the cartilage niche a",
+      "images": [
+        "images/imageFile1.png",
+        "images/imageFile2.png",
+        "../../sources/papers_md/Jiménez%20et%20al.%20-%202019%20-%20A%20soft%203D%20polyacrylate%20hydrogel%20recapitulates%20the/images/imageFile1.png",
+        "../../sources/papers_md/Jiménez%20et%20al.%20-%202019%20-%20A%20soft%203D%20polyacrylate%20hydrogel%20recapitulates%20the/images/imageFile2.png",
+        "../../sources/papers_md/Jiménez%20et%20al.%20-%202019%20-%20A%20soft%203D%20polyacrylate%20hydrogel%20recapitulates%20the/images/imageFile3.png",
+        "../../sources/papers_md/Jiménez%20et%20al.%20-%202019%20-%20A%20soft%203D%20polyacrylate%20hydrogel%20recapitulates%20the/images/imageFile4.png",
+        "../../sources/papers_md/Jiménez%20et%20al.%20-%202019%20-%20A%20soft%203D%20polyacrylate%20hydrogel%20recapitulates%20the/images/imageFile5.png"
+      ]
+    },
+    {
+      "year": 2019,
+      "title": "Smartphone-Based Diagnosis of Parasitic Infections With Colorimetric Assays in C...",
+      "authors": "Juan Díaz-Mochón",
+      "summary_link": "outputs/summaries_papers/Summary_of_Smartphone_Based_Diagnosis_of_Parasitic_Infections_With_Colo.md",
+      "full_text_link": "sources/papers_md/Escobedo%20et%20al.%20-%202019%20-%20Smartphone-Based%20Diagnosis%20of%20Parasitic%20Infections/Escobedo%20et%20al.%20-%202019%20-%20Smartphone-Based%20Diagnosis%20of%20Parasitic%20Infections.md",
+      "doi": "",
+      "journal": "",
+      "preview": "- Authors: Juan Díaz-Mochón - Journal/Citation: IEEE Access, (2019) - Year: 2019 - DOI: https://doi.org/10.1109/access.2019.2961230 --- !image 1 Received December 6, 2019, accepted December 18, 2019, date of publication December 20, 2019, date of current version December 31, 2019. Digital Object Identifier 10.1109/ACCESS.2019.2961230 PABLO ESCOBEDO 1, MIGUEL M. ERENAS 2,3, ANTONIO MARTÍNEZ OLMOS 3",
+      "images": [
+        "images/imageFile1.png",
+        "../../sources/papers_md/Escobedo%20et%20al.%20-%202019%20-%20Smartphone-Based%20Diagnosis%20of%20Parasitic%20Infections/images/imageFile1.png",
+        "../../sources/papers_md/Escobedo%20et%20al.%20-%202019%20-%20Smartphone-Based%20Diagnosis%20of%20Parasitic%20Infections/images/imageFile10.png",
+        "../../sources/papers_md/Escobedo%20et%20al.%20-%202019%20-%20Smartphone-Based%20Diagnosis%20of%20Parasitic%20Infections/images/imageFile11.png",
+        "../../sources/papers_md/Escobedo%20et%20al.%20-%202019%20-%20Smartphone-Based%20Diagnosis%20of%20Parasitic%20Infections/images/imageFile12.png",
+        "../../sources/papers_md/Escobedo%20et%20al.%20-%202019%20-%20Smartphone-Based%20Diagnosis%20of%20Parasitic%20Infections/images/imageFile13.png"
+      ]
+    },
+    {
+      "year": 2019,
+      "title": "Liquid biopsy beyond of cancer: Circulating pulmonary cells as biomarkers of COP...",
+      "authors": "Pedro J. Romero-Palacios, Bernardino Alcá",
+      "summary_link": "outputs/summaries_papers/Summary_of_Liquid_biopsy_beyond_of_cancer_Circulating_pulmonary_cells_a.md",
+      "full_text_link": "sources/papers_md/Romero-Palacios%20et%20al.%20-%202019%20-%20Liquid%20biopsy%20beyond%20of%20cancer%20Circulating%20pulmon/Romero-Palacios%20et%20al.%20-%202019%20-%20Liquid%20biopsy%20beyond%20of%20cancer%20Circulating%20pulmon.md",
+      "doi": "",
+      "journal": "",
+      "preview": "- Authors: Pedro J. Romero-Palacios, Bernardino Alcá - Journal/Citation: Critical Reviews in Oncology/Hematology, 136, pp. 31--36, (2019) - Year: 2019 - DOI: https://doi.org/10.1016/j.critrevonc.2019.02.003 --- Critical Reviews in Oncology / Hematology 136 (2019) 31–36 !image 1 Contents lists available at ScienceDirect !image 2 journal homepage: www.elsevier.com/locate/critrevonc !image 3 Pedro J.",
+      "images": [
+        "images/imageFile1.png",
+        "images/imageFile2.png",
+        "images/imageFile3.png",
+        "../../sources/papers_md/Romero-Palacios%20et%20al.%20-%202019%20-%20Liquid%20biopsy%20beyond%20of%20cancer%20Circulating%20pulmon/images/imageFile1.png",
+        "../../sources/papers_md/Romero-Palacios%20et%20al.%20-%202019%20-%20Liquid%20biopsy%20beyond%20of%20cancer%20Circulating%20pulmon/images/imageFile2.png",
+        "../../sources/papers_md/Romero-Palacios%20et%20al.%20-%202019%20-%20Liquid%20biopsy%20beyond%20of%20cancer%20Circulating%20pulmon/images/imageFile3.png",
+        "../../sources/papers_md/Romero-Palacios%20et%20al.%20-%202019%20-%20Liquid%20biopsy%20beyond%20of%20cancer%20Circulating%20pulmon/images/imageFile4.png",
+        "../../sources/papers_md/Romero-Palacios%20et%20al.%20-%202019%20-%20Liquid%20biopsy%20beyond%20of%20cancer%20Circulating%20pulmon/images/imageFile5.png"
+      ]
+    },
+    {
+      "year": 2019,
+      "title": "A colorimetric strategy based on dynamic chemistry for direct detection of Trypa...",
+      "authors": "Tabraue-Chávez, Mavys, Luque-González, María Angélica, Marín-Romero, Antonio, Sánchez-Martín, Rosario María, Escobedo-Araque, Pablo, Pernagallo, Salvatore, Díaz-Mochón, Juan José",
+      "summary_link": "outputs/summaries_papers/Summary_of_A_colorimetric_strategy_based_on_dynamic_chemistry_for_direc.md",
+      "full_text_link": "sources/papers_md/Tabraue-Chávez%20et%20al.%20-%202019%20-%20A%20colorimetric%20strategy%20based%20on%20dynamic%20chemistry/Tabraue-Chávez%20et%20al.%20-%202019%20-%20A%20colorimetric%20strategy%20based%20on%20dynamic%20chemistry.md",
+      "doi": "",
+      "journal": "",
+      "preview": "- Authors: Tabraue-Chávez, Mavys, Luque-González, María Angélica, Marín-Romero, Antonio, Sánchez-Martín, Rosario María, Escobedo-Araque, Pablo, Pernagallo, Salvatore, Díaz-Mochón, Juan José - Journal/Citation: Scientific Reports, 9, (2019) - Year: 2019 - DOI: https://doi.org/10.1038/s41598-019-39946-0 --- www.nature.com/scientificreports Received: 29 June 2018 Accepted: 29 January 2019 Published: ",
+      "images": [
+        "images/imageFile1.png",
+        "../../sources/papers_md/Tabraue-Chávez%20et%20al.%20-%202019%20-%20A%20colorimetric%20strategy%20based%20on%20dynamic%20chemistry/images/imageFile1.png",
+        "../../sources/papers_md/Tabraue-Chávez%20et%20al.%20-%202019%20-%20A%20colorimetric%20strategy%20based%20on%20dynamic%20chemistry/images/imageFile2.png",
+        "../../sources/papers_md/Tabraue-Chávez%20et%20al.%20-%202019%20-%20A%20colorimetric%20strategy%20based%20on%20dynamic%20chemistry/images/imageFile3.png",
+        "../../sources/papers_md/Tabraue-Chávez%20et%20al.%20-%202019%20-%20A%20colorimetric%20strategy%20based%20on%20dynamic%20chemistry/images/imageFile4.png",
+        "../../sources/papers_md/Tabraue-Chávez%20et%20al.%20-%202019%20-%20A%20colorimetric%20strategy%20based%20on%20dynamic%20chemistry/images/imageFile5.png"
+      ]
+    },
+    {
+      "year": 2018,
+      "title": "Identification of Trypanosomatids by detecting Single Nucleotide Fingerprints us...",
+      "authors": "Angélica Luque-González, M., María Sánchez-Martín, R., Ortiz-González, M., Soriano-Rodríguez, M., Antonio García-Salcedo, J., José Díaz-Mochón, J., Tabraue-Chávez, M., López-Longarela, B., Pernagallo, S.",
+      "summary_link": "outputs/summaries_papers/Summary_of_Identification_of_Trypanosomatids_by_detecting_Single_Nucleo.md",
+      "full_text_link": "sources/papers_md/Angelica%20Luque-Gonzalez%20et%20al.%20-%202018%20-%20Identification%20of%20Trypanosomatids%20by%20detecting%20Sin/Angelica%20Luque-Gonzalez%20et%20al.%20-%202018%20-%20Identification%20of%20Trypanosomatids%20by%20detecting%20Sin.md",
+      "doi": "",
+      "journal": "",
+      "preview": "- Authors: Angélica Luque-González, M., María Sánchez-Martín, R., Ortiz-González, M., Soriano-Rodríguez, M., Antonio García-Salcedo, J., José Díaz-Mochón, J., Tabraue-Chávez, M., López-Longarela, B., Pernagallo, S. - Journal/Citation: Talanta, 176, pp. 299-307, (2018) - Year: 2018 --- Talanta 176 (2018) 299–307 !image 1 Contents lists available at ScienceDirect !image 2 journal homepage: www.elsev",
+      "images": [
+        "images/imageFile1.png",
+        "images/imageFile2.png",
+        "images/imageFile3.png",
+        "../../sources/papers_md/Angelica%20Luque-Gonzalez%20et%20al.%20-%202018%20-%20Identification%20of%20Trypanosomatids%20by%20detecting%20Sin/images/imageFile1.png",
+        "../../sources/papers_md/Angelica%20Luque-Gonzalez%20et%20al.%20-%202018%20-%20Identification%20of%20Trypanosomatids%20by%20detecting%20Sin/images/imageFile2.png",
+        "../../sources/papers_md/Angelica%20Luque-Gonzalez%20et%20al.%20-%202018%20-%20Identification%20of%20Trypanosomatids%20by%20detecting%20Sin/images/imageFile3.png",
+        "../../sources/papers_md/Angelica%20Luque-Gonzalez%20et%20al.%20-%202018%20-%20Identification%20of%20Trypanosomatids%20by%20detecting%20Sin/images/imageFile4.png",
+        "../../sources/papers_md/Angelica%20Luque-Gonzalez%20et%20al.%20-%202018%20-%20Identification%20of%20Trypanosomatids%20by%20detecting%20Sin/images/imageFile5.png"
+      ]
+    },
+    {
+      "year": 2018,
+      "title": "Catalytic and Electron Conducting Carbon Nanotube–Reinforced Lysozyme Crystals",
+      "authors": "Contreras‐Montoya, Rafael, Escolano, Guillermo, Roy, Subhasish, Lopez‐Lopez, Modesto T., Delgado‐López, Jose M., Cuerva, Juan M., Díaz‐Mochón, Juan J., Ashkenasy, Nurit, Gavira, José A., Álvarez de Cienfuegos, Luis",
+      "summary_link": "outputs/summaries_papers/Summary_of_Catalytic_and_Electron_Conducting_Carbon_NanotubeReinforced_.md",
+      "full_text_link": "sources/papers_md/Contreras-Montoya%20et%20al.%20-%202018%20-%20Catalytic%20and%20Electron%20Conducting%20Carbon%20Nanotube-/Contreras-Montoya%20et%20al.%20-%202018%20-%20Catalytic%20and%20Electron%20Conducting%20Carbon%20Nanotube-.md",
+      "doi": "",
+      "journal": "",
+      "preview": "- Authors: Contreras‐Montoya, Rafael, Escolano, Guillermo, Roy, Subhasish, Lopez‐Lopez, Modesto T., Delgado‐López, Jose M., Cuerva, Juan M., Díaz‐Mochón, Juan J., Ashkenasy, Nurit, Gavira, José A., Álvarez de Cienfuegos, Luis - Journal/Citation: Advanced Functional Materials, 29, (2018) - Year: 2018 - DOI: https://doi.org/10.1002/adfm.201807351 --- !image 1 Composite Materials www.afm-journal.de N",
+      "images": [
+        "images/imageFile1.png",
+        "../../sources/papers_md/Contreras-Montoya%20et%20al.%20-%202018%20-%20Catalytic%20and%20Electron%20Conducting%20Carbon%20Nanotube-/images/imageFile1.png",
+        "../../sources/papers_md/Contreras-Montoya%20et%20al.%20-%202018%20-%20Catalytic%20and%20Electron%20Conducting%20Carbon%20Nanotube-/images/imageFile2.png",
+        "../../sources/papers_md/Contreras-Montoya%20et%20al.%20-%202018%20-%20Catalytic%20and%20Electron%20Conducting%20Carbon%20Nanotube-/images/imageFile3.png",
+        "../../sources/papers_md/Contreras-Montoya%20et%20al.%20-%202018%20-%20Catalytic%20and%20Electron%20Conducting%20Carbon%20Nanotube-/images/imageFile4.png",
+        "../../sources/papers_md/Contreras-Montoya%20et%20al.%20-%202018%20-%20Catalytic%20and%20Electron%20Conducting%20Carbon%20Nanotube-/images/imageFile5.png"
+      ]
+    },
+    {
+      "year": 2018,
+      "title": "Metallofluorescent Nanoparticles for Multimodal Applications",
+      "authors": "Delgado-Gonzalez, Antonio, Garcia-Fernandez, Emilio, Valero, Teresa, Cano-Cortes, M. Victoria, Ruedas-Rama, Maria J., Unciti-Broceta, Asier, Sánchez-Martín, Rosario M., Díaz-Mochón, Juan J., Orte, Angel",
+      "summary_link": "outputs/summaries_papers/Summary_of_Metallofluorescent_Nanoparticles_for_Multimodal_Applications.md",
+      "full_text_link": "sources/papers_md/Delgado-Gonzalez%20et%20al.%20-%202018%20-%20Metallofluorescent%20Nanoparticles%20for%20Multimodal%20Ap/Delgado-Gonzalez%20et%20al.%20-%202018%20-%20Metallofluorescent%20Nanoparticles%20for%20Multimodal%20Ap.md",
+      "doi": "",
+      "journal": "",
+      "preview": "- Authors: Delgado-Gonzalez, Antonio, Garcia-Fernandez, Emilio, Valero, Teresa, Cano-Cortes, M. Victoria, Ruedas-Rama, Maria J., Unciti-Broceta, Asier, Sánchez-Martín, Rosario M., Díaz-Mochón, Juan J., Orte, Angel - Journal/Citation: ACS Omega, 3, pp. 144–153, (2018) - Year: 2018 - DOI: https://doi.org/10.1021/acsomega.7b01984 --- !image 1 This is an open access article published under an ACS Auth",
+      "images": [
+        "images/imageFile1.png",
+        "../../sources/papers_md/Delgado-Gonzalez%20et%20al.%20-%202018%20-%20Metallofluorescent%20Nanoparticles%20for%20Multimodal%20Ap/images/imageFile1.png",
+        "../../sources/papers_md/Delgado-Gonzalez%20et%20al.%20-%202018%20-%20Metallofluorescent%20Nanoparticles%20for%20Multimodal%20Ap/images/imageFile2.png",
+        "../../sources/papers_md/Delgado-Gonzalez%20et%20al.%20-%202018%20-%20Metallofluorescent%20Nanoparticles%20for%20Multimodal%20Ap/images/imageFile3.png",
+        "../../sources/papers_md/Delgado-Gonzalez%20et%20al.%20-%202018%20-%20Metallofluorescent%20Nanoparticles%20for%20Multimodal%20Ap/images/imageFile4.png",
+        "../../sources/papers_md/Delgado-Gonzalez%20et%20al.%20-%202018%20-%20Metallofluorescent%20Nanoparticles%20for%20Multimodal%20Ap/images/imageFile5.png"
+      ]
+    },
+    {
+      "year": 2018,
+      "title": "`<sup>`1 `</sup>`H and `<sup>`13 `</sup>`C assignments of 6‐, 8‐, 9‐ substituted...",
+      "authors": "Lorente‐Macías, Álvaro, Benítez‐Quesada, Manuel, Molina, Ignacio J., Unciti‐Broceta, Asier, Díaz‐Mochón, Juan José, Pineda de las Infantas Villatoro, María José",
+      "summary_link": "outputs/summaries_papers/Summary_of_sup1supH_and_sup13supC_assignments_of_6_8_9_substituted_puri_2018.md",
+      "full_text_link": "sources/papers_md/Magnetic%20Reson%20in%20Chemistry%20-%202018%20-%20Lorente-Macías%20-%201H%20and%2013C%20assignments%20of%206-%20%208-%20%209-%20substituted%20purines_1/Magnetic%20Reson%20in%20Chemistry%20-%202018%20-%20Lorente-Macías%20-%201H%20and%2013C%20assignments%20of%206-%20%208-%20%209-%20substituted%20purines_1.md",
+      "doi": "",
+      "journal": "",
+      "preview": "- Authors: Lorente‐Macías, Álvaro, Benítez‐Quesada, Manuel, Molina, Ignacio J., Unciti‐Broceta, Asier, Díaz‐Mochón, Juan José, Pineda de las Infantas Villatoro, María José - Journal/Citation: Magnetic Resonance in Chemistry, 56, pp. 852–859, (2018) - Year: 2018 - DOI: https://doi.org/10.1002/mrc.4743 --- !image 1 Received: 11 May 2017 Revised: 25 January 2018 Accepted: 19 March 2018 DOI: 10.1002/m",
+      "images": [
+        "images/imageFile1.png",
+        "../../sources/papers_md/Magnetic%20Reson%20in%20Chemistry%20-%202018%20-%20Lorente-Macías%20-%201H%20and%2013C%20assignments%20of%206-%20%208-%20%209-%20substituted%20purines_1/images/imageFile1.png",
+        "../../sources/papers_md/Magnetic%20Reson%20in%20Chemistry%20-%202018%20-%20Lorente-Macías%20-%201H%20and%2013C%20assignments%20of%206-%20%208-%20%209-%20substituted%20purines_1/images/imageFile2.png",
+        "../../sources/papers_md/Magnetic%20Reson%20in%20Chemistry%20-%202018%20-%20Lorente-Macías%20-%201H%20and%2013C%20assignments%20of%206-%20%208-%20%209-%20substituted%20purines_1/images/imageFile3.png",
+        "../../sources/papers_md/Magnetic%20Reson%20in%20Chemistry%20-%202018%20-%20Lorente-Macías%20-%201H%20and%2013C%20assignments%20of%206-%20%208-%20%209-%20substituted%20purines_1/images/imageFile4.png"
+      ]
+    },
+    {
+      "year": 2018,
+      "title": "A PCR-free technology to detect and quantify microRNAs directly from human plasm...",
+      "authors": "Marín-Romero, A., Tabraue-ChAvez, M., López-Longarela, B., Guardia-Monteagudo, J.J., Fara, M.A., López-Delgado, F.J., Pernagallo, S., Robles-Remacho, A., SAnchez-Martín, R.M., Díaz-Mochón, J.J.",
+      "summary_link": "outputs/summaries_papers/Summary_of_A_PCR_free_technology_to_detect_and_quantify_microRNAs_direc.md",
+      "full_text_link": "sources/papers_md/Marín-Romero%20et%20al.%20-%202018%20-%20A%20PCR-free%20technology%20to%20detect%20and%20quantify%20micro/Marín-Romero%20et%20al.%20-%202018%20-%20A%20PCR-free%20technology%20to%20detect%20and%20quantify%20micro.md",
+      "doi": "",
+      "journal": "",
+      "preview": "- Authors: Marín-Romero, A., Tabraue-ChAvez, M., López-Longarela, B., Guardia-Monteagudo, J.J., Fara, M.A., López-Delgado, F.J., Pernagallo, S., Robles-Remacho, A., SAnchez-Martín, R.M., Díaz-Mochón, J.J. - Journal/Citation: Analyst, 143, pp. 5676-5682, (2018) - Year: 2018 --- Published on 27 September 2018. Downloaded by Universidad de Granada on 3/3/2024 7:27:35 PM. !image 1 |COMMUNICATION View ",
+      "images": [
+        "images/imageFile1.png",
+        "images/imageFile2.png",
+        "images/imageFile3.png",
+        "images/imageFile4.png",
+        "images/imageFile5.png",
+        "images/imageFile6.png",
+        "../../sources/papers_md/Marín-Romero%20et%20al.%20-%202018%20-%20A%20PCR-free%20technology%20to%20detect%20and%20quantify%20micro/images/imageFile1.png",
+        "../../sources/papers_md/Marín-Romero%20et%20al.%20-%202018%20-%20A%20PCR-free%20technology%20to%20detect%20and%20quantify%20micro/images/imageFile10.png",
+        "../../sources/papers_md/Marín-Romero%20et%20al.%20-%202018%20-%20A%20PCR-free%20technology%20to%20detect%20and%20quantify%20micro/images/imageFile11.png",
+        "../../sources/papers_md/Marín-Romero%20et%20al.%20-%202018%20-%20A%20PCR-free%20technology%20to%20detect%20and%20quantify%20micro/images/imageFile2.png",
+        "../../sources/papers_md/Marín-Romero%20et%20al.%20-%202018%20-%20A%20PCR-free%20technology%20to%20detect%20and%20quantify%20micro/images/imageFile3.png"
+      ]
+    },
+    {
+      "year": 2017,
+      "title": "Tracking cell proliferation using a nanotechnology-based approach",
+      "authors": "Altea-Manzano, P., Cano-Cortes, V., Ruiz-Blas, M.P., Valero-Griñan, T., Díaz-Mochón, J.J., Sánchez-Martín, R., Unciti-Broceta, J.D.",
+      "summary_link": "outputs/summaries_papers/Summary_of_Tracking_cell_proliferation_using_a_nanotechnology_based_app.md",
+      "full_text_link": "sources/papers_md/Altea-Manzano%20et%20al.%20-%202017%20-%20Tracking%20cell%20proliferation%20using%20a%20nanotechnology/Altea-Manzano%20et%20al.%20-%202017%20-%20Tracking%20cell%20proliferation%20using%20a%20nanotechnology.md",
+      "doi": "",
+      "journal": "",
+      "preview": "- Authors: Altea-Manzano, P., Cano-Cortes, V., Ruiz-Blas, M.P., Valero-Griñan, T., Díaz-Mochón, J.J., Sánchez-Martín, R., Unciti-Broceta, J.D. - Journal/Citation: Nanomedicine, 12, pp. 1591-1605, (2017) - Year: 2017 --- - 12 - 13 Research Article 2017/06/30 Nanomedicine (Lond.) 2017 For reprint orders, please contact: reprints@futuremedicine.com Aim: To develop an efficient nanotechnology fluoresc",
+      "images": [
+        "../../sources/papers_md/Altea-Manzano%20et%20al.%20-%202017%20-%20Tracking%20cell%20proliferation%20using%20a%20nanotechnology/images/imageFile1.png",
+        "../../sources/papers_md/Altea-Manzano%20et%20al.%20-%202017%20-%20Tracking%20cell%20proliferation%20using%20a%20nanotechnology/images/imageFile10.png",
+        "../../sources/papers_md/Altea-Manzano%20et%20al.%20-%202017%20-%20Tracking%20cell%20proliferation%20using%20a%20nanotechnology/images/imageFile11.png",
+        "../../sources/papers_md/Altea-Manzano%20et%20al.%20-%202017%20-%20Tracking%20cell%20proliferation%20using%20a%20nanotechnology/images/imageFile12.png",
+        "../../sources/papers_md/Altea-Manzano%20et%20al.%20-%202017%20-%20Tracking%20cell%20proliferation%20using%20a%20nanotechnology/images/imageFile13.png"
+      ]
+    },
+    {
+      "year": 2017,
+      "title": "Poly(ethylmethacrylate-co-diethylaminoethyl acrylate) coating improves endotheli...",
+      "authors": "López-Ruiz, E., Perán, M., Jiménez, G., Marchal, J.A., Venkateswaran, S., Pernagallo, S., Conde-González, A., Bradley, M., Melchor, J., Rus, G., D?az-Mochón, J.J., Real, P.J., Tura-Ceide, O., Arrebola, F., Soto, J., DIaz-Ricart, M.",
+      "summary_link": null,
+      "full_text_link": "sources/papers_md/Lopez-Ruiz%20et%20al.%20-%202017%20-%20Poly(ethylmethacrylate-co-diethylaminoethyl%20acryla/Lopez-Ruiz%20et%20al.%20-%202017%20-%20Poly(ethylmethacrylate-co-diethylaminoethyl%20acryla.md",
+      "doi": "",
+      "journal": "",
+      "preview": "",
+      "images": []
+    },
+    {
+      "year": 2017,
+      "title": "Polymerase-free measurement of microRNA-122 with single base specificity using s...",
+      "authors": "Rissin, D.M., Duffy, D.C., López-Longarela, B., Pernagallo, S., Ilyine, H., Díaz-Mochón, J.J., Vliegenthart, A.D.B., Dear, J.W.",
+      "summary_link": "outputs/summaries_papers/Summary_of_Polymerase_free_measurement_of_microRNA_122_with_single_base.md",
+      "full_text_link": "sources/papers_md/Rissin%20et%20al.%20-%202017%20-%20Polymerase-free%20measurement%20of%20microRNA-122%20with%20s/Rissin%20et%20al.%20-%202017%20-%20Polymerase-free%20measurement%20of%20microRNA-122%20with%20s.md",
+      "doi": "",
+      "journal": "",
+      "preview": "- Authors: Rissin, D.M., Duffy, D.C., López-Longarela, B., Pernagallo, S., Ilyine, H., Díaz-Mochón, J.J., Vliegenthart, A.D.B., Dear, J.W. - Journal/Citation: Plos One, 12, (2017) - Year: 2017 --- We have developed a single probe method for detecting microRNA from human serum using single molecule arrays, with sequence specificity down to a single base, and without the use of amplification by poly",
+      "images": [
+        "../../sources/papers_md/Rissin%20et%20al.%20-%202017%20-%20Polymerase-free%20measurement%20of%20microRNA-122%20with%20s/images/imageFile10.png",
+        "../../sources/papers_md/Rissin%20et%20al.%20-%202017%20-%20Polymerase-free%20measurement%20of%20microRNA-122%20with%20s/images/imageFile12.png",
+        "../../sources/papers_md/Rissin%20et%20al.%20-%202017%20-%20Polymerase-free%20measurement%20of%20microRNA-122%20with%20s/images/imageFile13.png",
+        "../../sources/papers_md/Rissin%20et%20al.%20-%202017%20-%20Polymerase-free%20measurement%20of%20microRNA-122%20with%20s/images/imageFile17.png",
+        "../../sources/papers_md/Rissin%20et%20al.%20-%202017%20-%20Polymerase-free%20measurement%20of%20microRNA-122%20with%20s/images/imageFile2.png"
+      ]
+    },
+    {
+      "year": 2016,
+      "title": "Identification and characterization of a bacterial hyaluronidase and its product...",
+      "authors": "Messina, L., Vaccaro, S., Caruso, S., Musumeci, L., Di Pasquale, R., Gavira, J.A., Conejero-Muriel, M., Pineda-Molina, E., Pernagallo, S., Sanchez Martin, R.M., Díaz-Mochón, J.J., Unciti-Broceta, J.D., Pontillo, A., Sincinelli, F., Pavan, M., Secchieri, C.",
+      "summary_link": "outputs/summaries_papers/Summary_of_Identification_and_characterization_of_a_bacterial_hyaluroni.md",
+      "full_text_link": "sources/papers_md/Messina%20et%20al.%20-%202016%20-%20Identification%20and%20characterization%20of%20a%20bacterial/Messina%20et%20al.%20-%202016%20-%20Identification%20and%20characterization%20of%20a%20bacterial.md",
+      "doi": "",
+      "journal": "",
+      "preview": "- Authors: Messina, L., Vaccaro, S., Caruso, S., Musumeci, L., Di Pasquale, R., Gavira, J.A., Conejero-Muriel, M., Pineda-Molina, E., Pernagallo, S., Sanchez Martin, R.M., Díaz-Mochón, J.J., Unciti-Broceta, J.D., Pontillo, A., Sincinelli, F., Pavan, M., Secchieri, C. - Journal/Citation: FEBS Letters, pp. 2180-2189, (2016) - Year: 2016 --- !image 1 Luciano Messina1, Jose A. Gavira2, Salvatore Perna",
+      "images": [
+        "images/imageFile1.png",
+        "../../sources/papers_md/Messina%20et%20al.%20-%202016%20-%20Identification%20and%20characterization%20of%20a%20bacterial/images/imageFile1.png",
+        "../../sources/papers_md/Messina%20et%20al.%20-%202016%20-%20Identification%20and%20characterization%20of%20a%20bacterial/images/imageFile2.png",
+        "../../sources/papers_md/Messina%20et%20al.%20-%202016%20-%20Identification%20and%20characterization%20of%20a%20bacterial/images/imageFile3.png",
+        "../../sources/papers_md/Messina%20et%20al.%20-%202016%20-%20Identification%20and%20characterization%20of%20a%20bacterial/images/imageFile4.png"
+      ]
+    },
+    {
+      "year": 2016,
+      "title": "Novel bead-based platform for direct detection of unlabelled nucleic acids throu...",
+      "authors": "Venkateswaran, S., Bradley, M., Luque-González, M.A., Cano-Cortes, V., López-Delgado, F.J., Sánchez-Martín, R.M., Díaz-Mochón, J.J., Tabraue-Chávez, M., Fara, M.A., López-Longarela, B., Pernagallo, S., Ilyine, H.",
+      "summary_link": "outputs/summaries_papers/Summary_of_Novel_bead_based_platform_for_direct_detection_of_unlabelled.md",
+      "full_text_link": "sources/papers_md/Venkateswaran%20et%20al.%20-%202016%20-%20Novel%20bead-based%20platform%20for%20direct%20detection%20of/Venkateswaran%20et%20al.%20-%202016%20-%20Novel%20bead-based%20platform%20for%20direct%20detection%20of%20.md",
+      "doi": "",
+      "journal": "",
+      "preview": "- Authors: Venkateswaran, S., Bradley, M., Luque-González, M.A., Cano-Cortes, V., López-Delgado, F.J., Sánchez-Martín, R.M., Díaz-Mochón, J.J., Tabraue-Chávez, M., Fara, M.A., López-Longarela, B., Pernagallo, S., Ilyine, H. - Journal/Citation: Talanta, 161, pp. 489-496, (2016) - Year: 2016 --- !image 1 Talanta 161 (2016) 489–496 Contents lists available at ScienceDirect Talanta journal homepage: w",
+      "images": [
+        "images/imageFile1.png",
+        "images/imageFile2.png",
+        "images/imageFile3.png",
+        "../../sources/papers_md/Venkateswaran%20et%20al.%20-%202016%20-%20Novel%20bead-based%20platform%20for%20direct%20detection%20of/images/imageFile1.png",
+        "../../sources/papers_md/Venkateswaran%20et%20al.%20-%202016%20-%20Novel%20bead-based%20platform%20for%20direct%20detection%20of/images/imageFile10.png",
+        "../../sources/papers_md/Venkateswaran%20et%20al.%20-%202016%20-%20Novel%20bead-based%20platform%20for%20direct%20detection%20of/images/imageFile2.png",
+        "../../sources/papers_md/Venkateswaran%20et%20al.%20-%202016%20-%20Novel%20bead-based%20platform%20for%20direct%20detection%20of/images/imageFile3.png",
+        "../../sources/papers_md/Venkateswaran%20et%20al.%20-%202016%20-%20Novel%20bead-based%20platform%20for%20direct%20detection%20of/images/imageFile4.png"
+      ]
+    },
+    {
+      "year": 2015,
+      "title": "Protein crystallization in short-peptide supramolecular hydrogels: A versatile s...",
+      "authors": "Conejero-Muriel, M., Gavira, J.A., Contreras-Montoya, R., Álvarez De Cienfuegos, L., Díaz-Mochón, J.J.",
+      "summary_link": "outputs/summaries_papers/Summary_of_Protein_crystallization_in_short_peptide_supramolecular_hydr.md",
+      "full_text_link": "sources/papers_md/Conejero-Muriel%20et%20al.%20-%202015%20-%20Protein%20crystallization%20in%20short-peptide%20supramole/Conejero-Muriel%20et%20al.%20-%202015%20-%20Protein%20crystallization%20in%20short-peptide%20supramole.md",
+      "doi": "",
+      "journal": "",
+      "preview": "- Authors: Conejero-Muriel, M., Gavira, J.A., Contreras-Montoya, R., Álvarez De Cienfuegos, L., Díaz-Mochón, J.J. - Journal/Citation: Crystengcomm, 17, pp. 8072-8078, (2015) - Year: 2015 --- This article is licensed under aCreative Commons Attribution-NonCommercial 3.0 Unported Licence. Open Access Article. Published on 08 June 2015. Downloaded on 3/3/2024 11:36:28 PM. !image 1 | | | | |---|---|--",
+      "images": [
+        "images/imageFile1.png",
+        "images/imageFile2.png",
+        "../../sources/papers_md/Conejero-Muriel%20et%20al.%20-%202015%20-%20Protein%20crystallization%20in%20short-peptide%20supramole/images/imageFile1.png",
+        "../../sources/papers_md/Conejero-Muriel%20et%20al.%20-%202015%20-%20Protein%20crystallization%20in%20short-peptide%20supramole/images/imageFile10.png",
+        "../../sources/papers_md/Conejero-Muriel%20et%20al.%20-%202015%20-%20Protein%20crystallization%20in%20short-peptide%20supramole/images/imageFile11.png",
+        "../../sources/papers_md/Conejero-Muriel%20et%20al.%20-%202015%20-%20Protein%20crystallization%20in%20short-peptide%20supramole/images/imageFile12.png",
+        "../../sources/papers_md/Conejero-Muriel%20et%20al.%20-%202015%20-%20Protein%20crystallization%20in%20short-peptide%20supramole/images/imageFile13.png"
+      ]
+    },
+    {
+      "year": 2015,
+      "title": "Influence of the chirality of short peptide supramolecular hydrogels in protein ...",
+      "authors": "Conejero-Muriel, M., Gavira, J.A., Pineda-Molina, E., Belsom, A., Bradley, M., Moral, M., Durán, J.D.D.G.-L., Luque González, A., Díaz-Mochón, J.J., Contreras-Montoya, R., Martínez-Peragón, A., Cuerva, J.M., Álvarez De Cienfuegos, L.",
+      "summary_link": "outputs/summaries_papers/Summary_of_Influence_of_the_chirality_of_short_peptide_supramolecular_h.md",
+      "full_text_link": "sources/papers_md/Conejero-Muriel%20et%20al.%20-%202015%20-%20Influence%20of%20the%20chirality%20of%20short%20peptide%20supram/Conejero-Muriel%20et%20al.%20-%202015%20-%20Influence%20of%20the%20chirality%20of%20short%20peptide%20supram.md",
+      "doi": "",
+      "journal": "",
+      "preview": "- Authors: Conejero-Muriel, M., Gavira, J.A., Pineda-Molina, E., Belsom, A., Bradley, M., Moral, M., Durán, J.D.D.G.-L., Luque González, A., Díaz-Mochón, J.J., Contreras-Montoya, R., Martínez-Peragón, A., Cuerva, J.M., Álvarez De Cienfuegos, L. - Journal/Citation: Chemical Communications, 51, pp. 3862-3865, (2015) - Year: 2015 --- This article is licensed under aCreative Commons Attribution-NonCom",
+      "images": [
+        "images/imageFile1.png",
+        "images/imageFile2.png",
+        "../../sources/papers_md/Conejero-Muriel%20et%20al.%20-%202015%20-%20Influence%20of%20the%20chirality%20of%20short%20peptide%20supram/images/imageFile1.png",
+        "../../sources/papers_md/Conejero-Muriel%20et%20al.%20-%202015%20-%20Influence%20of%20the%20chirality%20of%20short%20peptide%20supram/images/imageFile2.png",
+        "../../sources/papers_md/Conejero-Muriel%20et%20al.%20-%202015%20-%20Influence%20of%20the%20chirality%20of%20short%20peptide%20supram/images/imageFile3.png",
+        "../../sources/papers_md/Conejero-Muriel%20et%20al.%20-%202015%20-%20Influence%20of%20the%20chirality%20of%20short%20peptide%20supram/images/imageFile4.png",
+        "../../sources/papers_md/Conejero-Muriel%20et%20al.%20-%202015%20-%20Influence%20of%20the%20chirality%20of%20short%20peptide%20supram/images/imageFile5.png"
+      ]
+    },
+    {
+      "year": 2015,
+      "title": "Synthesis of 6,8,9 poly-substituted purine analogue libraries as pro-apoptotic i...",
+      "authors": "De Las Infantas, M.J.P., Luque-Gonzalez, M.A., Gallo, M.A., Díaz-Mochón, J.J., Torres-Rusillo, S., Fernandez-Rubio, P., Molina, I.J., Unciti-Broceta, J.D., Unciti-Broceta, A.",
+      "summary_link": "outputs/summaries_papers/Summary_of_Synthesis_of_689_poly_substituted_purine_analogue_libraries_.md",
+      "full_text_link": "sources/papers_md/Pineda%20de%20las%20Infantas%20et%20al.%20-%202015%20-%20Synthesis%20of%206,8,9%20poly-substituted%20purine%20analogu/Pineda%20de%20las%20Infantas%20et%20al.%20-%202015%20-%20Synthesis%20of%206,8,9%20poly-substituted%20purine%20analogu.md",
+      "doi": "",
+      "journal": "",
+      "preview": "- Authors: De Las Infantas, M.J.P., Luque-Gonzalez, M.A., Gallo, M.A., Díaz-Mochón, J.J., Torres-Rusillo, S., Fernandez-Rubio, P., Molina, I.J., Unciti-Broceta, J.D., Unciti-Broceta, A. - Journal/Citation: Organic and Biomolecular Chemistry, 13, pp. 5224-5234, (2015) - Year: 2015 --- This article is licensed under aCreative Commons Attribution 3.0 Unported Licence. Open Access Article. Published o",
+      "images": [
+        "images/imageFile1.png",
+        "images/imageFile2.png",
+        "images/imageFile3.png",
+        "../../sources/papers_md/Pineda%20de%20las%20Infantas%20et%20al.%20-%202015%20-%20Synthesis%20of%206,8,9%20poly-substituted%20purine%20analogu/images/imageFile11.png",
+        "../../sources/papers_md/Pineda%20de%20las%20Infantas%20et%20al.%20-%202015%20-%20Synthesis%20of%206,8,9%20poly-substituted%20purine%20analogu/images/imageFile12.png",
+        "../../sources/papers_md/Pineda%20de%20las%20Infantas%20et%20al.%20-%202015%20-%20Synthesis%20of%206,8,9%20poly-substituted%20purine%20analogu/images/imageFile13.png",
+        "../../sources/papers_md/Pineda%20de%20las%20Infantas%20et%20al.%20-%202015%20-%20Synthesis%20of%206,8,9%20poly-substituted%20purine%20analogu/images/imageFile15.png",
+        "../../sources/papers_md/Pineda%20de%20las%20Infantas%20et%20al.%20-%202015%20-%20Synthesis%20of%206,8,9%20poly-substituted%20purine%20analogu/images/imageFile16.png"
+      ]
+    },
+    {
+      "year": 2015,
+      "title": "MiRNA in situ hybridization in circulating tumor cells - MishCTC",
+      "authors": "Ortega, F.G., Lorente, J.A., Garcia Puche, J.L., Ruiz, M.P., Sánchez-Martín, R.M., De Miguel-Pérez, D., Díaz-Mochón, J.J., Serrano, M.J.",
+      "summary_link": "outputs/summaries_papers/Summary_of_MiRNA_in_situ_hybridization_in_circulating_tumor_cells_MishC.md",
+      "full_text_link": "sources/papers_md/Ortega%20et%20al.%20-%202015%20-%20miRNA%20in%20situ%20hybridization%20in%20circulating%20tumor%20c/Ortega%20et%20al.%20-%202015%20-%20miRNA%20in%20situ%20hybridization%20in%20circulating%20tumor%20c.md",
+      "doi": "",
+      "journal": "",
+      "preview": "- Authors: Ortega, F.G., Lorente, J.A., Garcia Puche, J.L., Ruiz, M.P., Sánchez-Martín, R.M., De Miguel-Pérez, D., Díaz-Mochón, J.J., Serrano, M.J. - Journal/Citation: Scientific Reports, 5, (2015) - Year: 2015 --- !image 1 SUBJECT AREAS: METASTASES FLUORESCENCE IMAGING Francisco G. Ortega1, Jose A. Lorente1,2, Jose L. Garcia Puche1, Maria P. Ruiz1, Rosario M. Sanchez-Martin1, Diego de Miguel-Pe´r",
+      "images": [
+        "images/imageFile1.png",
+        "../../sources/papers_md/Ortega%20et%20al.%20-%202015%20-%20miRNA%20in%20situ%20hybridization%20in%20circulating%20tumor%20c/images/imageFile1.png",
+        "../../sources/papers_md/Ortega%20et%20al.%20-%202015%20-%20miRNA%20in%20situ%20hybridization%20in%20circulating%20tumor%20c/images/imageFile2.png",
+        "../../sources/papers_md/Ortega%20et%20al.%20-%202015%20-%20miRNA%20in%20situ%20hybridization%20in%20circulating%20tumor%20c/images/imageFile3.png",
+        "../../sources/papers_md/Ortega%20et%20al.%20-%202015%20-%20miRNA%20in%20situ%20hybridization%20in%20circulating%20tumor%20c/images/imageFile4.png",
+        "../../sources/papers_md/Ortega%20et%20al.%20-%202015%20-%20miRNA%20in%20situ%20hybridization%20in%20circulating%20tumor%20c/images/imageFile5.png"
+      ]
+    },
+    {
+      "year": 2015,
+      "title": "Study of antitumor activity in breast cell lines using silver nanoparticles prod...",
+      "authors": "Ortega, F.G., Serrano, M.J., Diaz-Mochón, J.J., Lorente, J.A., Fernández-Baldo, M.A., Fernández, J.G., Sanz, M.I., Raba, J.",
+      "summary_link": "outputs/summaries_papers/Summary_of_Study_of_antitumor_activity_in_breast_cell_lines_using_silve.md",
+      "full_text_link": "sources/papers_md/Ortega%20et%20al.%20-%202015%20-%20Study%20of%20antitumor%20activity%20in%20breast%20cell%20lines%20u/Ortega%20et%20al.%20-%202015%20-%20Study%20of%20antitumor%20activity%20in%20breast%20cell%20lines%20u.md",
+      "doi": "",
+      "journal": "",
+      "preview": "- Authors: Ortega, F.G., Serrano, M.J., Diaz-Mochón, J.J., Lorente, J.A., Fernández-Baldo, M.A., Fernández, J.G., Sanz, M.I., Raba, J. - Journal/Citation: International Journal of Nanomedicine, 10, pp. 2021-2031, (2015) - Year: 2015 --- International Journal of Nanomedicine Dovepress open access to scientific and medical research M e t h o d o l o g y open Access Full text Article Study of antitum",
+      "images": [
+        "../../sources/papers_md/Ortega%20et%20al.%20-%202015%20-%20Study%20of%20antitumor%20activity%20in%20breast%20cell%20lines%20u/images/imageFile1.png",
+        "../../sources/papers_md/Ortega%20et%20al.%20-%202015%20-%20Study%20of%20antitumor%20activity%20in%20breast%20cell%20lines%20u/images/imageFile10.png",
+        "../../sources/papers_md/Ortega%20et%20al.%20-%202015%20-%20Study%20of%20antitumor%20activity%20in%20breast%20cell%20lines%20u/images/imageFile11.png",
+        "../../sources/papers_md/Ortega%20et%20al.%20-%202015%20-%20Study%20of%20antitumor%20activity%20in%20breast%20cell%20lines%20u/images/imageFile12.png",
+        "../../sources/papers_md/Ortega%20et%20al.%20-%202015%20-%20Study%20of%20antitumor%20activity%20in%20breast%20cell%20lines%20u/images/imageFile13.png"
+      ]
+    },
+    {
+      "year": 2015,
+      "title": "Amide-controlled, one-pot synthesis of tri-substituted purines generates structu...",
+      "authors": "Pineda De Las Infantas Y Villatoro, M.J., Gallo Mezo, M.A., Díaz-Mochón, J.J., Unciti-Broceta, J.D., Contreras-Montoya, R., Garcia-Salcedo, J.A., Unciti-Broceta, A.",
+      "summary_link": "outputs/summaries_papers/Summary_of_Amide_controlled_one_pot_synthesis_of_tri_substituted_purine.md",
+      "full_text_link": "sources/papers_md/Pineda%20de%20las%20Infantas%20y%20Villatoro%20et%20al.%20-%202015%20-%20Amide-controlled,%20one-pot%20synthesis%20of%20tri-substit/Pineda%20de%20las%20Infantas%20y%20Villatoro%20et%20al.%20-%202015%20-%20Amide-controlled,%20one-pot%20synthesis%20of%20tri-substit.md",
+      "doi": "",
+      "journal": "",
+      "preview": "- Authors: Pineda De Las Infantas Y Villatoro, M.J., Gallo Mezo, M.A., Díaz-Mochón, J.J., Unciti-Broceta, J.D., Contreras-Montoya, R., Garcia-Salcedo, J.A., Unciti-Broceta, A. - Journal/Citation: Scientific Reports, 5, (2015) - Year: 2015 --- !image 1 SUBJECT AREAS: REACTION MECHANISMS PARASITE BIOLOGY Received 13 May 2014 Accepted 17 February 2015 Published 16 March 2015 Correspondence and reques",
+      "images": [
+        "images/imageFile1.png",
+        "../../sources/papers_md/Pineda%20de%20las%20Infantas%20y%20Villatoro%20et%20al.%20-%202015%20-%20Amide-controlled,%20one-pot%20synthesis%20of%20tri-substit/images/imageFile1.png",
+        "../../sources/papers_md/Pineda%20de%20las%20Infantas%20y%20Villatoro%20et%20al.%20-%202015%20-%20Amide-controlled,%20one-pot%20synthesis%20of%20tri-substit/images/imageFile10.png",
+        "../../sources/papers_md/Pineda%20de%20las%20Infantas%20y%20Villatoro%20et%20al.%20-%202015%20-%20Amide-controlled,%20one-pot%20synthesis%20of%20tri-substit/images/imageFile11.png",
+        "../../sources/papers_md/Pineda%20de%20las%20Infantas%20y%20Villatoro%20et%20al.%20-%202015%20-%20Amide-controlled,%20one-pot%20synthesis%20of%20tri-substit/images/imageFile12.png",
+        "../../sources/papers_md/Pineda%20de%20las%20Infantas%20y%20Villatoro%20et%20al.%20-%202015%20-%20Amide-controlled,%20one-pot%20synthesis%20of%20tri-substit/images/imageFile13.png"
+      ]
+    },
+    {
+      "year": 2015,
+      "title": "Number of nanoparticles per cell through a spectrophotometric method - A key par...",
+      "authors": "Unciti-Broceta, J.D., Cano-Cortés, V., Altea-Manzano, P., Díaz-Mochón, J.J., Sánchez-Martín, R.M., Pernagallo, S.",
+      "summary_link": "outputs/summaries_papers/Summary_of_Number_of_nanoparticles_per_cell_through_a_spectrophotometri.md",
+      "full_text_link": "sources/papers_md/Unciti-Broceta%20et%20al.%20-%202015%20-%20Number%20of%20Nanoparticles%20per%20Cell%20through%20a%20Spectro/Unciti-Broceta%20et%20al.%20-%202015%20-%20Number%20of%20Nanoparticles%20per%20Cell%20through%20a%20Spectro.md",
+      "doi": "",
+      "journal": "",
+      "preview": "- Authors: Unciti-Broceta, J.D., Cano-Cortés, V., Altea-Manzano, P., Díaz-Mochón, J.J., Sánchez-Martín, R.M., Pernagallo, S. - Journal/Citation: Scientific Reports, 5, (2015) - Year: 2015 --- www.nature.com/scientificreports Received: 03 December 2014 Accepted: 27 March 2015 Published: 15 May 2015 Engineered nanoparticles (eNPs) for biological and biomedical applications are produced from function",
+      "images": [
+        "../../sources/papers_md/Unciti-Broceta%20et%20al.%20-%202015%20-%20Number%20of%20Nanoparticles%20per%20Cell%20through%20a%20Spectro/images/imageFile1.png",
+        "../../sources/papers_md/Unciti-Broceta%20et%20al.%20-%202015%20-%20Number%20of%20Nanoparticles%20per%20Cell%20through%20a%20Spectro/images/imageFile2.png",
+        "../../sources/papers_md/Unciti-Broceta%20et%20al.%20-%202015%20-%20Number%20of%20Nanoparticles%20per%20Cell%20through%20a%20Spectro/images/imageFile3.png",
+        "../../sources/papers_md/Unciti-Broceta%20et%20al.%20-%202015%20-%20Number%20of%20Nanoparticles%20per%20Cell%20through%20a%20Spectro/images/imageFile4.png",
+        "../../sources/papers_md/Unciti-Broceta%20et%20al.%20-%202015%20-%20Number%20of%20Nanoparticles%20per%20Cell%20through%20a%20Spectro/images/imageFile5.png"
+      ]
+    },
+    {
+      "year": 2012,
+      "title": "Novel biochip platform for nucleic acid analysis",
+      "authors": "Pernagallo, S., Cavalluzzo, C., Ilyine, H., Díaz-Mochón, J.J., Ventimiglia, G., Alessi, E., Bradley, M.",
+      "summary_link": "outputs/summaries_papers/Summary_of_Novel_biochip_platform_for_nucleic_acid_analysis.md",
+      "full_text_link": "sources/papers_md/Pernagallo%20et%20al.%20-%202012%20-%20Novel%20Biochip%20Platform%20for%20Nucleic%20Acid%20Analysis/Pernagallo%20et%20al.%20-%202012%20-%20Novel%20Biochip%20Platform%20for%20Nucleic%20Acid%20Analysis.md",
+      "doi": "",
+      "journal": "",
+      "preview": "- Authors: Pernagallo, S., Cavalluzzo, C., Ilyine, H., Díaz-Mochón, J.J., Ventimiglia, G., Alessi, E., Bradley, M. - Journal/Citation: Sensors Switzerland, 12, pp. 8100-8111, (2012) - Year: 2012 --- Sensors 2012, 12, 8100-8111; doi:10.3390/s120608100 Article OPEN ACCESS sensors ISSN 1424-8220 www.mdpi.com/journal/sensors Novel Biochip Platform for Nucleic Acid Analysis Salvatore Pernagallo 1,†, Gi",
+      "images": [
+        "../../sources/papers_md/Pernagallo%20et%20al.%20-%202012%20-%20Novel%20Biochip%20Platform%20for%20Nucleic%20Acid%20Analysis/images/imageFile1.png",
+        "../../sources/papers_md/Pernagallo%20et%20al.%20-%202012%20-%20Novel%20Biochip%20Platform%20for%20Nucleic%20Acid%20Analysis/images/imageFile2.png",
+        "../../sources/papers_md/Pernagallo%20et%20al.%20-%202012%20-%20Novel%20Biochip%20Platform%20for%20Nucleic%20Acid%20Analysis/images/imageFile3.png",
+        "../../sources/papers_md/Pernagallo%20et%20al.%20-%202012%20-%20Novel%20Biochip%20Platform%20for%20Nucleic%20Acid%20Analysis/images/imageFile4.png",
+        "../../sources/papers_md/Pernagallo%20et%20al.%20-%202012%20-%20Novel%20Biochip%20Platform%20for%20Nucleic%20Acid%20Analysis/images/imageFile5.png"
+      ]
+    },
+    {
+      "year": 2012,
+      "title": "Novel biopolymers to enhance endothelialisation of intra-vascular devices",
+      "authors": "Pernagallo, S., Wu, M., Díaz-Mochón, J.J., Hansen, A., Zhang, R., Bradley, M., Tura, O., Jackson, M., Hay, D.C., Samuel, K., Turner, M.L., Padfield, G.J., Hadoke, P.W.F., Mills, N.L., Iredale, J.P.",
+      "summary_link": "outputs/summaries_papers/Summary_of_Novel_biopolymers_to_enhance_endothelialisation_of_intra_vas.md",
+      "full_text_link": "sources/papers_md/Pernagallo%20et%20al.%20-%202012%20-%20Novel%20Biopolymers%20to%20Enhance%20Endothelialisation%20of/Pernagallo%20et%20al.%20-%202012%20-%20Novel%20Biopolymers%20to%20Enhance%20Endothelialisation%20of.md",
+      "doi": "",
+      "journal": "",
+      "preview": "- Authors: Pernagallo, S., Wu, M., Díaz-Mochón, J.J., Hansen, A., Zhang, R., Bradley, M., Tura, O., Jackson, M., Hay, D.C., Samuel, K., Turner, M.L., Padfield, G.J., Hadoke, P.W.F., Mills, N.L., Iredale, J.P. - Journal/Citation: Advanced Healthcare Materials, 1, pp. 646-656, (2012) - Year: 2012 --- !image 1 !image 2 www.advhealthmat.de www.MaterialsViews.com Salvatore Pernagallo , Olga Tura , Mei ",
+      "images": [
+        "images/imageFile1.png",
+        "images/imageFile2.png",
+        "../../sources/papers_md/Pernagallo%20et%20al.%20-%202012%20-%20Novel%20Biopolymers%20to%20Enhance%20Endothelialisation%20of/images/imageFile1.png",
+        "../../sources/papers_md/Pernagallo%20et%20al.%20-%202012%20-%20Novel%20Biopolymers%20to%20Enhance%20Endothelialisation%20of/images/imageFile10.png",
+        "../../sources/papers_md/Pernagallo%20et%20al.%20-%202012%20-%20Novel%20Biopolymers%20to%20Enhance%20Endothelialisation%20of/images/imageFile11.png",
+        "../../sources/papers_md/Pernagallo%20et%20al.%20-%202012%20-%20Novel%20Biopolymers%20to%20Enhance%20Endothelialisation%20of/images/imageFile12.png",
+        "../../sources/papers_md/Pernagallo%20et%20al.%20-%202012%20-%20Novel%20Biopolymers%20to%20Enhance%20Endothelialisation%20of/images/imageFile13.png"
+      ]
+    },
+    {
+      "year": 2012,
+      "title": "The use of solid supports to generate nucleic acid carriers",
+      "authors": "Unciti-Broceta, A., Díaz-Mochón, J.J., Sánchez-Martín, R.M., Bradley, M.",
+      "summary_link": "outputs/summaries_papers/Summary_of_The_use_of_solid_supports_to_generate_nucleic_acid_carriers.md",
+      "full_text_link": "sources/papers_md/Unciti-Broceta%20et%20al.%20-%202012%20-%20The%20Use%20of%20Solid%20Supports%20to%20Generate%20Nucleic%20Acid/Unciti-Broceta%20et%20al.%20-%202012%20-%20The%20Use%20of%20Solid%20Supports%20to%20Generate%20Nucleic%20Acid.md",
+      "doi": "",
+      "journal": "",
+      "preview": "- Authors: Unciti-Broceta, A., Díaz-Mochón, J.J., Sánchez-Martín, R.M., Bradley, M. - Journal/Citation: Accounts of Chemical Research, 45, pp. 1140-1152, (2012) - Year: 2012 --- The Use of Solid Supports to Generate Nucleic Acid Carriers ASIER UNCITI-BROCETA,†,‡ JUAN JOSÉ DÍAZ-MOCHÓN,§ ROSARIO M. S ANCHEZ-MARTÍN, ,§ AND MARK BRADLEY , ) †Edinburgh Cancer Research Centre, MRC Institute of Genetics ",
+      "images": [
+        "images/imageFile1.png",
+        "../../sources/papers_md/Unciti-Broceta%20et%20al.%20-%202012%20-%20The%20Use%20of%20Solid%20Supports%20to%20Generate%20Nucleic%20Acid/images/imageFile1.png",
+        "../../sources/papers_md/Unciti-Broceta%20et%20al.%20-%202012%20-%20The%20Use%20of%20Solid%20Supports%20to%20Generate%20Nucleic%20Acid/images/imageFile10.png",
+        "../../sources/papers_md/Unciti-Broceta%20et%20al.%20-%202012%20-%20The%20Use%20of%20Solid%20Supports%20to%20Generate%20Nucleic%20Acid/images/imageFile11.png",
+        "../../sources/papers_md/Unciti-Broceta%20et%20al.%20-%202012%20-%20The%20Use%20of%20Solid%20Supports%20to%20Generate%20Nucleic%20Acid/images/imageFile12.png",
+        "../../sources/papers_md/Unciti-Broceta%20et%20al.%20-%202012%20-%20The%20Use%20of%20Solid%20Supports%20to%20Generate%20Nucleic%20Acid/images/imageFile13.png"
+      ]
+    },
+    {
+      "year": 2011,
+      "title": "Dynamic chemistry for enzyme-free allele discrimination in genotyping by MALDI-T...",
+      "authors": "Bowler, F.R., Díaz-Mochón, J.J., Bradley, M., Reid, P.A., Boyd, C.",
+      "summary_link": "outputs/summaries_papers/Summary_of_Dynamic_chemistry_for_enzyme_free_allele_discrimination_in_g.md",
+      "full_text_link": "sources/papers_md/Bowler%20et%20al.%20-%202011%20-%20Dynamic%20chemistry%20for%20enzyme-free%20allele%20discrimin/Bowler%20et%20al.%20-%202011%20-%20Dynamic%20chemistry%20for%20enzyme-free%20allele%20discrimin.md",
+      "doi": "",
+      "journal": "",
+      "preview": "- Authors: Bowler, F.R., Díaz-Mochón, J.J., Bradley, M., Reid, P.A., Boyd, C. - Journal/Citation: Analytical Methods, 3, pp. 1656-1663, (2011) - Year: 2011 --- Published on 02 June 2011. Downloaded by Universidad de Granada on 3/3/2024 7:27:45 PM. View Article Online / Journal Homepage / Table of Contents for this issue Analytical Dynamic Article LinksC< Methods Cite this: Anal. Methods, 2011, 3, ",
+      "images": [
+        "../../sources/papers_md/Bowler%20et%20al.%20-%202011%20-%20Dynamic%20chemistry%20for%20enzyme-free%20allele%20discrimin/images/imageFile1.png",
+        "../../sources/papers_md/Bowler%20et%20al.%20-%202011%20-%20Dynamic%20chemistry%20for%20enzyme-free%20allele%20discrimin/images/imageFile2.png",
+        "../../sources/papers_md/Bowler%20et%20al.%20-%202011%20-%20Dynamic%20chemistry%20for%20enzyme-free%20allele%20discrimin/images/imageFile3.png",
+        "../../sources/papers_md/Bowler%20et%20al.%20-%202011%20-%20Dynamic%20chemistry%20for%20enzyme-free%20allele%20discrimin/images/imageFile4.png"
+      ]
+    },
+    {
+      "year": 2011,
+      "title": "Unbiased screening of polymer libraries to define novel substrates for functiona...",
+      "authors": "Hay, D.C., Medine, C.N., Greenhough, S., Hannoun, Z., Schrader, J., Black, J.R., Fletcher, J., Dalgetty, D., Thompson, A.I., Forbes, S.J., Ross, J.A., Iredale, J.P., Pernagallo, S., Díaz-Mochón, J.J., Bradley, M., Newsome, P.N.",
+      "summary_link": "outputs/summaries_papers/Summary_of_Unbiased_screening_of_polymer_libraries_to_define_novel_subs.md",
+      "full_text_link": "sources/papers_md/Hay%20et%20al.%20-%202011%20-%20Unbiased%20screening%20of%20polymer%20libraries%20to%20define/Hay%20et%20al.%20-%202011%20-%20Unbiased%20screening%20of%20polymer%20libraries%20to%20define%20.md",
+      "doi": "",
+      "journal": "",
+      "preview": "- Authors: Hay, D.C., Medine, C.N., Greenhough, S., Hannoun, Z., Schrader, J., Black, J.R., Fletcher, J., Dalgetty, D., Thompson, A.I., Forbes, S.J., Ross, J.A., Iredale, J.P., Pernagallo, S., Díaz-Mochón, J.J., Bradley, M., Newsome, P.N. - Journal/Citation: Stem Cell Research, 6, pp. 92-102, (2011) - Year: 2011 --- Stem Cell Research (2011) 6, 92–102 !image 1 available at www.sciencedirect.com ww",
+      "images": [
+        "images/imageFile1.png",
+        "images/imageFile2.png",
+        "../../sources/papers_md/Hay%20et%20al.%20-%202011%20-%20Unbiased%20screening%20of%20polymer%20libraries%20to%20define/images/imageFile1.png",
+        "../../sources/papers_md/Hay%20et%20al.%20-%202011%20-%20Unbiased%20screening%20of%20polymer%20libraries%20to%20define/images/imageFile2.png",
+        "../../sources/papers_md/Hay%20et%20al.%20-%202011%20-%20Unbiased%20screening%20of%20polymer%20libraries%20to%20define/images/imageFile3.png",
+        "../../sources/papers_md/Hay%20et%20al.%20-%202011%20-%20Unbiased%20screening%20of%20polymer%20libraries%20to%20define/images/imageFile4.png",
+        "../../sources/papers_md/Hay%20et%20al.%20-%202011%20-%20Unbiased%20screening%20of%20polymer%20libraries%20to%20define/images/imageFile5.png"
+      ]
+    },
+    {
+      "year": 2011,
+      "title": "Screening of a combinatorial homing peptide library for selective cellular deliv...",
+      "authors": "Svensen, N., Díaz-Moch\\~on, J.J., Planonth, S., Bradley, M., Dhaliwal, K., Dewar, M., Armstrong, J.D.",
+      "summary_link": "outputs/summaries_papers/Summary_of_Screening_of_a_combinatorial_homing_peptide_library_for_sele.md",
+      "full_text_link": "sources/papers_md/Svensen%20et%20al.%20-%202011%20-%20Screening%20of%20a%20Combinatorial%20Homing%20Peptide%20Librar/Svensen%20et%20al.%20-%202011%20-%20Screening%20of%20a%20Combinatorial%20Homing%20Peptide%20Librar.md",
+      "doi": "",
+      "journal": "",
+      "preview": "- Authors: Svensen, N., Díaz-Moch\\~on, J.J., Planonth, S., Bradley, M., Dhaliwal, K., Dewar, M., Armstrong, J.D. - Journal/Citation: Angewandte Chemie International Edition, 50, pp. 6133-6136, (2011) - Year: 2011 --- Homing Peptides DOI: 10.1002/anie.201101804 Nina Svensen, Juan Jos D az-Moch n, Kevin Dhaliwal, Songsak Planonth, Michael Dewar, J. Douglas Armstrong, and Mark Bradley Selective deliv",
+      "images": [
+        "../../sources/papers_md/Svensen%20et%20al.%20-%202011%20-%20Screening%20of%20a%20Combinatorial%20Homing%20Peptide%20Librar/images/imageFile1.png",
+        "../../sources/papers_md/Svensen%20et%20al.%20-%202011%20-%20Screening%20of%20a%20Combinatorial%20Homing%20Peptide%20Librar/images/imageFile2.png",
+        "../../sources/papers_md/Svensen%20et%20al.%20-%202011%20-%20Screening%20of%20a%20Combinatorial%20Homing%20Peptide%20Librar/images/imageFile3.png",
+        "../../sources/papers_md/Svensen%20et%20al.%20-%202011%20-%20Screening%20of%20a%20Combinatorial%20Homing%20Peptide%20Librar/images/imageFile4.png",
+        "../../sources/papers_md/Svensen%20et%20al.%20-%202011%20-%20Screening%20of%20a%20Combinatorial%20Homing%20Peptide%20Librar/images/imageFile5.png"
+      ]
+    },
+    {
+      "year": 2011,
+      "title": "Decoding a PNA encoded peptide library by PCR: The discovery of new cell surface...",
+      "authors": "Svensen, N., Díaz-Mochón, J.J., Bradley, M.",
+      "summary_link": "outputs/summaries_papers/Summary_of_Decoding_a_PNA_encoded_peptide_library_by_PCR_The_discovery_.md",
+      "full_text_link": "sources/papers_md/Svensen%20et%20al.%20-%202011%20-%20Decoding%20a%20PNA%20Encoded%20Peptide%20Library%20by%20PCR%20The/Svensen%20et%20al.%20-%202011%20-%20Decoding%20a%20PNA%20Encoded%20Peptide%20Library%20by%20PCR%20The.md",
+      "doi": "",
+      "journal": "",
+      "preview": "- Authors: Svensen, N., Díaz-Mochón, J.J., Bradley, M. - Journal/Citation: Chemistry and Biology, 18, pp. 1284-1289, (2011) - Year: 2011 --- The ability to screen and identify new ligands for cell surface receptors has been a long-standing goal as it might allow targeting of pharmaceutically relevant receptors, such as integrins or G protein coupled receptors. Here, we present a method to amplify ",
+      "images": [
+        "images/imageFile1.png",
+        "images/imageFile2.png",
+        "images/imageFile3.png",
+        "images/imageFile4.png",
+        "../../sources/papers_md/Svensen%20et%20al.%20-%202011%20-%20Decoding%20a%20PNA%20Encoded%20Peptide%20Library%20by%20PCR%20The/images/imageFile1.png",
+        "../../sources/papers_md/Svensen%20et%20al.%20-%202011%20-%20Decoding%20a%20PNA%20Encoded%20Peptide%20Library%20by%20PCR%20The/images/imageFile2.png",
+        "../../sources/papers_md/Svensen%20et%20al.%20-%202011%20-%20Decoding%20a%20PNA%20Encoded%20Peptide%20Library%20by%20PCR%20The/images/imageFile3.png",
+        "../../sources/papers_md/Svensen%20et%20al.%20-%202011%20-%20Decoding%20a%20PNA%20Encoded%20Peptide%20Library%20by%20PCR%20The/images/imageFile4.png"
+      ]
+    },
+    {
+      "year": 2011,
+      "title": "Encoded peptide libraries and the discovery of new cell binding ligands",
+      "authors": "Svensen, N., Díaz-Mochón, J.J., Bradley, M.",
+      "summary_link": "outputs/summaries_papers/Summary_of_Decoding_a_PNA_encoded_peptide_library_by_PCR_The_discovery_.md",
+      "full_text_link": "sources/papers_md/Svensen%20et%20al.%20-%202011%20-%20Encoded%20peptide%20libraries%20and%20the%20discovery%20of%20new/Svensen%20et%20al.%20-%202011%20-%20Encoded%20peptide%20libraries%20and%20the%20discovery%20of%20new.md",
+      "doi": "",
+      "journal": "",
+      "preview": "- Authors: Svensen, N., Díaz-Mochón, J.J., Bradley, M. - Journal/Citation: Chemistry and Biology, 18, pp. 1284-1289, (2011) - Year: 2011 --- The ability to screen and identify new ligands for cell surface receptors has been a long-standing goal as it might allow targeting of pharmaceutically relevant receptors, such as integrins or G protein coupled receptors. Here, we present a method to amplify ",
+      "images": [
+        "images/imageFile1.png",
+        "images/imageFile2.png",
+        "images/imageFile3.png",
+        "images/imageFile4.png",
+        "../../sources/papers_md/Svensen%20et%20al.%20-%202011%20-%20Decoding%20a%20PNA%20Encoded%20Peptide%20Library%20by%20PCR%20The/images/imageFile1.png",
+        "../../sources/papers_md/Svensen%20et%20al.%20-%202011%20-%20Decoding%20a%20PNA%20Encoded%20Peptide%20Library%20by%20PCR%20The/images/imageFile2.png",
+        "../../sources/papers_md/Svensen%20et%20al.%20-%202011%20-%20Decoding%20a%20PNA%20Encoded%20Peptide%20Library%20by%20PCR%20The/images/imageFile3.png",
+        "../../sources/papers_md/Svensen%20et%20al.%20-%202011%20-%20Decoding%20a%20PNA%20Encoded%20Peptide%20Library%20by%20PCR%20The/images/imageFile4.png"
+      ]
+    },
+    {
+      "year": 2011,
+      "title": "Microarray generation of thousand-member oligonucleotide libraries",
+      "authors": "Svensen, N., Díaz-Mochón, J.J., Bradley, M.",
+      "summary_link": "outputs/summaries_papers/Summary_of_Microarray_generation_of_thousand_member_oligonucleotide_lib.md",
+      "full_text_link": "sources/papers_md/Svensen%20et%20al.%20-%202011%20-%20Microarray%20Generation%20of%20Thousand-Member%20Oligonucl/Svensen%20et%20al.%20-%202011%20-%20Microarray%20Generation%20of%20Thousand-Member%20Oligonucl.md",
+      "doi": "",
+      "journal": "",
+      "preview": "- Authors: Svensen, N., Díaz-Mochón, J.J., Bradley, M. - Journal/Citation: Plos One, 6, (2011) - Year: 2011 --- Nina Svensen, Juan Jose´ Dı´az-Mocho´n, Mark Bradley School of Chemistry, University of Edinburgh, Edinburgh, United Kingdom |Abstract<br <br The ability to efficiently and economically generate libraries of defined pieces of DNA would have a myriad of applications, not least in the area",
+      "images": [
+        "../../sources/papers_md/Svensen%20et%20al.%20-%202011%20-%20Microarray%20Generation%20of%20Thousand-Member%20Oligonucl/images/imageFile1.png",
+        "../../sources/papers_md/Svensen%20et%20al.%20-%202011%20-%20Microarray%20Generation%20of%20Thousand-Member%20Oligonucl/images/imageFile10.png",
+        "../../sources/papers_md/Svensen%20et%20al.%20-%202011%20-%20Microarray%20Generation%20of%20Thousand-Member%20Oligonucl/images/imageFile11.png",
+        "../../sources/papers_md/Svensen%20et%20al.%20-%202011%20-%20Microarray%20Generation%20of%20Thousand-Member%20Oligonucl/images/imageFile12.png",
+        "../../sources/papers_md/Svensen%20et%20al.%20-%202011%20-%20Microarray%20Generation%20of%20Thousand-Member%20Oligonucl/images/imageFile2.png"
+      ]
+    },
+    {
+      "year": 2010,
+      "title": "DNA Analysis by Dynamic Chemistry",
+      "authors": "BOWLER, FR, DIAZ-MOCHON, JJ, SWIFT, MD, BRADLEY, M",
+      "summary_link": "outputs/summaries_papers/Summary_of_DNA_Analysis_by_Dynamic_Chemistry.md",
+      "full_text_link": "sources/papers_md/BOWLER%20et%20al.%20-%202010%20-%20DNA%20Analysis%20by%20Dynamic%20Chemistry/BOWLER%20et%20al.%20-%202010%20-%20DNA%20Analysis%20by%20Dynamic%20Chemistry.md",
+      "doi": "",
+      "journal": "",
+      "preview": "- Authors: BOWLER, FR, DIAZ-MOCHON, JJ, SWIFT, MD, BRADLEY, M - Journal/Citation: ANGEWANDTE CHEMIE-INTERNATIONAL EDITION, 49, pp. 1809-1812, (2010) - Year: 2010 --- DNA Analysis DOI: 10.1002/anie.200905699 Frank R. Bowler, Juan J. Diaz-Mochon, Michael D. Swift, and Mark Bradley A single-nucleotide polymorphism (SNP) is a genetic variation for which two or more alternative alleles are present at a",
+      "images": [
+        "images/imageFile1.png",
+        "../../sources/papers_md/BOWLER%20et%20al.%20-%202010%20-%20DNA%20Analysis%20by%20Dynamic%20Chemistry/images/imageFile1.png",
+        "../../sources/papers_md/BOWLER%20et%20al.%20-%202010%20-%20DNA%20Analysis%20by%20Dynamic%20Chemistry/images/imageFile2.png",
+        "../../sources/papers_md/BOWLER%20et%20al.%20-%202010%20-%20DNA%20Analysis%20by%20Dynamic%20Chemistry/images/imageFile3.png",
+        "../../sources/papers_md/BOWLER%20et%20al.%20-%202010%20-%20DNA%20Analysis%20by%20Dynamic%20Chemistry/images/imageFile4.png",
+        "../../sources/papers_md/BOWLER%20et%20al.%20-%202010%20-%20DNA%20Analysis%20by%20Dynamic%20Chemistry/images/imageFile5.png"
+      ]
+    },
+    {
+      "year": 2009,
+      "title": "From 10,000 to 1: Selective synthesis and enzymatic evaluation of fluorescence r...",
+      "authors": "DIAZ-MOCHON, JJ, PLANONTH, S, BRADLEY, M",
+      "summary_link": "outputs/summaries_papers/Summary_of_From_10000_to_1_Selective_synthesis_and_enzymatic_evaluation.md",
+      "full_text_link": "sources/papers_md/DIAZ-MOCHON%20et%20al.%20-%202009%20-%20From%2010,000%20to%201%20Selective%20synthesis%20and%20enzymati/DIAZ-MOCHON%20et%20al.%20-%202009%20-%20From%2010,000%20to%201%20Selective%20synthesis%20and%20enzymati.md",
+      "doi": "",
+      "journal": "",
+      "preview": "- Authors: DIAZ-MOCHON, JJ, PLANONTH, S, BRADLEY, M - Journal/Citation: ANALYTICAL BIOCHEMISTRY, 384, pp. 101-105, (2009) - Year: 2009 --- Analytical Biochemistry 384 (2009) 101–105 !image 1 !image 2 Contents lists available at ScienceDirect journal homepage: www.elsevier.com/locate/yabio From 10,000 to 1: Selective synthesis and enzymatic evaluation of ﬂuorescence resonance energy transfer peptid",
+      "images": [
+        "images/imageFile1.png",
+        "images/imageFile2.png",
+        "../../sources/papers_md/DIAZ-MOCHON%20et%20al.%20-%202009%20-%20From%2010,000%20to%201%20Selective%20synthesis%20and%20enzymati/images/imageFile1.png",
+        "../../sources/papers_md/DIAZ-MOCHON%20et%20al.%20-%202009%20-%20From%2010,000%20to%201%20Selective%20synthesis%20and%20enzymati/images/imageFile2.png",
+        "../../sources/papers_md/DIAZ-MOCHON%20et%20al.%20-%202009%20-%20From%2010,000%20to%201%20Selective%20synthesis%20and%20enzymati/images/imageFile3.png",
+        "../../sources/papers_md/DIAZ-MOCHON%20et%20al.%20-%202009%20-%20From%2010,000%20to%201%20Selective%20synthesis%20and%20enzymati/images/imageFile4.png",
+        "../../sources/papers_md/DIAZ-MOCHON%20et%20al.%20-%202009%20-%20From%2010,000%20to%201%20Selective%20synthesis%20and%20enzymati/images/imageFile5.png"
+      ]
+    },
+    {
+      "year": 2009,
+      "title": "A cooperative polymer-DNA microarray approach to biomaterial investigation",
+      "authors": "PERNAGALLO, S, DIAZ-MOCHON, JJ, BRADLEY, M",
+      "summary_link": "outputs/summaries_papers/Summary_of_A_cooperative_polymer_DNA_microarray_approach_to_biomaterial.md",
+      "full_text_link": "sources/papers_md/PERNAGALLO%20et%20al.%20-%202009%20-%20A%20cooperative%20polymer-DNA%20microarray%20approach%20to%20b/PERNAGALLO%20et%20al.%20-%202009%20-%20A%20cooperative%20polymer-DNA%20microarray%20approach%20to%20b.md",
+      "doi": "",
+      "journal": "",
+      "preview": "- Authors: PERNAGALLO, S, DIAZ-MOCHON, JJ, BRADLEY, M - Journal/Citation: LAB ON A CHIP, 9, pp. 397-403, (2009) - Year: 2009 --- Published on 14 November 2008. Downloaded by New York University on 09/10/2014 11:16:11. View Article Online / Journal Homepage / Table of Contents for this issue PAPER www.rsc.org/loc | Lab on a Chip Salvatore Pernagallo, Juan Jose Diaz-Mochon and Mark Bradley Received ",
+      "images": [
+        "../../sources/papers_md/PERNAGALLO%20et%20al.%20-%202009%20-%20A%20cooperative%20polymer-DNA%20microarray%20approach%20to%20b/images/imageFile1.png",
+        "../../sources/papers_md/PERNAGALLO%20et%20al.%20-%202009%20-%20A%20cooperative%20polymer-DNA%20microarray%20approach%20to%20b/images/imageFile2.png",
+        "../../sources/papers_md/PERNAGALLO%20et%20al.%20-%202009%20-%20A%20cooperative%20polymer-DNA%20microarray%20approach%20to%20b/images/imageFile3.png",
+        "../../sources/papers_md/PERNAGALLO%20et%20al.%20-%202009%20-%20A%20cooperative%20polymer-DNA%20microarray%20approach%20to%20b/images/imageFile4.png",
+        "../../sources/papers_md/PERNAGALLO%20et%20al.%20-%202009%20-%20A%20cooperative%20polymer-DNA%20microarray%20approach%20to%20b/images/imageFile5.png"
+      ]
+    },
+    {
+      "year": 2009,
+      "title": "Fingerprinting Polymer Microarrays",
+      "authors": "TOURNIAIRE, G, DIAZ-MOCHON, JJ, BRADLEY, M",
+      "summary_link": "outputs/summaries_papers/Summary_of_Fingerprinting_Polymer_Microarrays.md",
+      "full_text_link": "sources/papers_md/TOURNIAIRE%20et%20al.%20-%202009%20-%20Fingerprinting%20Polymer%20Microarrays/TOURNIAIRE%20et%20al.%20-%202009%20-%20Fingerprinting%20Polymer%20Microarrays.md",
+      "doi": "",
+      "journal": "",
+      "preview": "- Authors: TOURNIAIRE, G, DIAZ-MOCHON, JJ, BRADLEY, M - Journal/Citation: COMBINATORIAL CHEMISTRY & HIGH THROUGHPUT SCREENING, 12, pp. 690-696, (2009) - Year: 2009 --- 690 Combinatorial Chemistry & High Throughput Screening, 2009, 12, 690-696 Guilhem Tourniaire, Juan J. Diaz-Mochon and Mark Bradley University of Edinburgh, School of Chemistry, West Mains Road, EH9 3JJ, UK Abstract: The incubation ",
+      "images": [
+        "../../sources/papers_md/TOURNIAIRE%20et%20al.%20-%202009%20-%20Fingerprinting%20Polymer%20Microarrays/images/imageFile1.png",
+        "../../sources/papers_md/TOURNIAIRE%20et%20al.%20-%202009%20-%20Fingerprinting%20Polymer%20Microarrays/images/imageFile2.png",
+        "../../sources/papers_md/TOURNIAIRE%20et%20al.%20-%202009%20-%20Fingerprinting%20Polymer%20Microarrays/images/imageFile3.png",
+        "../../sources/papers_md/TOURNIAIRE%20et%20al.%20-%202009%20-%20Fingerprinting%20Polymer%20Microarrays/images/imageFile4.png",
+        "../../sources/papers_md/TOURNIAIRE%20et%20al.%20-%202009%20-%20Fingerprinting%20Polymer%20Microarrays/images/imageFile5.png"
+      ]
+    },
+    {
+      "year": 2008,
+      "title": "Peptoid dendrimers-microwave-assisted solid-phase synthesis and transfection age...",
+      "authors": "DIAZ-MOCHON, JJ, FARA, MA, SANCHEZ-MARTIN, RM, et al.",
+      "summary_link": "outputs/summaries_papers/Summary_of_Peptoid_dendrimers_microwave_assisted_solid_phase_synthesis_.md",
+      "full_text_link": "sources/papers_md/DIAZ-MOCHON%20et%20al.%20-%202008%20-%20Peptoid%20dendrimers-microwave-assisted%20solid-phase/DIAZ-MOCHON%20et%20al.%20-%202008%20-%20Peptoid%20dendrimers-microwave-assisted%20solid-phase%20.md",
+      "doi": "",
+      "journal": "",
+      "preview": "- Authors: DIAZ-MOCHON, JJ, FARA, MA, SANCHEZ-MARTIN, RM, et al. - Journal/Citation: TETRAHEDRON LETTERS, 49, pp. 923-926, (2008) - Year: 2008 --- Three generations of peptoid-based dendrimers were synthesised by solid-phase methods, using N-Fmoc–N-(6-N0-Fmoc-aminohexyl)glycine as both the initiator core and the monomer unit, which oﬀer an unusual dendrimeric periphery composed of both secondary a",
+      "images": [
+        "../../sources/papers_md/DIAZ-MOCHON%20et%20al.%20-%202008%20-%20Peptoid%20dendrimers-microwave-assisted%20solid-phase/images/imageFile1.png",
+        "../../sources/papers_md/DIAZ-MOCHON%20et%20al.%20-%202008%20-%20Peptoid%20dendrimers-microwave-assisted%20solid-phase/images/imageFile2.png",
+        "../../sources/papers_md/DIAZ-MOCHON%20et%20al.%20-%202008%20-%20Peptoid%20dendrimers-microwave-assisted%20solid-phase/images/imageFile3.png",
+        "../../sources/papers_md/DIAZ-MOCHON%20et%20al.%20-%202008%20-%20Peptoid%20dendrimers-microwave-assisted%20solid-phase/images/imageFile4.png",
+        "../../sources/papers_md/DIAZ-MOCHON%20et%20al.%20-%202008%20-%20Peptoid%20dendrimers-microwave-assisted%20solid-phase/images/imageFile5.png"
+      ]
+    },
+    {
+      "year": 2008,
+      "title": "Screening for polymorphs on polymer microarrays",
+      "authors": "LIBERSKI, AR, TIZZARD, GJ, DIAZ-MOCHON, JJ, et al.",
+      "summary_link": "outputs/summaries_papers/Summary_of_Screening_for_polymorphs_on_polymer_microarrays.md",
+      "full_text_link": "sources/papers_md/LIBERSKI%20et%20al.%20-%202008%20-%20Screening%20for%20polymorphs%20on%20polymer%20microarrays/LIBERSKI%20et%20al.%20-%202008%20-%20Screening%20for%20polymorphs%20on%20polymer%20microarrays.md",
+      "doi": "",
+      "journal": "",
+      "preview": "- Authors: LIBERSKI, AR, TIZZARD, GJ, DIAZ-MOCHON, JJ, et al. - Journal/Citation: JOURNAL OF COMBINATORIAL CHEMISTRY, 10, pp. 24-27, (2008) - Year: 2008 --- See https://pubs.acs.org/sharingguidelines for options on how to legitimately share published articles. Downloaded via UNIV DE GRANADA on March 4, 2024 at 14:34:48 (UTC). Albert R. Liberski,† Graham J. Tizzard,‡ Juan J. Diaz-Mochon,† Michael B",
+      "images": [
+        "../../sources/papers_md/LIBERSKI%20et%20al.%20-%202008%20-%20Screening%20for%20polymorphs%20on%20polymer%20microarrays/images/imageFile1.png",
+        "../../sources/papers_md/LIBERSKI%20et%20al.%20-%202008%20-%20Screening%20for%20polymorphs%20on%20polymer%20microarrays/images/imageFile2.png",
+        "../../sources/papers_md/LIBERSKI%20et%20al.%20-%202008%20-%20Screening%20for%20polymorphs%20on%20polymer%20microarrays/images/imageFile3.png",
+        "../../sources/papers_md/LIBERSKI%20et%20al.%20-%202008%20-%20Screening%20for%20polymorphs%20on%20polymer%20microarrays/images/imageFile4.png",
+        "../../sources/papers_md/LIBERSKI%20et%20al.%20-%202008%20-%20Screening%20for%20polymorphs%20on%20polymer%20microarrays/images/imageFile5.png"
+      ]
+    },
+    {
+      "year": 2008,
+      "title": "Deciphering cellular morphology and biocompatibility using polymer microarrays",
+      "authors": "Pernagallo, S., Unciti-Broceta, A., Díaz-Mochón, J.J., Bradley, M.",
+      "summary_link": "outputs/summaries_papers/Summary_of_Deciphering_cellular_morphology_and_biocompatibility_using_p.md",
+      "full_text_link": "sources/papers_md/PERNAGALLO%20et%20al.%20-%202008%20-%20Deciphering%20cellular%20morphology%20and%20biocompatibili/PERNAGALLO%20et%20al.%20-%202008%20-%20Deciphering%20cellular%20morphology%20and%20biocompatibili.md",
+      "doi": "",
+      "journal": "",
+      "preview": "- Authors: Pernagallo, S., Unciti-Broceta, A., Díaz-Mochón, J.J., Bradley, M. - Journal/Citation: Biomedical Materials, 3, (2008) - Year: 2008 --- !image 1 Home Search Collections Journals About Contact us My IOPscience This content has been downloaded from IOPscience. Please scroll down to see the full text. 2008 Biomed. Mater. 3 034112 (http://iopscience.iop.org/1748-605X/3/3/034112) View the ta",
+      "images": [
+        "images/imageFile1.png",
+        "../../sources/papers_md/PERNAGALLO%20et%20al.%20-%202008%20-%20Deciphering%20cellular%20morphology%20and%20biocompatibili/images/imageFile1.png",
+        "../../sources/papers_md/PERNAGALLO%20et%20al.%20-%202008%20-%20Deciphering%20cellular%20morphology%20and%20biocompatibili/images/imageFile2.png",
+        "../../sources/papers_md/PERNAGALLO%20et%20al.%20-%202008%20-%20Deciphering%20cellular%20morphology%20and%20biocompatibili/images/imageFile3.png",
+        "../../sources/papers_md/PERNAGALLO%20et%20al.%20-%202008%20-%20Deciphering%20cellular%20morphology%20and%20biocompatibili/images/imageFile4.png",
+        "../../sources/papers_md/PERNAGALLO%20et%20al.%20-%202008%20-%20Deciphering%20cellular%20morphology%20and%20biocompatibili/images/imageFile5.png"
+      ]
+    },
+    {
+      "year": 2008,
+      "title": "Microwave-assisted orthogonal synthesis of PNA-peptide conjugates",
+      "authors": "Svensen, N., Díaz-Mochón, J.J., Bradley, M.",
+      "summary_link": "outputs/summaries_papers/Summary_of_Microwave_assisted_coupling_with_DICHOBt_for_the_synthesis_o.md",
+      "full_text_link": "sources/papers_md/SVENSEN%20et%20al.%20-%202008%20-%20Microwave-assisted%20orthogonal%20synthesis%20of%20PNA-pep/SVENSEN%20et%20al.%20-%202008%20-%20Microwave-assisted%20orthogonal%20synthesis%20of%20PNA-pep.md",
+      "doi": "",
+      "journal": "",
+      "preview": "- Authors: Fara, M.A., Díaz-Mochón, J.J., Bradley, M. - Journal/Citation: Tetrahedron Letters, 47, pp. 1011-1014, (2006) - Year: 2006 --- !image 1 !image 2 Tetrahedron Letters 47 (2006) 1011–1014 School of Chemistry, University of Edinburgh, West Mains Road, Edinburgh EH9 3JJ, United Kingdom Received 7 October 2005; revised 14 November 2005; accepted 24 November 2005 Available online 20 December 2",
+      "images": [
+        "images/imageFile1.png",
+        "images/imageFile2.png",
+        "../../sources/papers_md/FARA%20et%20al.%20-%202006%20-%20Microwave-assisted%20coupling%20with%20DICHOBt%20for%20the/images/imageFile1.png",
+        "../../sources/papers_md/FARA%20et%20al.%20-%202006%20-%20Microwave-assisted%20coupling%20with%20DICHOBt%20for%20the/images/imageFile2.png"
+      ]
+    },
+    {
+      "year": 2008,
+      "title": "Combining nebulization-mediated transfection and polymer microarrays for the rap...",
+      "authors": "Unciti-Broceta, A., Díaz-Mochón, J.J., Mizomoto, H., Bradley, M.",
+      "summary_link": "outputs/summaries_papers/Summary_of_Combining_nebulization_mediated_transfection_and_polymer_mic.md",
+      "full_text_link": "sources/papers_md/UNCITI-BROCETA%20et%20al.%20-%202008%20-%20Combining%20nebulization-mediated%20transfection%20and%20p/UNCITI-BROCETA%20et%20al.%20-%202008%20-%20Combining%20nebulization-mediated%20transfection%20and%20p.md",
+      "doi": "",
+      "journal": "",
+      "preview": "- Authors: Unciti-Broceta, A., Díaz-Mochón, J.J., Mizomoto, H., Bradley, M. - Journal/Citation: Journal of Combinatorial Chemistry, 10, pp. 179-184, (2008) - Year: 2008 --- See https://pubs.acs.org/sharingguidelines for options on how to legitimately share published articles. Downloaded via UNIV DE GRANADA on March 4, 2024 at 14:13:51 (UTC). Asier Unciti-Broceta, Juan J. Díaz-Mochón, Hitoshi Mizom",
+      "images": [
+        "../../sources/papers_md/UNCITI-BROCETA%20et%20al.%20-%202008%20-%20Combining%20nebulization-mediated%20transfection%20and%20p/images/imageFile1.png",
+        "../../sources/papers_md/UNCITI-BROCETA%20et%20al.%20-%202008%20-%20Combining%20nebulization-mediated%20transfection%20and%20p/images/imageFile2.png",
+        "../../sources/papers_md/UNCITI-BROCETA%20et%20al.%20-%202008%20-%20Combining%20nebulization-mediated%20transfection%20and%20p/images/imageFile3.png",
+        "../../sources/papers_md/UNCITI-BROCETA%20et%20al.%20-%202008%20-%20Combining%20nebulization-mediated%20transfection%20and%20p/images/imageFile4.png",
+        "../../sources/papers_md/UNCITI-BROCETA%20et%20al.%20-%202008%20-%20Combining%20nebulization-mediated%20transfection%20and%20p/images/imageFile5.png"
+      ]
+    },
+    {
+      "year": 2008,
+      "title": "Inkjet fabrication of hydrogel microarrays using in situ nanolitre-scale polymer...",
+      "authors": "Zhang, R., Liberski, A., Khan, F., Díaz-Mochón, J.J., Bradley, M.",
+      "summary_link": "outputs/summaries_papers/Summary_of_Inkjet_fabrication_of_hydrogel_microarrays_using_in_situ_nan.md",
+      "full_text_link": "sources/papers_md/Zhang%20et%20al.%20-%202008%20-%20Inkjet%20fabrication%20of%20hydrogel%20microarrays%20using%20i/Zhang%20et%20al.%20-%202008%20-%20Inkjet%20fabrication%20of%20hydrogel%20microarrays%20using%20i.md",
+      "doi": "",
+      "journal": "",
+      "preview": "- Authors: Zhang, R., Liberski, A., Khan, F., Díaz-Mochón, J.J., Bradley, M. - Journal/Citation: Chemical Communications, pp. 1317-1319, (2008) - Year: 2008 --- Published on 11 January 2008. Downloaded by Universidad de Granada on 3/3/2024 7:27:46 PM. View Article Online / Journal Homepage / Table of Contents for this issue COMMUNICATION www.rsc.org/chemcomm | ChemComm Rong Zhang, Albert Liberski,",
+      "images": [
+        "../../sources/papers_md/Zhang%20et%20al.%20-%202008%20-%20Inkjet%20fabrication%20of%20hydrogel%20microarrays%20using%20i/images/imageFile1.png",
+        "../../sources/papers_md/Zhang%20et%20al.%20-%202008%20-%20Inkjet%20fabrication%20of%20hydrogel%20microarrays%20using%20i/images/imageFile2.png",
+        "../../sources/papers_md/Zhang%20et%20al.%20-%202008%20-%20Inkjet%20fabrication%20of%20hydrogel%20microarrays%20using%20i/images/imageFile3.png",
+        "../../sources/papers_md/Zhang%20et%20al.%20-%202008%20-%20Inkjet%20fabrication%20of%20hydrogel%20microarrays%20using%20i/images/imageFile4.png",
+        "../../sources/papers_md/Zhang%20et%20al.%20-%202008%20-%20Inkjet%20fabrication%20of%20hydrogel%20microarrays%20using%20i/images/imageFile5.png"
+      ]
+    },
+    {
+      "year": 2007,
+      "title": "Design, syntheses, biological evaluation, and docking studies of 2-substituted 5...",
+      "authors": "Cruz-López, O., Díaz-Mochón, J.J., Campos, J.M., Entrena, A., Gallo, M.A., Espinosa, A., Núñez, M.T., Labeaga, L., Orjales, A.",
+      "summary_link": "outputs/summaries_papers/Summary_of_Design_syntheses_biological_evaluation_and_docking_studies_o.md",
+      "full_text_link": "sources/papers_md/Cruz-Lopez%20et%20al.%20-%202007%20-%20Design,%20syntheses,%20biological%20evaluation,%20and%20dock/Cruz-Lopez%20et%20al.%20-%202007%20-%20Design,%20syntheses,%20biological%20evaluation,%20and%20dock.md",
+      "doi": "",
+      "journal": "",
+      "preview": "- Authors: Cruz-López, O., Díaz-Mochón, J.J., Campos, J.M., Entrena, A., Gallo, M.A., Espinosa, A., Núñez, M.T., Labeaga, L., Orjales, A. - Journal/Citation: Chemmedchem, 2, pp. 88-100, (2007) - Year: 2007 --- DOI: 10.1002/cmdc.200600179 Olga Cruz-L pez,[a] Juan Jos D az-Moch n,[a] Joaqu n M. Campos,[a] Antonio Entrena,[a] Mar a T. NﬄÇez,[b] Luis Labeaga,[b] Aurelio Orjales,[b] Miguel A. Gallo,[a]",
+      "images": [
+        "../../sources/papers_md/Cruz-Lopez%20et%20al.%20-%202007%20-%20Design,%20syntheses,%20biological%20evaluation,%20and%20dock/images/imageFile1.png",
+        "../../sources/papers_md/Cruz-Lopez%20et%20al.%20-%202007%20-%20Design,%20syntheses,%20biological%20evaluation,%20and%20dock/images/imageFile10.png",
+        "../../sources/papers_md/Cruz-Lopez%20et%20al.%20-%202007%20-%20Design,%20syntheses,%20biological%20evaluation,%20and%20dock/images/imageFile11.png",
+        "../../sources/papers_md/Cruz-Lopez%20et%20al.%20-%202007%20-%20Design,%20syntheses,%20biological%20evaluation,%20and%20dock/images/imageFile12.png",
+        "../../sources/papers_md/Cruz-Lopez%20et%20al.%20-%202007%20-%20Design,%20syntheses,%20biological%20evaluation,%20and%20dock/images/imageFile13.png"
+      ]
+    },
+    {
+      "year": 2007,
+      "title": "Microarray Platforms for Enzymatic and Cell‐Based Assays",
+      "authors": "Diaz‐Mochon, Juan J., Tourniaire, Guilhem, Bradley, Mark",
+      "summary_link": "outputs/summaries_papers/Summary_of_Microarray_Platforms_for_Enzymatic_and_CellBased_Assays.md",
+      "full_text_link": "sources/papers_md/Diaz-Mochon%20et%20al.%20-%202007%20-%20Microarray%20Platforms%20for%20Enzymatic%20and%20Cell-Based/Diaz-Mochon%20et%20al.%20-%202007%20-%20Microarray%20Platforms%20for%20Enzymatic%20and%20Cell-Based%20.md",
+      "doi": "",
+      "journal": "",
+      "preview": "- Authors: Diaz‐Mochon, Juan J., Tourniaire, Guilhem, Bradley, Mark - Journal/Citation: ChemInform, 38, (2007) - Year: 2007 - DOI: https://doi.org/10.1002/chin.200720278 --- Published on 16 October 2006. Downloaded by University of North Carolina at Charlotte on 19/07/2013 12:07:58. View Article Online / Journal Homepage / Table of Contents for this issue TUTORIAL REVIEW www.rsc.org/csr | Chemical",
+      "images": [
+        "../../sources/papers_md/Diaz-Mochon%20et%20al.%20-%202007%20-%20Microarray%20Platforms%20for%20Enzymatic%20and%20Cell-Based/images/imageFile1.png",
+        "../../sources/papers_md/Diaz-Mochon%20et%20al.%20-%202007%20-%20Microarray%20Platforms%20for%20Enzymatic%20and%20Cell-Based/images/imageFile10.png",
+        "../../sources/papers_md/Diaz-Mochon%20et%20al.%20-%202007%20-%20Microarray%20Platforms%20for%20Enzymatic%20and%20Cell-Based/images/imageFile2.png",
+        "../../sources/papers_md/Diaz-Mochon%20et%20al.%20-%202007%20-%20Microarray%20Platforms%20for%20Enzymatic%20and%20Cell-Based/images/imageFile3.png",
+        "../../sources/papers_md/Diaz-Mochon%20et%20al.%20-%202007%20-%20Microarray%20Platforms%20for%20Enzymatic%20and%20Cell-Based/images/imageFile4.png"
+      ]
+    },
+    {
+      "year": 2007,
+      "title": "Flexible fabrication of microarrays of microwells",
+      "authors": "Khan, F., Zhang, R., Unciti-Broceta, A., Díaz-Mochón, J.J., Bradley, M.",
+      "summary_link": "outputs/summaries_papers/Summary_of_Flexible_fabrication_of_microarrays_of_microwells.md",
+      "full_text_link": "sources/papers_md/KHAN%20et%20al.%20-%202007%20-%20Flexible%20fabrication%20of%20microarrays%20of%20microwells/KHAN%20et%20al.%20-%202007%20-%20Flexible%20fabrication%20of%20microarrays%20of%20microwells.md",
+      "doi": "",
+      "journal": "",
+      "preview": "- Authors: Khan, F., Zhang, R., Unciti-Broceta, A., Díaz-Mochón, J.J., Bradley, M. - Journal/Citation: Advanced Materials, 19, pp. 3524-3528, (2007) - Year: 2007 --- DOI: 10.1002/adma.200700818 By Ferdous Khan, Rong Zhang, Asier Unciti-Broceta, Juan J. Díaz-Mochón, and Mark Bradley wells, each of which is individually addressable by the printer. The general approach is shown in Scheme 1 in which a",
+      "images": [
+        "../../sources/papers_md/KHAN%20et%20al.%20-%202007%20-%20Flexible%20fabrication%20of%20microarrays%20of%20microwells/images/imageFile1.png",
+        "../../sources/papers_md/KHAN%20et%20al.%20-%202007%20-%20Flexible%20fabrication%20of%20microarrays%20of%20microwells/images/imageFile10.png",
+        "../../sources/papers_md/KHAN%20et%20al.%20-%202007%20-%20Flexible%20fabrication%20of%20microarrays%20of%20microwells/images/imageFile11.png",
+        "../../sources/papers_md/KHAN%20et%20al.%20-%202007%20-%20Flexible%20fabrication%20of%20microarrays%20of%20microwells/images/imageFile12.png",
+        "../../sources/papers_md/KHAN%20et%20al.%20-%202007%20-%20Flexible%20fabrication%20of%20microarrays%20of%20microwells/images/imageFile13.png"
+      ]
+    },
+    {
+      "year": 2007,
+      "title": "A 10,000 member PNA-encoded peptide library for profiling tyrosine kinases",
+      "authors": "Pouchain, D., Díaz-Mochón, J.J., Bialy, L., Bradley, M.",
+      "summary_link": "outputs/summaries_papers/Summary_of_Decoding_a_PNA_encoded_peptide_library_by_PCR_The_discovery_.md",
+      "full_text_link": "sources/papers_md/POUCHAIN%20et%20al.%20-%202007%20-%20A%2010,000%20member%20PNA-encoded%20peptide%20library%20for%20pr/POUCHAIN%20et%20al.%20-%202007%20-%20A%2010,000%20member%20PNA-encoded%20peptide%20library%20for%20pr.md",
+      "doi": "",
+      "journal": "",
+      "preview": "- Authors: Svensen, N., Díaz-Mochón, J.J., Bradley, M. - Journal/Citation: Chemistry and Biology, 18, pp. 1284-1289, (2011) - Year: 2011 --- The ability to screen and identify new ligands for cell surface receptors has been a long-standing goal as it might allow targeting of pharmaceutically relevant receptors, such as integrins or G protein coupled receptors. Here, we present a method to amplify ",
+      "images": [
+        "images/imageFile1.png",
+        "images/imageFile2.png",
+        "images/imageFile3.png",
+        "images/imageFile4.png",
+        "../../sources/papers_md/Svensen%20et%20al.%20-%202011%20-%20Decoding%20a%20PNA%20Encoded%20Peptide%20Library%20by%20PCR%20The/images/imageFile1.png",
+        "../../sources/papers_md/Svensen%20et%20al.%20-%202011%20-%20Decoding%20a%20PNA%20Encoded%20Peptide%20Library%20by%20PCR%20The/images/imageFile2.png",
+        "../../sources/papers_md/Svensen%20et%20al.%20-%202011%20-%20Decoding%20a%20PNA%20Encoded%20Peptide%20Library%20by%20PCR%20The/images/imageFile3.png",
+        "../../sources/papers_md/Svensen%20et%20al.%20-%202011%20-%20Decoding%20a%20PNA%20Encoded%20Peptide%20Library%20by%20PCR%20The/images/imageFile4.png"
+      ]
+    },
+    {
+      "year": 2006,
+      "title": "Dual colour, microarray-based, analysis of 10 000 protease substrates",
+      "authors": "Díaz-Mochón, J.J., Bialy, L., Bradley, M.",
+      "summary_link": "outputs/summaries_papers/Summary_of_Dual_colour_microarray_based_analysis_of_10_000_protease_sub.md",
+      "full_text_link": "sources/papers_md/DIAZ-MOCHON%20et%20al.%20-%202006%20-%20Dual%20colour,%20microarray-based,%20analysis%20of%2010%20000/DIAZ-MOCHON%20et%20al.%20-%202006%20-%20Dual%20colour,%20microarray-based,%20analysis%20of%2010%20000%20.md",
+      "doi": "",
+      "journal": "",
+      "preview": "- Authors: Díaz-Mochón, J.J., Bialy, L., Bradley, M. - Journal/Citation: Chemical Communications, pp. 3984-3986, (2006) - Year: 2006 --- Published on 08 September 2006. Downloaded by University of Hong Kong Libraries on 22/10/2014 03:48:22. View Article Online / Journal Homepage / Table of Contents for this issue COMMUNICATION www.rsc.org/chemcomm | ChemComm Juan J. Dı´az-Mocho´n, Laurent Bialy an",
+      "images": [
+        "../../sources/papers_md/DIAZ-MOCHON%20et%20al.%20-%202006%20-%20Dual%20colour,%20microarray-based,%20analysis%20of%2010%20000/images/imageFile1.png",
+        "../../sources/papers_md/DIAZ-MOCHON%20et%20al.%20-%202006%20-%20Dual%20colour,%20microarray-based,%20analysis%20of%2010%20000/images/imageFile2.png",
+        "../../sources/papers_md/DIAZ-MOCHON%20et%20al.%20-%202006%20-%20Dual%20colour,%20microarray-based,%20analysis%20of%2010%20000/images/imageFile3.png",
+        "../../sources/papers_md/DIAZ-MOCHON%20et%20al.%20-%202006%20-%20Dual%20colour,%20microarray-based,%20analysis%20of%2010%20000/images/imageFile4.png"
+      ]
+    },
+    {
+      "year": 2006,
+      "title": "Microwave-assisted coupling with DIC/HOBt for the synthesis of difficult peptoid...",
+      "authors": "Fara, M.A., Díaz-Mochón, J.J., Bradley, M.",
+      "summary_link": "outputs/summaries_papers/Summary_of_Microwave_assisted_coupling_with_DICHOBt_for_the_synthesis_o.md",
+      "full_text_link": "sources/papers_md/FARA%20et%20al.%20-%202006%20-%20Microwave-assisted%20coupling%20with%20DICHOBt%20for%20the/FARA%20et%20al.%20-%202006%20-%20Microwave-assisted%20coupling%20with%20DICHOBt%20for%20the%20.md",
+      "doi": "",
+      "journal": "",
+      "preview": "- Authors: Fara, M.A., Díaz-Mochón, J.J., Bradley, M. - Journal/Citation: Tetrahedron Letters, 47, pp. 1011-1014, (2006) - Year: 2006 --- !image 1 !image 2 Tetrahedron Letters 47 (2006) 1011–1014 School of Chemistry, University of Edinburgh, West Mains Road, Edinburgh EH9 3JJ, United Kingdom Received 7 October 2005; revised 14 November 2005; accepted 24 November 2005 Available online 20 December 2",
+      "images": [
+        "images/imageFile1.png",
+        "images/imageFile2.png",
+        "../../sources/papers_md/FARA%20et%20al.%20-%202006%20-%20Microwave-assisted%20coupling%20with%20DICHOBt%20for%20the/images/imageFile1.png",
+        "../../sources/papers_md/FARA%20et%20al.%20-%202006%20-%20Microwave-assisted%20coupling%20with%20DICHOBt%20for%20the/images/imageFile2.png"
+      ]
+    },
+    {
+      "year": 2006,
+      "title": "Polymer microarrays: Identification of substrates for phagocytosis assays",
+      "authors": "MANT, A, TOURNIAIRE, G, DIAZ-MOCHON, JJ, et al.",
+      "summary_link": "outputs/summaries_papers/Summary_of_Polymer_microarrays_Identification_of_substrates_for_phagocy.md",
+      "full_text_link": "sources/papers_md/MANT%20et%20al.%20-%202006%20-%20Polymer%20microarrays%20Identification%20of%20substrates/MANT%20et%20al.%20-%202006%20-%20Polymer%20microarrays%20Identification%20of%20substrates%20.md",
+      "doi": "",
+      "journal": "",
+      "preview": "- Authors: MANT, A, TOURNIAIRE, G, DIAZ-MOCHON, JJ, et al. - Journal/Citation: BIOMATERIALS, 27, pp. 5299-5306, (2006) - Year: 2006 --- A polymer microarray of 120 polyurethanes was used to identify polymers that promoted the adhesion of bone marrow dendritic cells (BMDC). Identiﬁed polymers were coated onto glass cover slips and shown to be efﬁcient substrates for the immobilisation of these prim",
+      "images": [
+        "images/imageFile4.png",
+        "images/imageFile5.png",
+        "images/imageFile6.png",
+        "images/imageFile7.png",
+        "images/imageFile8.png",
+        "../../sources/papers_md/MANT%20et%20al.%20-%202006%20-%20Polymer%20microarrays%20Identification%20of%20substrates/images/imageFile1.png",
+        "../../sources/papers_md/MANT%20et%20al.%20-%202006%20-%20Polymer%20microarrays%20Identification%20of%20substrates/images/imageFile2.png",
+        "../../sources/papers_md/MANT%20et%20al.%20-%202006%20-%20Polymer%20microarrays%20Identification%20of%20substrates/images/imageFile3.png",
+        "../../sources/papers_md/MANT%20et%20al.%20-%202006%20-%20Polymer%20microarrays%20Identification%20of%20substrates/images/imageFile4.png",
+        "../../sources/papers_md/MANT%20et%20al.%20-%202006%20-%20Polymer%20microarrays%20Identification%20of%20substrates/images/imageFile5.png"
+      ]
+    },
+    {
+      "year": 2005,
+      "title": "Dde-protected PNA monomers, orthogonal to Fmoc, for the synthesis of PNA-peptide...",
+      "authors": "Bialy, L., Díaz-Mochón, J.J., Specker, E., Keinicke, L., Bradley, M.",
+      "summary_link": "outputs/summaries_papers/Summary_of_Dde_protected_PNA_monomers_orthogonal_to_Fmoc_for_the_synthe.md",
+      "full_text_link": "sources/papers_md/BIALY%20et%20al.%20-%202005%20-%20Dde-protected%20PNA%20monomers,%20orthogonal%20to%20Fmoc,%20fo/BIALY%20et%20al.%20-%202005%20-%20Dde-protected%20PNA%20monomers,%20orthogonal%20to%20Fmoc,%20fo.md",
+      "doi": "",
+      "journal": "",
+      "preview": "- Authors: Bialy, L., Díaz-Mochón, J.J., Specker, E., Keinicke, L., Bradley, M. - Journal/Citation: Tetrahedron, 61, pp. 8295-8305, (2005) - Year: 2005 --- !image 1 !image 2 Tetrahedron 61 (2005) 8295–8305 !image 3 Laurent Bialy, Juan Jose´ Dı´az-Mocho´n, Edgar Specker, Lise Keinicke and Mark Bradley School of Chemistry, University of Edinburgh, West Mains Road, Edinburgh EH9 3JJ, UK Received 1 Ap",
+      "images": [
+        "images/imageFile1.png",
+        "images/imageFile2.png",
+        "images/imageFile3.png",
+        "../../sources/papers_md/BIALY%20et%20al.%20-%202005%20-%20Dde-protected%20PNA%20monomers,%20orthogonal%20to%20Fmoc,%20fo/images/imageFile1.png",
+        "../../sources/papers_md/BIALY%20et%20al.%20-%202005%20-%20Dde-protected%20PNA%20monomers,%20orthogonal%20to%20Fmoc,%20fo/images/imageFile2.png",
+        "../../sources/papers_md/BIALY%20et%20al.%20-%202005%20-%20Dde-protected%20PNA%20monomers,%20orthogonal%20to%20Fmoc,%20fo/images/imageFile3.png"
+      ]
+    },
+    {
+      "year": 2005,
+      "title": "Combinatorial libraries - From solution to 2D microarrays",
+      "authors": "Díaz-Mochón, J.J., Bialy, L., Keinicke, L., Bradley, M.",
+      "summary_link": "outputs/summaries_papers/Summary_of_Combinatorial_libraries_From_solution_to_2D_microarrays.md",
+      "full_text_link": "sources/papers_md/DIAZ-MOCHON%20et%20al.%20-%202005%20-%20Combinatorial%20libraries%20-%20from%20solution%20to%202D%20micr/DIAZ-MOCHON%20et%20al.%20-%202005%20-%20Combinatorial%20libraries%20-%20from%20solution%20to%202D%20micr.md",
+      "doi": "",
+      "journal": "",
+      "preview": "- Authors: Díaz-Mochón, J.J., Bialy, L., Keinicke, L., Bradley, M. - Journal/Citation: Chemical Communications, pp. 1384-1386, (2005) - Year: 2005 --- Published on 17 January 2005. Downloaded by Universidad de Oviedo on 27/10/2014 13:48:25. View Article Online / Journal Homepage / Table of Contents for this issue COMMUNICATION www.rsc.org/chemcomm | ChemComm Juan Jose´ Dı´az-Mocho´n, Laurent Bialy",
+      "images": [
+        "../../sources/papers_md/DIAZ-MOCHON%20et%20al.%20-%202005%20-%20Combinatorial%20libraries%20-%20from%20solution%20to%202D%20micr/images/imageFile1.png",
+        "../../sources/papers_md/DIAZ-MOCHON%20et%20al.%20-%202005%20-%20Combinatorial%20libraries%20-%20from%20solution%20to%202D%20micr/images/imageFile2.png"
+      ]
+    },
+    {
+      "year": 2005,
+      "title": "Synthesis and cellular uptake of cell delivering PNA-peptide conjugates",
+      "authors": "Díaz-Mochón, J.J., Bialy, L., Watson, J., Sánchez-Martín, R.M., Bradley, M.",
+      "summary_link": "outputs/summaries_papers/Summary_of_Synthesis_and_cellular_uptake_of_cell_delivering_PNA_peptide.md",
+      "full_text_link": "sources/papers_md/DIAZ-MOCHON%20et%20al.%20-%202005%20-%20Synthesis%20and%20cellular%20uptake%20of%20cell%20delivering%20P/DIAZ-MOCHON%20et%20al.%20-%202005%20-%20Synthesis%20and%20cellular%20uptake%20of%20cell%20delivering%20P.md",
+      "doi": "",
+      "journal": "",
+      "preview": "- Authors: Díaz-Mochón, J.J., Bialy, L., Watson, J., Sánchez-Martín, R.M., Bradley, M. - Journal/Citation: Chemical Communications, pp. 3316-3318, (2005) - Year: 2005 --- Published on 01 June 2005. Downloaded by University of Illinois at Chicago on 23/10/2014 19:53:18. View Article Online / Journal Homepage / Table of Contents for this issue COMMUNICATION www.rsc.org/chemcomm | ChemComm Juan J. Dı",
+      "images": [
+        "../../sources/papers_md/DIAZ-MOCHON%20et%20al.%20-%202005%20-%20Synthesis%20and%20cellular%20uptake%20of%20cell%20delivering%20P/images/imageFile1.png",
+        "../../sources/papers_md/DIAZ-MOCHON%20et%20al.%20-%202005%20-%20Synthesis%20and%20cellular%20uptake%20of%20cell%20delivering%20P/images/imageFile2.png",
+        "../../sources/papers_md/DIAZ-MOCHON%20et%20al.%20-%202005%20-%20Synthesis%20and%20cellular%20uptake%20of%20cell%20delivering%20P/images/imageFile3.png",
+        "../../sources/papers_md/DIAZ-MOCHON%20et%20al.%20-%202005%20-%20Synthesis%20and%20cellular%20uptake%20of%20cell%20delivering%20P/images/imageFile4.png"
+      ]
+    },
+    {
+      "year": 2005,
+      "title": "Regioselective one-pot synthesis of 9-alkyl-6-chloropyrido[3,2-e][1,2,4] triazol...",
+      "authors": "Unciti-Broceta, A., Pineda-de-las-Infantas, M.J., Díaz-Mochón, J.J., Gallo, M.A., Espinosa, A., Romagnoli, R., Baraldi, P.G.",
+      "summary_link": "outputs/summaries_papers/Summary_of_Regioselective_one_pot_synthesis_of_9_alkyl_6_chloropyrido32.md",
+      "full_text_link": "sources/papers_md/UNCITI-BROCETA%20et%20al.%20-%202005%20-%20Regioselective%20one-pot%20synthesis%20of%209-alkyl-6-chlo/Unciti-Broceta%20et%20al.%20-%202005%20-%20Regioselective%20One-Pot%20Synthesis%20of%209-Alkyl-6-chlo.md",
+      "doi": "",
+      "journal": "",
+      "preview": "- Authors: Unciti-Broceta, A., Pineda-de-las-Infantas, M.J., Díaz-Mochón, J.J., Gallo, M.A., Espinosa, A., Romagnoli, R., Baraldi, P.G. - Journal/Citation: Journal of Organic Chemistry, 70, pp. 2878-2880, (2005) - Year: 2005 --- See https://pubs.acs.org/sharingguidelines for options on how to legitimately share published articles. Downloaded via UNIV DE GRANADA on March 4, 2024 at 14:52:03 (UTC). ",
+      "images": [
+        "images/imageFile1.png",
+        "../../sources/papers_md/UNCITI-BROCETA%20et%20al.%20-%202005%20-%20Regioselective%20one-pot%20synthesis%20of%209-alkyl-6-chlo/images/imageFile1.png",
+        "../../sources/papers_md/UNCITI-BROCETA%20et%20al.%20-%202005%20-%20Regioselective%20one-pot%20synthesis%20of%209-alkyl-6-chlo/images/imageFile2.png",
+        "../../sources/papers_md/UNCITI-BROCETA%20et%20al.%20-%202005%20-%20Regioselective%20one-pot%20synthesis%20of%209-alkyl-6-chlo/images/imageFile3.png",
+        "../../sources/papers_md/UNCITI-BROCETA%20et%20al.%20-%202005%20-%20Regioselective%20one-pot%20synthesis%20of%209-alkyl-6-chlo/images/imageFile4.png",
+        "../../sources/papers_md/UNCITI-BROCETA%20et%20al.%20-%202005%20-%20Regioselective%20one-pot%20synthesis%20of%209-alkyl-6-chlo/images/imageFile5.png"
+      ]
+    },
+    {
+      "year": 2004,
+      "title": "Full orthogonality between Dde and Fmoc: The direct synthesis of PNA-peptide con...",
+      "authors": "Díaz-Mochón, J.J., Bialy, L., Bradley, M.",
+      "summary_link": "outputs/summaries_papers/Summary_of_Full_orthogonality_between_Dde_and_Fmoc_The_direct_synthesis.md",
+      "full_text_link": "sources/papers_md/DIAZ-MOCHON%20et%20al.%20-%202004%20-%20Full%20orthogonality%20between%20Dde%20and%20Fmoc%20The%20direc/DIAZ-MOCHON%20et%20al.%20-%202004%20-%20Full%20orthogonality%20between%20Dde%20and%20Fmoc%20The%20direc.md",
+      "doi": "",
+      "journal": "",
+      "preview": "- Authors: Díaz-Mochón, J.J., Bialy, L., Bradley, M. - Journal/Citation: Organic Letters, 6, pp. 1127-1129, (2004) - Year: 2004 --- See https://pubs.acs.org/sharingguidelines for options on how to legitimately share published articles. Downloaded via UNIV DE GRANADA on March 4, 2024 at 15:02:01 (UTC). School of Chemistry, UniVersity of Southampton, Highfield, Southampton SO17 1BJ, United Kingdom m",
+      "images": [
+        "images/imageFile1.png",
+        "../../sources/papers_md/DIAZ-MOCHON%20et%20al.%20-%202004%20-%20Full%20orthogonality%20between%20Dde%20and%20Fmoc%20The%20direc/images/imageFile1.png",
+        "../../sources/papers_md/DIAZ-MOCHON%20et%20al.%20-%202004%20-%20Full%20orthogonality%20between%20Dde%20and%20Fmoc%20The%20direc/images/imageFile2.png",
+        "../../sources/papers_md/DIAZ-MOCHON%20et%20al.%20-%202004%20-%20Full%20orthogonality%20between%20Dde%20and%20Fmoc%20The%20direc/images/imageFile3.png",
+        "../../sources/papers_md/DIAZ-MOCHON%20et%20al.%20-%202004%20-%20Full%20orthogonality%20between%20Dde%20and%20Fmoc%20The%20direc/images/imageFile4.png",
+        "../../sources/papers_md/DIAZ-MOCHON%20et%20al.%20-%202004%20-%20Full%20orthogonality%20between%20Dde%20and%20Fmoc%20The%20direc/images/imageFile5.png"
+      ]
+    },
+    {
+      "year": 2004,
+      "title": "Polyplexes and lipoplexes for mammalian gene delivery: From traditional to micro...",
+      "authors": "How, S.E., Fara, M.A., Díaz-Mochón, J.J., Mittoo, S., Bradley, M., Yingyongnarongkul, B.",
+      "summary_link": "outputs/summaries_papers/Summary_of_Polyplexes_and_lipoplexes_for_mammalian_gene_delivery_From_t.md",
+      "full_text_link": "sources/papers_md/HOW%20et%20al.%20-%202004%20-%20Polyplexes%20and%20lipoplexes%20for%20mammalian%20gene%20deliv/HOW%20et%20al.%20-%202004%20-%20Polyplexes%20and%20lipoplexes%20for%20mammalian%20gene%20deliv.md",
+      "doi": "",
+      "journal": "",
+      "preview": "- Authors: How, S.E., Fara, M.A., Díaz-Mochón, J.J., Mittoo, S., Bradley, M., Yingyongnarongkul, B. - Journal/Citation: Combinatorial Chemistry and High Throughput Screening, 7, pp. 423-430, (2004) - Year: 2004 --- Combinatorial Chemistry & High Throughput Screening, 2004, 7, 423-4430 423 Department of Chemistry, University of Southampton, Southampton, Hampshire SO171BJ, UK †Department of Chemistr",
+      "images": [
+        "../../sources/papers_md/HOW%20et%20al.%20-%202004%20-%20Polyplexes%20and%20lipoplexes%20for%20mammalian%20gene%20deliv/images/imageFile1.png",
+        "../../sources/papers_md/HOW%20et%20al.%20-%202004%20-%20Polyplexes%20and%20lipoplexes%20for%20mammalian%20gene%20deliv/images/imageFile2.png",
+        "../../sources/papers_md/HOW%20et%20al.%20-%202004%20-%20Polyplexes%20and%20lipoplexes%20for%20mammalian%20gene%20deliv/images/imageFile3.png"
+      ]
+    },
+    {
+      "year": 2004,
+      "title": "Dendrimers and combinatorial chemistry - Tools for fluorescent enhancement in pr...",
+      "authors": "Ternon, M., José Díaz-Mochón, J., Belsom, A., Bradley, M.",
+      "summary_link": "outputs/summaries_papers/Summary_of_Dendrimers_and_combinatorial_chemistry_Tools_for_fluorescent.md",
+      "full_text_link": "sources/papers_md/TERNON%20et%20al.%20-%202004%20-%20Dendrimers%20and%20combinatorial%20chemistry%20-%20tools%20for/TERNON%20et%20al.%20-%202004%20-%20Dendrimers%20and%20combinatorial%20chemistry%20-%20tools%20for.md",
+      "doi": "",
+      "journal": "",
+      "preview": "- Authors: Ternon, M., José Díaz-Mochón, J., Belsom, A., Bradley, M. - Journal/Citation: Tetrahedron, 60, pp. 8721-8728, (2004) - Year: 2004 --- !image 1 !image 2 Tetrahedron 60 (2004) 8721–8728 !image 3 Michae¨l Ternon, Juan Jose´ Dı´az-Mocho´n, Adam Belsom and Mark Bradley School of Chemistry, University of Southampton, Highﬁeld, Southampton SO17 1BJ, UK Received 19 November 2003; accepted 4 May",
+      "images": [
+        "images/imageFile1.png",
+        "images/imageFile2.png",
+        "images/imageFile3.png",
+        "../../sources/papers_md/TERNON%20et%20al.%20-%202004%20-%20Dendrimers%20and%20combinatorial%20chemistry%20-%20tools%20for/images/imageFile1.png",
+        "../../sources/papers_md/TERNON%20et%20al.%20-%202004%20-%20Dendrimers%20and%20combinatorial%20chemistry%20-%20tools%20for/images/imageFile2.png",
+        "../../sources/papers_md/TERNON%20et%20al.%20-%202004%20-%20Dendrimers%20and%20combinatorial%20chemistry%20-%20tools%20for/images/imageFile3.png",
+        "../../sources/papers_md/TERNON%20et%20al.%20-%202004%20-%20Dendrimers%20and%20combinatorial%20chemistry%20-%20tools%20for/images/imageFile4.png",
+        "../../sources/papers_md/TERNON%20et%20al.%20-%202004%20-%20Dendrimers%20and%20combinatorial%20chemistry%20-%20tools%20for/images/imageFile5.png"
+      ]
+    },
+    {
+      "year": 2003,
+      "title": "Anticancer bisquaternary heterocyclic compounds: A ras-ional design",
+      "authors": "Campos, Joaquin, Nunez, Carmen, Diaz, Juan J., Sanchez, Rosario M., Gallo, Miguel A., Espinosa, Antonio",
+      "summary_link": "outputs/summaries_papers/Summary_of_Anticancer_bisquaternary_heterocyclic_compounds_A_ras_ional_.md",
+      "full_text_link": "sources/papers_md/Campos%20et%20al.%20-%202003%20-%20Anticancer%20bisquaternary%20heterocyclic%20compounds%20A/Campos%20et%20al.%20-%202003%20-%20Anticancer%20bisquaternary%20heterocyclic%20compounds%20A.md",
+      "doi": "",
+      "journal": "",
+      "preview": "- Authors: Campos, Joaquin, Nunez, Carmen, Diaz, Juan J., Sanchez, Rosario M., Gallo, Miguel A., Espinosa, Antonio - Journal/Citation: Farmaco (Lausanne), 58, pp. 221-229, (2003) - Year: 2003 --- A new family of symmetrical bisquaternary compounds with semirigid linkers have shown to be highly specific for Choline Kinase (ChoK) inhibition and to exert antitumoural activity in cell lines and in mic",
+      "images": [
+        "../../sources/papers_md/Campos%20et%20al.%20-%202003%20-%20Anticancer%20bisquaternary%20heterocyclic%20compounds%20A/images/imageFile1.png",
+        "../../sources/papers_md/Campos%20et%20al.%20-%202003%20-%20Anticancer%20bisquaternary%20heterocyclic%20compounds%20A/images/imageFile2.png",
+        "../../sources/papers_md/Campos%20et%20al.%20-%202003%20-%20Anticancer%20bisquaternary%20heterocyclic%20compounds%20A/images/imageFile3.png",
+        "../../sources/papers_md/Campos%20et%20al.%20-%202003%20-%20Anticancer%20bisquaternary%20heterocyclic%20compounds%20A/images/imageFile4.png",
+        "../../sources/papers_md/Campos%20et%20al.%20-%202003%20-%20Anticancer%20bisquaternary%20heterocyclic%20compounds%20A/images/imageFile5.png"
+      ]
+    },
+    {
+      "year": 2003,
+      "title": "Parallel and Multiplexed Bead-Based Assays and Encoding Strategies",
+      "authors": "How, S.-E., Díaz-Mochón, J.J., Muzerelle, M., Bradley, M., Yingyongnarongkul, B.-E.",
+      "summary_link": null,
+      "full_text_link": null,
+      "doi": "",
+      "journal": "",
+      "preview": "",
+      "images": []
+    },
+    {
+      "year": 2002,
+      "title": "An efficient one-pot synthesis of 6-alkoxy-8,9-dialkylpurines via reaction of 5-...",
+      "authors": "BARALDI, PG, BROCETA, AU, DE LAS INFANTAS, MJP, et al.",
+      "summary_link": "outputs/summaries_papers/Summary_of_An_efficient_one_pot_synthesis_of_6_alkoxy_89_dialkylpurines.md",
+      "full_text_link": "sources/papers_md/BARALDI%20et%20al.%20-%202002%20-%20An%20efficient%20one-pot%20synthesis%20of%206-alkoxy-8,9-dia/BARALDI%20et%20al.%20-%202002%20-%20An%20efficient%20one-pot%20synthesis%20of%206-alkoxy-8,9-dia.md",
+      "doi": "",
+      "journal": "",
+      "preview": "- Authors: BARALDI, PG, BROCETA, AU, DE LAS INFANTAS, MJP, et al. - Journal/Citation: TETRAHEDRON, 58, pp. 7607-7611, (2002) - Year: 2002 --- !image 1 Tetrahedron 58 (2002) 7607–7611 !image 2 Pier Giovanni Baraldi,a, Asier Unciti Broceta,b Maria Jose Pineda de las Infantas,b Juan Jose Dı az Mochun,b Antonio Espinosab and Romeo Romagnolia aDipartimento di Scienze Farmaceutiche, Universita di Ferrar",
+      "images": [
+        "images/imageFile1.png",
+        "images/imageFile2.png",
+        "../../sources/papers_md/BARALDI%20et%20al.%20-%202002%20-%20An%20efficient%20one-pot%20synthesis%20of%206-alkoxy-8,9-dia/images/imageFile1.png",
+        "../../sources/papers_md/BARALDI%20et%20al.%20-%202002%20-%20An%20efficient%20one-pot%20synthesis%20of%206-alkoxy-8,9-dia/images/imageFile2.png",
+        "../../sources/papers_md/BARALDI%20et%20al.%20-%202002%20-%20An%20efficient%20one-pot%20synthesis%20of%206-alkoxy-8,9-dia/images/imageFile3.png",
+        "../../sources/papers_md/BARALDI%20et%20al.%20-%202002%20-%20An%20efficient%20one-pot%20synthesis%20of%206-alkoxy-8,9-dia/images/imageFile4.png"
+      ]
+    },
+    {
+      "year": 2002,
+      "title": "H-1 and C-13 chemical shifts for bis(benzopyridinium) dibromides with semirigid ...",
+      "authors": "CAMPOS, J, DIAZ, JJ, NUNEZ, MC, et al.",
+      "summary_link": null,
+      "full_text_link": "sources/papers_md/CAMPOS%20et%20al.%20-%202002%20-%20H-1%20and%20C-13%20chemical%20shifts%20for%20bis(benzopyridini/CAMPOS%20et%20al.%20-%202002%20-%20H-1%20and%20C-13%20chemical%20shifts%20for%20bis(benzopyridini.md",
+      "doi": "",
+      "journal": "",
+      "preview": "",
+      "images": []
+    }
+  ],
+  "patents": [
+    {
+      "title": "NUCLEOBASE CHARACTERISATION",
+      "inventors": "BRADLEY MARK [GB] , DIAZ-MOCHON JUAN J [GB]",
+      "assignee": "NUCLEOBASE CHARACTERISATION [GB] , BRADLEY MARK [GB] , DIAZ-MOCHON JUAN J [GB] , UNIV EDINBURGH",
+      "publication": "US2011028337A1  / US8716457B2",
+      "priority": "2007-09-19",
+      "date": "2011-02-03 \n2014-05-06"
+    },
+    {
+      "title": "POLYMERS FOR GROWING CELLS",
+      "inventors": "HAY DAVID C [GB] , IREDALE JOHN P [GB] , BRADLEY MARK [GB] , DIAZ-MOCHON JUAN J [GB] , PERNAGALLO SALVATORE [GB]",
+      "assignee": "HAY DAVID C [GB] , IREDALE JOHN P [GB] , BRADLEY MARK [GB] , DIAZ-MOCHON JUAN J [GB] , PERNAGALLO SALVATORE [GB]",
+      "publication": "US2012052525A1",
+      "priority": "2009-03-20",
+      "date": "2012-03-01"
+    },
+    {
+      "title": "SINGLE MOLECULE DETECTION AND QUANTIFICATION OF NUCLEIC ACIDS WITH SINGLE BASE SPECIFICITY",
+      "inventors": "DÍAZ-MOCHÓN JUAN J [ES] , DUFFY DAVID C [US] , PERNAGALLO SALVATORE [ES] , LLYINE HUGH [GB] , RISSIN DAVID M [US] , LÓPEZ-LONGARELA BARBARA [ES]",
+      "assignee": "QUANTERIX CORP [US] , DESTINA GENOMICS LTD [GB]",
+      "publication": "US2020123592A1",
+      "priority": "2017-05-30",
+      "date": "2020-04-23"
+    },
+    {
+      "title": "IMPROVED PNA PROBE",
+      "inventors": "ILYINE HUGH ALEXANDER [GB] , DIAZ-MOCHON JUAN J [ES] , PERNAGALLO SALVATORE [ES] , CHAVEZ MAVYS TABRAUE [ES] , FARA MARIO ANTONIO [ES]",
+      "assignee": "DESTINA GENOMICA S L [ES]",
+      "publication": "US11242526B2  / US2019233818A1",
+      "priority": "2016-07-12",
+      "date": "2019-08-01 \n2022-02-08"
+    },
+    {
+      "title": "ISOLATION OF CELLS OF EPITHELIAL ORIGIN CIRCULATING IN PERIPHERAL BLOOD",
+      "inventors": "ROMERO PALACIOS PEDRO JOSÉ [ES] , DÍAZ MOCHÓN JUAN JOSÉ [ES] , LORENTE ACOSTA JOSÉ ANTONIO [ES] , DE MIGUEL PÉREZ DIEGO [ES] , SERRANO FERNÁNDEZ MARÍA JOSÉ [ES] , ALCÁZAR NAVARRETE BERNARDINO [ES]",
+      "assignee": "UNIV GRANADA [ES] , SERVICIO ANDALUZ DE SALUD [ES]",
+      "publication": "US2020278347A1",
+      "priority": "2017-05-24",
+      "date": "2020-09-03"
+    },
+    {
+      "title": "Purine derivatives as inhibitors of dapk-1 (Machine-translation by Google Translate, not legally binding)",
+      "inventors": "MOLINA PINEDA DE LAS INFANTAS IGNACIO [ES] , TORRES RUSILLO SARA [ES] , FERNANDEZ RUBIO PABLO [ES] , PINEDA DE LAS INFANTAS Y VILLATORO MARÍA JOSÉ [ES] , DIAZ MOCHON JUAN JOSÉ [ES] , UNICITI BROCETA ASIER [ES]",
+      "assignee": "UNIV GRANADA [ES] , UNIV EDINBURGH [GB]",
+      "publication": "ES2548927A1  / ES2548927B1",
+      "priority": "2014-03-21",
+      "date": "2015-10-21 \n2016-08-11"
+    },
+    {
+      "title": "CRISPNA FOR GENOME EDITING",
+      "inventors": "MARTÍN MOLINA FRANCISCO [ES] , AGUILAR GONZÁLEZ ARACELI [ES] , MALDONADO PÉREZ NOELIA [ES] , DÍAZ MOCHÓN JUAN JOSÉ [ES]",
+      "assignee": "UNIV GRANADA [ES] , FUND PUBLICA ANDALUZA PROGRESO Y SALUD [ES]",
+      "publication": "US2024076718A1",
+      "priority": "2020-12-30",
+      "date": "2024-03-07"
+    },
+    {
+      "title": "DUAL-GUIDE RNA COMPOSITION FOR EXECUTING A SINGLE-GUIDE RNA CRISPR-ASSOCIATED SYSTEM",
+      "inventors": "MARTIN MOLINA FRANCISCO [ES] , AGUILAR GONZALEZ ARACELI [ES] , DÍAZ MOCHÓN JUAN JOSÉ [ES] , SÁNCHEZ MARTÍN ROSARIO MARÍA [ES] , MALDONADO PEREZ NOELIA [ES]",
+      "assignee": "UNIV GRANADA [ES] , SERVICIO ANDALUZ DE SALUD [ES]",
+      "publication": "EP4414452A1",
+      "priority": "2023-02-13",
+      "date": "2024-08-14"
+    },
+    {
+      "title": "DUAL PROBES FOR FLOW CYTOMETRY AND MASS CYTOMETRY",
+      "inventors": "DELGADO GONZÁLEZ ANTONIO [ES] , SÁNCHEZ MARTÍN ROSARIO MARÍA [ES] , DÍAZ MOCHÓN JUAN JOSÉ [ES] , VALERO GRIÑÁN MARÍA TERESA [ES] , ORTE GUTIÉRREZ ÁNGEL [ES] , GARCÍA FERNÁNDEZ EMILIO [ES]",
+      "assignee": "UNIV GRANADA [ES]",
+      "publication": "WO2018224719A1",
+      "priority": "2017-06-07",
+      "date": "2018-12-13"
+    },
+    {
+      "title": "PHARMACEUTICALLY ACTIVE PROTEIN CRYSTALS GROWN IN-SITU WITHIN A HYDROGEL",
+      "inventors": "ÁLVAREZ DE CIENFUEGOS RODRÍGUEZ LUIS [ES] , GAVIRA GALLARDO JOSÉ ANTONIO [ES] , DÍAZ MOCHÓN JUAN JOSÉ [ES] , CONEJERO MURIEL MARÍA TERESA [ES] , CONTRERAS MONTOYA RAFAEL [ES]",
+      "assignee": "UNIV GRANADA [ES] , CONSEJO SUPERIOR DE INVESTIG CIENTÍFICAS [ES]",
+      "publication": "WO2017191323A1",
+      "priority": "2016-05-05",
+      "date": "2017-11-09"
+    },
+    {
+      "title": "MULTIPLEXED BIODETECTION SYSTEM",
+      "inventors": "RODRÍGUEZ MARIBLANCA ISABEL [ES] , PINI VALERIO [ES] , CEBRIÁN HERNANDO VIRGINIA [ES] , THON ANDREAS [ES] , AHUMADA HEREDERO JESÚS ÓSCAR [ES] , TABRAUE CHÁVEZ MAVYS [ES] , PERNAGALLO SALVATORE [ES] , DÍAZ-MOCHÓN JUAN JOSÉ [ES]",
+      "assignee": "MECWINS S A [ES]",
+      "publication": "EP4692368A1",
+      "priority": "2024-08-05",
+      "date": "2026-02-11"
+    },
+    {
+      "title": "MULTIFUNCTIONAL NANOPARTICLES FOR TERAGNOSIS (Machine-translation by Google Translate, not legally binding)",
+      "inventors": "SÁNCHEZ MARTÍN ROSARIO MARÍA [ES] , MARCHAL CORRALES JUAN ANTONIO [ES] , DÍAZ MOCHÓN JUAN JOSÉ [ES] , CANO CORTÉS VICTORIA [ES] , NAVARRO MARCHAL SAÚL ABENHAMAR [ES] , RUIZ BLAS MARIA PAZ [ES]",
+      "assignee": "UNIV GRANADA [ES]",
+      "publication": "ES2776598A1",
+      "priority": "2018-10-15",
+      "date": "2020-07-30"
+    },
+    {
+      "title": "MULTIFUNCTIONAL NANOPARTICLES FOR THERAGNOSIS",
+      "inventors": "SÁNCHEZ MARTÍN ROSARIO MARÍA [ES] , MARCHAL CORRALES JUAN ANTONIO [ES] , DÍAZ MOCHÓN JUAN JOSÉ [ES] , CANO CORTÉS VICTORIA [ES] , NAVARRO MARCHAL SAÚL ABENHAMAR [ES] , RUIZ BLAS MARIA PAZ [ES]",
+      "assignee": "UNIV GRANADA [ES]",
+      "publication": "US2021162077A1",
+      "priority": "2018-04-12",
+      "date": "2021-06-03"
+    },
+    {
+      "title": "Detection in circulating epithelial cells of viruses and/or bacteria causing inflammatory infections (Machine-translation by Google Translate, not legally binding)",
+      "inventors": "LORENTE ACOSTA JOSÉ ANTONIO [ES] , ROMERO PALACIOS PEDRO JOSÉ [ES] , DÍAZ MOCHÓN JUAN JOSÉ [ES] , MOLINA VALLEJO MARÍA PILAR [ES] , GARRIDO NAVAS MARÍA DEL CARMEN [ES] , SERRANO FERNÁNDEZ MARÍA JOSÉ [ES] , ALCAZAR NAVARRETE BERNARDINO [ES]",
+      "assignee": "SERVICIO ANDALUZ DE SALUD [ES] , UNIV GRANADA [ES]",
+      "publication": "ES2978437A1",
+      "priority": "2023-02-07",
+      "date": "2024-09-12"
+    },
+    {
+      "title": "METHOD FOR THE DETECTION OF CIRCULATING TUMOUR CELLS, BOTH CIRCULATING TUMOUR CELLS OF THE EPITHELIAL PHENOTYPE AND CIRCULATING TUMOUR CELLS HAVING EPITHELIAL-MESENCHYMAL TRANSITION (EMT) MARKERS, USING THE MIRNA-21 AS A BIOMARKER",
+      "inventors": "SERRANO FERNÁNDEZ MARÍA JOSÉ [ES] , DÍAZ MOCHÓN JUAN JOSÉ [ES] , GABRIEL ORTEGA FRANCISCO [ES] , LORENTE ACOSTA JOSÉ ANTONIO [ES] , GARCÍA PUCHE JOSÉ LUIS [ES] , RUIZ BLAS MARIA PAZ [ES] , SÁNCHEZ MARTÍN ROSARIO MARÍA [ES]",
+      "assignee": "UNIV GRANADA [ES] , SERVICIO ANDALUZ DE SALUD [ES]",
+      "publication": "US2017321261A1",
+      "priority": "2014-09-18",
+      "date": "2017-11-09"
+    },
+    {
+      "title": "FUNCTIONALIZED NANOPARTICLES (NPS)",
+      "inventors": "DÍAZ MOCHÓN JUAN JOSÉ [ES] , SÁNCHEZ MARTÍN ROSARIO MARÍA [ES] , CANO CORTÉS MARÍA VICTORIA [ES] , LAZ RUIZ JOSE ANTONIO [ES] , LÓPEZ DELGADO FRANCISCO JAVIER [ES] , PERIS TORRES CARLOS [ES] , LÓPEZ GONZÁLEZ ROCÍO [ES]",
+      "assignee": "UNIV GRANADA [ES] , SERVICIO ANDALUZ DE SALUD [ES]",
+      "publication": "EP4747634A1",
+      "priority": "2023-07-20",
+      "date": "2026-05-27"
+    }
+  ],
+  "theses": [
+    {
+      "title": "Dynamic chemistry for genotyping and DNA analysis Student: Frank Bowler",
+      "university": "University of Edinburgh",
+      "advisors": "Mark Bradley, Juan José Díaz-Mochón",
+      "year": "2011",
+      "summary_link": "outputs/summaries_theses/Summary_of_Thesis_2010_DestiNA_Thesis_of_Frank_Bowler_2011.md",
+      "full_text_link": "sources/theses_md/2010_DestiNA_Thesis_of_Frank_Bowler_2011/2010_DestiNA_Thesis_of_Frank_Bowler_2011.md",
+      "preview": "- Student: Unknown Student - University: Universidad de Granada - Advisors: Juan José Díaz-Mochón - Year: 2010 - Document Type: Doctoral Thesis --- Reading DNA with PNA: A Dynamic Chemical Approach to DNA Sequence Analysis Frank R. Bowler University of Edinburgh Doctor of Philosophy March 2011 Preface ABSTRACT Single nucleotide polymorphisms (SNPs) and insertions/deletions (indels) constitute impo"
+    },
+    {
+      "title": "Multifunctional Nanoparticles for Theranostics and Intracellular Screening Student: Antonio Delgado-González",
+      "university": "Universidad de Granada",
+      "advisors": "Rosario María Sánchez-Martín, Juan José Díaz-Mochón",
+      "year": "2019",
+      "summary_link": "outputs/summaries_theses/Summary_of_Thesis_2019_Doctoral_Thesis_Antonio_Delgado_Gonzalez.md",
+      "full_text_link": "sources/theses_md/2019_Doctoral_Thesis_Antonio_Delgado_Gonzalez/2019_Doctoral_Thesis_Antonio_Delgado_Gonzalez.md",
+      "preview": "- Student: Unknown Student - University: Universidad de Granada - Advisors: Juan José Díaz-Mochón - Year: 2019 - Document Type: Doctoral Thesis --- PROGRAMA DE DOCTORADO EN BIOMEDICINA Departamento de Química Farmacéutica y Orgánica Doctoral Thesis Chem-MDBp: Development of chemistry-based Multiplexing Diagnostic Beadplatforms PhD Candidate Antonio Delgado González Thesis supervisors Dr.Juan José "
+    },
+    {
+      "title": "DNA analysis by dynamic chemistry: applications in diagnostics Student: Angélica Luque-González",
+      "university": "Universidad de Granada",
+      "advisors": "Juan José Díaz-Mochón, Rosario María Sánchez-Martín",
+      "year": "2018",
+      "summary_link": "outputs/summaries_theses/Summary_of_Thesis_2018_Thesis_of_Angelica_Luque.md",
+      "full_text_link": "sources/theses_md/2018_Thesis_of_Angelica_Luque/2018_Thesis_of_Angelica_Luque.md",
+      "preview": "- Student: Unknown Student - University: Universidad de Granada - Advisors: Juan José Díaz-Mochón - Year: 2018 - Document Type: Doctoral Thesis --- Programa de Doctorado en Biomedicina (B11.56.1) Departamento de Química Farmacéutica y Orgánica European Doctoral Thesis Chem-NAT: A unique chemical approach for Nucleic Acids Testing Doctoral candidate: Mª Angélica Luque González Thesis supervisors: D"
+    },
+    {
+      "title": "Dynamic Chemical Labelling on Bead-Based Platforms for PCR-Free microRNA Interrogation Student: Antonio Marín-Romero",
+      "university": "Universidad de Granada",
+      "advisors": "Juan José Díaz-Mochón, Salvatore Pernagallo",
+      "year": "2020",
+      "summary_link": "outputs/summaries_theses/Summary_of_Thesis_2020_1026_Thesis_Antonio_Marin_FINAL_SUBMISSION.md",
+      "full_text_link": "sources/theses_md/2020_1026_Thesis_Antonio_Marin_FINAL_SUBMISSION/2020_1026_Thesis_Antonio_Marin_FINAL_SUBMISSION.md",
+      "preview": "- Student: Unknown Student - University: Universidad de Granada - Advisors: Juan José Díaz-Mochón - Year: Unknown - Document Type: Doctoral Thesis --- (cid:0) (cid:0) (cid:0) (cid:2)(cid:3)(cid:4)(cid:5)(cid:3)(cid:6)(cid:7)(cid:6)(cid:0)(cid:8)(cid:9)(cid:0)(cid:8)(cid:4)(cid:10)(cid:11)(cid:4)(cid:3)(cid:6)(cid:8)(cid:4)(cid:0)(cid:9)(cid:12)(cid:0)(cid:13)(cid:14)(cid:4)(cid:7)(cid:9)(cid:8)(ci"
+    },
+    {
+      "title": "Development of Abasic Peptide Nucleic Acid Probes for Single-Base Specific Nucleic Acid Detection Student: Agustín Robles-Remacho",
+      "university": "Universidad de Granada",
+      "advisors": "Juan José Díaz-Mochón, Rosario María Sánchez-Martín",
+      "year": "2021",
+      "summary_link": "outputs/summaries_theses/Summary_of_Thesis_2021_0629_Tesis_Agustin_Robles.md",
+      "full_text_link": "sources/theses_md/2021_0629_Tesis_Agustin_Robles/2021_0629_Tesis_Agustin_Robles.md",
+      "preview": "- Student: Unknown Student - University: Universidad de Granada - Advisors: Juan José Díaz-Mochón - Year: Unknown - Document Type: Doctoral Thesis --- Programa de Doctorado en Biomedicina Departamento de Química Farmacéutica y Orgánica Tesis Doctoral Desarrollo de nuevas estrategias de detección de ácidos nucleicos para diagnóstico molecular Candidato doctoral Agustín Robles Remacho Directores de "
+    },
+    {
+      "title": "Colorimetric and Nanotechnology-Based Diagnostic Assays for Parasitic and Viral Infections Student: Nancy Villegas Villao",
+      "university": "Universidad de Granada",
+      "advisors": "Juan José Díaz-Mochón, Salvatore Pernagallo",
+      "year": "2025",
+      "summary_link": "outputs/summaries_theses/Summary_of_Thesis_2025_1001_Tesis_NancyVillegas.md",
+      "full_text_link": "sources/theses_md/2025_1001_Tesis_NancyVillegas/2025_1001_Tesis_NancyVillegas.md",
+      "preview": "- Student: Unknown Student - University: Universidad de Granada - Advisors: Juan José Díaz-Mochón - Year: Unknown - Document Type: Doctoral Thesis --- UNIVERSIDAD DE GRANADA Programa de Doctorado en Biomedicina VALIDACIÓN DE ENSAYOS MOLECULARES PARA DIAGNÓSTICO DE LEISHMANIASIS CUTÁNEA TESIS DOCTORAL NANCY ELIZABETH VILLEGAS VILLAO TUTOR JUAN JOSÉ DIAZ MOCHÓN DIRECTORES ROSARIO MARÍA SÁNCHEZ MARTÍ"
+    },
+    {
+      "title": "Cellular analysis and PNA encoded libraries Student: Nina Svensen",
+      "university": "University of Edinburgh",
+      "advisors": "Juan José Díaz Mochón",
+      "year": "2010",
+      "summary_link": "outputs/summaries_theses/Summary_of_Thesis_2011_Thesis_Nina_Svensen.md",
+      "full_text_link": "sources/theses_md/2011_Thesis_Nina_Svensen/2011_Thesis_Nina_Svensen.md",
+      "preview": "- Student: Unknown Student - University: Universidad de Granada - Advisors: Juan José Díaz-Mochón - Year: 2011 - Document Type: Doctoral Thesis --- This thesis has been submitted in fulfilment of the requirements for a postgraduate degree (e.g. PhD, MPhil, DClinPsychol) at the University of Edinburgh. Please note the following terms and conditions of use: • This work is protected by copyright and "
+    },
+    {
+      "title": "Hidrogeles supramoleculares constituidos por pequeños péptidos como medio para la obtención de materiales compuestos Student: Rafael Contreras Montoya",
+      "university": "Universidad de Granada",
+      "advisors": "Luis Álvarez de Cienfuegos Rodríguez, Juan José Díaz Mochón",
+      "year": "2019",
+      "summary_link": "outputs/summaries_theses/Summary_of_Thesis_2019_0412_Tesis_Rafael_Contreras_Montoya.md",
+      "full_text_link": "sources/theses_md/2019_0412_Tesis_Rafael_Contreras_Montoya/2019_0412_Tesis_Rafael_Contreras_Montoya.md",
+      "preview": "- Student: Rafael Contreras Montoya ISBN - University: Universidad de Granada - Advisors: Juan José Díaz-Mochón - Year: Unknown - Document Type: Doctoral Thesis --- UNIVERSIDAD DE GRANADA FACULTAD DE CIENCIAS Departamento de Química Orgánica Programa oficial de Doctorado en Química TESIS DOCTORAL Hidrogeles supramoleculares constituidos por pequeños péptidos como medio para la obtención de materia"
+    },
+    {
+      "title": "Tesis Victoria Cano Cortes Student: Victoria Cano Cortés",
+      "university": "Universidad de Granada",
+      "advisors": "Juan José Díaz Mochón",
+      "year": "2018",
+      "summary_link": "outputs/summaries_theses/Summary_of_Thesis_2018_0703_Tesis_Victoria_Cano_Cortes.md",
+      "full_text_link": "sources/theses_md/2018_0703_Tesis_Victoria_Cano_Cortes/2018_0703_Tesis_Victoria_Cano_Cortes.md",
+      "preview": "- Student: Unknown Student - University: Universidad de Granada - Advisors: Juan José Díaz-Mochón - Year: Unknown - Document Type: Doctoral Thesis --- | (cid:0) (cid:1) | (cid:2) (cid:3) (cid:1) (cid:4) (cid:5) | (cid:4) (cid:2) (cid:6) (cid:7) (cid:8) (cid:7)(cid:4) | (cid:9) (cid:10) (cid:11) (cid:10) (cid:2) (cid:8) (cid:12) | (cid:2) (cid:1) (cid:4) (cid:10) | (cid:2) (cid:11) (cid:13) (cid:14"
+    },
+    {
+      "title": "Design, synthesis and biological evaluation of 6-alkoxypurine derivatives as kinase inhibitors Student: Alvaro Lorente Macías",
+      "university": "Universidad de Granada",
+      "advisors": "Juan José Díaz Mochón",
+      "year": "2019",
+      "summary_link": "outputs/summaries_theses/Summary_of_Thesis_2019_1104_Thesis_Alvaro_Lorente_Macías.md",
+      "full_text_link": "sources/theses_md/2019_1104_Thesis_Alvaro_Lorente_Macías/2019_1104_Thesis_Alvaro_Lorente_Macías.md",
+      "preview": "- Student: Unknown Student - University: Universidad de Granada - Advisors: Juan José Díaz-Mochón - Year: Unknown - Document Type: Doctoral Thesis --- Design, synthesis and biological evaluation of 6-alkoxypurine derivatives as kinase inhibitors A dissertation presented by Álvaro Lorente Macías Department of Medicinal and Organic Chemistry School of Pharmacy and Institute of Biopathology and Regen"
+    },
+    {
+      "title": "Tesis Isabel Rodriguez Mecwins Student: Isabel Rodríguez Mecwins",
+      "university": "Universidad de Granada",
+      "advisors": "Juan José Díaz-Mochón, Francisco Martín",
+      "year": "2026",
+      "summary_link": "outputs/summaries_theses/Summary_of_Thesis_2026_0213_Tesis_Isabel_Rodriguez_Mecwins.md",
+      "full_text_link": "sources/theses_md/2026_0213_Tesis_Isabel_Rodriguez_Mecwins/2026_0213_Tesis_Isabel_Rodriguez_Mecwins.md",
+      "preview": "- Student: Unknown Student - University: Universidad de Granada - Advisors: Juan José Díaz-Mochón - Year: Unknown - Document Type: Doctoral Thesis --- Desarrollo de una plataforma de detección de miRNAs en biopsias líquidas basada en tecnología plasmónica y química dinámica Isabel Rodríguez Mariblanca Programa de doctorado en Biociencias Moleculares Universidad Autónoma de Madrid, Facultad de Medi"
+    }
+  ],
+  "grants": [
+    {
+      "title": "DiazMochon 20161013 PLAN DE TRABAJO",
+      "date": "2024",
+      "status": "Ingested",
+      "summary_link": "outputs/summaries_projects/Summary_of_DiazMochon_20161013_PLAN_DE_TRABAJO.md",
+      "full_text_link": "sources/converted_docs/DiazMochon_20161013_PLAN_DE_TRABAJO/DiazMochon_20161013_PLAN_DE_TRABAJO.md",
+      "preview": "- Author: Juan José Díaz Mochón - Date/Year: 2016 - Document Type: Grant / Project - Original Folder: Grants 2016 --- --- - 🔗 Original Converted Markdown (Full Text)"
+    },
+    {
+      "title": "DiazMochon 2016 PSETC Presupuesto",
+      "date": "2024",
+      "status": "Ingested",
+      "summary_link": "outputs/summaries_projects/Summary_of_DiazMochon_2016_PSETC_Presupuesto.md",
+      "full_text_link": "sources/converted_docs/DiazMochon_2016_PSETC_Presupuesto/DiazMochon_2016_PSETC_Presupuesto.md",
+      "preview": "- Author: Juan José Díaz Mochón - Date/Year: 2016 - Document Type: Grant / Project - Original Folder: Grants 2016 --- PLAN == picture [145 x 45] intentionally omitted <== == picture [153 x 50] intentionally omitted <== == picture [141 x 43] intentionally omitted <== --- - 🔗 Original Converted Markdown (Full Text)"
+    },
+    {
+      "title": "PSTEC solicitud",
+      "date": "2024",
+      "status": "Ingested",
+      "summary_link": "outputs/summaries_projects/Summary_of_PSTEC_solicitud.md",
+      "full_text_link": "sources/converted_docs/PSTEC_solicitud/PSTEC_solicitud.md",
+      "preview": "- Author: Juan José Díaz Mochón - Date/Year: 2016 - Document Type: Grant / Project - Original Folder: Grants 2016 --- == picture [154 x 48] intentionally omitted <== --- - 🔗 Original Converted Markdown (Full Text)"
+    },
+    {
+      "title": "RSM28092014 20paginas Memoria cientifico tecnica Proyectos Excelencia y Retos Individual",
+      "date": "2024",
+      "status": "Ingested",
+      "summary_link": "outputs/summaries_projects/Summary_of_RSM28092014_20paginas_Memoria_cientifico_tecnica_Proyectos_Excelencia_y_Retos_Individual.md",
+      "full_text_link": "sources/converted_docs/RSM28092014_20paginas_Memoria_cientifico_tecnica_Proyectos_Excelencia_y_Retos_Individual/RSM28092014_20paginas_Memoria_cientifico_tecnica_Proyectos_Excelencia_y_Retos_Individual.md",
+      "preview": "- Author: Juan José Díaz Mochón - Date/Year: 2014 - Document Type: Grant / Project --- Memoria Científico-Técnica Proyectos Excelencia y Retos Individual 2014 [Content pending conversion from source file: JJD publications 03-03-2024, 20-19-21\\grants and projects\\Grants 2014\\RSM28092014-20paginas-Memoria cientifico tecnica Proyectos Excelencia y Retos Individual.doc] --- - 🔗 Original Converted Mark"
+    },
+    {
+      "title": "Selection of bead displayed, PNA encoded chemicals Wissinger",
+      "date": "2024",
+      "status": "Placeholder (Pending Ingestion)",
+      "summary_link": null,
+      "full_text_link": null,
+      "preview": ""
+    },
+    {
+      "title": "JJD ERC CoG B2 V8",
+      "date": "2024",
+      "status": "Ingested",
+      "summary_link": "outputs/summaries_projects/Summary_of_JJD_ERC_CoG_B2_V8.md",
+      "full_text_link": "sources/converted_docs/JJD_ERC_CoG_B2_V8/JJD_ERC_CoG_B2_V8.md",
+      "preview": "- Author: Juan José Díaz Mochón - Date/Year: 2013 - Document Type: Grant / Project - Status: Not Awarded - Original Folder: ERC CoGrant JJD 2013 --- Diaz-Mochon ChemArrays Part B2 --- - 🔗 Original Converted Markdown (Full Text)"
+    },
+    {
+      "title": "JJD ERC CoG B2 SUBMITTED",
+      "date": "2024",
+      "status": "Ingested",
+      "summary_link": "outputs/summaries_projects/Summary_of_JJD_ERC_CoG_B2_SUBMITTED.md",
+      "full_text_link": "sources/converted_docs/JJD_ERC_CoG_B2_SUBMITTED/JJD_ERC_CoG_B2_SUBMITTED.md",
+      "preview": "- Author: Juan José Díaz Mochón - Date/Year: 2013 - Document Type: Grant / Project - Status: Not Awarded - Original Folder: ERC CoGrant JJD 2013 --- Diaz-Mochon ChemArrays Part B2 --- - 🔗 Original Converted Markdown (Full Text)"
+    },
+    {
+      "title": "JJD ERC CoG B2 V6",
+      "date": "2024",
+      "status": "Placeholder (Pending Ingestion)",
+      "summary_link": null,
+      "full_text_link": null,
+      "preview": ""
+    },
+    {
+      "title": "JJD ERC CoG B2 V7",
+      "date": "2024",
+      "status": "Placeholder (Pending Ingestion)",
+      "summary_link": null,
+      "full_text_link": null,
+      "preview": ""
+    },
+    {
+      "title": "JJD ERC CoG B2 V8",
+      "date": "2024",
+      "status": "Ingested",
+      "summary_link": "outputs/summaries_projects/Summary_of_JJD_ERC_CoG_B2_V8.md",
+      "full_text_link": "sources/converted_docs/JJD_ERC_CoG_B2_V8/JJD_ERC_CoG_B2_V8.md",
+      "preview": "- Author: Juan José Díaz Mochón - Date/Year: 2013 - Document Type: Grant / Project - Status: Not Awarded - Original Folder: ERC CoGrant JJD 2013 --- Diaz-Mochon ChemArrays Part B2 --- - 🔗 Original Converted Markdown (Full Text)"
+    },
+    {
+      "title": "JJD ERC CoG B2 V9",
+      "date": "2024",
+      "status": "Placeholder (Pending Ingestion)",
+      "summary_link": null,
+      "full_text_link": null,
+      "preview": ""
+    },
+    {
+      "title": "JJD ERC CoG V5 docx",
+      "date": "2024",
+      "status": "Placeholder (Pending Ingestion)",
+      "summary_link": null,
+      "full_text_link": null,
+      "preview": ""
+    },
+    {
+      "title": "Nucleic Acid Templated Uncaging of Fluorophores Wissinger",
+      "date": "2024",
+      "status": "Placeholder (Pending Ingestion)",
+      "summary_link": null,
+      "full_text_link": null,
+      "preview": ""
+    },
+    {
+      "title": "JJD ERC CoG 2013 B1 ChemArrays",
+      "date": "2024",
+      "status": "Ingested",
+      "summary_link": "outputs/summaries_projects/Summary_of_ChemArrays_CV-ERC_CoG_2013_B1__FINALsubmitted.md",
+      "full_text_link": "sources/converted_docs/ChemArrays_CV-ERC_CoG_2013_B1__FINALsubmitted/ChemArrays_CV-ERC_CoG_2013_B1__FINALsubmitted.md",
+      "preview": "- Author: Juan José Díaz Mochón - Date/Year: 2013 - Document Type: Grant / Project - Status: Not Awarded - Original Folder: ERC CoG2013 --- Diaz-Mochon ChemArrays Part B1 European Research Council --- - 🔗 Original Converted Markdown (Full Text)"
+    },
+    {
+      "title": "JJD ERC CoG B2 SUBMITTED",
+      "date": "2024",
+      "status": "Ingested",
+      "summary_link": "outputs/summaries_projects/Summary_of_JJD_ERC_CoG_B2_SUBMITTED.md",
+      "full_text_link": "sources/converted_docs/JJD_ERC_CoG_B2_SUBMITTED/JJD_ERC_CoG_B2_SUBMITTED.md",
+      "preview": "- Author: Juan José Díaz Mochón - Date/Year: 2013 - Document Type: Grant / Project - Status: Not Awarded - Original Folder: ERC CoGrant JJD 2013 --- Diaz-Mochon ChemArrays Part B2 --- - 🔗 Original Converted Markdown (Full Text)"
+    },
+    {
+      "title": "e9678b47 ebb4 468e 9243 093e51bfda16",
+      "date": "2024",
+      "status": "Placeholder (Pending Ingestion)",
+      "summary_link": null,
+      "full_text_link": null,
+      "preview": ""
+    },
+    {
+      "title": "JJD ERC CoG 2013 B1 ChemArrays",
+      "date": "2024",
+      "status": "Ingested",
+      "summary_link": "outputs/summaries_projects/Summary_of_ChemArrays_CV-ERC_CoG_2013_B1__FINALsubmitted.md",
+      "full_text_link": "sources/converted_docs/ChemArrays_CV-ERC_CoG_2013_B1__FINALsubmitted/ChemArrays_CV-ERC_CoG_2013_B1__FINALsubmitted.md",
+      "preview": "- Author: Juan José Díaz Mochón - Date/Year: 2013 - Document Type: Grant / Project - Status: Not Awarded - Original Folder: ERC CoG2013 --- Diaz-Mochon ChemArrays Part B1 European Research Council --- - 🔗 Original Converted Markdown (Full Text)"
+    },
+    {
+      "title": "ERC CoG 2013 B2 Ethical Issues Annex FINAL",
+      "date": "2024",
+      "status": "Ingested",
+      "summary_link": "outputs/summaries_projects/Summary_of_ChemArrays_CV-ERC_CoG_2013_B1__FINAL-V8.md",
+      "full_text_link": "sources/converted_docs/ChemArrays_CV-ERC_CoG_2013_B1__FINAL-V8/ChemArrays_CV-ERC_CoG_2013_B1__FINAL-V8.md",
+      "preview": "- Author: Juan José Díaz Mochón - Date/Year: 2013 - Document Type: Grant / Project - Status: Not Awarded - Original Folder: ERC CoG2013 --- Diaz-Mochon ChemArrays Part B1 European Research Council --- - 🔗 Original Converted Markdown (Full Text)"
+    },
+    {
+      "title": "ERC CoG 2013 Host Support Letter template FINAL",
+      "date": "2024",
+      "status": "Ingested",
+      "summary_link": "outputs/summaries_projects/Summary_of_ChemArrays_CV-ERC_CoG_2013_B1__FINAL-V8.md",
+      "full_text_link": "sources/converted_docs/ChemArrays_CV-ERC_CoG_2013_B1__FINAL-V8/ChemArrays_CV-ERC_CoG_2013_B1__FINAL-V8.md",
+      "preview": "- Author: Juan José Díaz Mochón - Date/Year: 2013 - Document Type: Grant / Project - Status: Not Awarded - Original Folder: ERC CoG2013 --- Diaz-Mochon ChemArrays Part B1 European Research Council --- - 🔗 Original Converted Markdown (Full Text)"
+    },
+    {
+      "title": "ERC CoG 2013 B2 template FINAL",
+      "date": "2024",
+      "status": "Ingested",
+      "summary_link": "outputs/summaries_projects/Summary_of_ChemArrays_CV-ERC_CoG_2013_B1__FINAL-V8.md",
+      "full_text_link": "sources/converted_docs/ChemArrays_CV-ERC_CoG_2013_B1__FINAL-V8/ChemArrays_CV-ERC_CoG_2013_B1__FINAL-V8.md",
+      "preview": "- Author: Juan José Díaz Mochón - Date/Year: 2013 - Document Type: Grant / Project - Status: Not Awarded - Original Folder: ERC CoG2013 --- Diaz-Mochon ChemArrays Part B1 European Research Council --- - 🔗 Original Converted Markdown (Full Text)"
+    },
+    {
+      "title": "jjd2013 CV ERC CoG 2013 B1 template FINAL",
+      "date": "2024",
+      "status": "Ingested",
+      "summary_link": "outputs/summaries_projects/Summary_of_ChemArrays_CV-ERC_CoG_2013_B1__FINAL-V8.md",
+      "full_text_link": "sources/converted_docs/ChemArrays_CV-ERC_CoG_2013_B1__FINAL-V8/ChemArrays_CV-ERC_CoG_2013_B1__FINAL-V8.md",
+      "preview": "- Author: Juan José Díaz Mochón - Date/Year: 2013 - Document Type: Grant / Project - Status: Not Awarded - Original Folder: ERC CoG2013 --- Diaz-Mochon ChemArrays Part B1 European Research Council --- - 🔗 Original Converted Markdown (Full Text)"
+    },
+    {
+      "title": "ERC CoG 2013 B2 Security Issues Annex FINAL",
+      "date": "2024",
+      "status": "Ingested",
+      "summary_link": "outputs/summaries_projects/Summary_of_ChemArrays_CV-ERC_CoG_2013_B1__FINAL-V8.md",
+      "full_text_link": "sources/converted_docs/ChemArrays_CV-ERC_CoG_2013_B1__FINAL-V8/ChemArrays_CV-ERC_CoG_2013_B1__FINAL-V8.md",
+      "preview": "- Author: Juan José Díaz Mochón - Date/Year: 2013 - Document Type: Grant / Project - Status: Not Awarded - Original Folder: ERC CoG2013 --- Diaz-Mochon ChemArrays Part B1 European Research Council --- - 🔗 Original Converted Markdown (Full Text)"
+    },
+    {
+      "title": "jjd2013ERC CoG 2013 B1 template FINAL",
+      "date": "2024",
+      "status": "Ingested",
+      "summary_link": "outputs/summaries_projects/Summary_of_ChemArrays_CV-ERC_CoG_2013_B1__FINAL-V8.md",
+      "full_text_link": "sources/converted_docs/ChemArrays_CV-ERC_CoG_2013_B1__FINAL-V8/ChemArrays_CV-ERC_CoG_2013_B1__FINAL-V8.md",
+      "preview": "- Author: Juan José Díaz Mochón - Date/Year: 2013 - Document Type: Grant / Project - Status: Not Awarded - Original Folder: ERC CoG2013 --- Diaz-Mochon ChemArrays Part B1 European Research Council --- - 🔗 Original Converted Markdown (Full Text)"
+    },
+    {
+      "title": "A biomolecule compatible visible light induced azide reduction from a DNA encoded reaction discovery system Liu Nat Chem",
+      "date": "2024",
+      "status": "Placeholder (Pending Ingestion)",
+      "summary_link": null,
+      "full_text_link": null,
+      "preview": ""
+    },
+    {
+      "title": "DNA templated release of functional molecules with an azide reductiontriggered immolative linker Wissinger 2011",
+      "date": "2024",
+      "status": "Placeholder (Pending Ingestion)",
+      "summary_link": null,
+      "full_text_link": null,
+      "preview": ""
+    },
+    {
+      "title": "ChemArrays CV ERC CoG 2013 B1 FINAL",
+      "date": "2024",
+      "status": "Ingested",
+      "summary_link": "outputs/summaries_projects/Summary_of_ChemArrays_CV-ERC_CoG_2013_B1__FINALsubmitted.md",
+      "full_text_link": "sources/converted_docs/ChemArrays_CV-ERC_CoG_2013_B1__FINALsubmitted/ChemArrays_CV-ERC_CoG_2013_B1__FINALsubmitted.md",
+      "preview": "- Author: Juan José Díaz Mochón - Date/Year: 2013 - Document Type: Grant / Project - Status: Not Awarded - Original Folder: ERC CoG2013 --- Diaz-Mochon ChemArrays Part B1 European Research Council --- - 🔗 Original Converted Markdown (Full Text)"
+    },
+    {
+      "title": "ChemArrays Budget ERC CoGrant",
+      "date": "2024",
+      "status": "Placeholder (Pending Ingestion)",
+      "summary_link": null,
+      "full_text_link": null,
+      "preview": ""
+    },
+    {
+      "title": "885b2722 9038 450f af88 ecf5e956bce6",
+      "date": "2024",
+      "status": "Ingested",
+      "summary_link": "outputs/summaries_projects/Summary_of_885b2722-9038-450f-af88-ecf5e956bce6.md",
+      "full_text_link": "sources/converted_docs/885b2722-9038-450f-af88-ecf5e956bce6/885b2722-9038-450f-af88-ecf5e956bce6.md",
+      "preview": "- Author: Juan José Díaz Mochón - Date/Year: 2013 - Document Type: Grant / Project - Original Folder: ERC CoGrant JJD 2013 --- --- - 🔗 Original Converted Markdown (Full Text)"
+    },
+    {
+      "title": "Budget ERC CoGrant",
+      "date": "2024",
+      "status": "Placeholder (Pending Ingestion)",
+      "summary_link": null,
+      "full_text_link": null,
+      "preview": ""
+    },
+    {
+      "title": "Wissinger PNA on beads",
+      "date": "2024",
+      "status": "Placeholder (Pending Ingestion)",
+      "summary_link": null,
+      "full_text_link": null,
+      "preview": ""
+    },
+    {
+      "title": "ChemArrays CV ERC CoG 2013 B1 FINALsubmitted",
+      "date": "2024",
+      "status": "Ingested",
+      "summary_link": "outputs/summaries_projects/Summary_of_ChemArrays_CV-ERC_CoG_2013_B1__FINALsubmitted.md",
+      "full_text_link": "sources/converted_docs/ChemArrays_CV-ERC_CoG_2013_B1__FINALsubmitted/ChemArrays_CV-ERC_CoG_2013_B1__FINALsubmitted.md",
+      "preview": "- Author: Juan José Díaz Mochón - Date/Year: 2013 - Document Type: Grant / Project - Status: Not Awarded - Original Folder: ERC CoG2013 --- Diaz-Mochon ChemArrays Part B1 European Research Council --- - 🔗 Original Converted Markdown (Full Text)"
+    },
+    {
+      "title": "PhDcertificate JJD",
+      "date": "2024",
+      "status": "Placeholder (Pending Ingestion)",
+      "summary_link": null,
+      "full_text_link": null,
+      "preview": ""
+    },
+    {
+      "title": "ChemArrays CV ERC CoG 2013 B1 FINAL V8",
+      "date": "2024",
+      "status": "Ingested",
+      "summary_link": "outputs/summaries_projects/Summary_of_ChemArrays_CV-ERC_CoG_2013_B1__FINALsubmitted.md",
+      "full_text_link": "sources/converted_docs/ChemArrays_CV-ERC_CoG_2013_B1__FINALsubmitted/ChemArrays_CV-ERC_CoG_2013_B1__FINALsubmitted.md",
+      "preview": "- Author: Juan José Díaz Mochón - Date/Year: 2013 - Document Type: Grant / Project - Status: Not Awarded - Original Folder: ERC CoG2013 --- Diaz-Mochon ChemArrays Part B1 European Research Council --- - 🔗 Original Converted Markdown (Full Text)"
+    },
+    {
+      "title": "Host Institution UGR support letter",
+      "date": "2024",
+      "status": "Ingested",
+      "summary_link": "outputs/summaries_projects/Summary_of_Host_Institution_UGR_support_letter.md",
+      "full_text_link": "sources/converted_docs/Host_Institution_UGR_support_letter/Host_Institution_UGR_support_letter.md",
+      "preview": "- Author: Juan José Díaz Mochón - Date/Year: 2013 - Document Type: Grant / Project - Original Folder: ERC CoG2013 --- ... --- - 🔗 Original Converted Markdown (Full Text)"
+    },
+    {
+      "title": "ChemArrays CV ERC CoG 2013 B1 FINAL V8",
+      "date": "2024",
+      "status": "Ingested",
+      "summary_link": "outputs/summaries_projects/Summary_of_ChemArrays_CV-ERC_CoG_2013_B1__FINALsubmitted.md",
+      "full_text_link": "sources/converted_docs/ChemArrays_CV-ERC_CoG_2013_B1__FINALsubmitted/ChemArrays_CV-ERC_CoG_2013_B1__FINALsubmitted.md",
+      "preview": "- Author: Juan José Díaz Mochón - Date/Year: 2013 - Document Type: Grant / Project - Status: Not Awarded - Original Folder: ERC CoG2013 --- Diaz-Mochon ChemArrays Part B1 European Research Council --- - 🔗 Original Converted Markdown (Full Text)"
+    },
+    {
+      "title": "Submission of Proposals",
+      "date": "2024",
+      "status": "Ingested",
+      "summary_link": "outputs/summaries_projects/Summary_of_Submission_of_Proposals.md",
+      "full_text_link": "sources/converted_docs/Submission_of_Proposals/Submission_of_Proposals.md",
+      "preview": "- Author: Juan José Díaz Mochón - Date/Year: Unknown Year - Document Type: Grant / Project - Original Folder: Submitted --- 21/02/2013 Submission of Proposals | Step 6 <br Submit<br ERC-2013-CoG <br Juan Diaz mochon<br ERC-CG<br THU<br February 2013 17:00:00<br Brussels Local Time<br 21 <br Configuration <br... --- - 🔗 Original Converted Markdown (Full Text)"
+    },
+    {
+      "title": "JJD ERC CoG B2 V9 FINAL",
+      "date": "2024",
+      "status": "Ingested",
+      "summary_link": "outputs/summaries_projects/Summary_of_ChemArrays_CV-ERC_CoG_2013_B1__FINAL-V8.md",
+      "full_text_link": "sources/converted_docs/ChemArrays_CV-ERC_CoG_2013_B1__FINAL-V8/ChemArrays_CV-ERC_CoG_2013_B1__FINAL-V8.md",
+      "preview": "- Author: Juan José Díaz Mochón - Date/Year: 2013 - Document Type: Grant / Project - Status: Not Awarded - Original Folder: ERC CoG2013 --- Diaz-Mochon ChemArrays Part B1 European Research Council --- - 🔗 Original Converted Markdown (Full Text)"
+    },
+    {
+      "title": "ChemArrays CV ERC CoG 2013 B1 FINAL V8",
+      "date": "2024",
+      "status": "Ingested",
+      "summary_link": "outputs/summaries_projects/Summary_of_ChemArrays_CV-ERC_CoG_2013_B1__FINALsubmitted.md",
+      "full_text_link": "sources/converted_docs/ChemArrays_CV-ERC_CoG_2013_B1__FINALsubmitted/ChemArrays_CV-ERC_CoG_2013_B1__FINALsubmitted.md",
+      "preview": "- Author: Juan José Díaz Mochón - Date/Year: 2013 - Document Type: Grant / Project - Status: Not Awarded - Original Folder: ERC CoG2013 --- Diaz-Mochon ChemArrays Part B1 European Research Council --- - 🔗 Original Converted Markdown (Full Text)"
+    },
+    {
+      "title": "Host Institution UGR support letter",
+      "date": "2024",
+      "status": "Ingested",
+      "summary_link": "outputs/summaries_projects/Summary_of_Host_Institution_UGR_support_letter.md",
+      "full_text_link": "sources/converted_docs/Host_Institution_UGR_support_letter/Host_Institution_UGR_support_letter.md",
+      "preview": "- Author: Juan José Díaz Mochón - Date/Year: 2013 - Document Type: Grant / Project - Original Folder: ERC CoG2013 --- ... --- - 🔗 Original Converted Markdown (Full Text)"
+    },
+    {
+      "title": "Proyecto Motriz 2012 Detalles",
+      "date": "2024",
+      "status": "Ingested",
+      "summary_link": "outputs/summaries_projects/Summary_of_Proyecto_Motriz_2012_Memoria_tecnica__1_.md",
+      "full_text_link": "sources/converted_docs/Proyecto_Motriz_2012_Memoria_tecnica__1_/Proyecto_Motriz_2012_Memoria_tecnica__1_.md",
+      "preview": "- Author: Juan José Díaz Mochón - Date/Year: 2012 - Document Type: Grant / Project - Original Folder: Proyecto Motriz 2012 Junta --- Número registro: 201299900305392 Fecha y hora: 15/02/2012 13:32:47 TÍTULO DEL PROYECTO: Desarrollo de la Plataforma NanoChem-ISH. Plataforma de Alta Especificidad y Sensiblidad para la detección in-... --- - 🔗 Original Converted Markdown (Full Text)"
+    },
+    {
+      "title": "JJD PARTB FP7 PEOPLE 2012 CIG revised (3)",
+      "date": "2024",
+      "status": "Ingested",
+      "summary_link": "outputs/summaries_projects/Summary_of_JJD_PARTB_FP7-PEOPLE-2012-CIG_revised__3_.md",
+      "full_text_link": "sources/converted_docs/JJD_PARTB_FP7-PEOPLE-2012-CIG_revised__3_/JJD_PARTB_FP7-PEOPLE-2012-CIG_revised__3_.md",
+      "preview": "- Author: Juan José Díaz Mochón - Date/Year: Unknown Year - Document Type: Grant / Project - Original Folder: FP7-CIG --- --- - 🔗 Original Converted Markdown (Full Text)"
+    },
+    {
+      "title": "Annex 4 322276 CHEMiRNA Collaboration Agreement (1)",
+      "date": "2024",
+      "status": "Ingested",
+      "summary_link": "outputs/summaries_projects/Summary_of_Annex_4_322276_CHEMiRNA_Collaboration_Agreement__1_.md",
+      "full_text_link": "sources/converted_docs/Annex_4_322276_CHEMiRNA_Collaboration_Agreement__1_/Annex_4_322276_CHEMiRNA_Collaboration_Agreement__1_.md",
+      "preview": "- Author: Juan José Díaz Mochón - Date/Year: Unknown Year - Document Type: Grant / Project - Original Folder: FP7-CIG --- ... --- - 🔗 Original Converted Markdown (Full Text)"
+    },
+    {
+      "title": "Ethical Approval CHEMIRNA (1)",
+      "date": "2024",
+      "status": "Ingested",
+      "summary_link": "outputs/summaries_projects/Summary_of_Ethical_Approval_CHEMIRNA__1_.md",
+      "full_text_link": "sources/converted_docs/Ethical_Approval_CHEMIRNA__1_/Ethical_Approval_CHEMIRNA__1_.md",
+      "preview": "- Author: Juan José Díaz Mochón - Date/Year: Unknown Year - Document Type: Grant / Project - Original Folder: FP7-CIG --- --- - 🔗 Original Converted Markdown (Full Text)"
+    },
+    {
+      "title": "DiazMochon CIG Declaration of conformity (1)",
+      "date": "2024",
+      "status": "Placeholder (Pending Ingestion)",
+      "summary_link": null,
+      "full_text_link": null,
+      "preview": ""
+    },
+    {
+      "title": "Annex 5 322276 CHEMiRNA Registro Proyect Conv Europ J. D. Mochon (UGR Anat Patol) (1) (1)",
+      "date": "2024",
+      "status": "Ingested",
+      "summary_link": "outputs/summaries_projects/Summary_of_Annex_4_322276_CHEMiRNA_Collaboration_Agreement__1_.md",
+      "full_text_link": "sources/converted_docs/Annex_4_322276_CHEMiRNA_Collaboration_Agreement__1_/Annex_4_322276_CHEMiRNA_Collaboration_Agreement__1_.md",
+      "preview": "- Author: Juan José Díaz Mochón - Date/Year: Unknown Year - Document Type: Grant / Project - Original Folder: FP7-CIG --- ... --- - 🔗 Original Converted Markdown (Full Text)"
+    },
+    {
+      "title": "JJD PARTB FP7 PEOPLE 2012 CIG FINAL (1)",
+      "date": "2024",
+      "status": "Ingested",
+      "summary_link": "outputs/summaries_projects/Summary_of_JJD_PARTB_FP7-PEOPLE-2012-CIG_revised__3_.md",
+      "full_text_link": "sources/converted_docs/JJD_PARTB_FP7-PEOPLE-2012-CIG_revised__3_/JJD_PARTB_FP7-PEOPLE-2012-CIG_revised__3_.md",
+      "preview": "- Author: Juan José Díaz Mochón - Date/Year: Unknown Year - Document Type: Grant / Project - Original Folder: FP7-CIG --- --- - 🔗 Original Converted Markdown (Full Text)"
+    },
+    {
+      "title": "Ethical Approval CHEMIRNA",
+      "date": "2024",
+      "status": "Ingested",
+      "summary_link": "outputs/summaries_projects/Summary_of_Ethical_Approval_CHEMIRNA__1_.md",
+      "full_text_link": "sources/converted_docs/Ethical_Approval_CHEMIRNA__1_/Ethical_Approval_CHEMIRNA__1_.md",
+      "preview": "- Author: Juan José Díaz Mochón - Date/Year: Unknown Year - Document Type: Grant / Project - Original Folder: FP7-CIG --- --- - 🔗 Original Converted Markdown (Full Text)"
+    },
+    {
+      "title": "Proyecto Motriz 2012 Memoria tecnica (1)",
+      "date": "2024",
+      "status": "Ingested",
+      "summary_link": "outputs/summaries_projects/Summary_of_Proyecto_Motriz_2012_Memoria_tecnica__1_.md",
+      "full_text_link": "sources/converted_docs/Proyecto_Motriz_2012_Memoria_tecnica__1_/Proyecto_Motriz_2012_Memoria_tecnica__1_.md",
+      "preview": "- Author: Juan José Díaz Mochón - Date/Year: 2012 - Document Type: Grant / Project - Original Folder: Proyecto Motriz 2012 Junta --- Número registro: 201299900305392 Fecha y hora: 15/02/2012 13:32:47 TÍTULO DEL PROYECTO: Desarrollo de la Plataforma NanoChem-ISH. Plataforma de Alta Especificidad y Sensiblidad para la detección in-... --- - 🔗 Original Converted Markdown (Full Text)"
+    },
+    {
+      "title": "PRESUP Gennova 1015",
+      "date": "2024",
+      "status": "Placeholder (Pending Ingestion)",
+      "summary_link": null,
+      "full_text_link": null,
+      "preview": ""
+    },
+    {
+      "title": "Presupuesto desglosado del proyecto 2012 (2)",
+      "date": "2024",
+      "status": "Placeholder (Pending Ingestion)",
+      "summary_link": null,
+      "full_text_link": null,
+      "preview": ""
+    },
+    {
+      "title": "Proyecto Motriz 2012 JJ (Español) (1)",
+      "date": "2024",
+      "status": "Ingested",
+      "summary_link": "outputs/summaries_projects/Summary_of_Proyecto_Motriz_2012_Memoria_tecnica__1_.md",
+      "full_text_link": "sources/converted_docs/Proyecto_Motriz_2012_Memoria_tecnica__1_/Proyecto_Motriz_2012_Memoria_tecnica__1_.md",
+      "preview": "- Author: Juan José Díaz Mochón - Date/Year: 2012 - Document Type: Grant / Project - Original Folder: Proyecto Motriz 2012 Junta --- Número registro: 201299900305392 Fecha y hora: 15/02/2012 13:32:47 TÍTULO DEL PROYECTO: Desarrollo de la Plataforma NanoChem-ISH. Plataforma de Alta Especificidad y Sensiblidad para la detección in-... --- - 🔗 Original Converted Markdown (Full Text)"
+    },
+    {
+      "title": "proyecto motriz presupuesto",
+      "date": "2024",
+      "status": "Ingested",
+      "summary_link": "outputs/summaries_projects/Summary_of_Proyecto_Motriz_2012_Memoria_tecnica__1_.md",
+      "full_text_link": "sources/converted_docs/Proyecto_Motriz_2012_Memoria_tecnica__1_/Proyecto_Motriz_2012_Memoria_tecnica__1_.md",
+      "preview": "- Author: Juan José Díaz Mochón - Date/Year: 2012 - Document Type: Grant / Project - Original Folder: Proyecto Motriz 2012 Junta --- Número registro: 201299900305392 Fecha y hora: 15/02/2012 13:32:47 TÍTULO DEL PROYECTO: Desarrollo de la Plataforma NanoChem-ISH. Plataforma de Alta Especificidad y Sensiblidad para la detección in-... --- - 🔗 Original Converted Markdown (Full Text)"
+    },
+    {
+      "title": "Proyecto Motriz 2012 Detalles",
+      "date": "2024",
+      "status": "Ingested",
+      "summary_link": "outputs/summaries_projects/Summary_of_Proyecto_Motriz_2012_Memoria_tecnica__1_.md",
+      "full_text_link": "sources/converted_docs/Proyecto_Motriz_2012_Memoria_tecnica__1_/Proyecto_Motriz_2012_Memoria_tecnica__1_.md",
+      "preview": "- Author: Juan José Díaz Mochón - Date/Year: 2012 - Document Type: Grant / Project - Original Folder: Proyecto Motriz 2012 Junta --- Número registro: 201299900305392 Fecha y hora: 15/02/2012 13:32:47 TÍTULO DEL PROYECTO: Desarrollo de la Plataforma NanoChem-ISH. Plataforma de Alta Especificidad y Sensiblidad para la detección in-... --- - 🔗 Original Converted Markdown (Full Text)"
+    },
+    {
+      "title": "carta coordinacion Gennova (1)",
+      "date": "2024",
+      "status": "Placeholder (Pending Ingestion)",
+      "summary_link": null,
+      "full_text_link": null,
+      "preview": ""
+    },
+    {
+      "title": "CV JJDM CEIBioTicNov2012 (1)",
+      "date": "2024",
+      "status": "Placeholder (Pending Ingestion)",
+      "summary_link": null,
+      "full_text_link": null,
+      "preview": ""
+    },
+    {
+      "title": "TbrRNA",
+      "date": "2024",
+      "status": "Placeholder (Pending Ingestion)",
+      "summary_link": null,
+      "full_text_link": null,
+      "preview": ""
+    },
+    {
+      "title": "LmrRNA (1)",
+      "date": "2024",
+      "status": "Placeholder (Pending Ingestion)",
+      "summary_link": null,
+      "full_text_link": null,
+      "preview": ""
+    },
+    {
+      "title": "CEI BioTic Diaz Mochon Final (1)",
+      "date": "2024",
+      "status": "Placeholder (Pending Ingestion)",
+      "summary_link": null,
+      "full_text_link": null,
+      "preview": ""
+    },
+    {
+      "title": "2013 0301 CEI BioTic modified",
+      "date": "2024",
+      "status": "Placeholder (Pending Ingestion)",
+      "summary_link": null,
+      "full_text_link": null,
+      "preview": ""
+    },
+    {
+      "title": "carta de adhesión FIBAO JJDiazMochon (1)",
+      "date": "2024",
+      "status": "Ingested",
+      "summary_link": "outputs/summaries_projects/Summary_of_carta_de_adhesi_n_FIBAO_JJDiazMochon__1_.md",
+      "full_text_link": "sources/converted_docs/carta_de_adhesi_n_FIBAO_JJDiazMochon__1_/carta_de_adhesi_n_FIBAO_JJDiazMochon__1_.md",
+      "preview": "- Author: Juan José Díaz Mochón - Date/Year: 2012 - Document Type: Grant / Project - Original Folder: CEI BioTic 2012 --- ... --- - 🔗 Original Converted Markdown (Full Text)"
+    },
+    {
+      "title": "Email de la estrategia Secuencias rRNA Trypanosoma",
+      "date": "2024",
+      "status": "Ingested",
+      "summary_link": "outputs/summaries_projects/Summary_of_Email_de_la_estrategia_-_Secuencias_rRNA_Trypanosoma.md",
+      "full_text_link": "sources/converted_docs/Email_de_la_estrategia_-_Secuencias_rRNA_Trypanosoma/Email_de_la_estrategia_-_Secuencias_rRNA_Trypanosoma.md",
+      "preview": "- Author: Juan José Díaz Mochón - Date/Year: 2012 - Document Type: Grant / Project - Original Folder: CEI BioTic 2012 --- 3/6/13 Gmail - Secuencias rRNA Trypanosoma Juan J Diaz Mochon <jjdugr@gmail.com == picture [77 x 32] intentionally omitted <== --- - 🔗 Original Converted Markdown (Full Text)"
+    },
+    {
+      "title": "2012 0917 Abasic Probes DiazMochon (Final) (1)",
+      "date": "2024",
+      "status": "Placeholder (Pending Ingestion)",
+      "summary_link": null,
+      "full_text_link": null,
+      "preview": ""
+    },
+    {
+      "title": "C CV JAGS (1)",
+      "date": "2024",
+      "status": "Placeholder (Pending Ingestion)",
+      "summary_link": null,
+      "full_text_link": null,
+      "preview": ""
+    },
+    {
+      "title": "LmrRNA",
+      "date": "2024",
+      "status": "Placeholder (Pending Ingestion)",
+      "summary_link": null,
+      "full_text_link": null,
+      "preview": ""
+    },
+    {
+      "title": "TcrRNA",
+      "date": "2024",
+      "status": "Placeholder (Pending Ingestion)",
+      "summary_link": null,
+      "full_text_link": null,
+      "preview": ""
+    },
+    {
+      "title": "Memoria Técnica Rosalba (1)",
+      "date": "2024",
+      "status": "Ingested",
+      "summary_link": "outputs/summaries_projects/Summary_of_Memoria_Técnica_Rosalba_1.md",
+      "full_text_link": "sources/converted_docs/Memoria_Técnica_Rosalba_1/Memoria_Técnica_Rosalba_1.md",
+      "preview": "- Author: Juan José Díaz Mochón - Date/Year: 2012 - Document Type: Grant / Project --- Rosalba !Single White Rose Breakthrough Nanoparticle Anti-Infectives and Anti-tumoral Rosalba combinará su knowhow en preparación y desarrollo de nanopartículas para aplicaciones biológicas con su extenso conocimiento en miméticos de ácidos nucleicos para desarrollar una novedosa plataforma de ensayo que permita"
+    },
+    {
+      "title": "2012 012013 PlanFundacionEveris",
+      "date": "2024",
+      "status": "Ingested",
+      "summary_link": "outputs/summaries_projects/Summary_of_2012_012013_PlanFundacionEveris.md",
+      "full_text_link": "sources/converted_docs/2012_012013_PlanFundacionEveris/2012_012013_PlanFundacionEveris.md",
+      "preview": "- Author: Juan José Díaz Mochón - Date/Year: 2012 - Document Type: Grant / Project - Original Folder: Fundación Everis 2012 --- --- - 🔗 Original Converted Markdown (Full Text)"
+    },
+    {
+      "title": "carta apoyo",
+      "date": "2024",
+      "status": "Ingested",
+      "summary_link": "outputs/summaries_projects/Summary_of_Carta_de_Apoyo_JJD-Ministerio2012__1_.md",
+      "full_text_link": "sources/converted_docs/Carta_de_Apoyo_JJD-Ministerio2012__1_/Carta_de_Apoyo_JJD-Ministerio2012__1_.md",
+      "preview": "- Author: Juan José Díaz Mochón - Date/Year: 2012 - Document Type: Grant / Project - Original Folder: Ministerio 2012 --- == picture [71 x 70] intentionally omitted <== --- - 🔗 Original Converted Markdown (Full Text)"
+    },
+    {
+      "title": "justificanteFirma",
+      "date": "2024",
+      "status": "Placeholder (Pending Ingestion)",
+      "summary_link": null,
+      "full_text_link": null,
+      "preview": ""
+    },
+    {
+      "title": "Memoria Ministerio FINAL Version (2)",
+      "date": "2024",
+      "status": "Ingested",
+      "summary_link": "outputs/summaries_projects/Summary_of_Memoria_Ministerio_FINAL_Version_4.md",
+      "full_text_link": "sources/converted_docs/Memoria_Ministerio_FINAL_Version_4/Memoria_Ministerio_FINAL_Version_4.md",
+      "preview": "- Author: Juan José Díaz Mochón - Date/Year: 2012 - Document Type: Grant / Project --- Memoria Ministerio FINAL Version 4 [Content pending conversion from source file: JJD publications 03-03-2024, 20-19-21\\grants and projects\\Grants 2012\\Ministerio 2012\\Memoria Ministerio FINAL Version (4).doc] --- - 🔗 Original Converted Markdown (Full Text)"
+    },
+    {
+      "title": "Definitivo (2) (1)",
+      "date": "2024",
+      "status": "Ingested",
+      "summary_link": "outputs/summaries_projects/Summary_of_Definitivo__2___1_.md",
+      "full_text_link": "sources/converted_docs/Definitivo__2___1_/Definitivo__2___1_.md",
+      "preview": "- Author: Juan José Díaz Mochón - Date/Year: 2012 - Document Type: Grant / Project - Original Folder: Ministerio 2012 --- MINISTERIO DE ECONOMIA Y COMPETITIVIDAD PLAN NACIONAL de I+D+i 2008-2011 Subprograma de Proyectos de Investigación Fundamental SPID201200X034796IV0 == picture [125 x 35] intentionally o... --- - 🔗 Original Converted Markdown (Full Text)"
+    },
+    {
+      "title": "Curriculum vitae Ministerio JJD2012 VCC (2)",
+      "date": "2024",
+      "status": "Placeholder (Pending Ingestion)",
+      "summary_link": null,
+      "full_text_link": null,
+      "preview": ""
+    },
+    {
+      "title": "Ref Juan 2012 Letter of Support MBR",
+      "date": "2024",
+      "status": "Placeholder (Pending Ingestion)",
+      "summary_link": null,
+      "full_text_link": null,
+      "preview": ""
+    },
+    {
+      "title": "Memoria Ministerio FINAL Version (4)",
+      "date": "2024",
+      "status": "Ingested",
+      "summary_link": "outputs/summaries_projects/Summary_of_Memoria_Ministerio_FINAL_Version_4.md",
+      "full_text_link": "sources/converted_docs/Memoria_Ministerio_FINAL_Version_4/Memoria_Ministerio_FINAL_Version_4.md",
+      "preview": "- Author: Juan José Díaz Mochón - Date/Year: 2012 - Document Type: Grant / Project --- Memoria Ministerio FINAL Version 4 [Content pending conversion from source file: JJD publications 03-03-2024, 20-19-21\\grants and projects\\Grants 2012\\Ministerio 2012\\Memoria Ministerio FINAL Version (4).doc] --- - 🔗 Original Converted Markdown (Full Text)"
+    },
+    {
+      "title": "JJD PIFNO 2012",
+      "date": "2024",
+      "status": "Ingested",
+      "summary_link": "outputs/summaries_projects/Summary_of_JJD_PIFNO_2012.md",
+      "full_text_link": "sources/converted_docs/JJD_PIFNO_2012/JJD_PIFNO_2012.md",
+      "preview": "- Author: Juan José Díaz Mochón - Date/Year: 2012 - Document Type: Grant / Project - Original Folder: Ministerio 2012 --- Convocatoria de ayudas de Proyectos de Investigación Fundamental no orientada --- - 🔗 Original Converted Markdown (Full Text)"
+    },
+    {
+      "title": "Carta de Apoyo JJD Ministerio2012 (1)",
+      "date": "2024",
+      "status": "Ingested",
+      "summary_link": "outputs/summaries_projects/Summary_of_Carta_de_Apoyo_JJD-Ministerio2012__1_.md",
+      "full_text_link": "sources/converted_docs/Carta_de_Apoyo_JJD-Ministerio2012__1_/Carta_de_Apoyo_JJD-Ministerio2012__1_.md",
+      "preview": "- Author: Juan José Díaz Mochón - Date/Year: 2012 - Document Type: Grant / Project - Original Folder: Ministerio 2012 --- == picture [71 x 70] intentionally omitted <== --- - 🔗 Original Converted Markdown (Full Text)"
+    },
+    {
+      "title": "PSSERRANO Formato Genyo",
+      "date": "2024",
+      "status": "Placeholder (Pending Ingestion)",
+      "summary_link": null,
+      "full_text_link": null,
+      "preview": ""
+    },
+    {
+      "title": "MEMORIA AECC 15F",
+      "date": "2024",
+      "status": "Ingested",
+      "summary_link": "outputs/summaries_projects/Summary_of_MEMORIA_AECC_15F.md",
+      "full_text_link": "sources/converted_docs/MEMORIA_AECC_15F/MEMORIA_AECC_15F.md",
+      "preview": "- Author: Juan José Díaz Mochón - Date/Year: 2016 - Document Type: Grant / Project - Original Folder: Grants 2016-2017 --- == picture [182 x 78] intentionally omitted <== == picture [57 x 57] intentionally omitted <== --- - 🔗 Original Converted Markdown (Full Text)"
+    },
+    {
+      "title": "Pre proposal application form TRANSCAN2 JTC 2016 definitive",
+      "date": "2024",
+      "status": "Ingested",
+      "summary_link": "outputs/summaries_projects/Summary_of_Pre-proposal_application_form_TRANSCAN2_JTC-2016_definitive.md",
+      "full_text_link": "sources/converted_docs/Pre-proposal_application_form_TRANSCAN2_JTC-2016_definitive/Pre-proposal_application_form_TRANSCAN2_JTC-2016_definitive.md",
+      "preview": "- Author: Juan José Díaz Mochón - Date/Year: 2016 - Document Type: Grant / Project - Original Folder: Grants 2016-2017 --- ||JTC 2016 Pre-proposal Application Form<br ERA-NET: Aligning national/regional translational cancer research<br programmes and activities<br ... --- - 🔗 Original Converted Markdown (Full Text)"
+    }
+  ],
+  "entities": {
+    "researchers": [
+      {
+        "name": "Agustín Robles-Remacho",
+        "link": "entities/people/Agustin_Robles_Remacho.md",
+        "stats": "4 papers, 1 theses, 0 patents",
+        "description": "Agustín Robles-Remacho is a researcher at GenYo / Universidad de Granada, focusing on abasic Peptide Nucleic Acids and click chemistry-based nanosystems."
+      },
+      {
+        "name": "Angel Orte",
+        "link": "entities/people/Angel_Orte.md",
+        "stats": "5 papers, 0 theses, 1 patents",
+        "description": "Angel Orte is a Professor of Physical Chemistry at the University of Granada, specializing in time-gated fluorescence imaging and lifetime filtering biosensors for microRNA detection."
+      },
+      {
+        "name": "Antonio Delgado-González",
+        "link": "entities/people/Antonio_Delgado_Gonzalez.md",
+        "stats": "2 papers, 1 theses, 1 patents",
+        "description": "Antonio Delgado-González is a researcher in the Department of Medicinal and Organic Chemistry at the University of Granada, focusing on nanoparticles and fluorescent trackers."
+      },
+      {
+        "name": "Antonio Marín-Romero",
+        "link": "entities/people/Antonio_Marin_Romero.md",
+        "stats": "7 papers, 1 theses, 0 patents",
+        "description": "Antonio Marín-Romero is a researcher at GenYo, focusing on microRNA-122 profiling and bead-based diagnostic platforms like Luminex."
+      },
+      {
+        "name": "Araceli Aguilar-González",
+        "link": "entities/people/Araceli_Aguilar_Gonzalez.md",
+        "stats": "3 papers, 0 theses, 1 patents",
+        "description": "Araceli Aguilar-González is a researcher at GenYo / Universidad de Granada, specializing in genome editing, CRISPR-Cas13 systems, and single-nucleotide variant detection."
+      },
+      {
+        "name": "Asier Unciti-Broceta",
+        "link": "entities/people/Asier_Unciti_Broceta.md",
+        "stats": "9 papers, 0 theses, 1 patents",
+        "description": "Asier Unciti-Broceta is a Professor of Cancer Therapeutics at the University of Edinburgh, specializing in the synthesis of purine derivatives, kinase inhibitors, and bioorthogonal organometallic catalysts."
+      },
+      {
+        "name": "Bárbara López-Longarela",
+        "link": "entities/people/Barbara_Lopez_Longarela.md",
+        "stats": "4 papers, 0 theses, 0 patents",
+        "description": "Bárbara López-Longarela is a researcher at DestiNA Genomica S."
+      },
+      {
+        "name": "Francisco Javier López-Delgado",
+        "link": "entities/people/Francisco_Javier_Lopez_Delgado.md",
+        "stats": "7 papers, 0 theses, 1 patents",
+        "description": "Francisco Javier López-Delgado is a researcher at DestiNA Genomica S."
+      },
+      {
+        "name": "Francisco Martín",
+        "link": "entities/people/Francisco_Martin.md",
+        "stats": "2 papers, 0 theses, 1 patents",
+        "description": "Francisco Martín is a researcher at GenYo / Servicio Andaluz de Salud, focusing on gene editing, dual-guide CRISPR-Cas13 tools (CRISPNA), and clinical molecular diagnostics."
+      },
+      {
+        "name": "Frank Bowler",
+        "link": "entities/people/Frank_Bowler.md",
+        "stats": "0 papers, 1 theses, 0 patents",
+        "description": "Frank Bowler is a researcher who conducted his doctoral thesis in Mark Bradley's group at the University of Edinburgh, developing dynamic chemistry for genotyping and DNA analysis by MALDI-TOF mass spectrometry."
+      },
+      {
+        "name": "James W. Dear",
+        "link": "entities/people/James_W_Dear.md",
+        "stats": "4 papers, 0 theses, 0 patents",
+        "description": "James W."
+      },
+      {
+        "name": "José Antonio Lorente",
+        "link": "entities/people/Jose_Antonio_Lorente.md",
+        "stats": "0 papers, 0 theses, 3 patents",
+        "description": "José Antonio Lorente is a Professor of Forensic Medicine at the University of Granada and director of GENYO, specializing in circulating biomarkers, forensic genetics, and liquid biopsy."
+      },
+      {
+        "name": "Juan J. Guardia-Monteagudo",
+        "link": "entities/people/Juan_J_Guardia_Monteagudo.md",
+        "stats": "1 papers, 0 theses, 0 patents",
+        "description": "Juan J."
+      },
+      {
+        "name": "Juan José Díaz-Mochón",
+        "link": "entities/people/Juan_Jose_Diaz_Mochon.md",
+        "stats": "20 papers, 7 theses, 11 patents",
+        "description": "Juan José Díaz-Mochón is a Professor of Medicinal Chemistry at the University of Granada, co-founder of DestiNA Genomica S."
+      },
+      {
+        "name": "Mario Antonio Fara",
+        "link": "entities/people/Mario_Antonio_Fara.md",
+        "stats": "3 papers, 0 theses, 1 patents",
+        "description": "Mario Antonio Fara is a scientist at DestiNA Genomica S."
+      },
+      {
+        "name": "Mark Bradley",
+        "link": "entities/people/Mark_Bradley.md",
+        "stats": "25 papers, 1 theses, 0 patents",
+        "description": "Mark Bradley is a Professor of Chemical Biology at the University of Edinburgh, specializing in high-throughput chemistry, polymer microarrays, and cell-material interactions."
+      },
+      {
+        "name": "María José Serrano",
+        "link": "entities/people/Maria_Jose_Serrano.md",
+        "stats": "1 papers, 1 theses, 3 patents",
+        "description": "María José Serrano is a clinical researcher at GenYo / Servicio Andaluz de Salud, specializing in liquid biopsy, circulating tumor cells (CTCs), and cancer biomarkers."
+      },
+      {
+        "name": "Mavys Tabraue-Chávez",
+        "link": "entities/people/Mavys_Tabraue_Chavez.md",
+        "stats": "7 papers, 0 theses, 1 patents",
+        "description": "Mavys Tabraue-Chávez is a researcher at GenYo/DestiNA Genomica, specializing in chemistry-based diagnostic platforms, leishmaniasis species identification, and microRNA sensing."
+      },
+      {
+        "name": "Nancy Villegas Villao",
+        "link": "entities/people/Nancy_Villegas_Villao.md",
+        "stats": "2 papers, 1 theses, 0 patents",
+        "description": "Nancy Villegas Villao is a researcher at the University of Granada and GenYo, focusing on colorimetric assays and nanotechnology-based diagnostics for parasitic and viral infections."
+      },
+      {
+        "name": "Rosario María Sánchez-Martín",
+        "link": "entities/people/Rosario_Maria_Sanchez_Martin.md",
+        "stats": "8 papers, 3 theses, 6 patents",
+        "description": "Rosario María Sánchez-Martín is a Professor of Pharmacy and Pharmaceutical Technology at the University of Granada, specializing in multifunctional nanoparticles and intracellular transfection systems."
+      },
+      {
+        "name": "Salvatore Pernagallo",
+        "link": "entities/people/Salvatore_Pernagallo.md",
+        "stats": "19 papers, 2 theses, 4 patents",
+        "description": "Salvatore Pernagallo is a scientist and co-founder/director of DestiNA Genomica S."
+      }
+    ],
+    "institutions": [
+      {
+        "name": "DestiNA Genomica",
+        "link": "entities/institutions/DestiNA_Genomica.md",
+        "stats": "15 papers, 1 theses, 2 patents",
+        "description": "DestiNA Genomica S."
+      },
+      {
+        "name": "GenYo",
+        "link": "entities/institutions/GenYo.md",
+        "stats": "23 papers, 0 theses, 0 patents",
+        "description": "The Pfizer/Universidad de Granada/Junta de Andalucía Centre for Genomics and Oncological Research (GENYO) is a state-of-the-art research facility dedicated to genomic medicine, cancer diagnosis, and bioorthogonal chemistry platforms."
+      },
+      {
+        "name": "Mecwins S.A.",
+        "link": "entities/institutions/Mecwins.md",
+        "stats": "0 papers, 0 theses, 1 patents",
+        "description": "Mecwins S."
+      },
+      {
+        "name": "Quanterix Corporation",
+        "link": "entities/institutions/Quanterix.md",
+        "stats": "1 papers, 0 theses, 1 patents",
+        "description": "Quanterix Corporation is a life sciences company that commercialized the Single Molecule Array (Simoa) platform for digital detection of low-abundance proteins and nucleic acids."
+      },
+      {
+        "name": "Servicio Andaluz de Salud",
+        "link": "entities/institutions/Servicio_Andaluz_de_Salud.md",
+        "stats": "0 papers, 0 theses, 5 patents",
+        "description": "The Servicio Andaluz de Salud (SAS) is the public health provider in Andalusia, Spain."
+      },
+      {
+        "name": "Universidad de Granada",
+        "link": "entities/institutions/Universidad_de_Granada.md",
+        "stats": "33 papers, 6 theses, 11 patents",
+        "description": "The University of Granada (UGR) is a prestigious public university in southern Spain."
+      },
+      {
+        "name": "University of Edinburgh",
+        "link": "entities/institutions/University_of_Edinburgh.md",
+        "stats": "21 papers, 1 theses, 2 patents",
+        "description": "The University of Edinburgh is a world-renowned research university in Scotland."
+      }
+    ],
+    "projects": [
+      {
+        "name": "CRISPNA",
+        "link": "entities/projects/CRISPNA.md",
+        "stats": "0 papers, 0 theses, 1 patents",
+        "description": "CRISPNA is a hybrid platform developed by Diaz-Mochon and colleagues that integrates CRISPR-Cas13 gene editing and diagnostic systems with Peptide Nucleic Acid (PNA) chemistry, providing exceptional specificity for single-nucleotide variant detection."
+      },
+      {
+        "name": "CoVradar",
+        "link": "entities/projects/CoVradar.md",
+        "stats": "1 papers, 0 theses, 0 patents",
+        "description": "CoVradar is a smartphone-associated diagnostic device developed for rapid, point-of-care colorimetric detection of SARS-CoV-2 viral RNA directly from centrifuge tubes, paired with the CoVreader mobile application."
+      },
+      {
+        "name": "DestiNA Spin-Tube",
+        "link": "entities/projects/DestiNA_Spin_Tube.md",
+        "stats": "1 papers, 0 theses, 0 patents",
+        "description": "The DestiNA spin-tube is a chemical diagnostic technology that enables rapid detection and differentiation of nucleic acid targets (e."
+      },
+      {
+        "name": "LIQBIOPSENS",
+        "link": "entities/projects/LIQBIOPSENS.md",
+        "stats": "0 papers, 0 theses, 0 patents",
+        "description": "LIQBIOPSENS was a major European Horizon 2020 project (H2020-IA 687785) aimed at developing a novel, reliable, and affordable diagnostic platform for colorectal cancer screening using liquid biopsy (specifically detecting miR-21 and CTCs) without PCR amplification."
+      }
+    ]
+  },
+  "concepts": {
+    "chemistry": [
+      {
+        "name": "Abasic Probes",
+        "link": "concepts/chemistry/Abasic_Probes.md",
+        "stats": "1 papers, 0 theses, 0 patents",
+        "description": "Abasic probes are Peptide Nucleic Acid (PNA) sequences that contain a 'blank' or abasic position (typically replacing a base with an abasic monomer)."
+      },
+      {
+        "name": "Click Chemistry",
+        "link": "concepts/chemistry/Click_Chemistry.md",
+        "stats": "6 papers, 0 theses, 0 patents",
+        "description": "Click Chemistry describes a class of biocompatible reactions that are fast, high-yielding, and highly selective under mild conditions."
+      },
+      {
+        "name": "Dynamic Chemical Labeling (DCL)",
+        "link": "concepts/chemistry/Dynamic_Chemical_Labeling.md",
+        "stats": "13 papers, 3 theses, 2 patents",
+        "description": "Dynamic Chemical Labeling (DCL) utilizes reversible dynamic covalent chemistry (such as aldehyde-amine condensation) to label and identify specific target sequences without enzymatic amplification."
+      },
+      {
+        "name": "Hydrogels",
+        "link": "concepts/chemistry/Hydrogels.md",
+        "stats": "8 papers, 0 theses, 1 patents",
+        "description": "Supramolecular and polymeric hydrogels are three-dimensional network structures used in cell culture, tissue engineering (such as cartilage reconstruction), and as media for growing protein crystals in-situ to enhance stability and control release."
+      },
+      {
+        "name": "Nanoparticles",
+        "link": "concepts/chemistry/Nanoparticles.md",
+        "stats": "11 papers, 1 theses, 4 patents",
+        "description": "Functionalized nanoparticles and nanosystems (such as polymer nanoparticles, metallic nanoparticles, or tracker nanocatalysts) are widely utilized in Diaz-Mochon's research as carriers for targeted drug delivery, imaging agents, and platforms for bioorthogonal click chemistry reactions."
+      },
+      {
+        "name": "Peptide Libraries",
+        "link": "concepts/chemistry/Peptide_Libraries.md",
+        "stats": "5 papers, 0 theses, 0 patents",
+        "description": "High-throughput combinatorial peptide and peptoid libraries (often encoded with Peptide Nucleic Acids) are synthesized on solid supports or microarrays to profile enzyme substrates, identify cellular binding ligands, and screen protease/kinase activities."
+      },
+      {
+        "name": "Peptide Nucleic Acids (PNA)",
+        "link": "concepts/chemistry/Peptide_Nucleic_Acids.md",
+        "stats": "17 papers, 2 theses, 4 patents",
+        "description": "Peptide Nucleic Acids (PNA) are synthetic DNA/RNA mimics with an uncharged pseudopeptide backbone instead of a sugar-phosphate backbone."
+      },
+      {
+        "name": "Purine Derivatives",
+        "link": "concepts/chemistry/Purine_Derivatives.md",
+        "stats": "11 papers, 0 theses, 1 patents",
+        "description": "Substituted purine and adenine derivatives are synthesized and evaluated as biologically active compounds, acting as adenosine receptor ligands, pro-apoptotic inducers of leukemic lymphocytes, and inhibitors of kinases like DAPK-1."
+      },
+      {
+        "name": "Solid-Phase Synthesis",
+        "link": "concepts/chemistry/Solid_Phase_Synthesis.md",
+        "stats": "8 papers, 0 theses, 0 patents",
+        "description": "Solid-Phase Peptide Synthesis (SPPS) and combinatorial chemistry involve building polymer, peptide, or PNA chains step-by-step on solid supports (like resin beads)."
+      }
+    ],
+    "platforms": [
+      {
+        "name": "Biosensors",
+        "link": "concepts/platforms/Biosensors.md",
+        "stats": "3 papers, 0 theses, 1 patents",
+        "description": "Biosensors and biochips integrate biochemical recognition elements (like abasic PNA probes) with physical transducers (such as colorimetric sensors, fluorescent imaging, or smartphone readers) to directly detect circulating biomarkers without PCR amplification."
+      },
+      {
+        "name": "CRISPR-Cas13",
+        "link": "concepts/platforms/CRISPR_Cas13.md",
+        "stats": "2 papers, 0 theses, 1 patents",
+        "description": "CRISPR-Cas13 is an RNA-guided gene-editing and diagnostic effector that exhibits collateral RNA cleavage activity upon target binding."
+      },
+      {
+        "name": "Flow Cytometry",
+        "link": "concepts/platforms/Flow_Cytometry.md",
+        "stats": "6 papers, 0 theses, 1 patents",
+        "description": "Flow Cytometry is a laser-based biophysical technology used for cell counting, cell sorting, and biomarker detection."
+      },
+      {
+        "name": "Luminex",
+        "link": "concepts/platforms/Luminex.md",
+        "stats": "8 papers, 1 theses, 0 patents",
+        "description": "The Luminex platform (including MAGPIX and FLEXMAP 3D) is a multiplexing bead-based assay system that uses color-coded magnetic microspheres."
+      },
+      {
+        "name": "MALDI-TOF Mass Spectrometry",
+        "link": "concepts/platforms/MALDI_TOF_Mass_Spectrometry.md",
+        "stats": "4 papers, 0 theses, 0 patents",
+        "description": "Matrix-Assisted Laser Desorption/Ionization Time-of-Flight (MALDI-TOF) mass spectrometry is utilized for enzyme-free, amplification-free allele discrimination, genotyping, and pathogen identification by detecting single nucleotide fingerprints."
+      },
+      {
+        "name": "Polymer Microarrays",
+        "link": "concepts/platforms/Polymer_Microarrays.md",
+        "stats": "11 papers, 0 theses, 1 patents",
+        "description": "Polymer microarrays are high-throughput cell culture platforms where hundreds of distinct polymer formulations are printed on a single glass slide."
+      },
+      {
+        "name": "Single Molecule Arrays (Simoa)",
+        "link": "concepts/platforms/Single_Molecule_Arrays.md",
+        "stats": "2 papers, 0 theses, 1 patents",
+        "description": "Single Molecule Arrays (Simoa) capture and isolate single target molecules in femtoliter-sized wells, enabling ultrasensitive digital detection of low-abundance proteins and nucleic acids."
+      },
+      {
+        "name": "Smartphone Diagnostics",
+        "link": "concepts/platforms/Smartphone_Diagnostics.md",
+        "stats": "2 papers, 0 theses, 0 patents",
+        "description": "Smartphone-based diagnostic systems utilize mobile phone cameras to capture and interpret colorimetric color changes from molecular assays (e."
+      },
+      {
+        "name": "Theranostics",
+        "link": "concepts/platforms/Theranostics.md",
+        "stats": "1 papers, 1 theses, 3 patents",
+        "description": "Theranostics combines targeted therapeutic delivery with diagnostic imaging within a single platform (such as multifunctional polymer nanoparticles), allowing real-time monitoring of drug release and therapeutic efficacy in cancer models."
+      },
+      {
+        "name": "Time-Gated Fluorescence",
+        "link": "concepts/platforms/Time_Gated_Fluorescence.md",
+        "stats": "3 papers, 0 theses, 0 patents",
+        "description": "Time-gated fluorescence imaging and luminescence acquisition utilize long-lived fluorescent probes to filter out short-lived background autofluorescence, significantly improving the signal-to-noise ratio for ultra-sensitive biomarker detection in biofluids."
+      }
+    ],
+    "clinical_areas": [
+      {
+        "name": "Cell-Free DNA (cfDNA)",
+        "link": "concepts/clinical-areas/Cell_Free_DNA.md",
+        "stats": "1 papers, 0 theses, 0 patents",
+        "description": "Cell-free DNA (cfDNA) analysis in blood plasma is a cornerstone of non-invasive liquid biopsy, utilized for cancer profiling, treatment response monitoring, and early detection of disease recurrence in clinical practice."
+      },
+      {
+        "name": "Circulating Tumor Cells (CTCs)",
+        "link": "concepts/clinical-areas/Circulating_Tumor_Cells.md",
+        "stats": "1 papers, 0 theses, 2 patents",
+        "description": "Circulating Tumor Cells (CTCs) are cells that shed from a primary tumor into the vasculature, serving as critical biomarkers in liquid biopsies for cancer monitoring."
+      },
+      {
+        "name": "Hepatotoxicity (DILI)",
+        "link": "concepts/clinical-areas/Hepatotoxicity.md",
+        "stats": "9 papers, 0 theses, 1 patents",
+        "description": "Hepatotoxicity and Drug-Induced Liver Injury (DILI) are major safety issues in clinical drug development and medical toxicology."
+      },
+      {
+        "name": "Liquid Biopsy",
+        "link": "concepts/clinical-areas/Liquid_Biopsy.md",
+        "stats": "4 papers, 0 theses, 1 patents",
+        "description": "Liquid Biopsy is a minimally invasive diagnostic technique that analyzes biomarkers in blood or biofluids, such as circulating tumor cells (CTCs), cell-free DNA (cfDNA), and microRNAs (like miR-21)."
+      },
+      {
+        "name": "Parasitic Infections",
+        "link": "concepts/clinical-areas/Parasitic_Infections.md",
+        "stats": "9 papers, 1 theses, 0 patents",
+        "description": "This clinical area targets the detection and species-specific differentiation of tropical parasites, specifically Leishmania (causing mucocutaneous and cutaneous leishmaniasis) and Trypanosoma cruzi (causing Chagas disease)."
+      },
+      {
+        "name": "Tuberculosis",
+        "link": "concepts/clinical-areas/Tuberculosis.md",
+        "stats": "1 papers, 0 theses, 0 patents",
+        "description": "Tuberculosis (TB) and related mycobacterioses are infectious diseases caused by Mycobacterium tuberculosis."
+      },
+      {
+        "name": "Viral Infections",
+        "link": "concepts/clinical-areas/Viral_Infections.md",
+        "stats": "6 papers, 1 theses, 1 patents",
+        "description": "This clinical focus covers rapid diagnostic tools for viral detection (such as SARS-CoV-2/COVID-19 and influenza) using mobile apps and dynamic chemistry."
+      },
+      {
+        "name": "microRNA-122 (miR-122)",
+        "link": "concepts/clinical-areas/microRNA_122.md",
+        "stats": "7 papers, 0 theses, 0 patents",
+        "description": "MicroRNA-122 is a highly abundant, liver-specific microRNA that serves as a sensitive circulating biomarker for drug-induced liver injury (DILI) and hepatotoxicity."
+      },
+      {
+        "name": "microRNA-21 (miR-21)",
+        "link": "concepts/clinical-areas/microRNA_21.md",
+        "stats": "2 papers, 0 theses, 1 patents",
+        "description": "MicroRNA-21 is a well-known oncogenic microRNA frequently overexpressed in solid tumors."
+      }
+    ]
+  }
+};
+const DATA = window.APP_DATA;

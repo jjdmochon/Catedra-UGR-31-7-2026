@@ -1,0 +1,830 @@
+/* ==========================================================================
+   WIKI STYLES · INTEGRATED LLM-WIKI READER & KNOWLEDGE GRAPH
+   Cátedra UGR Concurso 31/7/2026 · Prof. Juan José Díaz-Mochón
+   ========================================================================== */
+
+@import url('design-system.css');
+
+/* ==========================================================================
+   1. SPLIT-PANE & MASTER-DETAIL LAYOUT
+   ========================================================================== */
+.wiki-layout {
+  display: flex;
+  width: 100%;
+  height: calc(100vh - 76px);
+  min-height: 680px;
+  overflow: hidden;
+  background-color: var(--bg-base);
+  position: relative;
+}
+
+/* ── Left Sidebar (Wiki Index, Trees & Search) ── */
+.wiki-sidebar {
+  width: 320px;
+  background-color: var(--bg-surface);
+  border-right: 1px solid var(--border-color);
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  height: 100%;
+  overflow: hidden;
+  z-index: 10;
+  transition: width var(--transition-normal), transform var(--transition-normal);
+}
+
+.wiki-sidebar-header {
+  padding: 20px;
+  border-bottom: 1px solid var(--border-color);
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  background: var(--bg-card);
+}
+
+.wiki-sidebar-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.wiki-brand-text {
+  font-family: var(--font-heading);
+  font-size: 1.05rem;
+  font-weight: 800;
+  color: var(--text-primary);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.wiki-brand-tag {
+  font-family: var(--font-data);
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--mint);
+  background: var(--mint-subtle);
+  padding: 2px 8px;
+  border-radius: var(--radius-pill);
+}
+
+.wiki-sidebar-scrollable {
+  flex: 1 1 auto;
+  overflow-y: auto;
+  padding: 18px 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.wiki-sidebar-footer {
+  padding: 14px 20px;
+  border-top: 1px solid var(--border-color);
+  background: var(--bg-card);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* ── Main Reading Pane ── */
+.wiki-main-pane {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+  background-color: var(--bg-base);
+  position: relative;
+}
+
+.wiki-top-toolbar {
+  height: 56px;
+  padding: 0 24px;
+  border-bottom: 1px solid var(--border-color);
+  background: var(--bg-surface);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+  gap: 16px;
+}
+
+.wiki-breadcrumbs {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--font-data);
+  font-size: 0.84rem;
+  color: var(--text-muted);
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.wiki-path-indicator {
+  color: var(--teal-light);
+  font-weight: 600;
+  max-width: 380px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.wiki-toolbar-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.wiki-action-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 6px 12px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border-color);
+  background: var(--bg-card);
+  color: var(--text-secondary);
+  font-size: 0.82rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: var(--transition-fast);
+}
+
+.wiki-action-btn:hover {
+  border-color: var(--teal-light);
+  color: var(--teal-light);
+  background: var(--teal-subtle);
+}
+
+.wiki-content-scroll {
+  flex: 1 1 auto;
+  overflow-y: auto;
+  padding: 40px 48px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.wiki-reader-content {
+  width: 100%;
+  max-width: 860px;
+}
+
+/* ==========================================================================
+   2. SEARCH BAR & INSTANT SEARCH RESULTS OVERLAY
+   ========================================================================== */
+.wiki-search-box {
+  position: relative;
+  width: 100%;
+}
+
+.wiki-search-input {
+  width: 100%;
+  background-color: var(--bg-base);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  padding: 10px 14px 10px 38px;
+  font-size: 0.88rem;
+  color: var(--text-primary);
+  font-family: inherit;
+  transition: var(--transition-fast);
+}
+
+.wiki-search-input:focus {
+  outline: none;
+  border-color: var(--teal-light);
+  box-shadow: 0 0 0 3px var(--teal-glow);
+}
+
+.wiki-search-icon {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  pointer-events: none;
+}
+
+.wiki-search-results-overlay {
+  display: none;
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 0;
+  right: 0;
+  background-color: var(--bg-surface);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-lg), 0 0 24px var(--teal-glow);
+  max-height: 420px;
+  overflow-y: auto;
+  z-index: var(--z-dropdown);
+  padding: 8px;
+}
+
+.search-item {
+  padding: 10px 14px;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  transition: var(--transition-fast);
+}
+
+.search-item:hover {
+  background-color: var(--bg-card-hover);
+}
+
+.search-item-badge {
+  display: inline-flex;
+  align-items: center;
+  font-family: var(--font-data);
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--teal-light);
+  background: var(--teal-subtle);
+  padding: 2px 8px;
+  border-radius: var(--radius-xs);
+  width: fit-content;
+}
+
+.search-item-title {
+  font-family: var(--font-heading);
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  line-height: 1.35;
+}
+
+.search-item-sub {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+/* ==========================================================================
+   3. CATEGORIZED NAVIGATION TREE & TAGS
+   ========================================================================== */
+.wiki-nav-group {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.wiki-nav-header {
+  font-family: var(--font-data);
+  font-size: 0.76rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-muted);
+  padding: 6px 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.wiki-nav-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 9px 12px;
+  border-radius: var(--radius-md);
+  font-family: var(--font-brand);
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  text-decoration: none;
+  cursor: pointer;
+  transition: var(--transition-fast);
+}
+
+.wiki-nav-item:hover {
+  background-color: var(--bg-card-hover);
+  color: var(--teal-light);
+  transform: translateX(3px);
+}
+
+.wiki-nav-item.active {
+  background-color: var(--teal-subtle);
+  color: var(--teal-light);
+  border-left: 3px solid var(--teal-light);
+  padding-left: 9px;
+  font-weight: 700;
+}
+
+.wiki-nav-icon {
+  font-size: 1.05rem;
+  flex-shrink: 0;
+}
+
+.wiki-nav-counter {
+  margin-left: auto;
+  font-family: var(--font-data);
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  background: var(--bg-base);
+  padding: 2px 7px;
+  border-radius: var(--radius-pill);
+}
+
+/* ── Tag Cloud System ── */
+.wiki-tag-cloud {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  padding: 4px 6px;
+}
+
+.wiki-tag {
+  font-family: var(--font-data);
+  font-size: 0.74rem;
+  font-weight: 600;
+  padding: 3px 9px;
+  border-radius: var(--radius-sm);
+  background: var(--bg-card);
+  color: var(--text-secondary);
+  border: 1px solid var(--border-color);
+  cursor: pointer;
+  transition: var(--transition-fast);
+}
+
+.wiki-tag:hover {
+  border-color: var(--teal-light);
+  color: var(--teal-light);
+  background: var(--teal-subtle);
+}
+
+.wiki-tag.tag-concurso {
+  border-color: rgba(255, 127, 80, 0.35);
+  color: var(--coral);
+}
+
+.wiki-tag.tag-chemistry {
+  border-color: rgba(0, 166, 166, 0.35);
+  color: var(--teal-light);
+}
+
+.wiki-tag.tag-clinic {
+  border-color: rgba(62, 180, 137, 0.35);
+  color: var(--mint);
+}
+
+/* ==========================================================================
+   4. MARKDOWN TYPOGRAPHY & SCIENTIFIC DOCUMENT STYLING
+   ========================================================================== */
+.markdown-body {
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  font-size: 1.02rem;
+  line-height: 1.75;
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4 {
+  font-family: var(--font-heading);
+  color: var(--text-primary);
+  font-weight: 700;
+  line-height: 1.3;
+  margin-top: 36px;
+  margin-bottom: 16px;
+}
+
+.markdown-body h1 {
+  font-size: 2.1rem;
+  font-weight: 800;
+  border-bottom: 2px solid var(--border-color);
+  padding-bottom: 12px;
+  position: relative;
+}
+
+.markdown-body h1::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 90px;
+  height: 2px;
+  background: var(--teal-light);
+}
+
+.markdown-body h2 {
+  font-size: 1.55rem;
+  border-bottom: 1px solid var(--border-light);
+  padding-bottom: 8px;
+}
+
+.markdown-body h3 {
+  font-size: 1.25rem;
+}
+
+.markdown-body h4 {
+  font-size: 1.1rem;
+}
+
+.markdown-body p {
+  margin-bottom: 18px;
+  color: var(--text-secondary);
+}
+
+.markdown-body strong {
+  color: var(--text-primary);
+  font-weight: 700;
+}
+
+.markdown-body em {
+  font-style: italic;
+  color: var(--text-secondary);
+}
+
+.markdown-body hr {
+  height: 1px;
+  background: var(--border-color);
+  border: none;
+  margin: 32px 0;
+}
+
+.markdown-body ul,
+.markdown-body ol {
+  padding-left: 26px;
+  margin-bottom: 20px;
+  color: var(--text-secondary);
+}
+
+.markdown-body li {
+  margin-bottom: 8px;
+  line-height: 1.65;
+}
+
+.markdown-body li::marker {
+  color: var(--teal-light);
+}
+
+/* ── Internal Obsidian / Wiki Links ── */
+.wiki-internal-link {
+  color: var(--teal-light);
+  text-decoration: none;
+  font-weight: 600;
+  border-bottom: 1px dashed var(--teal-light);
+  padding: 1px 4px;
+  border-radius: 3px;
+  background: var(--teal-subtle);
+  transition: var(--transition-fast);
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.wiki-internal-link:hover {
+  background-color: var(--teal-500);
+  color: #ffffff;
+  border-bottom-style: solid;
+  box-shadow: 0 0 10px var(--teal-glow);
+}
+
+/* ── Quotes & Quotations ── */
+.markdown-body blockquote {
+  margin: 24px 0;
+  padding: 16px 24px;
+  border-left: 4px solid var(--teal-light);
+  background: var(--bg-card);
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
+  color: var(--text-secondary);
+  font-style: italic;
+  font-size: 1.02rem;
+  box-shadow: var(--shadow-sm);
+}
+
+.markdown-body blockquote p:last-child {
+  margin-bottom: 0;
+}
+
+/* ── Code & Codeblocks ── */
+.markdown-body code {
+  font-family: var(--font-mono);
+  font-size: 0.88em;
+  background-color: var(--bg-card-hover);
+  color: var(--teal-light);
+  padding: 2px 7px;
+  border-radius: var(--radius-xs);
+  border: 1px solid var(--border-color);
+}
+
+.markdown-body pre {
+  margin: 24px 0;
+  padding: 20px;
+  background-color: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  overflow-x: auto;
+  box-shadow: var(--shadow-sm);
+}
+
+.markdown-body pre code {
+  background-color: transparent;
+  padding: 0;
+  border: none;
+  color: var(--text-primary);
+  font-size: 0.9em;
+  line-height: 1.6;
+}
+
+/* ==========================================================================
+   5. CALLOUT BOXES & ADMONITIONS (Obsidian / GitHub GFM style)
+   ========================================================================== */
+.callout {
+  margin: 24px 0;
+  padding: 18px 22px;
+  border-radius: var(--radius-md);
+  background-color: var(--bg-card);
+  border-left: 4px solid var(--teal-light);
+  box-shadow: var(--shadow-sm);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.callout-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 0.95rem;
+}
+
+.callout-title {
+  color: var(--text-primary);
+}
+
+.callout-note {
+  border-left-color: var(--teal-light);
+  background-color: rgba(0, 128, 128, 0.05);
+}
+.callout-note .callout-header { color: var(--teal-light); }
+
+.callout-tip {
+  border-left-color: var(--mint);
+  background-color: rgba(62, 180, 137, 0.05);
+}
+.callout-tip .callout-header { color: var(--mint); }
+
+.callout-important {
+  border-left-color: var(--violet);
+  background-color: rgba(139, 92, 246, 0.05);
+}
+.callout-important .callout-header { color: var(--violet); }
+
+.callout-warning {
+  border-left-color: var(--amber);
+  background-color: rgba(245, 158, 11, 0.05);
+}
+.callout-warning .callout-header { color: var(--amber); }
+
+.callout-danger,
+.callout-caution {
+  border-left-color: var(--coral);
+  background-color: rgba(255, 127, 80, 0.05);
+}
+.callout-danger .callout-header,
+.callout-caution .callout-header { color: var(--coral); }
+
+/* ==========================================================================
+   6. ACADEMIC TABLES (Modern Genyo Fusion Styling)
+   ========================================================================== */
+.table-responsive {
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin: 28px 0;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-color);
+  background-color: var(--bg-card);
+  box-shadow: var(--shadow-sm);
+}
+
+.markdown-body table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.92rem;
+  text-align: left;
+  margin: 0;
+}
+
+.markdown-body thead {
+  background: linear-gradient(135deg, var(--teal-500), var(--teal-700));
+  color: #ffffff;
+}
+
+.markdown-body th {
+  font-family: var(--font-data);
+  font-weight: 700;
+  font-size: 0.84rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 14px 18px;
+  color: #ffffff;
+  border: none;
+  white-space: nowrap;
+}
+
+.markdown-body td {
+  padding: 14px 18px;
+  border-top: 1px solid var(--border-color);
+  color: var(--text-secondary);
+  font-size: 0.92rem;
+  line-height: 1.55;
+  vertical-align: middle;
+  transition: background-color var(--transition-fast);
+}
+
+.markdown-body tbody tr:nth-child(even) {
+  background-color: rgba(0, 128, 128, 0.025);
+}
+
+.markdown-body tbody tr:hover td {
+  background-color: var(--teal-subtle);
+  color: var(--text-primary);
+}
+
+.markdown-body td strong {
+  color: var(--teal-light);
+}
+
+/* ==========================================================================
+   7. MERMAID DIAGRAM & MINDMAP CONTAINERS
+   ========================================================================== */
+.mermaid,
+.mermaid-chart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  padding: 28px 20px;
+  margin: 28px 0;
+  overflow-x: auto;
+  box-shadow: var(--shadow-sm);
+  transition: var(--transition-normal);
+}
+
+.mermaid:hover,
+.mermaid-chart:hover {
+  box-shadow: var(--shadow-md);
+  border-color: var(--border-hover);
+}
+
+.mermaid svg,
+.mermaid-chart svg {
+  max-width: 100% !important;
+  height: auto !important;
+  font-family: var(--font-brand) !important;
+}
+
+/* ==========================================================================
+   8. SLIDE-OUT READER PANEL (Split Reader Mode)
+   ========================================================================== */
+.reader-panel {
+  width: 0;
+  background-color: var(--bg-surface);
+  border-left: 1px solid var(--border-color);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+  transition: width 0.38s var(--ease-smooth);
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 50;
+  box-shadow: var(--shadow-lg);
+}
+
+.reader-panel.open {
+  width: 55vw;
+  min-width: 480px;
+  position: relative;
+}
+
+.reader-panel-header {
+  padding: 18px 24px;
+  border-bottom: 1px solid var(--border-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--bg-card);
+}
+
+.reader-panel-title {
+  font-family: var(--font-heading);
+  font-size: 1.12rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  max-width: 75%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.reader-panel-close {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  border: 1px solid var(--border-color);
+  background: var(--bg-surface);
+  color: var(--text-secondary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: var(--transition-fast);
+}
+
+.reader-panel-close:hover {
+  background: var(--bg-card-hover);
+  color: var(--text-primary);
+}
+
+/* ==========================================================================
+   9. SKELETONS & ERROR STATES
+   ========================================================================== */
+.wiki-skeleton {
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 800px;
+}
+
+.wiki-error-card {
+  background: var(--bg-card);
+  border: 1px solid rgba(255, 127, 80, 0.4);
+  border-radius: var(--radius-lg);
+  padding: 32px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  max-width: 580px;
+  margin: 40px auto;
+  box-shadow: var(--shadow-md);
+}
+
+.wiki-error-card h3 {
+  color: var(--coral);
+  font-size: 1.3rem;
+}
+
+.wiki-error-card code {
+  word-break: break-all;
+}
+
+/* ==========================================================================
+   10. RESPONSIVE MEDIA QUERIES FOR WIKI
+   ========================================================================== */
+@media (max-width: 1024px) {
+  .wiki-sidebar {
+    width: 280px;
+  }
+
+  .reader-panel.open {
+    width: 100%;
+    position: fixed;
+    top: 76px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 100;
+  }
+}
+
+@media (max-width: 768px) {
+  .wiki-layout {
+    flex-direction: column;
+    height: auto;
+    min-height: calc(100vh - 68px);
+  }
+
+  .wiki-sidebar {
+    width: 100%;
+    height: auto;
+    max-height: 380px;
+    border-right: none;
+    border-bottom: 1px solid var(--border-color);
+  }
+
+  .wiki-content-scroll {
+    padding: 24px 16px;
+  }
+
+  .markdown-body h1 {
+    font-size: 1.7rem;
+  }
+}
