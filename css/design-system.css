@@ -128,21 +128,26 @@
 }
 
 /* ── LIGHT THEME OVERRIDES (Crisp, High Contrast Academic White) ── */
+:root[data-theme="light"],
+html[data-theme="light"],
+html.light-theme,
 body.light-theme,
-[data-theme="light"] {
+body[data-theme="light"],
+[data-theme="light"],
+body:not(.dark-theme) {
   --bg-base:        #f8fafc;
   --bg-surface:     #ffffff;
   --bg-card:        #ffffff;
   --bg-card-hover:  #f1f5f9;
   --bg-card-active: #e2e8f0;
   --bg-elevated:    #ffffff;
-  --bg-glass:       rgba(255, 255, 255, 0.88);
-  --bg-glass-card:  rgba(255, 255, 255, 0.82);
+  --bg-glass:       rgba(255, 255, 255, 0.94);
+  --bg-glass-card:  rgba(255, 255, 255, 0.90);
 
-  --border-color:   rgba(0, 128, 128, 0.16);
-  --border-hover:   rgba(0, 128, 128, 0.38);
+  --border-color:   rgba(0, 128, 128, 0.20);
+  --border-hover:   rgba(0, 128, 128, 0.45);
   --border-focus:   #008080;
-  --border-light:   rgba(0, 0, 0, 0.06);
+  --border-light:   rgba(0, 0, 0, 0.08);
 
   --text-primary:   #0f172a;
   --text-secondary: #334155;
@@ -161,7 +166,11 @@ body.light-theme,
 }
 
 /* Explicit Dark Theme Selector Support */
+:root[data-theme="dark"],
+html[data-theme="dark"],
+html.dark-theme,
 body.dark-theme,
+body[data-theme="dark"],
 [data-theme="dark"] {
   --bg-base:        #0a0f12;
   --bg-surface:     #10171a;
@@ -169,8 +178,8 @@ body.dark-theme,
   --bg-card-hover:  #1b262b;
   --bg-card-active: #202d33;
   --bg-elevated:    #1f2b31;
-  --bg-glass:       rgba(16, 23, 26, 0.82);
-  --bg-glass-card:  rgba(21, 30, 34, 0.78);
+  --bg-glass:       rgba(16, 23, 26, 0.85);
+  --bg-glass-card:  rgba(21, 30, 34, 0.82);
 
   --border-color:   rgba(0, 166, 166, 0.18);
   --border-hover:   rgba(0, 166, 166, 0.45);
@@ -218,6 +227,17 @@ body {
     radial-gradient(circle at 88% 82%, rgba(62, 180, 137, 0.07) 0%, transparent 45%),
     radial-gradient(circle at 50% 50%, rgba(255, 127, 80, 0.03) 0%, transparent 60%);
   background-attachment: fixed;
+}
+
+body.light-theme,
+html.light-theme body,
+html[data-theme="light"] body {
+  background-color: #f8fafc;
+  color: #0f172a;
+  background-image:
+    radial-gradient(circle at 12% 16%, rgba(0, 128, 128, 0.06) 0%, transparent 45%),
+    radial-gradient(circle at 88% 82%, rgba(62, 180, 137, 0.05) 0%, transparent 45%),
+    radial-gradient(circle at 50% 50%, rgba(255, 127, 80, 0.02) 0%, transparent 60%);
 }
 
 /* ── Typography Defaults ── */

@@ -49,6 +49,7 @@
         <ul class="nav-links">
           <li><a href="#" class="nav-link active" data-tab="concurso">🏛️ Concurso</a></li>
           <li><a href="#" class="nav-link" data-tab="analitica">📊 Cifras & KPIs</a></li>
+          <li><a href="#" class="nav-link" data-tab="proyectos">💶 Proyectos I+D</a></li>
           <li><a href="#" class="nav-link" data-tab="publicaciones">📄 Publicaciones</a></li>
           <li><a href="#" class="nav-link" data-tab="patentes">🔬 Patentes</a></li>
           <li><a href="#" class="nav-link" data-tab="tesis">🎓 Tesis</a></li>
@@ -258,6 +259,67 @@
     </section>
 
     <!-- ───────────────────────────────────────────── -->
+    <!-- TAB: PROYECTOS DE INVESTIGACIÓN & CONTRATOS   -->
+    <!-- ───────────────────────────────────────────── -->
+    <section id="view-proyectos" class="tab-view">
+      <div class="container">
+        <div class="section-title-wrap">
+          <h2>💶 Proyectos de Investigación & Contratos I+D</h2>
+          <p>Trayectoria consolidada de captación de financiación en convocatorias competitivas europeas, del Plan Nacional, autonómicas y contratos de transferencia tecnológica Art. 83 LOU</p>
+        </div>
+
+        <!-- KPI Metrics Banner -->
+        <div class="projects-kpi-grid">
+          <div class="kpi-card project-kpi-card">
+            <div class="kpi-icon">💶</div>
+            <div class="kpi-num">4.797.968 €</div>
+            <div class="kpi-label">Financiación Total Captada</div>
+            <div class="kpi-sub">30 Proyectos y Contratos Oficiales</div>
+          </div>
+          <div class="kpi-card project-kpi-card highlight-ip">
+            <div class="kpi-icon">⭐</div>
+            <div class="kpi-num">1.729.050 €</div>
+            <div class="kpi-label">Como Investigador Principal</div>
+            <div class="kpi-sub">15 Proyectos y Contratos como IP</div>
+          </div>
+          <div class="kpi-card project-kpi-card">
+            <div class="kpi-icon">🌍</div>
+            <div class="kpi-num">3 Proyectos</div>
+            <div class="kpi-label">Europeos H2020 MSCA</div>
+            <div class="kpi-sub">LungCard, MASSTRPLAN, Consorcios UE</div>
+          </div>
+          <div class="kpi-card project-kpi-card">
+            <div class="kpi-icon">🤝</div>
+            <div class="kpi-num">4 Contratos</div>
+            <div class="kpi-label">Transferencia Art. 83 / OTRI</div>
+            <div class="kpi-sub">>300.000 € con Empresas Biotecnológicas</div>
+          </div>
+        </div>
+
+        <!-- Filter Controls -->
+        <div class="filter-toolbar">
+          <div class="search-box">
+            <input type="text" id="project-search-input" placeholder="Buscar por título, código oficial, entidad financiadora o año..." class="input-search">
+          </div>
+          <div class="project-filters">
+            <button class="btn btn-sm btn-filter-project active" data-category="all">Todos (30)</button>
+            <button class="btn btn-sm btn-filter-project" data-category="ip">⭐ Como IP (15)</button>
+            <button class="btn btn-sm btn-filter-project" data-category="internacional">🌍 Internacionales / UE (3)</button>
+            <button class="btn btn-sm btn-filter-project" data-category="nacional">🇪🇸 Plan Nacional / MICINN (8)</button>
+            <button class="btn btn-sm btn-filter-project" data-category="regional">🏛️ Junta de Andalucía (14)</button>
+            <button class="btn btn-sm btn-filter-project" data-category="transferencia">🤝 Transferencia Art. 83 (4)</button>
+          </div>
+          <div id="project-count-badge" class="count-badge">30 proyectos cargados</div>
+        </div>
+
+        <!-- Projects List Grid -->
+        <div id="projects-list" class="projects-grid">
+          <!-- Rendered by app.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ───────────────────────────────────────────── -->
     <!-- TAB 3: CATÁLOGO DE PUBLICACIONES              -->
     <!-- ───────────────────────────────────────────── -->
     <section id="view-publicaciones" class="tab-view">
@@ -313,8 +375,8 @@
     <section id="view-tesis" class="tab-view">
       <div class="container">
         <div class="section-title-wrap">
-          <h2>🎓 Tesis Doctorales Dirigidas</h2>
-          <p>11 tesis doctorales defendidas con menciones de excelencia entre España y el Reino Unido</p>
+          <h2>🎓 Tesis Doctorales Dirigidas & Formación de Investigadores</h2>
+          <p>11 tesis doctorales defendidas en universidades de máximo prestigio de España (UGR, UAM) y el Reino Unido (University of Edinburgh) bajo la dirección y tutela académica del Prof. Juan José Díaz-Mochón</p>
         </div>
 
         <div id="theses-list" class="theses-grid">
