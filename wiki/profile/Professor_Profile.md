@@ -55,6 +55,6 @@ Esta visión permite a los estudiantes del Grado en Farmacia, CTA y Nutrición c
 ---
 
 ## 5. Conexiones en el LLM-Wiki
-- **Proyectos Docentes y Asignaturas**: `[[Overview]]`, `[[QFUNO]]`, `[[QFDOS]]`, `[[QO_UGR]]`, `[[TRANSMED]]`
-- **Líneas y Métodos I+D**: `[[Dynamic_Chemical_Labeling]]`, `[[SMART_Probes]]`, `[[RiboTAC_Degraders]]`, `[[Methods_Overview]]`
-- **Concurso Oficial BOE 31/7/2026**: `[[Convocatoria_BOE_31_7_2026]]`, `[[Tribunal_Evaluador]]`, `[[Proyecto_Docente_Catedra]]`, `[[Proyecto_Investigador_Catedra]]`, `[[Baremo_Anexo_IV_BOE]]`
+- **Proyectos Docentes y Asignaturas**: [[Overview]], [[QFUNO]], [[QFDOS]], [[QO_UGR]], [[TRANSMED]]
+- **Líneas y Métodos I+D**: [[Dynamic_Chemical_Labeling]], [[SMART_Probes]], [[RiboTAC_Degraders]], [[Methods_Overview]]
+- **Concurso Oficial BOE 31/7/2026**: [[Convocatoria_BOE_31_7_2026]], [[Tribunal_Evaluador]], [[Proyecto_Docente_Catedra]], [[Proyecto_Investigador_Catedra]], [[Baremo_Anexo_IV_BOE]]

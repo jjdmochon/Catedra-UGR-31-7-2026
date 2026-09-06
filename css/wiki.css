@@ -32,6 +32,40 @@
   transition: width var(--transition-normal), transform var(--transition-normal);
 }
 
+.wiki-search-header {
+  flex-shrink: 0;
+  padding: 16px;
+  border-bottom: 1px solid var(--border-color);
+  background: var(--bg-surface);
+  position: relative;
+  z-index: 20;
+}
+
+.wiki-nav-tree {
+  flex: 1 1 auto;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 16px 14px 48px 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  scrollbar-width: thin;
+  scrollbar-color: var(--border-color) transparent;
+}
+
+.wiki-nav-tree::-webkit-scrollbar {
+  width: 6px;
+}
+
+.wiki-nav-tree::-webkit-scrollbar-thumb {
+  background: var(--border-color);
+  border-radius: 3px;
+}
+
+.wiki-nav-tree::-webkit-scrollbar-thumb:hover {
+  background: var(--teal-light);
+}
+
 .wiki-sidebar-header {
   padding: 20px;
   border-bottom: 1px solid var(--border-color);

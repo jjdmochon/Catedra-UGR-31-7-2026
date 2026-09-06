@@ -2688,7 +2688,10 @@ body.light-theme .concurso-banner {
 }
 
 .wiki-nav-tree {
-  padding: 16px;
+  flex: 1 1 auto;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 16px 14px 48px 14px;
   display: flex;
   flex-direction: column;
   gap: 18px;

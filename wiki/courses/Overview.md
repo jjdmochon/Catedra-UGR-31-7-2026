@@ -51,7 +51,7 @@ graph TD
 
 ## 4. Estructura del Catálogo Docente
 
-- `[[QO_UGR]]`: Química Orgánica (2º Grado en Farmacia). Fundamentos estereoquímicos y mecanismos de reacción.
-- `[[QFUNO]]`: Química Farmacéutica I (3º Grado en Farmacia). Diseño molecular de fármacos, dianas y farmacocinética ADME.
-- `[[QFDOS]]`: Química Farmacéutica II (4º Grado en Farmacia). Quimioterapia antiinfecciosa, oncológica y fármacos del sistema nervioso y cardiovascular.
-- `[[TRANSMED]]`: Máster en Medicina Traslacional. Biopsia líquida, validación diagnóstica, normativa ISO 13485 y transferencia al paciente.
+- [[QO_UGR]]: Química Orgánica (2º Grado en Farmacia). Fundamentos estereoquímicos y mecanismos de reacción.
+- [[QFUNO]]: Química Farmacéutica I (3º Grado en Farmacia). Diseño molecular de fármacos, dianas y farmacocinética ADME.
+- [[QFDOS]]: Química Farmacéutica II (4º Grado en Farmacia). Quimioterapia antiinfecciosa, oncológica y fármacos del sistema nervioso y cardiovascular.
+- [[TRANSMED]]: Máster en Medicina Traslacional. Biopsia líquida, validación diagnóstica, normativa ISO 13485 y transferencia al paciente.

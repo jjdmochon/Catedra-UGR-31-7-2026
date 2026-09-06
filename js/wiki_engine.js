@@ -114,16 +114,17 @@ window.WikiEngine = {
     // 1. Strip YAML frontmatter
     let content = rawMd.replace(/^---[\s\S]*?---\s*/, '');
 
-    // 2. Transform Obsidian wiki links: [[Target]] or [[Target|Alias]]
-    content = content.replace(/\[\[(.*?)(?:\|(.*?))?\]\]/g, (match, target, alias) => {
-      const displayText = alias || target;
-      const safeTarget = target.trim();
+    // 2. Transform Obsidian wiki links: [[Target]] or [[Target|Alias]] (stripping backticks if present)
+    content = content.replace(/`?\[\[([^|\]\n]+)(?:\|([^\]\n]+))?\]\]`?/g, (match, target, alias) => {
+      const displayText = (alias || target).trim();
+      const safeTarget = target.trim().replace(/['"\\]/g, '');
       return `<a href="javascript:void(0)" class="wiki-internal-link" onclick="WikiEngine.resolveInternalLink('${safeTarget}')">🔗 ${displayText}</a>`;
     });
 
-    // 3. Transform markdown links targeting .md files
-    content = content.replace(/\[(.*?)\]\((.*?\.md)\)/g, (match, text, url) => {
-      return `<a href="javascript:void(0)" class="wiki-internal-link" onclick="WikiEngine.loadPage('${url}')">📄 ${text}</a>`;
+    // 3. Transform markdown links targeting .md files (stripping backticks if present)
+    content = content.replace(/`?\[(.*?)\]\((.*?\.md)\)`?/g, (match, text, url) => {
+      const safeUrl = url.trim().replace(/['"\\]/g, '');
+      return `<a href="javascript:void(0)" class="wiki-internal-link" onclick="WikiEngine.loadPage('${safeUrl}')">📄 ${text}</a>`;
     });
 
     // 4. Render HTML via marked

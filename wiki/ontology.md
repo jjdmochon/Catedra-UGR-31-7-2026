@@ -58,5 +58,5 @@ section: "[Articles|Book Chapters|Preprints]"
 
 ## 🔗 Link Rules
 1. **Source Linking:** Every Summary Page *must* contain a direct, clickable relative link to its raw source document under `sources/papers_md/` or `sources/patents_md/`.
-2. **Author Reference:** When creating or modifying a summary page, any author name mentioned in the metadata that exists as a page under `entities/people/` should be linked (e.g. `[[Salvatore Pernagallo](../../entities/people/Salvatore_Pernagallo.md)]`).
+2. **Author Reference:** When creating or modifying a summary page, any author name mentioned in the metadata that exists as a page under `entities/people/` should be linked (e.g. [[Salvatore Pernagallo](../../entities/people/Salvatore_Pernagallo.md)]`).
 3. **Concept Extraction:** Important chemical techniques (e.g., *Dynamic Chemical Labeling*, *PNA*) or diagnostic platforms (*Luminex MAGPIX*, *destiNA*) should link to their respective definitions under `concepts/chemistry/` or `concepts/platforms/`.
