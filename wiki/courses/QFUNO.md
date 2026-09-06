@@ -1,68 +1,69 @@
 ---
-title: "Química Farmacéutica I (QFUNO) - UGR"
-type: course
+title: "Química Farmacéutica I (QFUNO) - Grado en Farmacia UGR"
+type: asignatura
 date_created: 2026-08-26
-date_updated: 2026-08-26
+date_updated: 2026-09-06
 status: active
 confidence: high
-tags: [teaching, medicinal-chemistry, drug-design, pharmacokinetics, UGR]
-sources: [portfolio-catedra/index.html, CV JJD short.md]
+tags: [docencia, farmacia, ugr, diseno-farmacos, farmacoforo, adme, qsar]
+sources: [Guía Docente UGR, portfolio-catedra/index.html]
 ---
 
 # Química Farmacéutica I (QFUNO)
 
-## Overview
-Química Farmacéutica I (QFUNO) is a core course in the third year of the Grado en Farmacia at the Universidad de Granada. 
-
-The course introduces students to the fundamental concepts of drug design, target identification, and lead optimization. The goal is to move beyond rote memorization of drug structures and train students to think like medicinal chemists: analyzing a molecular structure, identifying its pharmacophore, predicting its ADME (Absorption, Distribution, Metabolism, Excretion) profile, and designing synthetic pathways to optimize its therapeutic window.
-
----
-
-## Core Concepts
-- **Molecular Recognition**: How small molecules interact with biological macromolecular targets (receptors, enzymes, nucleic acids) through non-covalent forces (hydrogen bonds, electrostatic forces, hydrophobic interactions).
-- **Pharmacophore**: The precise 3D spatial arrangement of chemical features (donor/acceptor groups, aromatic rings) required to trigger a biological response.
-- **ADME & Pharmacokinetics**: Designing molecules that can survive the body’s "defensive operating system" (solubility, membrane permeability, metabolic degradation).
-- **Lead Optimization**: Modifying hits using bioisosterism, rigidification, simplification, or chain extension to improve binding affinity and selectivity.
-- **QSAR (Quantitative Structure-Activity Relationship)**: Correlating physical-chemical parameters (lipophilicity LogP, electronic constants, steric factors) with biological potency.
+## 1. Ficha Técnica de la Asignatura
+- **Titulación**: Grado en Farmacia.
+- **Curso y Temporalidad**: 3er Curso · Semestre de Otoño.
+- **Departamento**: Química Farmacéutica y Orgánica.
+- **Área de Conocimiento**: Química Orgánica / Química Farmacéutica.
+- **Créditos**: 6 ECTS.
 
 ---
 
-## Weekly Syllabus
+## 2. Objetivos y Enfoque Pedagógico
+Química Farmacéutica I aborda las fases iniciales del descubrimiento y desarrollo de fármacos: desde la identificación y validación de la diana macromolecular hasta la obtención y optimización de compuestos cabeza de serie (*lead compounds*).
 
-| Week | Topic | Core Computational / Chemical Analogy |
-| :--- | :--- | :--- |
-| **W1** | Intro to Medicinal Chemistry | Treating target drug design as writing specialized software interfaces. |
-| **W2** | Drug Targets (Proteins & Nucleic Acids) | Analyzing target macromolecule topologies as dynamic binding sockets. |
-| **W3** | Forces in Molecular Recognition | Energy optimization: enthalpy-entropy trade-offs in binding. |
-| **W4** | Pharmacokinetics & Bioavailability | Packaging: keeping the payload intact through physiological barriers. |
-| **W5** | Lead Identification & Screening | Querying databases: physical DEL screens vs. virtual screening. |
-| **W6** | Pharmacophore Mapping & Lead Optimization | Code refactoring: modular changes (isosteres) to improve code efficiency. |
-| **W7** | QSAR & Computational Drug Design | Statistical regression: finding correlations between structure and activity. |
-| **W8** | Drug Metabolism & Prodrugs | Compilation flags: designing inactive molecules activated by cellular enzymes. |
+El objetivo central consiste en que el futuro farmacéutico aprenda a relacionar la estructura química tridimensional de una molécula con su actividad biológica (farmacodinamia) y con su destino metabólico en el organismo (farmacocinética y ADME).
 
 ---
 
-## Common Student Misconceptions
-- **Misconception: "Drugs work through magic lock-and-key mechanisms."**  
-  *Correction*: Drug-target binding is a thermodynamic equilibrium. In reality, molecules are highly flexible ensembles. Binding occurs because the conformation-bound state is lower in free energy (delta G = delta H - T * delta S) than the unbound, solvated state. Students must analyze the enthalpy of bond formation versus the entropic cost of freezing molecular rotations.
-- **Misconception: "A drug has only one target."**  
-  *Correction*: All small molecules exhibit a binding profile across the proteome. Selectivity is relative, not absolute. Designing out off-target activities is a major debugging stage in lead development.
+## 3. Bloques Temáticos Principales
+
+```
+[Descubrimiento de Dianas] ──> [Identificación de Hits] ──> [Optimización de Líderes] ──> [Perfil ADMET]
+```
+
+### Bloque I: Dianas Biológicas y Reconocimiento Molecular
+- Tipos de dianas: receptores acoplados a proteínas G (GPCR), canales iónicos, enzimas y receptores nucleares.
+- Fuerzas no covalentes en la interacción fármaco-diana: enlaces de hidrógeno, interacciones electrostáticas, dispersión de van der Waals y efecto hidrofóbico.
+- Análisis termodinámico del complejo ligando-receptor: balance entálpico frente al coste entrópico de restricción conformacional.
+
+### Bloque II: El Concepto de Farmacóforo y Optimización de Líderes
+- Mapeo del farmacóforo: identificación de grupos dadores/aceptores de hidrógeno, centros aromáticos y zonas hidrofóbicas esenciales.
+- Estrategias de modificación estructural:
+  * Bioisosterismo clásico y no clásico (sustitución de anillos, fluoración estratégica).
+  * Rigorización y simplificación molecular.
+  * Extensión y ramificación de cadenas para maximizar contactos en la cavidad de unión.
+
+### Bloque III: Farmacocinética Química y Parámetros ADME
+- Factores que regulan la absorción y distribución: Regla de Lipinski (*Rule of Five*), área superficial polar topológica (TPSA) y permeabilidad pasiva.
+- Química del metabolismo de xenobióticos: reacciones de Fase I (oxidaciones por CYP450, reducciones, hidrólisis) y Fase II (glucuronidación, sulfatación, conjugación con glutatión).
+- Estrategia de profármacos: mejora de biodisponibilidad oral, direccionamiento a tejidos específicos y enmascaramiento de toxicidades.
+
+### Bloque IV: Relaciones Cuantitativas Estructura-Actividad (QSAR) y Modelado
+- Parámetros fisicoquímicos: hidrofobicidad (LogP, constantes pi de Hansch), parámetros electrónicos (constantes sigma de Hammett) y parámetros estéricos (Taft, Verloop).
+- Modelado molecular por ordenador: acoplamiento molecular (*docking* ligando-receptor) y predicción virtual de afinidades.
 
 ---
 
-## Laboratory & Practical Activities
-1. **Solid-Phase Synthesis (SPPS) Simulation & Practice**: Students perform solid-phase resin synthesis, understanding how immobilization simplifies purification (analogous to git-commit operations on solid resin beads).
-2. **Computational Docking**: Practical sessions using molecular modeling software (e.g., PyMOL, AutoDock/DiffDock) to physically dock lead candidates into active sites, calculating binding free energies and identifying target-ligand interactions.
+## 4. Prácticas de Laboratorio y Seminarios Aplicados
+1. **Síntesis en Soporte Sólido (SPPS)**: Preparación de péptidos modelo en resina polimérica Merrifield/Wang, comprendiendo el concepto de anclaje, desprotección ortogonal y purificación simplificada.
+2. **Taller de Modelado Molecular y Docking Virtual**: Manejo de herramientas computacionales (PyMOL, AutoDock) para visualizar cavidades activas, predecir modos de unión y calcular energías libres de interacción.
+3. **Casos Clínicos de Desarrollo de Fármacos**: Discusión en seminarios de moléculas de impacto clínico real (e.g., desarrollo de imatinib frente a BCR-ABL, o estatinas como inhibidores competitivos de la HMG-CoA reductasa).
 
 ---
 
-## Assessment Methods
-- **Continuous Evaluation (40%)**: Weekly quizzes, active participation in the Google Sites evaluation hub, and molecular design assignments.
-- **Practical Lab Evaluation (20%)**: Lab reports and performance during synthesis and docking sessions.
-- **Final Written Examination (40%)**: Written test focusing on mechanism-of-action predictions, synthetic design of simple APIs, and pharmacophore identification.
-
----
-
-## Connections
-- **Related Courses**: `[[QFDOS]]`, `[[QO_UGR]]`
-- **Related Methods**: `[[Solid_Phase_Synthesis]]`, `[[Peptide_Libraries]]`, `[[DNA_Encoded_Libraries]]`
+## 5. Metodología de Evaluación Oficial
+- **Evaluación Continua Formativa (40%)**: Cuestionarios semanales, resolución de problemas en el entorno virtual docente y casos prácticos de optimización molecular.
+- **Evaluación Práctica de Laboratorio (20%)**: Destreza experimental, cuaderno de prácticas e interpretación de espectros RMN y cromatogramas.
+- **Examen Final Teórico-Práctico (40%)**: Resolución de supuestos de diseño de fármacos y análisis de mecanismos de acción.

@@ -1,72 +1,55 @@
 ---
-title: "Translational Medicine and Diagnostics (TRANSMED) - UGR"
-type: course
+title: "Medicina Traslacional y Diagnóstico Molecular (TRANSMED) - Posgrado UGR"
+type: master
 date_created: 2026-08-26
-date_updated: 2026-08-26
+date_updated: 2026-09-06
 status: active
 confidence: high
-tags: [teaching, master, translational-medicine, diagnostics, regulation, ISO-13485, UGR]
-sources: [portfolio-catedra/index.html, CV JJD short.md]
+tags: [docencia, master, transmed, biopsia-liquida, regulacion, iso-13485, transferencia]
+sources: [Guía Docente Máster TRANSMED UGR, portfolio-catedra/index.html]
 ---
 
-# Translational Medicine and Diagnostics (TRANSMED)
+# Medicina Traslacional y Diagnóstico Molecular (TRANSMED)
 
-## Overview
-This postgraduate module is taught within the Master’s Program in Translational Medicine (TRANSMED) and the Master’s in Drug R&D at the Universidad de Granada.
-
-The course bridges the gap between laboratory chemical discoveries and clinical deployment. In software terms, **doing chemistry in the lab is writing code on a localhost development server. Shipping a molecular diagnostic to clinical practice is deploying that code to a production cluster serving millions of users.** The course covers liquid biopsy platforms, clinical cohort design, statistical validation of diagnostic assays, quality systems (ISO 13485), patent strategies, and biotechnology entrepreneurship.
-
----
-
-## Core Concepts
-- **Translational Pipeline**: The sequence of stages required to take a chemical assay (e.g., dynamic chemical labeling of microRNAs) through analytical validation, clinical cohort testing, regulatory approval, and commercial scaling.
-- **Diagnostic Performance Metrics**:
-  * **Clinical Sensitivity**: True Positive Rate (TP / (TP + FN)).
-  * **Clinical Specificity**: True Negative Rate (TN / (TN + FP)).
-  * **PPV/NPV (Positive/Negative Predictive Value)**: Dependent on disease prevalence in the tested population.
-  * **ROC AUC (Receiver Operating Characteristic - Area Under the Curve)**: Statistical evaluation of diagnostic accuracy.
-- **Regulatory Frameworks (ISO 13485 & CE-IVD)**: Quality management systems for design, development, and manufacture of medical devices.
-- **Intellectual Property & Technology Transfer**: Patent filing strategies, university spin-off generation, and public-private funding acquisition (e.g., EIC Accelerator, CDTI).
+## 1. Ficha Técnica del Módulo
+- **Titulación**: Máster Universitario en Investigación Traslacional y Medicina Personalizada (TRANSMED) / Máster en I+D de Medicamentos.
+- **Nivel**: Posgrado Oficial (Nivel MECES 3).
+- **Entorno Formativo**: Universidad de Granada y Centro GENYO.
+- **Créditos**: 3 ECTS.
 
 ---
 
-## Weekly Syllabus
+## 2. Objetivos y Filosofía del Posgrado
+Este módulo especializado conecta la química sintética y el descubrimiento molecular con su implementación en la práctica clínica hospitalaria. 
 
-| Week | Topic | Core Computational / Translational Analogy |
-| :--- | :--- | :--- |
-| **W1** | Intro to Translational Medicine | Shipping code: why "working on my machine" (the lab bench) is insufficient for production (the clinic). |
-| **W2** | Liquid Biopsy Biomarkers | System telemetry: monitoring circulating DNA, microRNAs, and shedding cells. |
-| **W3** | Amplification-Free Diagnostics | Code optimization: simplifying diagnostic protocols by removing enzymatic steps. |
-| **W4** | Assay Integration & xMAP Platforms | API integration: adapting chemical labeling to commercial hardware (Luminex, Simoa). |
-| **W5** | Analytical vs. Clinical Validation | Unit testing vs. User Acceptance Testing (UAT) in patient cohorts. |
-| **W6** | Diagnostic Statistics & ROC Curves | Threshold tuning: balancing false positives and false negatives using ROC analysis. |
-| **W7** | Quality Systems & ISO 13485 | Static analysis & safety guardrails: establishing strict compliance and traceability checklists. |
-| **W8** | Entrepreneurship & Tech Transfer | Deployment & scaling: building spin-offs, writing patent claims, and raising capital. |
+A menudo existe un abismo entre un ensayo químico que funciona en un tubo de ensayo y su transformación en un dispositivo de diagnóstico in vitro (IVD) validado clínicamente y aprobado por agencias regulatorias. El objetivo formativo es dotar a graduados en Farmacia, Medicina, Biotecnología y Bioquímica de los conocimientos interdisciplinares necesarios para liderar proyectos de I+D traslacional y transferencia tecnológica.
 
 ---
 
-## Common Student Misconceptions
-- **Misconception: "An assay with 99% analytical sensitivity is immediately ready for clinical use."**  
-  *Correction*: Analytical sensitivity (limit of detection, e.g., detecting 1 copy of DNA per microliter) does *not* equal clinical sensitivity. In clinical cohorts, biological variance (isomirs, extraction yields, patient backgrounds) introduces noise. Furthermore, positive predictive value (PPV) drops significantly if the disease prevalence in the target screening population is low.
-- **Misconception: "Regulatory quality standards (ISO 13485) stifle research creativity."**  
-  *Correction*: ISO 13485 is a design framework. It ensures that every step of synthesis, reagent labeling, and measurement is fully traceable. If a clinical batch fails, documentation acts as a git-bisect tool, allowing developers to isolate and debug the specific failing batch or process.
+## 3. Contenidos Formativos de Vanguardia
+
+### 1. Plataformas de Biopsia Líquida y Biomarcadores Circulantes
+- Análisis de ácidos nucleicos circulantes: microRNAs libres de células (cf-miRNAs), ADN tumoral circulante (ctDNA) y células tumorales circulantes (CTCs).
+- Detección de daño hepático temprano: el panel clínico de miR-122 en intoxicación farmacológica aguda.
+- Tecnologías de análisis libre de amplificación: química de marcado dinámico (DCL) y nanosensores ópticos.
+
+### 2. Validación Analítica vs. Validación Clínica
+- Parámetros analíticos: Límite de Detección (LOD), Límite de Cuantificación (LOQ), linealidad, repetibilidad y especificidad analítica.
+- Parámetros clínicos en cohortes de pacientes: Sensibilidad clínica, especificidad clínica, Valor Predictivo Positivo (VPP), Valor Predictivo Negativo (VPN) e impacto de la prevalencia de la enfermedad.
+- Análisis estadístico avanzado mediante curvas ROC (*Receiver Operating Characteristic*) y cálculo del Área Bajo la Curva (AUC).
+
+### 3. Sistemas de Gestión de la Calidad y Regulación Sanitaria
+- Normativa internacional **ISO 13485** para diseño, desarrollo y fabricación de productos sanitarios y diagnóstico in vitro (IVD).
+- El nuevo Reglamento Europeo de Diagnóstico In Vitro (**IVDR 2017/746**): requisitos de evidencia clínica y trazabilidad documental.
+- Gestión de riesgos biológicos y control de calidad por lotes.
+
+### 4. Propiedad Industrial, Patentes y Creación de Spin-offs
+- Estrategias de redacción y tramitación de patentes farmacéuticas y biotecnológicas: novedad, actividad inventiva y suficiencia de la descripción.
+- Vías de protección internacional: Tratado de Cooperación en materia de Patentes (PCT) y fases nacionales en EE. UU., Europa y Asia.
+- Modelos de transferencia de tecnología desde la universidad: licencias exclusivas, convenios Art. 83 LOU y creación de Empresas de Base Tecnológica (EBTs).
 
 ---
 
-## Laboratory & Practical Activities
-1. **Clinical Cut-off Analysis**: Students receive real-world clinical datasets from paracetamol toxicity (miR-122) and acute liver injury cohorts. They plot ROC curves, calculate Area Under the Curve (AUC), and determine the optimal diagnostic cut-off point.
-2. **Target Product Profile (TPP) Design**: Teams select a molecular biomarker (e.g., miR-21 for cancer, or Leishmania hsp70 genes) and author a complete TPP document, describing clinical utility, target users, analytical limits, storage requirements, and regulatory path.
-
----
-
-## Assessment Methods
-- **Target Product Profile Proposal (50%)**: Written design dossier outlining the translational development plan for a molecular diagnostic device.
-- **Group Oral Presentation (30%)**: Pitching a diagnostic spin-off to a mock panel of venture capitalists and clinical regulators.
-- **Continuous Case-Study Evaluations (20%)**: Weekly data-analysis exercises.
-
----
-
-## Connections
-- **Related Profile**: `[[Professor_Profile]]`, `[[Research_Overview]]`
-- **Related Projects**: `[[LIQBIOPSENS]]`, `[[CoVradar]]`
-- **Related Concepts**: `[[Liquid_Biopsy]]`, `[[microRNA_122]]`, `[[Hepatotoxicity]]`
+## 4. Actividades Prácticas y Metodología
+1. **Taller de Cálculo y Optimización de Puntos de Corte Diagnósticos**: El alumnado trabaja con matrices de datos clínicos reales de pacientes con lesión hepática por paracetamol, genera curvas ROC con software estadístico y establece el umbral óptimo de decisión médica.
+2. **Elaboración de un Target Product Profile (TPP)**: Diseño grupal de la ficha técnica de un nuevo producto diagnóstico in vitro, especificando población diana, muestra clínica requerida, sensibilidad requerida, interferencias y modelo de explotación comercial.

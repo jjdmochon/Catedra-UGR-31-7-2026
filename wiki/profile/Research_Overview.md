@@ -1,115 +1,92 @@
 ---
-title: "Research Overview: Dr. Juan José Díaz-Mochón"
-type: topic
+title: "Líneas de Investigación y Producción Científica: Prof. Dr. Juan José Díaz-Mochón"
+type: tematica
 date_created: 2026-08-26
-date_updated: 2026-08-26
+date_updated: 2026-09-06
 status: active
 confidence: high
-tags: [research, chemical-biology, diagnostic, nanotechnology, liquid-biopsy]
-sources: [portfolio-catedra/index.html, CV JJD short.md]
+tags: [investigacion, lineas-id, dcl, biopsia-liquida, nanomedicina, pna, farmacos]
+sources: [portfolio-catedra/index.html, CV JJD short.md, Certificaciones UGR]
 ---
 
-# Research Overview: Dr. Juan José Díaz-Mochón
+# Líneas de Investigación y Producción Científica: Prof. Dr. Juan José Díaz-Mochón
 
-## Overview
-Dr. Juan José Díaz-Mochón’s research operates at the interface of chemistry, biology, and medicine. By treating nucleic acid hybridization and chemical reactions as a **highly selective molecular code**, the lab designs tools that read, translate, and therapeutic-modify biological systems without relying on bulky enzymatic amplification steps (like PCR).
+## 1. Visión General del Programa Científico
+La actividad investigadora del Prof. Dr. Juan José Díaz-Mochón se sitúa en la frontera convergente entre la **química orgánica sintética**, la **química biológica** y la **medicina molecular traslacional**. 
 
-His research program is organized into 6 core axes (Líneas de Investigación):
+El pilar central de su investigación consiste en emplear las reacciones orgánicas reversibles y el reconocimiento molecular de ácidos nucleicos como un sistema de alta precisión química, permitiendo detectar, monitorizar y modular dianas genómicas y transcriptómicas patológicas **sin recurrir a enzimas de amplificación (libre de PCR)**.
 
 ```mermaid
 mindmap
-  root((Líneas I+D))
-    id1["DCL y Química de Ácidos Nucleicos"]
-      ["Dynamic Chemical Labeling (DCL)"]
-      ["Sondas PNA Abásicas"]
-      ["SMART Bases Reactivas"]
-    id2["Biopsia Líquida y Diagnóstico"]
-      ["Paneles microRNA (miR-122 / miR-21)"]
-      ["Células Circulantes (CTCs)"]
-      ["Toxicidad Hepática DILI y Cáncer"]
-    id3["Nanotecnología y Teragnosis"]
-      ["Nanopartículas Poliméricas"]
-      ["Nanocatalizadores Click Intracelulares"]
-      ["Nanotrackers para Citometría de Masas"]
-    id4["Dispositivos Point-of-Care"]
-      ["Plataforma Spin-Tube"]
-      ["Dispositivo CoVradar y CoVreader"]
-      ["Diferenciación de Especies de Leishmania"]
-    id5["Biomateriales y Alto Rendimiento"]
-      ["Microarrays de Polímeros"]
-      ["Librerías Codificadas en PNA (DEL)"]
-      ["Vectores de Transfección Peptoides"]
-    id6["Química Farmacéutica y Médica"]
-      ["Purinas Trisustituidas"]
-      ["Ligandos del Receptor de Adenosina A1"]
-      ["Ortogonalidad Fmoc / Dde"]
+  root((Ejes de Investigación))
+    id1["1. Marcado Químico Dinámico (DCL)"]
+      ["Química covalente reversible"]
+      ["Sondas PNA abásicas"]
+      ["SMART nucleobases funcionalizadas"]
+    id2["2. Biopsia Líquida y Biomarcadores"]
+      ["Paneles microRNA: miR-122 (DILI) y miR-21"]
+      ["Células tumorales circulantes (CTCs)"]
+      ["Detección en suero sin purificación de ARN"]
+    id3["3. Nanomedicina y Teragnóstica"]
+      ["Nanopartículas poliméricas vectorizadas"]
+      ["Nanocatalizadores bioortogonales intracelulares"]
+      ["Marcadores de citometría de masas"]
+    id4["4. Dispositivos Point-of-Care (PoC)"]
+      ["Plataforma centrífuga Spin-Tube"]
+      ["Dispositivo óptico CoVradar / CoVreader"]
+      ["Diferenciación genómica de Leishmania"]
+    id5["5. Síntesis de Quimiotecas y DEL"]
+      ["Microarrays de polímeros sintéticos"]
+      ["Quimiotecas peptídicas codificadas por PNA"]
+      ["Cribado de alta densidad de ligandos"]
+    id6["6. Química Médica y Modulación de Dianas"]
+      ["6-Alcoxipurinas e inhibidores de quinasas"]
+      ["Ligandos selectivos del receptor A1 de adenosina"]
+      ["Degradadores dirigidos de ARN (RiboTAC)"]
 ```
 
 ---
 
-## Key Points
-- **Amplification-Free Molecular Diagnostics**: Replacing PCR with direct chemical labeling (DCL) to reduce assay cost, runtime, and enzyme susceptibility to clinical serum inhibitors.
-- **Translational Pipeline**: Moving from fundamental organic synthesis of purines and PNAs to clinical trials in acute liver injury and point-of-care infectious disease diagnostics.
-- **Multidisciplinary Synergy**: Chemical synthesis, nanotechnology-driven delivery, smartphone-based reading algorithms, and computational modeling.
+## 2. Descripción Detallada de los 6 Ejes Científicos
+
+### Eje 1: Marcado Químico Dinámico (Dynamic Chemical Labeling - DCL)
+- **Objetivo**: Diseñar metodologías químicas que permitan interrogar secuencias de ADN y ARN a nivel de variación de nucleótido único (SNVs) sin reactivos enzimáticos.
+- **Mecanismo**: Una sonda de Ácido Nucleico Peptídico (PNA) con una posición abásica hibrida con la hebra diana, generando una cavidad frente a la base mutada. Una nucleobase modificada (**SMART nucleobase**) provista de un aldehído reacciona dinámicamente con la amina del monómero abásico. El emparejamiento Watson-Crick correcto desplaza el equilibrio termodinámico, y una posterior reducción química sella covalentemente la marcación con fluoróforo o biotina.
+- **Publicaciones clave**: Bowler et al. (*Angew. Chem. Int. Ed.*, 2010); Marín-Romero et al. (*Analyst*, 2018); Robles-Remacho et al. (*ACS Sens.*, 2020).
+
+### Eje 2: Biopsia Líquida y Cuantificación de microRNAs Circulantes
+- **Objetivo**: Monitorización no invasiva de patologías agudas y crónicas directamente en biofluidos clínicos (plasma y suero).
+- **Dianas destacadas**:
+  * **miR-122-5p**: Biomarcador ultratemprano de toxicidad hepática inducida por fármacos (DILI / intoxicación por paracetamol), validado clínicamente junto al *Royal Infirmary of Edinburgh* y el NHS.
+  * **miR-21 y miR-1246**: Biomarcadores de progresión en cáncer colorrectal y carcinomas sólidos.
+  * **Detección sin extracción**: Acoplamiento directo a sistemas ópticos y esferas magnéticas en plataformas Luminex MAGPIX y Quanterix Simoa.
+- **Publicaciones clave**: López-Longarela et al. (*Anal. Chem.*, 2020); Alzeer et al. (*Br. J. Clin. Pharmacol.*, 2025).
+
+### Eje 3: Nanotecnología Farmacéutica y Teragnóstica
+- **Objetivo**: Generación de nanosistemas poliméricos multifuncionales para diagnosis por imagen y liberación espaciotemporal de principios activos.
+- **Hitos**: Desarrollo de nanopartículas monodispersas funcionalizadas con anticuerpos monoclonales para direccionamiento tumoral, y nanocatalizadores de paladio que catalizan reacciones bioortogonales (*click chemistry*) en el interior de células tumorales vivas.
+- **Publicaciones clave**: Cano-Cortés et al. (*Nanoscale*, 2021); Delgado-González et al. (*Small*, 2018); Rodríguez-Segura et al. (*Small*, 2025).
+
+### Eje 4: Dispositivos de Diagnóstico Rápido en Punto de Atención (Point-of-Care)
+- **Objetivo**: Trasladar la química diagnóstica a dispositivos portátiles de bajo coste aplicables en entornos con recursos limitados.
+- **Dispositivos desarrollados**: Cartuchos *Spin-Tube* para ensayo en tubo de centrífuga estándar, el sistema óptico digital *CoVradar* para ARN viral, y kits colorimétricos para discriminar especies cutáneas y mucocutáneas de *Leishmania* basadas en polimorfismos del gen *hsp70*.
+- **Publicaciones clave**: Martín-Sierra et al. (*Biosens. Bioelectron.*, 2023); Villegas-Villao et al. (*Talanta*, 2025).
+
+### Eje 5: Biomateriales, Microarrays y Quimiotecas Codificadas
+- **Objetivo**: Síntesis en soporte sólido y cribado en paralelo de grandes quimiotecas combinatorias.
+- **Aportaciones**: Microarrays poliméricos para el estudio de adhesión de células madre y macrófagos, y quimiotecas peptídicas codificadas mediante etiquetas de PNA para descifrado rápido de ligandos.
+- **Publicaciones clave**: Pernagallo et al. (*Biomed. Mater.*, 2008); Svensen et al. (*Chem. Biol.*, 2011).
+
+### Eje 6: Química Médica y Síntesis de Nuevos Fármacos
+- **Objetivo**: Síntesis *de novo* de heterociclos bioactivos e inhibidores enzimáticos dirigidos.
+- **Líneas químicas**: Derivados de purinas trisustituidas y 6-alcoxipurinas diseñadas como inhibidores de quinasas oncogénicas y moduladores de receptores de adenosina, así como nuevas quimeras degradadoras de ARN transcripcional (RiboTACs) en colaboración con el programa *eRNA-DEGRADE*.
+- **Publicaciones clave**: Pineda de las Infantas et al. (*Org. Biomol. Chem.*, 2015); Lorente-Macías et al. (*Eur. J. Med. Chem.*, 2021); Córdoba-Gómez et al. (*Bioorg. Chem.*, 2025).
 
 ---
 
-## The 6 Research Axes
-
-### 1. Dynamic Chemistry & Nucleic Acid Analysis (DCL)
-- **Scope**: Developing chemical methods to read genomic sequences at single-nucleotide resolution.
-- **Core Technology**: **Dynamic Chemical Labeling (DCL)**. When an abasic PNA probe binds to a target DNA/RNA, it leaves a "blank" space directly opposite the single nucleotide variation (SNV) of interest. A reactive fluorescent or biotinylated base (SMART base) is introduced, which dynamically pairs with the target base and is chemically ligated into the PNA backbone under thermodynamic control.
-- **Impact**: Enables mutation calling and microRNA profiling directly in human serum with zero PCR.
-- **Key Papers**: Bowler et al. - 2010 (Angew. Chem.), Marín-Romero et al. - 2018 (Analyst).
-
-### 2. Liquid Biopsy & Circulating Biomarkers
-- **Scope**: Non-invasive tracking of diseases (cancer, liver toxicity) using blood/plasma.
-- **Key Targets**:
-  * **microRNA-122 (miR-122)**: Highly sensitive liver injury marker used to diagnose paracetamol hepatotoxicity (DILI).
-  * **microRNA-21 (miR-21)**: Well-known oncology biomarker.
-  * **Circulating Tumor Cells (CTCs) & Circulating Lung Cells**: Visualizing tissue damage and cellular shedding in cancer and severe COPD/COVID-19.
-- **Clinical Integration**: Working with the NHS (Edinburgh) and Andalusian Health Service (SAS) to validate panels on Luminex MAGPIX and Quanterix platforms.
-- **Key Papers**: López-Longarela et al. - 2020 (Anal. Chem.), Alzeer et al. - 2025 (Br. J. Clin. Pharmacol.).
-
-### 3. Nanotechnology & Theranostics
-- **Scope**: Building multifunctional carrier nanoparticles that double as diagnostics (imaging) and targeted therapeutics (drug delivery).
-- **Core Reagents**: Polymer nanoparticles functionalized with antibodies (e.g., anti-EGFR) for selective uptake in tumor co-cultures; palladium-based hybrid nanotrackers for mass spectrometry barcoding of live cells.
-- **Intracellular Catalysis**: Tracker nanocatalysts capable of screening and driving copper-catalyzed click chemistry (CuAAC) inside living cells.
-- **Key Papers**: Cano-Cortes et al. - 2021 (Nanoscale), Rodríguez-Segura et al. - 2025 (Small).
-
-### 4. Point-of-Care (PoC) & Rapid Diagnostics
-- **Scope**: Creating low-cost diagnostic hardware readable by entry-level mobile devices, optimized for low-resource settings.
-- **Key Platforms**:
-  * **DestiNA Spin-Tube**: A centrifuge tube diagnostic combining membrane-bound PNA probes and colorimetric output.
-  * **CoVradar & CoVreader**: Smartphone-based reading system for rapid SARS-CoV-2 RNA detection directly in centrifuge tubes.
-  * **Leishmaniasis Assay**: Differentiating mucocutaneous (severe) from cutaneous Leishmania species by targeting single nucleotide differences in the hsp70 gene.
-- **Key Papers**: Martín-Sierra et al. - 2023 (Biosens. Bioelectron.), Villao et al. - 2025 (Talanta).
-
-### 5. High-Throughput Biomaterials & Combinatorial Chemistry
-- **Scope**: Printing and screening massive chemical libraries to discover novel cell-culture substrates and target ligands.
-- **Core Technologies**:
-  * **Polymer Microarrays**: Printing hundreds of distinct polymer formulations on a single glass slide to identify substrates for stem cell growth or macrophage phagocytosis.
-  * **PNA-Encoded Peptide Libraries**: Synthesizing 10,000-member peptide libraries on beads where each peptide is "barcoded" by a PNA sequence, decoded after cell-binding assays by simple PCR.
-- **Key Papers**: Pernagallo et al. - 2008 (Biomed. Mater.), Svensen et al. - 2011 (Chem. Biol.).
-
-### 6. Organic Synthesis & Medicinal Chemistry
-- **Scope**: De novo synthesis of heterocyclic drug candidates and optimized coupling protocols.
-- **Key Achievements**:
-  * **Trisubstituted Purines**: One-pot syntheses of 6-, 8-, 9-substituted adenines acting as selective adenosine A1 receptor antagonists with antiproliferative or antiparasitic (trypanocidal) activity.
-  * **Fmoc/Dde Orthogonality**: Synthesizing PNA-peptide conjugates using microwave-assisted organic chemistry with fully orthogonal protecting groups.
-- **Key Papers**: Pineda de las Infantas et al. - 2015 (Org. Biomol. Chem.), Córdoba-Gómez et al. - 2025 (Bioorg. Chem.).
-
----
-
-## Key Collaborators & Institutions
-- **Prof. Mark Bradley** (University of Edinburgh): High-throughput synthesis, polymer arrays, biomaterials.
-- **Prof. James W. Dear** (University of Edinburgh / Royal Infirmary): Clinical toxicology, paracetamol overdose cohorts, DILI biomarker validation.
-- **Prof. Angel Orte** (Universidad de Granada, Dept. Química Física): Time-gated fluorescence, lifetime filtering imaging, multiplexed microRNA biosensors.
-- **Prof. Rosario María Sánchez-Martín** (UGR, Faculty of Pharmacy): Nanoparticle design, intracellular delivery, theranostic formulation.
-- **Dr. Francisco Martín** (GENYO / SAS): Gene editing, CRISPR-Cas13 tools, CRISPNA platform.
-
----
-
-## Connections
-- **Related Pages**: `[[Professor_Profile]]`, `[[Universidad_de_Granada]]`, `[[GenYo]]`, `[[DestiNA_Genomica]]`
-- **Related Methods**: `[[Dynamic_Chemical_Labeling]]`, `[[RiboTAC_Degraders]]`, `[[drug2cell_Pipeline]]`
+## 3. Red de Colaboraciones Científicas Internacionales
+- **Prof. Mark Bradley** (University of Edinburgh / Queen Mary University of London): Química combinatoria y biomateriales.
+- **Prof. James W. Dear** (University of Edinburgh / NHS Lothian): Farmacología clínica y toxicología de biomarcadores hepáticos.
+- **Prof. Ángel Orte** (Universidad de Granada, Dpto. Química Física): Espectroscopía de fluorescencia resuelta en el tiempo y detección molecular ultra-sensible.
+- **Dra. Rosario Mª Sánchez-Martín** (UGR / GENYO): Nanotecnología biomédica y sistemas de liberación intracelular.
+- **Dr. Francisco Martín Molina** (GENYO / SAS): Terapia génica, vectores lentivirales y tecnologías CRISPR-Cas13.

@@ -1,51 +1,28 @@
 ---
-title: "Summary: 2010 DestiNA   Thesis of Frank Bowler 2011.pdf"
-student: "Unknown Student"
-university: "Universidad de Granada"
-advisors: "Juan José Díaz-Mochón"
-year: "2010"
-type: "Doctoral Thesis"
+title: "Reading DNA with PNA: A Dynamic Chemical Approach to DNA Sequence Analysis"
+student: "Frank R. Bowler"
+university: "University of Edinburgh (School of Chemistry, Scotland, UK)"
+advisors: "Prof. Mark Bradley y Prof. Juan José Díaz-Mochón"
+year: "2011"
+mention: "Doctor of Philosophy (PhD) · DestiNA Genomics Co-development"
+type: "Tesis Doctoral"
 ---
 
-# Summary: 2010 DestiNA   Thesis of Frank Bowler 2011.pdf
+# Reading DNA with PNA: A Dynamic Chemical Approach to DNA Sequence Analysis
 
-- **Student:** Unknown Student
-- **University:** Universidad de Granada
-- **Advisors:** Juan José Díaz-Mochón
-- **Year:** 2010
-- **Document Type:** Doctoral Thesis
-
----
-
-## 📄 Abstract / Context Preview
-Reading DNA with PNA: A Dynamic Chemical
-Approach to DNA Sequence Analysis
-Frank R. Bowler
-University of Edinburgh
-Doctor of Philosophy
-March 2011
-
-Preface
-ABSTRACT
-Single nucleotide polymorphisms (SNPs) and insertions/deletions (indels) constitute
-important sources of genetic variation which provide insight into disease aetiology
-and idiosyncratic differences in drug response. The analysis of such genetic variation
-relies upon the generation of allele-specific products, typically by enzymatic
-extension or the hybridization of allele-specific DNA probes. Herein, a distinct
-enzyme-free, dynamic chemistry-based method of producing allele-specific products
-for genotyping was developed. The approach was initially demonstrated in model
-systems using synthetic DNA, which was used as a template in a base-filling
-reductive amination reaction on a PNA backbone. The templated dynamic reaction
-between a free secondary amine at a ‘blank’ position on the PNA strand and four
-aldehyde-modified nucleobases drove selective formation of the ‘correct’ iminium
-intermediate according to Watson-Crick base-pairing rules. In a blind trial, the
-method was extended to genotype twelve cystic fibrosis patients for two mutations
-(one SNP and one indel) linked to this disease. Enzyme-free dynamic chemistry thus
-permitted successful genotyping in both singleplex and duplex formats,
-demonstrating the application of dynamic chemistry as a distinct method of allele-
-discrimination with certain advantages over...
+- **👨‍🎓 Doctorando/a:** Frank R. Bowler
+- **👥 Directores de Tesis:** Prof. Mark Bradley y Prof. Juan José Díaz-Mochón
+- **🏛️ Universidad / Centro:** University of Edinburgh (School of Chemistry, Scotland, UK)
+- **📅 Año de Defensa:** 2011
+- **🎖️ Calificación / Mención:** Doctor of Philosophy (PhD) · DestiNA Genomics Co-development
+- **📄 Tipo de Documento:** Tesis Doctoral
 
 ---
 
-## 📂 Original Document
-- 🔗 [Original Converted Markdown (Full Text)](../../sources/theses_md/2010_DestiNA_Thesis_of_Frank_Bowler_2011/2010_DestiNA_Thesis_of_Frank_Bowler_2011.md)
+## 📄 Resumen de la Investigación
+Desarrollo de la química fundamental de acoplamiento dinámico reversible de nucleobases modificadas sobre plantillas de PNA abásico para genotipado enzimático directo y discriminación de SNPs.
+
+---
+
+## 📂 Documento Original de Tesis
+- 🔗 [Texto Completo de la Tesis en Markdown](../../sources/theses_md/2010_DestiNA_Thesis_of_Frank_Bowler_2011/2010_DestiNA_Thesis_of_Frank_Bowler_2011.md)

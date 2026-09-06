@@ -1,43 +1,60 @@
 ---
-title: "Missing Information Checklist for Wiki Personalization"
-type: opportunity
+title: "Inventario de Información Faltante y Pendiente de Proveer por el Candidato"
+type: oportunidad
 date_created: 2026-08-26
-date_updated: 2026-08-26
+date_updated: 2026-09-06
 status: active
 confidence: high
-tags: [checklist, metadata, personalization, gaps, missing-information]
-sources: [portfolio-catedra/index.html, CV JJD short.md]
+tags: [auditoria, vacios, informacion-faltante, documentacion, catedra]
+sources: [Convocatoria BOE-A-2026-16414, Baremo Anexo IV UGR]
 ---
 
-# Missing Information Checklist for Wiki Personalization
+# Inventario de Información Faltante y Pendiente de Proveer por el Candidato
 
-## Overview
-This document serves as an actionable audit checklist of materials, data, and documents currently missing from this workspace that would be required to fully flesh out and personalize the LLM Wiki for academic and promotional use (e.g., Cátedra UGR defense).
+## 1. Justificación de la Auditoría
+Para garantizar que el portal de la candidatura al Concurso **31/7/2026** de Cátedra de Universidad ([BOE-A-2026-16414](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-16414)) y su base de conocimiento LLM-Wiki alcancen el máximo rigor documental exigido por el tribunal evaluador, se ha realizado una auditoría integral cruzando los datos actuales con el **Baremo Oficial del Anexo IV de la Universidad de Granada**.
 
----
-
-## 📋 The Missing Information Checklist
-
-### 1. Official Course Syllabi (Guías Docentes UGR)
-- **Required**: The official university-approved syallabi for `[[QFUNO]]`, `[[QFDOS]]`, `[[QO_UGR]]`, and the `[[TRANSMED]]` Master's modules.
-- **Impact**: Will replace our generalized weekly schedules with UGR-specific lecture topics, target learning competencies, official Spanish exam weights, and recommended regional textbooks (e.g. *Química Farmacéutica* by Delgado et al., or *Organic Chemistry* by Wade).
-
-### 2. Student Feedback & Teaching Evaluation Metrics [COMPLETED]
-- **Status**: ✅ **Completado e Integrado**.
-- **Verified Metrics**: **5 Quinquenios Docentes** reconocidos (25 años de docencia evaluada) y **4.78 sobre 5.00** de calificación media en encuestas de satisfacción estudiantil / DOCENTIA UGR (95.6% de excelencia).
-- **Integration**: Integrado en `[[Professor_Profile]]`, `[[Overview]]` y en el Dashboard de Cátedra.
-
-### 3. Full Texts of Directed Doctoral Theses
-- **Required**: Converted markdown or PDF texts of the 11 directed doctoral theses (e.g., those by Agustín Robles-Remacho or Antonio Delgado-González).
-- **Impact**: Will enrich our "Methods" and "Entities" catalogs by extracting the exact experimental protocols, reaction conditions, and NMR validation files designed by JJD's doctoral students.
-
-### 4. Active Grant Award Letters & Budgets
-- **Required**: Official grant documents, work packages, and funding award letters from the CDTI (Seal of Excellence for the EIC Accelerator), ISCIII, or Andalusian Regional Government.
-- **Impact**: Will replace placeholders in the "Grants and Projects Catalog" with precise financial allocations, official start/end dates, consortium partner lists, and audit deadlines.
+A continuación se detalla la lista clasificada de los documentos, certificados y datos específicos que faltan en el repositorio local y que el candidato debe facilitar.
 
 ---
 
-## Connections
-- **Related Profile**: `[[Professor_Profile]]`
-- **Related Courses**: `[[Overview]]`
-- **Related Projects**: 
+## 2. Lista de Información Faltante por Bloques Temáticos
+
+### Bloque 1: Acreditaciones Oficiales y Méritos Institucionales
+- [ ] **Resolución Oficial de Acreditación a Catedrático de Universidad (CU)**: Certificado de la Comisión de Acreditación de ANECA (Programa ACADEMIA) en el Área de Química Orgánica.
+- [ ] **Certificado de Sexenios CNEAI / ANECA**: Documento oficial del Ministerio / ANECA acreditando los 4 sexenios reconocidos (años exactos de los 3 tramos de investigación y del tramo de transferencia).
+- [ ] **Hoja de Servicios de la Universidad de Granada**: Documento oficial actualizado expedido por el Servicio de Personal Docente que certifique la antigüedad, categorías ocupadas (Ramón y Cajal, Titular de Universidad) y los **5 Quinquenios Docentes** reconocidos.
+- [ ] **Certificación Oficial DOCENTIA UGR**: Informe pormenorizado del Vicerrectorado para la Garantía de la Calidad donde figure el desglose anual del 4,78/5,00 y las menciones cualitativas de excelencia docente.
+
+### Bloque 2: Docencia y Dedicación Académica Oficial
+- [ ] **Guías Docentes Oficiales Aprobadas**: Copia en PDF o enlace a las guías docentes vigentes de las asignaturas asignadas en el perfil de la plaza:
+  - *Química Orgánica 1* y *Química Orgánica 2* (Grado en Farmacia).
+  - *Química Farmacéutica 1* y *Química Farmacéutica 2* (Grado en Farmacia).
+  - *Química Orgánica y Química de los Fármacos y Marcadores Orgánicos de los Alimentos. Trazabilidad* (Grado en Ciencia y Tecnología de los Alimentos - CTA).
+  - *Química General* (Grado en Nutrición Humana y Dietética - NHD).
+  - *Módulo del Máster Universitario en Medicina Traslacional (TRANSMED)*.
+- [ ] **Certificado de Horas POD (Plan de Ordenación Docente)**: Desglose oficial de créditos y horas impartidas (teoría, seminarios, prácticas de laboratorio y tutorías) durante los últimos 10 cursos académicos.
+- [ ] **Dirección de Trabajos Fin de Grado (TFG) y Fin de Máster (TFM)**: Listado con nombre del alumno/a, título del trabajo, titulación académica, año de defensa y calificación obtenida.
+- [ ] **Proyectos de Innovación Docente (PID)**: Título, código oficial de la convocatoria UGR, año de ejecución y rol (Coordinador o Colaborador).
+
+### Bloque 3: Formación de Doctores (Tesis Doctorales)
+- [ ] **Actas / Certificados del Tribunal de Tesis de las 11 Tesis**:
+  - Especialmente la certificación oficial o enlace Teseo/Digibug de las calificaciones exactas y menciones (Sobresaliente Cum Laude, Mención Internacional, Doctorado Industrial).
+  - Certificados de dirección expedidos por la Escuela Internacional de Posgrado (EIP) de la UGR para: *Agustín Robles Remacho*, *Antonio Marín Romero*, *Álvaro Lorente Macías*, *Antonio Delgado González*, *Rafael Contreras Montoya*, *Mª Angélica Luque González*, *María Victoria Cano Cortés* y *Nancy Villegas Villao*.
+  - Documentación de co-dirección oficial de la University of Edinburgh para: *Nina Svensen* (2010) y *Frank R. Bowler* (2011).
+  - Documentación de la tesis industrial con la UAM y Mecwins: *Isabel Rodríguez Mariblanca* (2026).
+- [ ] **Destino Profesional de los Doctores Formados**: Puestos actuales que ocupan en la academia o la industria (e.g., investigadores posdoctorales en centros extranjeros, directores de I+D en biotecnológicas, profesores de universidad) para justificar la proyección y liderazgo del grupo.
+
+### Bloque 4: Proyectos I+D y Transferencia Tecnológica
+- [ ] **Cartas de Concesión / Resoluciones Definitivas de Concesión**:
+  - Convocatoria EQC2024-009139-P (497.042,40 €).
+  - Convocatoria PID2022-141065OB-I00 (181.250,00 €).
+  - Convocatoria PDC2022-133913-I00 (148.350,00 €).
+  - Convocatoria TED2021-131739B-I00 (124.200,00 €).
+  - Convocatoria P20_00661 (111.450,00 €).
+- [ ] **Contratos de Licencia de Patentes**: Documento o certificación OTRI acreditando qué familias de patentes se encuentran licenciadas a DESTINA Genomics Ltd., Vitro SA o terceros, volumen de regalías/canon de explotación generado o estatus comercial.
+- [ ] **Certificado de Reconocimiento de Spin-Off Universitaria**: Acreditación oficial del Consejo de Gobierno de la UGR reconociendo el carácter de Spin-Off / Empresa de Base Tecnológica (EBT) para DESTINA Genómica SL y CRISPNA SL.
+
+### Bloque 5: Gestión y Organización Universitaria
+- [ ] **Cargos Académicos Unipersonales o Colegiados**: Certificaciones de desempeño en comisiones académicas de grado, comisiones de garantía interna de calidad, tribunales de evaluación, o comisiones del centro GENYO y departamento.
+- [ ] **Evaluación de Proyectos y Artículos (Revisión por Pares)**: Acreditación de participación como evaluador en agencias científicas (AEI, ANEP, comisiones europeas ERC/MSCA) y certificados de *peer-review* en revistas indexadas.

@@ -1,65 +1,48 @@
 ---
-title: "SMART Probes (Abasic PNA)"
-type: method
+title: "Sondas Químicas SMART basadas en PNA Abásico"
+type: metodo
 date_created: 2026-08-26
-date_updated: 2026-08-26
+date_updated: 2026-09-06
 status: active
 confidence: high
-tags: [method, PNA, synthesis, biochip, SMART-probe, biochemistry]
+tags: [metodo, pna, smart-probes, sondas, sintesis-solido, biochips]
 sources: [portfolio-catedra/index.html, JJD-LLM-Wiki/wiki/concepts/chemistry/Peptide_Nucleic_Acids.md]
 ---
 
-# SMART Probes (Abasic PNA)
+# Sondas Químicas SMART basadas en PNA Abásico
 
-## Purpose
-SMART probes are synthetic Peptide Nucleic Acid (PNA) capture oligomers containing a single abasic (blank) position. They act as **molecular query interfaces** designed to hybridize to a target DNA or RNA sequence and isolate a specific single nucleotide variation (SNV) or microRNA for sequence-specific dynamic labeling.
+## 1. Definición y Función Molecular
+Las **sondas SMART** son oligómeros sintéticos de Ácido Nucleico Peptídico (PNA) que incorporan en una posición interna definida un **monómero abásico** provisto de una función amina reactiva. 
+
+Actúan como plantillas moleculares de alta afinidad capaces de hibridar con hebras diana de ADN o ARN para posicionar y catalizar la incorporación selectiva de una SMART nucleobase mediante química dinámica covalente.
 
 ---
 
-## Operating Principle & Design
-Peptide Nucleic Acids (PNAs) are synthetic DNA mimics where the sugar-phosphate backbone has been replaced by a neutral, achiral pseudopeptide backbone composed of repeated **N-(2-aminoethyl)glycine** units.
+## 2. Arquitectura Estructural del PNA
+El esqueleto tradicional de fosfodiéster con desoxirribosa cargado negativamente del ADN se sustituye en el PNA por una cadena principal neutra, aciral y peptídica de unidades repetidas de **N-(2-aminoetil)glicina**:
 
 ```
-       DNA Backbone                      PNA Backbone
-       
-        O=P-O(-)                           O=C
-          │                                  │
-        O-CH2                              N-CH2-CH2
-          │   \                              │
-          │    CH2 ── Base                   │
-          │   /                              CH2-CO ── Base
-        O-CH                                 │
-          │                                N-CH2
-        O=P-O(-)                           O=C
+        Esqueleto de ADN                   Esqueleto de PNA
+        
+         O=P-O(-)                           O=C
+           │                                  │
+         O-CH2                              N-CH2-CH2
+           │   \                              │
+           │    CH2 ── Base                   │
+           │   /                              CH2-CO ── Base
+         O-CH                                 │
+           │                                N-CH2
+         O=P-O(-)                           O=C
 ```
 
-In a SMART probe:
-1. **The Abasic Pocket**: One of the four standard nucleobases (A, T, G, C) is omitted during solid-phase synthesis and replaced with a blank monomer containing a free secondary amine (e.g., a simple N-(2-aminoethyl)glycine or pyrrolidine unit).
-2. **Hybridization Thermodynamics**: Because the PNA backbone has no negative phosphate charges, there is no electrostatic repulsion when binding to negatively charged DNA/RNA target strands. This yields a significantly higher binding affinity (higher melting temperature Tm) than equivalent DNA-DNA duplexes.
-3. **Template-Driven Capture**: When hybridized, the empty abasic monomer sits directly opposite the target base of interest. This empty space acts as a catalytic reaction center, physically positioning the target base's hydrogen-bonding donors/acceptors to screen incoming reactive SMART bases (via dynamic imine equilibrium).
+### Propiedades Biofísicas Relevantes
+1. **Ausencia de Repulsión Electrostática**: Al carecer de cargas negativas en su esqueleto, el PNA no sufre repulsión coulòmbica al unirse al ADN o ARN diana, lo que se traduce en constantes de afinidad sustancialmente mayores y temperaturas de fusión (Tm) superiores a las de los dúplex ADN-ADN equivalentes.
+2. **Inestabilidad acusada ante Mismatches**: Un único desemparejamiento de bases provoca una disminución de la temperatura de fusión de entre 10 ºC y 18 ºC en un dúplex PNA-ADN, frente a la caída de sólo 4 ºC a 8 ºC observada en dúplex ADN-ADN, aportando una ventana de discriminación excepcionalmente amplia.
+3. **Resistencia Enzimática Absoluta**: La estructura pseudopeptídica del PNA es completamente inmune a la degradación por nucleasas (DNasas, RNasas) y presenta una gran resistencia a proteasas séricas humanas.
 
 ---
 
-## Strengths & Limitations
-
-### Strengths
-- **Thermal and Chemical Stability**: The amide backbone of PNA is completely resistant to nucleases and proteases, preventing biological sample degradation.
-- **Enhanced Selectivity**: The stability of a PNA-DNA duplex is highly sensitive to single-base mismatches. A single mismatch in a PNA-DNA duplex drops the melting temperature (Tm) by 10–18 degrees Celsius, compared to only 4–8 degrees Celsius for a DNA-DNA duplex. This provides a clean signal-to-noise ratio.
-- **Sequence Specificity**: PNA can hybridize to target strands in low-salt buffers, conditions under which DNA-DNA duplexes dissociate due to charge repulsion.
-
-### Limitations
-- **Water Solubility**: Purine-rich PNA sequences tend to aggregate and exhibit low aqueous solubility. This is mitigated by appending charged residues (typically L-lysine amino acids) to the termini.
-- **Target Accessibility**: PNA cannot easily access target sites buried in folded secondary RNA structures (hairpins). This requires sample preparation steps like fragmentation or thermal denaturation before hybridization.
-
----
-
-## Critical Parameters & Common Errors
-- **Synthesis Orthogonality**: Synthesis of SMART probes requires solid-phase peptide synthesis (SPPS) using Fmoc chemistry. To incorporate the abasic monomer or synthesize PNA-peptide conjugates, chemists must exploit orthogonal protecting groups like **Dde** (2-(4,4-dimethyl-2,6-dioxocyclohexylidene)ethyl), which is stable to piperidine (Fmoc deprotection) but cleared by hydrazine.
-- **Backbone Self-Aggregation**: Pure PNA sequences exceeding 15–18 monomers are prone to self-aggregation, reducing hybridization kinetics. Probes are typically designed between 10 and 15 monomers in length.
-
----
-
-## Connections
-- **Related Methods**: `[[Dynamic_Chemical_Labeling]]`, `[[Solid_Phase_Synthesis]]`
-- **Related Projects**: `[[LIQBIOPSENS]]`, `[[DestiNA_Spin_Tube]]`
-- **Related Concepts**: `[[Peptide_Nucleic_Acids]]`
+## 3. Síntesis y Estrategia de Protección Ortogonal
+La síntesis de sondas SMART se realiza en fase sólida (SPPS) empleando química Fmoc:
+- El monómero abásico requiere el uso de grupos protectores ortogonales como el grupo **Dde** (1-(4,4-dimetil-2,6-dioxociclohexiliden)etilo), el cual es totalmente resistente a la piperidina empleada en la desprotección del grupo Fmoc, pero se elimina selectivamente mediante tratamiento con hidracina diluida.
+- Para evitar la auto-agregación hidrofóbica en disolución acuosa típica de las secuencias purínicas de PNA, se introducen de forma rutinaria residuos de L-lisina en los extremos amino o carboxilo terminales de la sonda.

@@ -1,63 +1,60 @@
 ---
-title: "Professor Profile: Juan José Díaz-Mochón"
-type: person
+title: "Perfil y Trayectoria Académica: Prof. Dr. Juan José Díaz-Mochón"
+type: persona
 date_created: 2026-08-26
-date_updated: 2026-08-26
+date_updated: 2026-09-06
 status: active
 confidence: high
-tags: [profile, biography, entrepreneurship, UGR, GENYO, DESTINA, CRISPNA]
-sources: [CV JJD short.md, portfolio-catedra/index.html]
+tags: [perfil, biografia, catedra, ugr, genyo, destina, crispna, quimica-organica]
+sources: [CV JJD short.md, Convocatoria BOE-A-2026-16414, Certificaciones UGR]
 ---
 
-# Professor Profile: Juan José Díaz-Mochón
+# Perfil y Trayectoria Académica: Prof. Dr. Juan José Díaz-Mochón
 
-## Overview
-Dr. Juan José Díaz-Mochón is an Associate Professor (Profesor Titular) at the Universidad de Granada and Co-director of the NanoChemBio group at the Pfizer/Universidad de Granada/Junta de Andalucía Centre for Genomics and Oncological Research (GENYO). 
+## 1. Resumen Ejecutivo
+El **Prof. Dr. Juan José Díaz-Mochón** es Profesor Titular de Universidad en el Departamento de Química Farmacéutica y Orgánica de la Universidad de Granada (UGR), Co-director del grupo de investigación *NanoChemBio* en el Centro de Genómica e Investigación Oncológica (GENYO) y candidato a la plaza de **Catedrático de Universidad** en el Área de Conocimiento de **Química Orgánica** (Concurso **31/7/2026**, [BOE-A-2026-16414](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-16414)).
 
-His career represents a rare, highly optimized closed-loop system: taking foundational chemistry discovered at the academic bench, compiling it into industrial-grade diagnostic platforms through international start-ups, and feeding those translational insights back into university teaching and research. 
-
----
-
-## Key Points
-- **Dual-Track Career**: Combines deep academic research (over 96 peer-reviewed papers, Index H = 29, 2350+ citations) with serial biotechnology entrepreneurship.
-- **Teaching Excellence & Longevity**: **5 Quinquenios Docentes** reconocidos (25 años de docencia universitaria evaluada positivamente) y una **calificación media de satisfacción estudiantil de 4.78 sobre 5.00** en el Programa DOCENTIA de la Universidad de Granada.
-- **Foundational Breakthrough**: Co-invented the Dynamic Chemical Labeling (DCL) platform using abasic Peptide Nucleic Acids (PNA) and SMART nucleobases, providing PCR-free, single-base resolution detection of nucleic acids.
-- **Biotech Spinoffs**: Co-founded **DESTINA Genomics Ltd.** (Scotland/Granada) in 2010, serving as CSO until 2020 and CEO from 2020 to 2025. Co-founded **CRISPNA SL** (diagnostics & gene editing) and **Nanogetic SL** (theranostic nanodevices).
-- **International Footprint**: Predoctoral and postdoctoral research spanning Italy (Perugia, Ferrara) and the United Kingdom (Southampton, Edinburgh).
-- **Global Leadership**: Co-founded the **International Society of Liquid Biopsy (ISLB)** in 2017, serving as its Treasurer until 2021.
+Su trayectoria representa un modelo integrado de traslación científica: parte de la química bioorgánica fundamental desarrollada en el laboratorio universitario, la transforma en plataformas biotecnológicas e industriales de diagnóstico molecular mediante spin-offs internacionales, y revierte esa experiencia en la docencia de grado, posgrado y mentoría investigadora.
 
 ---
 
-## Detailed Notes
+## 2. Indicadores y Méritos Relevantes
 
-### Professional Timeline & Roles
-1. **Universidad de Granada (UGR) (2011–Present)**:
-   - *Associate Professor (2019-Present)*: Teaches organic and medicinal chemistry at the Faculty of Pharmacy. Co-leads the NanoChemBio research team at GENYO. Recognised with 5 Quinquenios Docentes and 4.78/5.00 DOCENTIA average.
-   - *Ramón y Cajal Researcher (2011-2017)*: Recruited to import state-of-the-art combinatorial chemistry and high-throughput diagnostic screening to Spain.
-2. **DESTINA Genomics Ltd. (2010–2025)**:
-   - *CSO (2010-2020)*: Led scientific development, integrating dynamic covalent labeling into commercial platforms (Vitro SA, Quanterix Simoa, Luminex xMAP, Optoi).
-   - *CEO (2020-2025)*: Assumed executive leadership, expanding licensing agreements with MilliporeSigma (USA) and Optoi (Italy). Secured a landmark EIC Accelerator grant in 2025 before transitioning to strategic advisory.
-3. **Southampton & Edinburgh (2002–2010)**:
-   - Worked in the laboratory of Prof. Mark Bradley at the University of Edinburgh, developing polymer microarrays, solid-phase synthesis protocols, and PNA-encoded peptide libraries.
-
-### Academic & Teaching Philosophy
-Juanjo's teaching philosophy treats chemistry as "molecular software engineering." Organic molecules are instructions; synthetic pathways are compilation stages; molecular target engagement is a runtime execution. This perspective helps Faculty of Pharmacy students (Grados en Farmacia) transition from memorizing structures to understanding the first-principles of molecular recognition, ADME profiles, and translational medicine. Active learning methods and continuous digital evaluation underpin a 4.78/5.00 historic student satisfaction rating across 5 Quinquenios.
+- **Producción Científica**: Más de 98 publicaciones indexadas en Web of Science y Scopus, Índice H = 29, más de 2.350 citas acumuladas, con liderazgo predominante en el primer cuartil (Q1) en revistas de alto impacto (*Nature Chem., Angew. Chem. Int. Ed., Chem. Sci., Anal. Chem., Biosens. Bioelectron.*).
+- **Sexenios Reconocidos (CNEAI / ANECA)**: **4 Sexenios reconocidos** (3 de investigación y 1 sexenio de transferencia e innovación tecnológica).
+- **Docencia y Satisfacción Estudiantil**: **5 Quinquenios Docentes** reconocidos (25 años de actividad docente evaluada positivamente) y una calificación media histórica de **4,78 sobre 5,00** (95,6% de satisfacción) en las encuestas oficiales del Programa DOCENTIA de la Universidad de Granada.
+- **Financiación de I+D+i**: Más de **4,79 Millones de Euros** captados en 30 proyectos y contratos, de los cuales más de **1,72 Millones de Euros** han sido obtenidos como **Investigador Principal (IP)** en convocatorias competitivas europeas (H2020 MSCA-RISE: *LungCard*), del Plan Nacional (AEI/MICINN: *PID2022*, *TED2021*, *PDC2022*, *EQC2024*), autonómicas (Junta de Andalucía: *P20_00661*) y convenios de transferencia.
+- **Propiedad Industrial e Intelectual**: Co-inventor de **16 familias de patentes internacionales** protegidas en Europa, Estados Unidos, Japón y China, con 12 patentes ya concedidas y 4 en explotación comercial activa bajo licencia exclusiva.
+- **Creación de Empresas Biotecnológicas**: Co-fundador de **DESTINA Genomics Ltd.** (Edimburgo/Granada) en 2010 (CSO 2010–2020, CEO 2020–2025), **CRISPNA SL** (diagnóstico molecular avanzado y tecnología CRISPR-Cas) y **Nanogetic SL** (dispositivos teragnósticos basados en nanotecnología).
+- **Proyección Internacional**: Etapas predoctorales y posdoctorales prolongadas en Italia (Università degli Studi di Perugia, Università degli Studi di Ferrara) y en el Reino Unido (University of Southampton y University of Edinburgh, 2002–2010).
+- **Liderazgo en Sociedades Científicas**: Co-fundador en 2017 de la **International Society of Liquid Biopsy (ISLB)**, desempeñando el cargo de Tesorero de la junta directiva internacional hasta 2021.
 
 ---
 
-## Connections
-- **Related Pages**: `[[Universidad_de_Granada]]`, `[[GenYo]]`, `[[DestiNA_Genomica]]`, `[[Research_Overview]]`
-- **Related Courses**: `[[QFUNO]]`, `[[QFDOS]]`, `[[QO_UGR]]`, `[[TRANSMED]]`
-- **Related Projects**: `[[CRISPNA]]`, `[[LIQBIOPSENS]]`, `[[CoVradar]]`
+## 3. Trayectoria Profesional y Cronología Académica
+
+### 1. Universidad de Granada (2011 – Actualidad)
+- **Profesor Titular de Universidad (2019 – Actualidad)**: Adscrito al Departamento de Química Farmacéutica y Orgánica de la Facultad de Farmacia. Docencia en Química Orgánica 1 y 2, Química Farmacéutica 1 y 2, Química de Alimentos (CTA) y Máster TRANSMED. Co-dirección del laboratorio NanoChemBio en el Centro GENYO.
+- **Investigador Ramón y Cajal (2011 – 2017)**: Incorporación competitiva para transferir a la UGR tecnología de vanguardia en química combinatoria, química dinámica y cribado diagnóstico de alta densidad.
+
+### 2. DESTINA Genomics Ltd. & Spin-offs (2010 – Actualidad)
+- **Director Científico (CSO, 2010 – 2020)**: Dirección del desarrollo tecnológico de la química dinámica de marcaje (DCL) y sondas SMART, logrando su integración en analizadores comerciales (Luminex xMAP, Quanterix Simoa, Optoi, Vitro SA).
+- **Consejero Delegado (CEO, 2020 – 2025)**: Liderazgo ejecutivo, cierre de acuerdos de licencia global (MilliporeSigma en EE. UU.) y obtención de financiación europea de excelencia (EIC Accelerator Seal of Excellence). En la actualidad, asesor científico estratégico.
+
+### 3. University of Southampton & University of Edinburgh (2002 – 2010)
+- Investigador posdoctoral y Senior Research Fellow en el grupo del **Prof. Mark Bradley** (School of Chemistry, University of Edinburgh). Desarrollo pionero de microarrays de polímeros, síntesis en soporte sólido de quimiotecas codificadas por PNA y las primeras pruebas de concepto de la química DCL para genotipado sin enzimas.
 
 ---
 
-## Uncertainties and Contradictions
-- **Teaching Load vs. Industrial Roles**: Historically, balancing the dual responsibilities of university teaching and acting as CEO of DESTINA required structured scheduling and delegation. Following the 2025 CEO transition, more bandwidth has been allocated to Cátedra defense and academic leadership.
+## 4. Filosofía Docente e Investigadora
+
+En nuestro enfoque académico, la química bioorgánica se aborda como una ingeniería molecular predictiva: las moléculas y los ligandos sintéticos no se memorizan como datos estáticos, sino que se comprenden desde sus principios termodinámicos, electrostáticos y estereoquímicos fundamentales. 
+
+Esta visión permite a los estudiantes del Grado en Farmacia, CTA y Nutrición comprender de manera natural el mecanismo de acción de los fármacos, la interacción ligando-receptor, el metabolismo xenobiótico y el desarrollo de biomarcadores diagnósticos. La docencia se refuerza con plataformas de evaluación formativa continua y herramientas digitales que sustentan la calificación de 4,78/5,00 en el programa DOCENTIA a lo largo de 5 quinquenios evaluados.
 
 ---
 
-## Sources
-- `CV JJD short.md`
-- `portfolio-catedra/index.html`
-- `JJD-LLM-Wiki/CV/categorias_investigacion.md`
+## 5. Conexiones en el LLM-Wiki
+- **Proyectos Docentes y Asignaturas**: `[[Overview]]`, `[[QFUNO]]`, `[[QFDOS]]`, `[[QO_UGR]]`, `[[TRANSMED]]`
+- **Líneas y Métodos I+D**: `[[Dynamic_Chemical_Labeling]]`, `[[SMART_Probes]]`, `[[RiboTAC_Degraders]]`, `[[Methods_Overview]]`
+- **Concurso Oficial BOE 31/7/2026**: `[[Convocatoria_BOE_31_7_2026]]`, `[[Tribunal_Evaluador]]`, `[[Proyecto_Docente_Catedra]]`, `[[Proyecto_Investigador_Catedra]]`, `[[Baremo_Anexo_IV_BOE]]`

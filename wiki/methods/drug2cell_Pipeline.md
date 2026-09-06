@@ -1,69 +1,35 @@
 ---
-title: "drug2cell Pipeline (Single-Cell Off-Target Analysis)"
-type: method
+title: "Pipeline Computacional drug2cell: Seguridad Farmacológica en Célula Única"
+type: metodo
 date_created: 2026-08-26
-date_updated: 2026-08-26
+date_updated: 2026-09-06
 status: active
 confidence: high
-tags: [method, drug2cell, single-cell, scRNA-seq, computational-biology, bioinformatics]
-sources: [extracted_docx_text.txt]
+tags: [metodo, drug2cell, single-cell, scrna-seq, bioinformatica, toxicologia]
+sources: [portfolio-catedra/index.html, Proyecto Investigador Cátedra]
 ---
 
-# drug2cell Pipeline (Single-Cell Off-Target Analysis)
+# Pipeline Computacional drug2cell: Seguridad Farmacológica en Célula Única
 
-## Purpose
-`drug2cell` is an analytical bioinformatics pipeline designed to integrate single-cell RNA sequencing (scRNA-seq) datasets with drug-target interaction databases. In translational research, it is utilized as a **computational safety screen** to map drug target availability and predict off-target toxicity profiles across millions of individual cells at single-lineage resolution prior to preclinical animal studies.
+## 1. Definición y Propósito
+`drug2cell` es una plataforma bioinformática de análisis que integra matrices de secuenciación de ARN de célula única (scRNA-seq) con bases de datos de afinidad química ligando-diana para evaluar perfiles de eficacia y toxicidad fuera de diana (*off-target*) a resolución de linaje celular antes de iniciar ensayos con modelos animales.
 
 ---
 
-## Operating Principle: The Tissue-Wide Compiler Check
-In software development, static analysis tools scan source code to find bugs or illegal API calls before compilation. 
-
-The `drug2cell` pipeline acts as a **static safety check for drug binding**:
+## 2. Metodología de Integración de Datos
+Los estudios farmacológicos convencionales evalúan la presencia de la diana en extractos tisulares globales (*bulk*), promediando la señal y perdiendo la detección de subpoblaciones celulares minoritarias pero críticas (e.g., células endoteliales, marcapasos cardiacos o podocitos renales).
 
 ```
-[scRNA-seq Expression Matrices (cell x gene)] + [Drug/eRNA Target Affinities]
-                               │
-                               ▼ drug2cell Matrix Multiplication
-              [Cell-by-Drug Engagement Scores]
-                               │
-                               ▼ UMAP Dimensionality Reduction
-           [Cell Type-Specific Toxicity Mapping]
-                               │
-                               ▼ Threshold Evaluation
-   [Flagging of Off-Target Activation in Vital Organs]
+[Matriz scRNA-seq: Célula × Gen] × [Vector de Afinidad: Fármaco-Diana]
+                             │
+                             ▼ Multiplicación Matricial
+           [Puntuación de Compromiso Fármaco-Célula]
+                             │
+                             ▼ Proyección UMAP
+         [Mapeo Celular de Toxicidades Fuera de Diana]
 ```
 
-1. **Target Abundance Input**: The pipeline ingests single-cell transcriptomic reference datasets (e.g., from the Human Cell Atlas or clinical disease cohorts) representing millions of cell types across major organs (heart, kidney, liver, brain).
-2. **Matrix Integration**: Instead of evaluating target availability in bulk tissue (which averages out signals and misses rare cell populations), `drug2cell` calculates target expression levels () for every single cell.
-3. **Engagement Scoring**: The pipeline multiplies the cell-by-gene expression matrix by the drug-target binding affinity vector, generating a cell-by-drug engagement score.
-4. **Safety Verification**: The output maps where the drug or RiboTAC will bind in the human body. For the compiler must verify that the target eRNA (DHS44500) shows high expression scores *only* in active inflammatory cells (LPS-stimulated macrophages) and exhibits **zero expression** in vital cell types prone to off-target toxicities (e.g., cardiac sinoatrial pacemaker cells, blood-brain barrier endothelial cells, or renal podocytes).
-
----
-
-## Inputs and Outputs
-- **Inputs**:
-  - Single-cell RNA-seq datasets (typically stored in `.h5ad` format).
-  - Targeted drug/RiboTAC binding affinity database.
-- **Outputs**:
-  - UMAP dimensionality reduction plots showing target availability across cell clusters.
-  - Quantitative safety scores indicating predicted off-target tissue exposure.
-
----
-
-## Strengths & Limitations
-
-### Strengths
-- **Resolves Cellular Heterogeneity**: Identifies rare cell populations (representing <1% of a tissue) that express the target and could trigger severe side effects, which would be completely missed by bulk RNA-seq.
-- **Computational-First Safety Grid**: Accelerates drug development by identifying unsafe compounds in silico, saving time and reducing the need for animal testing.
-- **State-Specific Resolution**: Can differentiate between healthy resting cell states and disease-activated states within the same cell lineage.
-
-### Limitations
-- **Transcription-Translation Disconnect**: The pipeline measures RNA abundance. In some cases, mRNA transcript levels do not correlate linearly with physical target protein levels on the cell surface due to translational regulation.
-- **Atlas Bias**: The accuracy of the safety prediction is dependent on the depth, tissue quality, and clinical diversity of the underlying input single-cell reference datasets.
-
----
-
-## Connections
-- **Related Methods**: `[[RiboTAC_Degraders]]`, `[[Micro_C_snm3C_seq]]`
-- **Related Projects**: 
+1. **Datos de Entrada**: Se procesan conjuntos de datos transcriptómicos de célula única procedentes del *Human Cell Atlas* o de cohortes clínicas específicas en formato `.h5ad` (AnnData).
+2. **Evaluación de Diana en Cada Célula**: Se determina cuantitativamente la expresión génica normalizada célula a célula.
+3. **Cálculo del Score de Interacción**: Se pondera la expresión celular con las constantes de unión experimental o predicha del candidato terapéutico.
+4. **Filtro de Seguridad**: Para candidatos dirigidos a eRNAs inflamatorios (como DHS44500), el pipeline verifica que la interacción se concentre en macrófagos activados por LPS y sea estrictamente nula en tejidos vitales no diana.

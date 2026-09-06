@@ -1,60 +1,51 @@
 ---
-title: "Methods, Protocols, and Technologies Overview"
-type: method
+title: "Catálogo Metodológico y Tecnológico: Laboratorio NanoChemBio"
+type: metodos
 date_created: 2026-08-26
-date_updated: 2026-08-26
+date_updated: 2026-09-06
 status: active
 confidence: high
-tags: [methods, protocols, hardware, software, clinical-chemistry, assays]
-sources: [portfolio-catedra/index.html, CV JJD short.md, extracted_docx_text.txt]
+tags: [metodos, protocolos, dcl, pna, ribotac, single-cell, del, genyo]
+sources: [portfolio-catedra/index.html, CV JJD short.md, Certificaciones UGR]
 ---
 
-# Methods, Protocols, and Technologies Overview
+# Catálogo Metodológico y Tecnológico: Laboratorio NanoChemBio
 
-## Overview
-This section catalogues the foundational experimental and computational methodologies that power Dr. Juan José Díaz-Mochón's research. 
-
-By framing these biological and chemical techniques through an engineering lens, we analyze the biological cell as a complex distributed system, where:
-- **Macromolecules** are physical datasets and instructions.
-- **Diagnostics** are targeted pattern-matching queries.
-- **Therapeutics (like degraders)** are garbage collection scripts designed to purge pathologically elevated instruction loops.
+## 1. Visión General de la Plataforma Metodológica
+El grupo de investigación codirigido por el **Prof. Dr. Juan José Díaz-Mochón** en la Universidad de Granada y el Centro GENYO integra herramientas multidisciplinares que combinan la **química orgánica sintética**, la **nanobiotecnología**, la **biología celular** y la **bioinformática de célula única**.
 
 ```mermaid
 graph TD
-    A["Molecular Engineering Toolkit"] --> B["Experimental / Analytical Chemistry"]
-    A --> C["Biophysical & Genomic Validation"]
-    A --> D["Computational & AI/ML Pipelines"]
+    A["Plataforma Metodológica NanoChemBio"] --> B["1. Química de Ácidos Nucleicos y DCL"]
+    A --> C["2. Teragnóstica y Síntesis de Fármacos"]
+    A --> D["3. Biología Espacial y Genómica Funcional"]
+    A --> E["4. Biología Computacional e IA"]
     
-    B --> E["Dynamic Chemical Labeling (DCL)"]
-    B --> F["SMART Probes (Abasic PNA)"]
-    B --> G["RiboTAC Degraders (eRNA cleavage)"]
+    B --> F["Marcado Químico Dinámico (DCL)"]
+    B --> G["Sondas SMART de PNA Abásico"]
     
-    C --> H["Micro-C & snm3C-seq (3D Chromatin Tracking)"]
-    C --> I["xMAP Luminex Multiplexing"]
+    C --> H["Degradadores de ARN (RiboTACs)"]
+    C --> I["Nanopartículas Poliméricas Funcionalizadas"]
     
-    D --> J["drug2cell (Single-cell Safety compiler)"]
-    D --> K["AI/ML Virtual Docking (SMARTBind / GATRsite)"]
+    D --> J["Microarrays y Librerías DEL"]
+    D --> K["Mapeo Cromatínico Micro-C"]
+    
+    E --> L["Pipeline drug2cell (Single-Cell)"]
+    E --> M["Docking Molecular y Modelado QSAR"]
 ```
 
 ---
 
-## Detailed Catalog
+## 2. Metodologías Clave Documentadas en el LLM-Wiki
 
-### 1. Experimental & Chemical Synthesis Methods
-- `[[Dynamic_Chemical_Labeling]]`: Reversible thermodynamic reaction to selectively label DNA/RNA single nucleotide polymorphisms (SNVs) without enzymes.
-- `[[SMART_Probes]]`: Designing Peptide Nucleic Acid (PNA) sequences containing an abasic site, acting as a molecular template to direct DCL reactions.
-- `[[RiboTAC_Degraders]]`: Synthesizing heterobifunctional molecules that bind a target non-coding RNA (eRNA) and recruit endogenous RNase L for catalytic degradation.
+### 1. Química Bioorgánica y Detección Molecular Directa
+- `[[Dynamic_Chemical_Labeling]]`: Tecnología de detección de variaciones genéticas y microRNAs basada en química covalente reversible sin enzimas de amplificación.
+- `[[SMART_Probes]]`: Diseño y síntesis en fase sólida de sondas de Ácido Nucleico Peptídico (PNA) dotadas de una cavidad abásica catalítica.
 
-### 2. Biophysical & Spatial Genomic Methods
-- `[[Micro_C_snm3C_seq]]`: Tracking three-dimensional genomic architectures (Enhancer-Promoter loops) and capturing chromatin conformation changes following eRNA depletion.
-- `[[DNA_Encoded_Libraries]]`: Constructing and screening chemical libraries (>10^8 members) on DNA tags to identify high-affinity tertiary RNA binders.
+### 2. Terapias Dirigidas al Transcriptoma y Nanomedicina
+- `[[RiboTAC_Degraders]]`: Quimeras bifuncionales que reclutan la ribonucleasa endógena RNasa L para la degradación selectiva de ARNs no codificantes y transcritos oncogénicos.
+- `[[DNA_Encoded_Libraries]]`: Síntesis y cribado de quimiotecas moleculares de gran diversidad (>10^8 miembros) marcadas con códigos de barras de ADN.
 
-### 3. Computational & Single-Cell Genomics Methods
-- `[[drug2cell_Pipeline]]`: An analytical pipeline that maps drug-target (and eRNA-target) interactions across millions of human single-cell transcriptomes, acting as an off-target safety compiler.
-
----
-
-## Connections
-- **Related Profile**: `[[Professor_Profile]]`, `[[Research_Overview]]`
-- **Related Projects**: `[[LIQBIOPSENS]]`
-- **Related Courses**: `[[QFUNO]]`, `[[TRANSMED]]`
+### 3. Epigenómica Estructural y Cribado Computacional
+- `[[Micro_C_snm3C_seq]]`: Cartografiado a resolución de nucleosoma de la arquitectura tridimensional de la cromatina y del colapso de bucles enhancer-promotor.
+- `[[drug2cell_Pipeline]]`: Plataforma bioinformática que cruza transcriptomas de célula única con bases de datos de afinidad fármaco-diana para evaluar la seguridad toxicológica in silico.

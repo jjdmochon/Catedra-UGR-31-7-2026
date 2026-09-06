@@ -1,80 +1,57 @@
 ---
-title: "Dynamic Chemical Labeling (DCL)"
-type: method
+title: "Marcado Químico Dinámico (Dynamic Chemical Labeling - DCL)"
+type: metodo
 date_created: 2026-08-26
-date_updated: 2026-08-26
+date_updated: 2026-09-06
 status: active
 confidence: high
-tags: [method, DCL, chemistry, PNA, SMART-base, diagnostics]
+tags: [metodo, dcl, quimica-dinamica, pna, smart-base, diagnostico]
 sources: [portfolio-catedra/index.html, JJD-LLM-Wiki/wiki/concepts/chemistry/Dynamic_Chemical_Labeling.md]
 ---
 
-# Dynamic Chemical Labeling (DCL)
+# Marcado Químico Dinámico (Dynamic Chemical Labeling - DCL)
 
-## Purpose
-Dynamic Chemical Labeling (DCL) is a PCR-free, enzyme-free molecular diagnostic technology designed to detect specific nucleic acid sequences (DNA or RNA) and single-nucleotide variations (SNVs) directly in crude biofluids (such as human blood serum or saliva) with single-base resolution.
+## 1. Definición y Propósito
+El **Marcado Químico Dinámico (DCL)** es una tecnología de diagnóstico molecular libre de enzimas y libre de PCR, co-inventada por el Prof. Dr. Juan José Díaz-Mochón. 
+
+Permite interrogar secuencias de ADN y ARN, discriminar mutaciones puntuales (SNVs) y cuantificar microRNAs directamente en fluidos biológicos complejos (como suero, plasma o saliva humana) con resolución de nucleótido único.
 
 ---
 
-## Operating Principle: The Thermodynamic Lookup Table
-In standard biology, DNA is copied by polymerases and ligated by ligases—enzymes that act as biological machinery. DCL replaces these complex, temperature-sensitive proteins with simple, reversible covalent organic chemistry. 
-
-Think of DCL as a **thermodynamic error-correcting lookup table**:
+## 2. Principio Fisicoquímico de Funcionamiento
+A diferencia de las técnicas moleculares convencionales que dependen de polimerasas, transcriptasas inversas y ligasas proteicas sensibles a la temperatura y a inhibidores endógenos, el DCL opera bajo las leyes del **equilibrio termodinámico de la química orgánica covalente reversible**:
 
 ```
-[Target DNA/RNA Strand] + [Abasic PNA Probe (Query)]
-             │
-             ▼ Hybridization
-[Duplex with empty pocket opposite Target Base]
-             │
-             ▼ + Reactive SMART Base (Biotin/Fluorophore)
-[Dynamic Imine Chemistry Equilibrium]
-             │
-             ▼ Watson-Crick Match Stabilization
-[Stable, Ligated Labeled Duplex]
-             │
-             ▼ Chemical Reduction (Ligation Lock)
-[Permanent Covalent Readout]
+[Hebra Diana: ADN/ARN] + [Sonda de PNA Abásico]
+               │
+               ▼ Hibridación de alta afinidad
+[Dúplex PNA:Diana con bolsillo abásico vacío frente a la base mutada]
+               │
+               ▼ Adición de SMART nucleobase reactiva (aldehído + biotina/fluoróforo)
+[Equilibrio Dinámico de Formación de Base de Schiff / Imina]
+               │
+               ▼ Estabilización termodinámica por apareamiento Watson-Crick
+[Complejo de hibridación correcto estabilizado]
+               │
+               ▼ Reducción química (Cianoborohidruro sódico, NaBH3CN)
+[Marcado covalente irreversible con amina secundaria]
 ```
 
-1. **The Query (Abasic PNA)**: An uncharged Peptide Nucleic Acid (PNA) probe is designed to match the target sequence, but has a "blank" or abasic monomer at the position of the single nucleotide variation (SNV) of interest.
-2. **Hybridization**: The abasic PNA probe hybridizes to the target DNA/RNA, forming a stable double helix with an empty pocket opposite the target base.
-3. **The Search (SMART Base)**: A functionalized nucleobase (known as a **SMART base**, modified with biotin or a fluorophore) is introduced. This base contains a reactive chemical group (typically an aldehyde) that forms reversible imine bonds with the amine of the abasic site in the PNA backbone.
-4. **Error Correction & Selection**: If the SMART base is complementary to the target base (e.g., a SMART-Cytosine pairing with a target Guanine), Watson-Crick hydrogen bonding occurs within the pocket. This pairing stabilizes the conformation, shifting the dynamic equilibrium to keep the matching base in the pocket. If there is a mismatch, the binding is unstable, the imine bond hydrolyzes, and the base is expelled.
-5. **The Ligation Lock**: A chemical reducing agent (such as sodium cyanoborohydride) is added to reduce the reversible imine bond into a stable, irreversible amine bond, locking the matching base into the PNA backbone and leaving a permanent covalent label.
+1. **La Sonda de PNA Abásico**: Se diseña un oligómero de Ácido Nucleico Peptídico (PNA) complementario a la secuencia de interés, en el que se omite deliberadamente una nucleobase en la posición de la mutación diana, introduciendo un espaciador que porta una amina reactiva.
+2. **Hibridación Específica**: El PNA neutro se une a la hebra diana con gran afinidad, formando un dúplex muy estable y dejando una cavidad vacía justo frente a la base a interrogar.
+3. **Equilibrio Covalente Reversible**: Se introduce la **SMART nucleobase**, modificada con un grupo aldehído. Ésta reacciona reversiblemente con la amina de la sonda PNA, formando una imina que se ensambla y desensambla continuamente.
+4. **Reconocimiento Watson-Crick**: Si la SMART nucleobase es la complementaria canónica (e.g., SMART-Citosina frente a Guanina diana), se establecen enlaces de hidrógeno Watson-Crick que estabilizan conformacionalmente la estructura en el interior de la cavidad. Si existe un emparejamiento erróneo (*mismatch*), la imina se hidroliza de inmediato y la base es expulsada al medio.
+5. **Fijación Covalente Irreversible**: La adición controlada de un agente reductor suave (cianoborohidruro sódico) reduce de manera irreversible la imina a una amina secundaria estable, dejando la sonda covalentemente marcada con la etiqueta indicadora (fluoróforo o biotina).
 
 ---
 
-## Inputs and Outputs
-- **Inputs**:
-  - Crude biological sample (serum, saliva, or lysed cells) containing target nucleic acids.
-  - Custom abasic Peptide Nucleic Acid (PNA) probes.
-  - Reactive SMART nucleobases (modified with aldehyde and biotin/fluorophore).
-  - Reducing agent (e.g., sodium cyanoborohydride, NaBH3CN).
-- **Outputs**:
-  - Covalently labeled PNA probes that can be read using flow cytometry, Luminex beads, or fluorescent imagers.
+## 3. Ventajas y Limitaciones Clínicas
 
----
+### Ventajas Competitivas
+- **Ausencia Total de PCR**: Elimina el riesgo de falsos positivos por contaminación cruzada de amplicones en el laboratorio clínico.
+- **Inmunidad a Inhibidores**: No se inhibe por la presencia de heparina, hemo, bilirrubina o sales que inactivan habitualmente las ADN polimerasas comerciales.
+- **Resolución de Base Única**: Capaz de discriminar con fiabilidad absoluta isoformas de microRNA (isomirs) que difieren en un único nucleótido terminal.
+- **Estabilidad de Reactivos**: Las sondas sintéticas de PNA y las bases SMART son estables a temperatura ambiente, sin requerir cadena de frío para su transporte y almacenamiento.
 
-## Strengths & Limitations
-
-### Strengths
-- **PCR-Free**: Avoids enzymatic amplification. This eliminates false positives from amplicon contamination and prevents assay failure caused by enzyme inhibitors (such as heparin or heme) present in clinical blood samples.
-- **Single-Base Resolution**: Capable of discriminating single nucleotide variations (SNVs) and microRNA isoforms (isomirs) that differ by only a single base.
-- **Robustness**: Reagents are chemically stable and do not require cold-chain transport or storage, unlike polymerases.
-
-### Limitations
-- **LOD (Limit of Detection)**: Because there is no exponential copying of the target, DCL requires highly sensitive physical detectors (such as Quanterix Simoa, time-gated fluorescence, or Luminex MAGPIX) to read low-abundance biomarkers.
-
----
-
-## Critical Parameters & Common Errors
-- **pH Control**: Imine formation and reduction are pH-dependent. The reaction requires strict buffer control (typically around pH 7.0–7.4). Lower pH values accelerate imine formation but can destabilize the DNA/PNA duplex.
-- **Ionic Strength**: Hybridization of PNA (which is uncharged) to DNA/RNA is less dependent on ionic strength than DNA-DNA hybridization, but optimal salt concentrations are required to maximize pairing stability and kinetics.
-- **Incomplete Reduction**: If the reducing agent is oxidized or insufficient, the dynamic imine bonds will not be locked, causing the label to wash off during downstream assay steps.
-
----
-
-## Connections
-- **Related Methods**: `[[SMART_Probes]]`, `[[RiboTAC_Degraders]]`, `[[DNA_Encoded_Libraries]]`
-- **Related Clinical Areas**: `[[Hepatotoxicity]]`, `[[microRNA_122]]`, `[[Parasitic_Infections]]`
+### Parámetros de Sensibilidad
+Al no existir una amplificación exponencial geométrica del analito, la lectura ultrasensible de biomarcadores en concentraciones sub-picomolares se realiza integrando el DCL en plataformas de alta sensibilidad óptica, tales como analizadores Luminex MAGPIX, citometría de flujo o sistemas monomoleculares Quanterix Simoa.

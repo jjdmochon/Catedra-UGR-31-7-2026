@@ -1,78 +1,41 @@
 ---
-title: "DNA-Encoded Library (DEL) Screening"
-type: method
+title: "Cribado de Quimiotecas Codificadas por ADN (DNA-Encoded Libraries - DEL)"
+type: metodo
 date_created: 2026-08-26
-date_updated: 2026-08-26
+date_updated: 2026-09-06
 status: active
 confidence: high
-tags: [method, DEL, screening, library, small-molecules, drug-discovery]
-sources: [extracted_docx_text.txt]
+tags: [metodo, del, librerias-quimicas, cribado, ngs, sintesis-combinatoria]
+sources: [portfolio-catedra/index.html, CV JJD short.md]
 ---
 
-# DNA-Encoded Library (DEL) Screening
+# Cribado de Quimiotecas Codificadas por ADN (DNA-Encoded Libraries - DEL)
 
-## Purpose
-DNA-Encoded Library (DEL) screening is an ultra-high-throughput ligand discovery technology used to isolate small-molecule binders against folded macromolecular targets (proteins or structured RNA) from combinatorial pools containing millions to billions of distinct chemical entities.
+## 1. Definición y Alcance
+La tecnología de Quimiotecas Codificadas por ADN (**DEL**) permite la síntesis y evaluación simultánea de colecciones combinatorias masivas compuestas por millones o miles de millones de moléculas orgánicas pequeñas en un único tubo de ensayo, identificando ligandos afines mediante secuenciación masiva (NGS).
 
 ---
 
-## Operating Principle: A Massively Parallel Hash Search
-In traditional high-throughput screening (HTS), a robotic arm dispenses individual compounds into 384-well plates, executing one assay per well. 
-
-DEL replaces this physical partition with a **massively parallel hash search in a single tube**:
+## 2. Fundamento y Procedimiento Experimental
+En el cribado convencional de alto rendimiento (HTS), cada molécula debe sintetizarse, purificarse y ensayarse en un pocillo individualizado mediante sistemas robóticos de alto coste. La tecnología DEL resuelve esta limitación mediante el principio de **código de barras molecular**:
 
 ```
-[Target RNA Immobilized on Beads] + [DNA-Encoded Chemical Library (>10^8 compounds)]
-                     │
-                     ▼ Incubation & Hybridization
-[Complex of Target RNA + Bound Small Molecules]
-                     │
-                     ▼ Stringent Washing (Washes away unbound compounds)
-[Elution of Bound Compounds]
-                     │
-                     ▼ PCR Amplification of DNA Barcodes
-[High-Throughput Sequencing (NGS)]
-                     │
-                     ▼ Computational Decoding
-[Enriched Chemical Structures Identified]
+[Diana Inmovilizada en Esferas Magnéticas] + [Quimioteca Combinatoria Codificada con ADN (>10^8 compuestos)]
+                             │
+                             ▼ Incubación e Hibridación por Afinidad
+[Complejos Diana-Ligando Unidos a la Fase Sólida]
+                             │
+                             ▼ Lavados Astringentes (Eliminación de moléculas no unidas)
+[Elución Térmica de Ligandos Específicos]
+                             │
+                             ▼ Amplificación por PCR del Código de Barras de ADN
+[Secuenciación Masiva NGS y Conteo de Lecturas]
+                             │
+                             ▼ Decodificación Computacional
+[Identificación de Estructuras Químicas Candidatas Enriquecidas]
 ```
 
-1. **The Chemical Database (The Library)**: Through combinatorial split-and-pool synthesis, small molecules are built step-by-step on a solid support. At each synthetic step, a unique, short double-stranded DNA tag is enzymatically ligated to the linker. The final product is a small molecule covalently attached to a unique **DNA barcode** that acts as a synthetic metadata tag.
-2. **Target Engagement**: The target (e.g., natively folded DHS44500 eRNA) is immobilized on magnetic beads. The entire library of >10^8 tagged compounds is added to a single tube and incubated under physiological conditions.
-3. **Partition & Wash**: Unbound molecules are washed away using stringent buffer conditions. Molecules that bind the target with high affinity remain tethered to the beads.
-4. **NGS Readout & Hash Decoding**: The bound complexes are eluted. The DNA barcodes are amplified via PCR and sequenced using Next-Generation Sequencing (NGS). The sequence reads are mapped back to their chemical synthesis database, allowing researchers to count the abundance of each barcode. High counts indicate chemical structures with high binding affinity.
-
----
-
-## Inputs and Outputs
-- **Inputs**:
-  - Purified, natively folded target RNA (immobilized on magnetic or streptavidin beads).
-  - Combinatorial DNA-encoded small-molecule library.
-  - DNA polymerase and PCR primers for barcode amplification.
-- **Outputs**:
-  - Raw sequencing reads (FASTQ) decoded into enrichment matrices identifying candidate chemical scaffolds.
-
----
-
-## Strengths & Limitations
-
-### Strengths
-- **Scale**: Screens billions of molecules in a single microcentrifuge tube, bypassing the need for multi-million-euro plate-handling robotics.
-- **Minimal Sample Volume**: Requires micrograms of target material compared to milligrams needed for traditional screens.
-- **Direct Target Selection**: Allows screening of target structures under competitive conditions (e.g., adding excess transfer RNA to drive selectivity).
-
-### Limitations
-- **Affinity-Only Readout**: The assay only measures physical binding (Kd), not functional activity (e.g., whether the compound inhibits or degrades the target). Hit compounds must undergo functional assay screening downstream.
-- **Chemical Synthesis Constraints**: The combinatorial reactions must be compatible with DNA stability. Harsh reaction conditions (such as strong acids, high heat, or organometallic reagents) cannot be used as they damage the DNA barcode tags.
-
----
-
-## Critical Parameters & Common Errors
-- **RNA Folding Integrity**: RNA is prone to misfolding. Screening must take place in buffers containing magnesium ions (Mg2+) to stabilize the native tertiary loops. If the target RNA misfolds during screening, the process will enrich for binders to inactive, denatured structures.
-- **Non-Specific DNA Binding**: Small molecules are linked to large, highly charged double-stranded DNA tags. The DNA tag itself can bind non-specifically to basic targets. This requires negative-control screenings (using the DNA tag alone) to filter out false-positive DNA-binders.
-
----
-
-## Connections
-- **Related Methods**: `[[Dynamic_Chemical_Labeling]]`, `[[RiboTAC_Degraders]]`, `[[drug2cell_Pipeline]]`
-- **Related Projects**: 
+1. **Síntesis Combinatoria *Split-and-Pool***: Pequeñas moléculas se sintetizan paso a paso en fase sólida o en disolución. Tras cada transformación química sintética, se liga enzimáticamente un bloque oligonucleotídico específico que registra la reacción efectuada. Al finalizar, cada molécula está unida a un código de barras de ADN único.
+2. **Selección por Afinidad**: La macromolécula diana se inmoviliza sobre esferas magnéticas y se incuba con la mezcla de cientos de millones de compuestos en una microcentrífuga convencional.
+3. **Lavados y Elución**: Los compuestos sin afinidad se eliminan con lavados de alta astringencia; los ligandos fuertemente unidos se eluyen por desnaturalización térmica.
+4. **Lectura por NGS**: Los códigos de barras de ADN de los compuestos unidos se amplifican por PCR y se secuencian. La abundancia relativa de lecturas identifica de forma unívoca la estructura química de los ligandos de mayor afinidad.
