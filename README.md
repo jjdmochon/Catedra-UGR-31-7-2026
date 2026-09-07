@@ -103,7 +103,7 @@ Catedra-UGR-31-7-2026/
 └── wiki/                         # Base documental en Markdown (Obsidian Vault)
     ├── concurso/                 # Bases BOE, Tribunal, Proyecto Docente e Investigador, Anexo IV
     ├── courses/                  # Docencia UGR (QFUNO, QFDOS, QO, CTA, NHD, TRANSMED)
-    ├── methods/                  # DCL, SMART Probes, RiboTACs, drug2cell, DEL, Micro-C
+    ├── methods/                  # DCL, SMART Probes, Química Médicas, Quimiotecas DEL, DEL, Sondas SMART
     ├── profile/                  # Perfil académico, 6 ejes de investigación, biografía
     ├── entities/                 # DESTINA, CRISPNA, GENYO, UGR, Edinburgh, Southampton, ISLB
     └── concepts/                 # Glosario ontológico y conceptos biológicos y químicos

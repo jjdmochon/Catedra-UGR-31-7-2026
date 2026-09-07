@@ -124,7 +124,7 @@ ANEXO_IV_SECTIONS = [
     {"num": 6, "titulo": "Actividad docente desempeñada", "count": ">25 años evaluados", "desc": "Química Orgánica 1 y 2, Química Farmacéutica 1 y 2 (Farmacia), CTA, NHD y Máster TRANSMED."},
     {"num": 7, "titulo": "Contribuciones de carácter docente", "count": "8 proyectos / materiales", "desc": "Proyectos de innovación docente UGR, plataformas web interactivas, modelo 'Química como Software Molecular'."},
     {"num": 8, "titulo": "Actividad asistencial desempeñada", "count": "N/A", "desc": "Plaza no vinculada."},
-    {"num": 9, "titulo": "Actividad investigadora desempeñada", "count": "4 líneas activas", "desc": "Química dinámica (DCL), Biopsia líquida, Nanobiosensores / Point-of-Care, y RiboTACs (eRNA-DEGRADE)."},
+    {"num": 9, "titulo": "Actividad investigadora desempeñada", "count": "4 líneas activas", "desc": "Química dinámica (DCL), Biopsia líquida, Nanobiosensores / Point-of-Care, y química médica de inhibidores enzimáticos."},
     {"num": 10, "titulo": "Proyectos subvencionados en convocatorias públicas", "count": "18 proyectos", "desc": "Europeos (FP7 LIQBIOPSENS, Horizon Europe, EIC Accelerator), Plan Nacional / Retos, Junta de Andalucía, EQC2024."},
     {"num": 11, "titulo": "Otros proyectos y contratos I+D (Transferencia / Art. 83)", "count": "12 contratos", "desc": "Contratos de I+D con Vitro SA, Quanterix, MilliporeSigma, Optoi, Mecwins."},
     {"num": 12, "titulo": "Trabajos de investigación dirigidos", "count": "11 Tesis / >30 TFGs/TFMs", "desc": "11 Tesis doctorales defendidas (todas Sobresaliente cum laude, mención internacional y premios extraordinarios)."},

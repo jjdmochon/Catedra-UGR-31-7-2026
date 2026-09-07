@@ -63,7 +63,7 @@ Conforme a la base 5.2 de la Resolución de 22 de julio de 2026 de la Universida
   1. Química dinámica covalente y marcado directo de ácidos nucleicos (DCL).
   2. Biopsia líquida y biomarcadores ultrasensibles (miR-122 para DILI, miR-21, CTCs, exosomas).
   3. Nanobiosensores, química bioortogonal click y dispositivos Point-of-Care (CoVradar, Spin-Tube).
-  4. Quimeras degradadoras de ARN regulador (RiboTACs / eRNA-DEGRADE).
+  4. Química Médica e inhibidores enzimáticos de quinasas oncogénicas.
 
 ### 10. Proyectos de investigación subvencionados en convocatorias públicas
 - **Proyectos Europeos**: FP7 LIQBIOPSENS, Horizon Europe, EIC Accelerator (2025).

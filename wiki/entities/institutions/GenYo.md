@@ -8,5 +8,4 @@ En GENYO, el Prof. Dr. Juan José Díaz-Mochón colidera el **Laboratorio NanoCh
 
 ## 📂 Líneas de Investigación en GENYO
 - Marcaje Químico Dinámico (DCL) para biopsia líquida.
-- Síntesis de degradadores selectivos de ARN potenciador (RiboTACs) en el marco de proyectos de excelencia de la Junta de Andalucía.
 - Desarrollo de sondas fluorescentes e hidrogeles supramoleculares para cribado molecular.

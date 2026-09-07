@@ -48,3 +48,11 @@ Asimismo, la docencia de posgrado vinculada incluye el **Máster Oficial en Medi
 - **Plazo de Solicitudes**: Veinte días naturales a partir del 1 de septiembre de 2026.
 - **Vía de Presentación**: Sede Electrónica de la Universidad de Granada (`https://sede.ugr.es`), procedimiento *"Concursos a plazas docentes: Solicitud de admisión"*.
 - **Estructura Documental Requerida**: Conforme al artículo 9.5-b-1 de la NPAUGR, el curriculum vitae y memoria de méritos se estructuran con estricta sujeción a los 25 apartados del **Anexo IV** de la resolución.
+
+
+---
+
+## 6. Justificación de Presentación de Solicitud y Abono de Tasas (07/09/2026)
+La solicitud oficial de participación en el presente concurso fue formalizada telemáticamente el **07/09/2026** a través de la Sede Electrónica de la Universidad de Granada (Registro de Entrada **REGAGE26e00078529155**, CSV: `4674AAEAD846A33184E61597C22B82D2`).
+
+Asimismo, se procedió al pago íntegro de las tasas de examen de 42,50 € y se adjuntó la acreditación ANECA a Catedrático de Universidad y el Certificado Oficial de Servicios Prestados. Todos los detalles y justificantes se encuentran recogidos en [[Solicitud_y_Tasas_Concurso]].

@@ -42,7 +42,7 @@ mindmap
     id6["6. Química Médica y Modulación de Dianas"]
       ["6-Alcoxipurinas e inhibidores de quinasas"]
       ["Ligandos selectivos del receptor A1 de adenosina"]
-      ["Degradadores dirigidos de ARN (RiboTAC)"]
+      ["Inhibidores enzimáticos dirigidos"]
 ```
 
 ---
@@ -79,7 +79,7 @@ mindmap
 
 ### Eje 6: Química Médica y Síntesis de Nuevos Fármacos
 - **Objetivo**: Síntesis *de novo* de heterociclos bioactivos e inhibidores enzimáticos dirigidos.
-- **Líneas químicas**: Derivados de purinas trisustituidas y 6-alcoxipurinas diseñadas como inhibidores de quinasas oncogénicas y moduladores de receptores de adenosina, así como nuevas quimeras degradadoras de ARN transcripcional (RiboTACs) en colaboración con el programa *eRNA-DEGRADE*.
+- **Líneas químicas**: Derivados de purinas trisustituidas y 6-alcoxipurinas diseñadas como inhibidores de quinasas oncogénicas y moduladores de receptores de adenosina.
 - **Publicaciones clave**: Pineda de las Infantas et al. (*Org. Biomol. Chem.*, 2015); Lorente-Macías et al. (*Eur. J. Med. Chem.*, 2021); Córdoba-Gómez et al. (*Bioorg. Chem.*, 2025).
 
 ---

@@ -1,60 +1,46 @@
 ---
-title: "Inventario de Información Faltante y Pendiente de Proveer por el Candidato"
-type: oportunidad
+title: "Control de Documentación y Requisitos: Concurso Cátedra 31/7/2026"
+type: perfil
 date_created: 2026-08-26
-date_updated: 2026-09-06
+date_updated: 2026-09-07
 status: active
 confidence: high
-tags: [auditoria, vacios, informacion-faltante, documentacion, catedra]
-sources: [Convocatoria BOE-A-2026-16414, Baremo Anexo IV UGR]
+tags: [documentacion, requisitos, certificados, aneca, cneai, ugr, concurso]
+sources: [Convocatoria BOE-A-2026-16414, Solicitud_Plaza_catedrático.pdf, Acreditación catedrático.pdf, certificado servicios prestados UGR.pdf]
 ---
 
-# Inventario de Información Faltante y Pendiente de Proveer por el Candidato
+# Control de Documentación y Requisitos: Concurso Cátedra 31/7/2026
 
-## 1. Justificación de la Auditoría
-Para garantizar que el portal de la candidatura al Concurso **31/7/2026** de Cátedra de Universidad ([BOE-A-2026-16414](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-16414)) y su base de conocimiento LLM-Wiki alcancen el máximo rigor documental exigido por el tribunal evaluador, se ha realizado una auditoría integral cruzando los datos actuales con el **Baremo Oficial del Anexo IV de la Universidad de Granada**.
-
-A continuación se detalla la lista clasificada de los documentos, certificados y datos específicos que faltan en el repositorio local y que el candidato debe facilitar.
+## 1. Estado General del Expediente Administrativo
+Con fecha **7 de septiembre de 2026**, se ha procedido a la presentación formal telemática de la solicitud del concurso en la Sede Electrónica de la Universidad de Granada (**REGAGE26e00078529155**), aportando el justificante bancario de abono de tasas públicas, el Certificado Oficial de Acreditación ANECA a Catedrático de Universidad y el Certificado de Servicios Prestados emitido por la UGR.
 
 ---
 
-## 2. Lista de Información Faltante por Bloques Temáticos
+## 2. Documentos Oficiales Aportados y Verificados (07/09/2026)
 
-### Bloque 1: Acreditaciones Oficiales y Méritos Institucionales
-- [ ] **Resolución Oficial de Acreditación a Catedrático de Universidad (CU)**: Certificado de la Comisión de Acreditación de ANECA (Programa ACADEMIA) en el Área de Química Orgánica.
-- [ ] **Certificado de Sexenios CNEAI / ANECA**: Documento oficial del Ministerio / ANECA acreditando los 4 sexenios reconocidos (años exactos de los 3 tramos de investigación y del tramo de transferencia).
-- [ ] **Hoja de Servicios de la Universidad de Granada**: Documento oficial actualizado expedido por el Servicio de Personal Docente que certifique la antigüedad, categorías ocupadas (Ramón y Cajal, Titular de Universidad) y los **5 Quinquenios Docentes** reconocidos.
-- [ ] **Certificación Oficial DOCENTIA UGR**: Informe pormenorizado del Vicerrectorado para la Garantía de la Calidad donde figure el desglose anual del 4,78/5,00 y las menciones cualitativas de excelencia docente.
+- [x] **Solicitud Oficial de Admisión al Concurso**: Presentada telemáticamente el 07/09/2026 (13:27 h) en la Sede Electrónica UGR con número de entrada `REGAGE26e00078529155` y CSV `4674AAEAD846A33184E61597C22B82D2` ([https://sede.ugr.es/verifirma/](https://sede.ugr.es/verifirma/)).
+- [x] **Justificante Bancario de Abono de Tasas Públicas**: Liquidación de 42,50 € mediante transferencia instantánea SEPA a la cuenta corriente oficial de la Universidad de Granada (Ref: `6a9e9cc7-f46c-a280-a58f-9c5ff8dcc5a9`, ID: `REV26090795906322253`).
+- [x] **Certificado Oficial de Acreditación Nacional a Catedrático de Universidad (CU)**: Expedido por la Directora de la ANECA (Dra. Pilar Paneque Salgado) en fecha 23/10/2024 en la rama de CIENCIAS, resolución de 22/10/2024 (CSV: `GEN-d328-f75e-ae3a-f0f8-14d1-dc72-ea01-0ed2` en [https://pf.seap.minhap.es](https://pf.seap.minhap.es)).
+- [x] **Certificado Oficial de Servicios Prestados en la UGR**: Emitido el 07/09/2026 con CSV `9BB437ACB712FB9BEFC3B8955A23A4C3`, acreditando los nombramientos de Investigador Contratado Ramón y Cajal (2011-2017), Profesor Contratado Doctor (2017-2019) y Profesor Titular de Universidad (2019-actualidad).
 
-### Bloque 2: Docencia y Dedicación Académica Oficial
-- [ ] **Guías Docentes Oficiales Aprobadas**: Copia en PDF o enlace a las guías docentes vigentes de las asignaturas asignadas en el perfil de la plaza:
-  - *Química Orgánica 1* y *Química Orgánica 2* (Grado en Farmacia).
-  - *Química Farmacéutica 1* y *Química Farmacéutica 2* (Grado en Farmacia).
-  - *Química Orgánica y Química de los Fármacos y Marcadores Orgánicos de los Alimentos. Trazabilidad* (Grado en Ciencia y Tecnología de los Alimentos - CTA).
-  - *Química General* (Grado en Nutrición Humana y Dietética - NHD).
-  - *Módulo del Máster Universitario en Medicina Traslacional (TRANSMED)*.
-- [ ] **Certificado de Horas POD (Plan de Ordenación Docente)**: Desglose oficial de créditos y horas impartidas (teoría, seminarios, prácticas de laboratorio y tutorías) durante los últimos 10 cursos académicos.
-- [ ] **Dirección de Trabajos Fin de Grado (TFG) y Fin de Máster (TFM)**: Listado con nombre del alumno/a, título del trabajo, titulación académica, año de defensa y calificación obtenida.
-- [ ] **Proyectos de Innovación Docente (PID)**: Título, código oficial de la convocatoria UGR, año de ejecución y rol (Coordinador o Colaborador).
+*Para consultar los justificantes y códigos de verificación, véase [[concurso/Solicitud_y_Tasas_Concurso]].*
 
-### Bloque 3: Formación de Doctores (Tesis Doctorales)
-- [ ] **Actas / Certificados del Tribunal de Tesis de las 11 Tesis**:
-  - Especialmente la certificación oficial o enlace Teseo/Digibug de las calificaciones exactas y menciones (Sobresaliente Cum Laude, Mención Internacional, Doctorado Industrial).
-  - Certificados de dirección expedidos por la Escuela Internacional de Posgrado (EIP) de la UGR para: *Agustín Robles Remacho*, *Antonio Marín Romero*, *Álvaro Lorente Macías*, *Antonio Delgado González*, *Rafael Contreras Montoya*, *Mª Angélica Luque González*, *María Victoria Cano Cortés* y *Nancy Villegas Villao*.
-  - Documentación de co-dirección oficial de la University of Edinburgh para: *Nina Svensen* (2010) y *Frank R. Bowler* (2011).
-  - Documentación de la tesis industrial con la UAM y Mecwins: *Isabel Rodríguez Mariblanca* (2026).
-- [ ] **Destino Profesional de los Doctores Formados**: Puestos actuales que ocupan en la academia o la industria (e.g., investigadores posdoctorales en centros extranjeros, directores de I+D en biotecnológicas, profesores de universidad) para justificar la proyección y liderazgo del grupo.
+---
 
-### Bloque 4: Proyectos I+D y Transferencia Tecnológica
-- [ ] **Cartas de Concesión / Resoluciones Definitivas de Concesión**:
-  - Convocatoria EQC2024-009139-P (497.042,40 €).
-  - Convocatoria PID2022-141065OB-I00 (181.250,00 €).
-  - Convocatoria PDC2022-133913-I00 (148.350,00 €).
-  - Convocatoria TED2021-131739B-I00 (124.200,00 €).
-  - Convocatoria P20_00661 (111.450,00 €).
-- [ ] **Contratos de Licencia de Patentes**: Documento o certificación OTRI acreditando qué familias de patentes se encuentran licenciadas a DESTINA Genomics Ltd., Vitro SA o terceros, volumen de regalías/canon de explotación generado o estatus comercial.
-- [ ] **Certificado de Reconocimiento de Spin-Off Universitaria**: Acreditación oficial del Consejo de Gobierno de la UGR reconociendo el carácter de Spin-Off / Empresa de Base Tecnológica (EBT) para DESTINA Genómica SL y CRISPNA SL.
+## 3. Documentación Complementaria en Fase de Compilación
 
-### Bloque 5: Gestión y Organización Universitaria
-- [ ] **Cargos Académicos Unipersonales o Colegiados**: Certificaciones de desempeño en comisiones académicas de grado, comisiones de garantía interna de calidad, tribunales de evaluación, o comisiones del centro GENYO y departamento.
-- [ ] **Evaluación de Proyectos y Artículos (Revisión por Pares)**: Acreditación de participación como evaluador en agencias científicas (AEI, ANEP, comisiones europeas ERC/MSCA) y certificados de *peer-review* en revistas indexadas.
+A continuación se detalla la documentación complementaria que perfeccionará las pruebas documentales de los apartados de méritos del Anexo IV:
+
+### Bloque A: Certificados de Sexenios CNEAI
+- [ ] Copia de las resoluciones definitivas de la CNEAI acreditando los 3 sexenios de investigación reconocidos.
+- [ ] Copia de la resolución oficial de la CNEAI del sexenio de transferencia e innovación.
+
+### Bloque B: Desglose del Programa DOCENTIA y Docencia
+- [ ] Certificado o informe de la Unidad de Calidad Docente UGR con el desglose pormenorizado de las puntuaciones de las encuestas docentes DOCENTIA (calificación global de 4,78/5,00).
+- [ ] Certificado oficial de dedicación docente (POD) detallando las horas lectivas teóricas, prácticas de laboratorio y seminarios impartidos en los últimos cursos académicos.
+- [ ] Relación certificada de Trabajos Fin de Grado (TFG) y Trabajos Fin de Máster (TFM) dirigidos y defendidos.
+
+### Bloque C: Tesis Doctorales y Proyectos I+D
+- [ ] Certificados de lectura y actas de calificación de las 11 tesis doctorales dirigidas (con indicación expresa de menciones cum laude, mención internacional y premios extraordinarios).
+- [ ] Resoluciones definitivas de concesión de los proyectos de investigación clave (PID2022, PDC2022, TED2021, EQC2024 y proyectos europeos).
+- [ ] Certificados de contratos I+D gestionados mediante el artículo 83 LOU / 60 LOSU con empresas del sector.

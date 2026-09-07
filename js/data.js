@@ -14,6 +14,17 @@ window.APP_DATA = {
     "boe_url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-16414",
     "perfil_docente": "Química Orgánica 1 y 2 y Química Farmacéutica 1 y 2 en el Grado de Farmacia, Química Orgánica y Química de los Fármacos y Marcadores Orgánicos de los alimentos. Trazabilidad en el Grado de CTA, Química General en el Grado de NHD.",
     "perfil_investigador": "Desarrollo de estrategias químicas basadas en química dinámica para la detección de ácidos nucleicos como herramienta de diagnóstico.",
+    "solicitud_oficial": {
+      "organo": "Universidad de Granada — Servicio de Personal Docente e Investigador",
+      "registro_entrada": "REGAGE26e00078529155",
+      "fecha_registro": "07/09/2026 - 13:27:04",
+      "csv": "4674AAEAD846A33184E61597C22B82D2",
+      "verificacion_url": "https://sede.ugr.es/verifirma/",
+      "tasas_importe": "42,50 €",
+      "tasas_estado": "Completed (SEPA Instant Credit Transfer)",
+      "aneca_acreditacion_csv": "GEN-d328-f75e-ae3a-f0f8-14d1-dc72-ea01-0ed2",
+      "servicios_prestados_csv": "9BB437ACB712FB9BEFC3B8955A23A4C3"
+    },
     "tribunal_titular": [
       {
         "cargo": "Presidenta titular",
@@ -147,7 +158,7 @@ window.APP_DATA = {
       "num": 9,
       "titulo": "Actividad investigadora desempeñada",
       "count": "4 líneas activas",
-      "desc": "Química dinámica (DCL), Biopsia líquida, Nanobiosensores / Point-of-Care, y RiboTACs (eRNA-DEGRADE)."
+      "desc": "Química dinámica (DCL), Biopsia líquida, Nanobiosensores / Point-of-Care, y Química Médica de inhibidores enzimáticos."
     },
     {
       "num": 10,
