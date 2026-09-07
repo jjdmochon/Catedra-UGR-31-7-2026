@@ -2,7 +2,7 @@
 title: "Design, synthesis and biological evaluation of 6-alkoxypurine derivatives as kinase inhibitors"
 student: "Álvaro Lorente Macías"
 university: "Universidad de Granada (Dpto. Química Farmacéutica y Orgánica)"
-advisors: "Prof. Juan José Díaz-Mochón, Prof. Ignacio Jesús Molina Pineda de las Infantas y Dra. María J. Pineda de las Infantas"
+advisors: "Prof. Dr. Juan José Díaz-Mochón (UGR), Prof. Dr. Ignacio Jesús Molina Pineda de las Infantas (Catedrático de Inmunología, UGR) y Dra. María José Pineda de las Infantas y Villatoro (Titular de Química Farmacéutica, UGR)"
 year: "2019"
 mention: "International Doctoral Thesis · Sobresaliente Cum Laude"
 type: "Tesis Doctoral"
@@ -11,7 +11,7 @@ type: "Tesis Doctoral"
 # Design, synthesis and biological evaluation of 6-alkoxypurine derivatives as kinase inhibitors
 
 - **👨‍🎓 Doctorando/a:** Álvaro Lorente Macías
-- **👥 Directores de Tesis:** Prof. Juan José Díaz-Mochón, Prof. Ignacio Jesús Molina Pineda de las Infantas y Dra. María J. Pineda de las Infantas
+- **👥 Directores de Tesis:** Prof. Dr. Juan José Díaz-Mochón (UGR), Prof. Dr. Ignacio Jesús Molina Pineda de las Infantas (Catedrático de Inmunología, UGR) y Dra. María José Pineda de las Infantas y Villatoro (Titular de Química Farmacéutica, UGR)
 - **🏛️ Universidad / Centro:** Universidad de Granada (Dpto. Química Farmacéutica y Orgánica)
 - **📅 Año de Defensa:** 2019
 - **🎖️ Calificación / Mención:** International Doctoral Thesis · Sobresaliente Cum Laude

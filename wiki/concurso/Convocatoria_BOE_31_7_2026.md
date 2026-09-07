@@ -49,6 +49,27 @@ Asimismo, la docencia de posgrado vinculada incluye el **Máster Oficial en Medi
 - **Vía de Presentación**: Sede Electrónica de la Universidad de Granada (`https://sede.ugr.es`), procedimiento *"Concursos a plazas docentes: Solicitud de admisión"*.
 - **Estructura Documental Requerida**: Conforme al artículo 9.5-b-1 de la NPAUGR, el curriculum vitae y memoria de méritos se estructuran con estricta sujeción a los 25 apartados del **Anexo IV** de la resolución.
 
+---
+
+## 5. Composición de la Comisión de Selección (Tribunal Evaluador)
+
+Conforme al Anexo III de la Resolución de 28 de julio de 2026 (BOE núm. 183), la Comisión de Selección encargada de juzgar el concurso de acceso 31/7/2026 está formalmente integrada por:
+
+### Comisión Titular
+- **Presidenta**: Dra. Laura Rodríguez Raurell (Catedrática de Universidad, Universidad de Barcelona).
+- **Secretario**: Dr. Juan Manuel Cuerva Carvajal (Catedrático de Universidad, Universidad de Granada).
+- **Vocal 1**: Dra. Eva María Talavera Rodríguez (Catedrática de Universidad, Universidad de Granada).
+- **Vocal 2**: Dr. Manuel Nogueras Montiel (Catedrático de Universidad, Universidad de Jaén).
+- **Vocal 3**: Dra. M. Jesús Ortega Agüera (Catedrática de Universidad, Universidad de Cádiz).
+
+### Comisión Suplente
+- **Presidenta Suplente**: Dra. Rosario Hernández Galán (Catedrática de Universidad, Universidad de Cádiz).
+- **Secretaria Suplente**: Dra. Alegría Carrasco Pancorbo (Catedrática de Universidad, Universidad de Granada).
+- **Vocal Suplente 1**: Dr. Manuel Sánchez Polo (Catedrático de Universidad, Universidad de Granada).
+- **Vocal Suplente 2**: Dr. Ramón Martínez Máñez (Catedrático de Universidad, Universidad Politécnica de Valencia).
+- **Vocal Suplente 3**: Dra. Marina Gordaliza Escobar (Catedrática de Universidad, Universidad de Salamanca).
+
+Para un análisis detallado de las trayectorias académicas, centros y áreas de afinidad temática con los miembros de la comisión, consúltese el documento monográfico [[Tribunal_Evaluador]].
 
 ---
 

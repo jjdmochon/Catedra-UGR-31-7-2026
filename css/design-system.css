@@ -71,6 +71,7 @@
   --font-mono:    'Space Grotesk', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
 
   /* ── Spatial Scale & Radii ── */
+  --container-width: 1240px;
   --radius-xs:   4px;
   --radius-sm:   8px;
   --radius-md:   14px;
@@ -212,6 +213,9 @@ html {
   font-size: 16px;
   scroll-behavior: smooth;
   text-rendering: optimizeLegibility;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 body {
@@ -220,6 +224,8 @@ body {
   color: var(--text-primary);
   line-height: 1.65;
   min-height: 100vh;
+  width: 100%;
+  max-width: 100%;
   overflow-x: hidden;
   transition: background-color var(--transition-normal), color var(--transition-normal);
   background-image:

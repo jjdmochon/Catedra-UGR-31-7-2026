@@ -149,10 +149,14 @@ const App = {
     });
 
     const countIndicator = document.getElementById('pub-count-badge');
-    if (countIndicator) countIndicator.textContent = `${filtered.length} de ${articles.length} artículos`;
+    if (countIndicator) {
+      const chaptersCount = articles.filter(a => a.type === 'chapter').length;
+      const jcrCount = articles.length - chaptersCount;
+      countIndicator.textContent = `${filtered.length} de ${articles.length} publicaciones (${jcrCount} artículos JCR + ${chaptersCount} capítulos de libro)`;
+    }
 
     if (filtered.length === 0) {
-      container.innerHTML = '<div class="empty-state">No se encontraron artículos con los criterios seleccionados.</div>';
+      container.innerHTML = '<div class="empty-state">No se encontraron publicaciones con los criterios seleccionados.</div>';
       return;
     }
 
@@ -161,6 +165,7 @@ const App = {
         <div class="pub-meta">
           <span class="pub-year">${a.year}</span>
           <span class="pub-journal">${a.journal || 'Revista Indexada (JCR/Scopus)'}</span>
+          ${a.type === 'chapter' ? '<span class="badge badge-reg" style="font-size:0.75rem; padding: 2px 8px;">📖 Capítulo de Libro</span>' : ''}
           ${a.doi ? `<span class="pub-doi"><a href="${a.doi.startsWith('http') ? a.doi : 'https://doi.org/' + a.doi}" target="_blank" rel="noopener">DOI ↗</a></span>` : ''}
         </div>
         <h3 class="pub-title">${a.title}</h3>
@@ -211,7 +216,9 @@ const App = {
       // Category filter
       let matchesCategory = true;
       if (this.currentProjectFilter === 'ip') {
-        matchesCategory = p.is_ip === true;
+        matchesCategory = p.is_ip === true || (p.role && p.role.includes('IP'));
+      } else if (this.currentProjectFilter === 'nacional') {
+        matchesCategory = p.category === 'nacional' || p.category === 'infraestructura';
       } else if (this.currentProjectFilter !== 'all') {
         matchesCategory = p.category === this.currentProjectFilter;
       }
@@ -220,7 +227,7 @@ const App = {
       let matchesSearch = true;
       if (this.projectSearchQuery) {
         const q = this.projectSearchQuery;
-        const text = `${p.title} ${p.code} ${p.agency} ${p.call || ''} ${p.role || ''} ${p.year || ''}`.toLowerCase();
+        const text = `${p.title || p.name || ''} ${p.code || p.ref || ''} ${p.agency || ''} ${p.call || ''} ${p.role || ''} ${p.year || ''}`.toLowerCase();
         matchesSearch = text.includes(q);
       }
 
@@ -228,7 +235,7 @@ const App = {
     });
 
     if (countBadge) {
-      countBadge.textContent = `${filtered.length} de ${allProjects.length} proyectos`;
+      countBadge.textContent = `${filtered.length} de ${allProjects.length} proyectos y contratos`;
     }
 
     if (filtered.length === 0) {
@@ -243,37 +250,45 @@ const App = {
     }
 
     container.innerHTML = filtered.map(p => {
-      const isIp = p.is_ip;
+      const isIp = p.is_ip === true || (p.role && p.role.includes('IP'));
       const roleBadge = isIp 
         ? '<span class="badge badge-ip">⭐ Investigador Principal (IP)</span>' 
         : '<span class="badge badge-member">👥 Investigador Participante</span>';
 
       let catBadgeClass = 'badge-secondary';
-      if (p.category === 'internacional') catBadgeClass = 'badge-intl';
-      else if (p.category === 'nacional') catBadgeClass = 'badge-nat';
-      else if (p.category === 'regional') catBadgeClass = 'badge-reg';
-      else if (p.category === 'transferencia') catBadgeClass = 'badge-trans';
+      const cat = p.category || '';
+      if (cat === 'internacional') catBadgeClass = 'badge-intl';
+      else if (cat === 'nacional' || cat === 'infraestructura') catBadgeClass = 'badge-nat';
+      else if (cat === 'regional') catBadgeClass = 'badge-reg';
+      else if (cat === 'transferencia') catBadgeClass = 'badge-trans';
+
+      const title = p.title || p.name || '';
+      const dates = p.dates || p.duration || (p.year ? `Año ${p.year}` : '');
+      const agency = p.agency || 'Organismo Financiador Oficial';
+      const code = p.code || p.ref || 'I+D';
+      const amount = p.amount || (p.budget ? `${p.budget.toLocaleString('es-ES')} €` : 'Consultar dotación');
+      const catLabel = p.category_label || (cat === 'nacional' ? 'Plan Nacional' : cat === 'regional' ? 'Junta de Andalucía' : cat === 'internacional' ? 'Internacional / UE' : cat === 'transferencia' ? 'Transferencia Art. 83' : 'Proyecto I+D');
 
       return `
         <div class="project-card reveal ${isIp ? 'card-ip' : ''}">
           <div class="project-card-header">
             <div class="project-badges">
               ${roleBadge}
-              <span class="badge ${catBadgeClass}">${p.category_label || p.category}</span>
+              <span class="badge ${catBadgeClass}">${catLabel}</span>
             </div>
-            <span class="project-dates">📅 ${p.dates || p.year}</span>
+            <span class="project-dates">📅 ${dates}</span>
           </div>
 
-          <h4 class="project-title">${p.title}</h4>
+          <h4 class="project-title">${title}</h4>
 
           <div class="project-meta-grid">
             <div class="project-meta-item">
               <span class="pm-label">🔖 Código / Referencia:</span>
-              <code class="pm-code">${p.code}</code>
+              <code class="pm-code">${code}</code>
             </div>
             <div class="project-meta-item">
               <span class="pm-label">🏛️ Entidad Financiadora:</span>
-              <span class="pm-value">${p.agency}</span>
+              <span class="pm-value">${agency}</span>
             </div>
             ${p.call ? `
               <div class="project-meta-item">
@@ -290,7 +305,7 @@ const App = {
           <div class="project-card-footer">
             <div class="project-amount-wrap">
               <span class="amount-label">Presupuesto / Financiación:</span>
-              <strong class="project-amount">${p.amount}</strong>
+              <strong class="project-amount">${amount}</strong>
             </div>
             <button class="btn btn-xs btn-outline" onclick="App.switchTab('wiki'); WikiEngine.loadPage('outputs/summaries_projects/Summary_of_DiazMochon_20161013_PLAN_DE_TRABAJO.md')">📄 Ver en Wiki</button>
           </div>

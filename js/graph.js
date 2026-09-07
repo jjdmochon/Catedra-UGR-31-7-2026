@@ -15,8 +15,8 @@ window.ScientificGraph = {
     // Clear previous SVG if any
     container.innerHTML = '';
 
-    const width = container.clientWidth || 800;
-    const height = container.clientHeight || 550;
+    const width = container.clientWidth || 900;
+    const height = container.clientHeight || 600;
 
     this.data = this.getGraphData();
 
@@ -31,14 +31,16 @@ window.ScientificGraph = {
     const g = svg.append('g');
 
     // Zoom setup
-    svg.call(d3.zoom()
+    const zoom = d3.zoom()
       .extent([[0, 0], [width, height]])
-      .scaleExtent([0.4, 4])
+      .scaleExtent([0.4, 3.5])
       .on('zoom', (event) => {
         g.attr('transform', event.transform);
-      }));
+      });
 
-    // Color scale for clusters
+    svg.call(zoom);
+
+    // Color scale for clusters (Genyo Fusion Palette)
     const clusterColors = {
       center: '#00a6a6',
       coauthor: '#3EB489',
@@ -47,12 +49,14 @@ window.ScientificGraph = {
       spinoff: '#eab308'
     };
 
-    // Force simulation
+    // Force simulation with generous spacing & anti-collision
     this.simulation = d3.forceSimulation(this.data.nodes)
-      .force('link', d3.forceLink(this.data.links).id(d => d.id).distance(d => d.distance || 90))
-      .force('charge', d3.forceManyBody().strength(-240))
+      .force('link', d3.forceLink(this.data.links)
+        .id(d => d.id)
+        .distance(d => (d.distance ? d.distance * 1.55 : 130)))
+      .force('charge', d3.forceManyBody().strength(-520))
       .force('center', d3.forceCenter(width / 2, height / 2))
-      .force('collision', d3.forceCollide().radius(d => d.radius + 12));
+      .force('collision', d3.forceCollide().radius(d => d.radius + 24));
 
     // Links
     const link = g.append('g')
@@ -60,15 +64,17 @@ window.ScientificGraph = {
       .selectAll('line')
       .data(this.data.links)
       .join('line')
-      .attr('stroke', isDark ? 'rgba(0, 166, 166, 0.22)' : 'rgba(0, 128, 128, 0.18)')
-      .attr('stroke-width', d => Math.sqrt(d.value || 1) * 1.5);
+      .attr('stroke', isDark ? 'rgba(0, 166, 166, 0.25)' : 'rgba(0, 128, 128, 0.22)')
+      .attr('stroke-width', d => Math.sqrt(d.value || 1) * 1.8)
+      .attr('stroke-linecap', 'round');
 
-    // Nodes
+    // Nodes container
     const node = g.append('g')
       .attr('class', 'nodes')
       .selectAll('g')
       .data(this.data.nodes)
       .join('g')
+      .attr('cursor', 'pointer')
       .call(d3.drag()
         .on('start', (event, d) => {
           if (!event.active) this.simulation.alphaTarget(0.3).restart();
@@ -90,30 +96,58 @@ window.ScientificGraph = {
       .attr('r', d => d.radius || 12)
       .attr('fill', d => clusterColors[d.type] || '#64748b')
       .attr('stroke', isDark ? '#10171a' : '#ffffff')
-      .attr('stroke-width', 2.5)
-      .attr('cursor', 'pointer');
+      .attr('stroke-width', 2.5);
 
-    // Labels
+    // Labels with crisp anti-collision halo
     node.append('text')
       .text(d => d.label)
-      .attr('x', d => d.radius + 6)
-      .attr('y', 4)
-      .attr('fill', isDark ? '#e2e8f0' : '#1e293b')
+      .attr('text-anchor', 'middle')
+      .attr('y', d => -(d.radius + 7))
+      .attr('fill', isDark ? '#f1f5f9' : '#0f172a')
       .attr('font-family', 'Montserrat, sans-serif')
-      .attr('font-size', d => d.type === 'center' ? '14px' : '11px')
-      .attr('font-weight', d => d.type === 'center' ? '700' : '500')
+      .attr('font-size', d => d.type === 'center' ? '13px' : '10.5px')
+      .attr('font-weight', d => d.type === 'center' ? '700' : '600')
+      .style('paint-order', 'stroke fill')
+      .style('stroke', isDark ? '#0a0f12' : '#ffffff')
+      .style('stroke-width', '3.5px')
+      .style('stroke-linejoin', 'round')
       .attr('pointer-events', 'none');
 
-    // Tooltip interaction
+    // Tooltip & Interactive Highlighting
     const tooltip = d3.select('#graph-tooltip');
+    
+    // Set of connected nodes lookup
+    const linkedByIndex = {};
+    this.data.links.forEach(d => {
+      const s = typeof d.source === 'object' ? d.source.id : d.source;
+      const t = typeof d.target === 'object' ? d.target.id : d.target;
+      linkedByIndex[`${s},${t}`] = true;
+      linkedByIndex[`${t},${s}`] = true;
+    });
+
+    const isConnected = (a, b) => a.id === b.id || linkedByIndex[`${a.id},${b.id}`];
+
     node.on('mouseover', (event, d) => {
+      // Highlight connected elements
+      node.style('opacity', o => isConnected(d, o) ? 1 : 0.22);
+      link
+        .style('stroke-opacity', l => (l.source.id === d.id || l.target.id === d.id) ? 1 : 0.1)
+        .style('stroke', l => (l.source.id === d.id || l.target.id === d.id) ? '#00a6a6' : (isDark ? 'rgba(0, 166, 166, 0.15)' : 'rgba(0, 128, 128, 0.12)'))
+        .style('stroke-width', l => (l.source.id === d.id || l.target.id === d.id) ? 3 : 1);
+
       if (tooltip.node()) {
         tooltip.style('opacity', 1)
-          .style('left', (event.pageX + 14) + 'px')
+          .style('left', (event.pageX + 16) + 'px')
           .style('top', (event.pageY - 28) + 'px')
           .html(`<strong>${d.label}</strong><br><span style="color:#00a6a6">${d.role || d.type}</span><br><small>${d.details || ''}</small>`);
       }
     }).on('mouseout', () => {
+      node.style('opacity', 1);
+      link
+        .style('stroke-opacity', 1)
+        .style('stroke', isDark ? 'rgba(0, 166, 166, 0.25)' : 'rgba(0, 128, 128, 0.22)')
+        .style('stroke-width', d => Math.sqrt(d.value || 1) * 1.8);
+
       if (tooltip.node()) tooltip.style('opacity', 0);
     });
 
@@ -131,7 +165,7 @@ window.ScientificGraph = {
   getGraphData() {
     return {
       nodes: [
-        { id: 'jjd', label: 'J. J. Díaz-Mochón', type: 'center', radius: 24, role: 'Candidato a Cátedra UGR', details: '98 Artículos · 16 Patentes · 11 Tesis' },
+        { id: 'jjd', label: 'J. J. Díaz-Mochón', type: 'center', radius: 24, role: 'Candidato a Cátedra UGR', details: '98 Publicaciones · 16 Patentes · 11 Tesis · 30 Proyectos I+D' },
         
         // Co-authors
         { id: 'bradley', label: 'Prof. Mark Bradley', type: 'coauthor', radius: 16, role: 'Univ. of Edinburgh', details: '>25 publicaciones conjuntas · Microarrays & PNA' },
@@ -150,11 +184,11 @@ window.ScientificGraph = {
         { id: 'edinburgh', label: 'University of Edinburgh', type: 'institution', radius: 16, role: 'Reino Unido', details: 'Estancia postdoctoral & Research Fellow (2005-2010)' },
         { id: 'southampton', label: 'Univ. of Southampton', type: 'institution', radius: 13, role: 'Reino Unido', details: 'Estancia postdoctoral (2003-2005)' },
 
-        // Research Topics & Platforms
-        { id: 'dcl', label: 'Química Dinámica (DCL)', type: 'topic', radius: 16, role: 'Línea de Investigación', details: 'Detección PCR-free con resolución de un solo nucleótido' },
-        { id: 'liquid_biopsy', label: 'Biopsia Líquida & miR-122', type: 'topic', radius: 15, role: 'Línea de Investigación', details: 'Diagnóstico no invasivo de daño hepático y cáncer' },
-        { id: 'nanobiosensors', label: 'Nanobiosensores & PoC', type: 'topic', radius: 14, role: 'Línea de Investigación', details: 'Dispositivos Point-of-Care (CoVradar, Spin-Tube)' },
-        { id: 'ribotacs', label: 'RiboTACs & eRNA-DEGRADE', type: 'topic', radius: 15, role: 'Horizonte ERC Adv. Grant', details: 'Degradación selectiva de ARNs no codificantes de super-enhancers' },
+        // Research Topics & Platforms (Updated: Líneas consolidadas de investigación)
+        { id: 'dcl', label: 'Química Dinámica (DCL)', type: 'topic', radius: 16, role: 'Línea Consolidada', details: 'Detección PCR-free con resolución de un solo nucleótido' },
+        { id: 'liquid_biopsy', label: 'Biopsia Líquida & miR-122', type: 'topic', radius: 15, role: 'Línea Consolidada', details: 'Diagnóstico no invasivo de daño hepático y cáncer' },
+        { id: 'nanobiosensors', label: 'Nanobiosensores & PoC', type: 'topic', radius: 14, role: 'Línea Consolidada', details: 'Dispositivos Point-of-Care (CoVradar, Spin-Tube)' },
+        { id: 'smart_pna', label: 'Sondas SMART & PNA', type: 'topic', radius: 15, role: 'Línea Consolidada', details: 'Química bioorgánica de ácidos nucleicos peptídicos y fluoróforos' },
 
         // Spinoffs & Entities
         { id: 'destina', label: 'DESTINA Genomics Ltd.', type: 'spinoff', radius: 15, role: 'Empresa Spin-Off (UK/ES)', details: 'Fundada en 2010 · Licencias con Millipore, Quanterix, Optoi' },
@@ -162,38 +196,39 @@ window.ScientificGraph = {
         { id: 'islb', label: 'Intl. Society Liquid Biopsy', type: 'spinoff', radius: 14, role: 'Sociedad Científica', details: 'Co-fundador & Tesorero (2017-2021)' }
       ],
       links: [
-        { source: 'jjd', target: 'ugr', distance: 70, value: 5 },
-        { source: 'jjd', target: 'genyo', distance: 60, value: 5 },
-        { source: 'jjd', target: 'edinburgh', distance: 90, value: 4 },
-        { source: 'jjd', target: 'southampton', distance: 110, value: 3 },
-        { source: 'jjd', target: 'bradley', distance: 80, value: 5 },
-        { source: 'jjd', target: 'pernagallo', distance: 65, value: 5 },
-        { source: 'jjd', target: 'sanchez_martin', distance: 65, value: 5 },
-        { source: 'jjd', target: 'dear', distance: 95, value: 4 },
-        { source: 'jjd', target: 'martin', distance: 85, value: 3 },
-        { source: 'jjd', target: 'unciti', distance: 90, value: 4 },
-        { source: 'jjd', target: 'orte', distance: 90, value: 3 },
-        { source: 'jjd', target: 'serrano', distance: 85, value: 4 },
-        { source: 'jjd', target: 'cuerva', distance: 85, value: 4 },
+        { source: 'jjd', target: 'ugr', distance: 75, value: 5 },
+        { source: 'jjd', target: 'genyo', distance: 70, value: 5 },
+        { source: 'jjd', target: 'edinburgh', distance: 100, value: 4 },
+        { source: 'jjd', target: 'southampton', distance: 115, value: 3 },
+        { source: 'jjd', target: 'bradley', distance: 90, value: 5 },
+        { source: 'jjd', target: 'pernagallo', distance: 75, value: 5 },
+        { source: 'jjd', target: 'sanchez_martin', distance: 75, value: 5 },
+        { source: 'jjd', target: 'dear', distance: 100, value: 4 },
+        { source: 'jjd', target: 'martin', distance: 95, value: 3 },
+        { source: 'jjd', target: 'unciti', distance: 95, value: 4 },
+        { source: 'jjd', target: 'orte', distance: 95, value: 3 },
+        { source: 'jjd', target: 'serrano', distance: 90, value: 4 },
+        { source: 'jjd', target: 'cuerva', distance: 90, value: 4 },
         
-        { source: 'jjd', target: 'dcl', distance: 65, value: 5 },
-        { source: 'jjd', target: 'liquid_biopsy', distance: 70, value: 5 },
-        { source: 'jjd', target: 'nanobiosensors', distance: 80, value: 4 },
-        { source: 'jjd', target: 'ribotacs', distance: 75, value: 4 },
+        { source: 'jjd', target: 'dcl', distance: 75, value: 5 },
+        { source: 'jjd', target: 'liquid_biopsy', distance: 80, value: 5 },
+        { source: 'jjd', target: 'nanobiosensors', distance: 85, value: 4 },
+        { source: 'jjd', target: 'smart_pna', distance: 80, value: 5 },
 
-        { source: 'jjd', target: 'destina', distance: 70, value: 5 },
-        { source: 'jjd', target: 'crispna_co', distance: 90, value: 3 },
-        { source: 'jjd', target: 'islb', distance: 80, value: 4 },
+        { source: 'jjd', target: 'destina', distance: 80, value: 5 },
+        { source: 'jjd', target: 'crispna_co', distance: 95, value: 3 },
+        { source: 'jjd', target: 'islb', distance: 85, value: 4 },
 
         // Inter-node links
-        { source: 'pernagallo', target: 'destina', distance: 50, value: 4 },
-        { source: 'bradley', target: 'edinburgh', distance: 50, value: 4 },
-        { source: 'sanchez_martin', target: 'genyo', distance: 50, value: 4 },
-        { source: 'serrano', target: 'islb', distance: 50, value: 4 },
-        { source: 'dcl', target: 'destina', distance: 55, value: 4 },
-        { source: 'dcl', target: 'liquid_biopsy', distance: 60, value: 3 },
-        { source: 'dear', target: 'liquid_biopsy', distance: 60, value: 4 },
-        { source: 'cuerva', target: 'ugr', distance: 50, value: 4 }
+        { source: 'pernagallo', target: 'destina', distance: 55, value: 4 },
+        { source: 'bradley', target: 'edinburgh', distance: 55, value: 4 },
+        { source: 'sanchez_martin', target: 'genyo', distance: 55, value: 4 },
+        { source: 'serrano', target: 'islb', distance: 55, value: 4 },
+        { source: 'dcl', target: 'destina', distance: 60, value: 4 },
+        { source: 'dcl', target: 'liquid_biopsy', distance: 65, value: 3 },
+        { source: 'dear', target: 'liquid_biopsy', distance: 65, value: 4 },
+        { source: 'cuerva', target: 'ugr', distance: 55, value: 4 },
+        { source: 'smart_pna', target: 'destina', distance: 60, value: 4 }
       ]
     };
   }

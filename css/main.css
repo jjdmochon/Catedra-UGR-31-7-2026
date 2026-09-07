@@ -978,7 +978,7 @@ body.light-theme .concurso-banner {
 /* ── Charts Grid (Chart.js Containers) ── */
 .charts-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(460px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 380px), 1fr));
   gap: 28px;
   margin-bottom: 56px;
 }
@@ -1511,10 +1511,9 @@ body.light-theme .concurso-banner {
    ========================================================================== */
 .modal-backdrop {
   position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
+  inset: 0;
+  width: 100%;
+  height: 100%;
   background: rgba(10, 15, 18, 0.75);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
@@ -1857,10 +1856,12 @@ body.light-theme .concurso-banner {
   align-items: center;
   justify-content: space-between;
   height: 76px;
-  max-width: var(--container-width);
+  max-width: var(--container-width, 1240px);
+  width: 100%;
   margin: 0 auto;
   padding: 0 24px;
   gap: 20px;
+  box-sizing: border-box;
 }
 
 .nav-brand {
@@ -2308,7 +2309,7 @@ body.light-theme .concurso-banner {
 
 .charts-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 380px), 1fr));
   gap: 28px;
   margin-bottom: 48px;
 }
@@ -3134,8 +3135,41 @@ body.light-theme .candidate-name,
 }
 
 
-/* Mobile Responsiveness Enhancements */
-@media (max-width: 768px) {
+/* Intermediate screens (1081px - 1320px) compaction */
+@media (min-width: 1081px) and (max-width: 1320px) {
+  .brand-subtitle {
+    display: none !important;
+  }
+
+  .nav-container {
+    padding: 0 16px;
+    gap: 12px;
+  }
+
+  .nav-menu {
+    gap: 12px;
+  }
+
+  .nav-links {
+    gap: 4px;
+  }
+
+  .nav-link {
+    padding: 6px 10px !important;
+    font-size: 0.82rem !important;
+  }
+
+  .btn-nav-wiki {
+    padding: 6px 14px !important;
+  }
+}
+
+/* Tablet & Mobile Responsiveness Enhancements */
+@media (max-width: 1080px) {
+  .nav-toggle {
+    display: flex !important;
+  }
+
   .nav-menu {
     display: none;
     position: absolute;
@@ -3145,8 +3179,10 @@ body.light-theme .candidate-name,
     background: var(--bg-surface);
     border-bottom: 1px solid var(--border-color);
     flex-direction: column;
-    padding: 20px;
-    gap: 12px;
+    padding: 20px 24px;
+    gap: 16px;
+    box-shadow: var(--shadow-lg);
+    z-index: var(--z-dropdown);
   }
 
   .nav-menu.active {
@@ -3157,10 +3193,32 @@ body.light-theme .candidate-name,
     flex-direction: column;
     width: 100%;
     align-items: stretch;
+    gap: 8px;
   }
 
   .nav-link {
-    padding: 10px 14px;
+    padding: 10px 16px;
+    font-size: 0.95rem;
+  }
+
+  .nav-actions {
+    width: 100%;
+    border-top: 1px solid var(--border-color);
+    padding-top: 14px;
+  }
+
+  .nav-actions .btn {
+    width: 100%;
+  }
+
+  .charts-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .brand-subtitle {
+    display: none;
   }
 
   .hero-card {
@@ -3173,10 +3231,6 @@ body.light-theme .candidate-name,
   }
 
   .profile-desc-box {
-    grid-template-columns: 1fr;
-  }
-
-  .charts-grid {
     grid-template-columns: 1fr;
   }
 
