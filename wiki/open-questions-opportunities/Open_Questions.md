@@ -24,7 +24,7 @@ This section outlines active scientific questions, literature debates, and strat
 
 ### Clinical Biomarkers & Analytical Noise
 - **miR-122 Isomirs**: Circulating microRNAs frequently exhibit terminal sequence variations (isomirs). Do minor sequence differences in miR-122 reflect different stages of liver recovery in drug-induced liver injury (DILI), or are they analytical noise?
-- **Genomic Repeats & SNVs**: How do single nucleotide variations (SNVs) in highly repetitive centromeric alpha-satellite DNA influence chromosome segregation and aging? Can [[Micro_C_snm3C_seq]] confirm in situ structural differences resolved by chemFISH?
+- **Genomic Repeats & SNVs**: How do single nucleotide variations (SNVs) in highly repetitive centromeric alpha-satellite DNA influence chromosome segregation and aging? Can Micro-C/snm3C-seq confirm in situ structural differences resolved by chemFISH?
 
 ---
 

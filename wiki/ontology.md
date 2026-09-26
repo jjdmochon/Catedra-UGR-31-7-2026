@@ -45,7 +45,7 @@ section: "[Articles|Book Chapters|Preprints]"
 - **Authors:** [Authors]
 - **Journal/Citation:** *[Journal Name, Volume, Pages, (Year)]*
 - **Year:** [Year]
-- **DOI:** [[DOI Link]]([DOI Link])
+- **DOI:** [DOI Link]
 
 ---
 ## 📄 Abstract / Context Preview

@@ -100,17 +100,17 @@ def enrich_from_summary_file(rel_link):
 
 # Parse tables
 sections_config = [
-    (r"## 📄 Articles by Year\s*(.*?)(?=## 📊 Patents Catalog)", "articles", True),
-    (r"## 📊 Patents Catalog\s*(.*?)(?=## 🔬 Preprints)", "patents", False),
-    (r"## 🔬 Preprints\s*(.*?)(?=## 📝 Meeting Abstracts)", "preprints", False),
-    (r"## 📝 Meeting Abstracts\s*(.*?)(?=## 📚 Book Chapters)", "meeting_abstracts", False),
-    (r"## 📚 Book Chapters\s*(.*?)(?=## 🎓 Doctoral Theses Catalog)", "book_chapters", False),
-    (r"## 🎓 Doctoral Theses Catalog\s*(.*?)(?=## 💶 Grants and Projects Catalog)", "theses", False),
-    (r"## 💶 Grants and Projects Catalog\s*(.*?)(?=## 👥 Entities Catalog)", "grants", False)
+    (r"## 📄 Artículos por Año\s*(.*?)(?=## 📊 Catálogo de Patentes)", "articles", True),
+    (r"## 📊 Catálogo de Patentes\s*(.*?)(?=## 🔬 Preprints)", "patents", False),
+    (r"## 🔬 Preprints\s*(.*?)(?=## 📝 Resúmenes de Congresos)", "preprints", False),
+    (r"## 📝 Resúmenes de Congresos\s*(.*?)(?=## 📚 Capítulos de Libro)", "meeting_abstracts", False),
+    (r"## 📚 Capítulos de Libro\s*(.*?)(?=## 🎓 Catálogo de Tesis Doctorales)", "book_chapters", False),
+    (r"## 🎓 Catálogo de Tesis Doctorales\s*(.*?)(?=## 💶 Catálogo de Ayudas y Proyectos)", "theses", False),
+    (r"## 💶 Catálogo de Ayudas y Proyectos\s*(.*?)(?=## 👥 Catálogo de Entidades)", "grants", False)
 ]
 
 # Parse Articles
-articles_match = re.search(r"## 📄 Articles by Year\s*(.*?)(?=## 📊 Patents Catalog)", content, re.S)
+articles_match = re.search(r"## 📄 Artículos por Año\s*(.*?)(?=## 📊 Catálogo de Patentes)", content, re.S)
 if articles_match:
     articles_section = articles_match.group(1)
     year_sections = re.findall(r"### 📅 (\d{4})\s*(.*?)(?=### 📅 \d{4}|##|$)", articles_section, re.S)
@@ -118,7 +118,7 @@ if articles_match:
         lines = table_text.strip().splitlines()
         for line in lines:
             line = line.strip()
-            if line.startswith("|") and not ("Title" in line or "---" in line):
+            if line.startswith("|") and not ("Title" in line or "Título" in line or "---" in line):
                 parts = [p.strip() for p in line.split("|")[1:-1]]
                 if len(parts) >= 4:
                     title_data = clean_cell(parts[0])
@@ -149,7 +149,7 @@ for regex, key, is_articles in sections_config[1:]:
         lines = section_text.strip().splitlines()
         for line in lines:
             line = line.strip()
-            if line.startswith("|") and not ("Title" in line or "---" in line or "Column" in line):
+            if line.startswith("|") and not ("Title" in line or "Título" in line or "---" in line or "Column" in line):
                 parts = [p.strip() for p in line.split("|")[1:-1]]
                 if len(parts) >= 3:
                     if key == "patents":
@@ -214,12 +214,12 @@ for regex, key, is_articles in sections_config[1:]:
                         })
 
 # Parse entities
-entities_match = re.search(r"## 👥 Entities Catalog\s*(.*?)(?=## 🧠 Concepts Catalog)", content, re.S)
+entities_match = re.search(r"## 👥 Catálogo de Entidades\s*(.*?)(?=## 🧠 Catálogo de Conceptos)", content, re.S)
 if entities_match:
     entities_section = entities_match.group(1)
     
     # Researchers
-    res_match = re.search(r"### 👥 Researchers \(People\)\s*(.*?)(?=### 🏢|$)", entities_section, re.S)
+    res_match = re.search(r"### 👥 Investigadores\s*(.*?)(?=### 🏢|$)", entities_section, re.S)
     if res_match:
         items = re.findall(r"-\s+\*\*\[(.*?)\]\((.*?)\)\*\*\s*\((.*?)\)\s+—\s+\*(.*?)\*", res_match.group(1))
         for name, link, stats, desc in items:
@@ -231,7 +231,7 @@ if entities_match:
             })
             
     # Institutions
-    inst_match = re.search(r"### 🏢 Institutions & Affiliations\s*(.*?)(?=### 📊|$)", entities_section, re.S)
+    inst_match = re.search(r"### 🏢 Instituciones y Afiliaciones\s*(.*?)(?=### 📊|$)", entities_section, re.S)
     if inst_match:
         items = re.findall(r"-\s+\*\*\[(.*?)\]\((.*?)\)\*\*\s*\((.*?)\)\s+—\s+\*(.*?)\*", inst_match.group(1))
         for name, link, stats, desc in items:
@@ -243,7 +243,7 @@ if entities_match:
             })
             
     # Projects
-    proj_match = re.search(r"### 📊 Grants & Projects\s*(.*?)(?=$)", entities_section, re.S)
+    proj_match = re.search(r"### 📊 Ayudas y Proyectos\s*(.*?)(?=$)", entities_section, re.S)
     if proj_match:
         items = re.findall(r"-\s+\*\*\[(.*?)\]\((.*?)\)\*\*\s*\((.*?)\)\s+—\s+\*(.*?)\*", proj_match.group(1))
         for name, link, stats, desc in items:
@@ -255,12 +255,12 @@ if entities_match:
             })
 
 # Parse concepts
-concepts_match = re.search(r"## 🧠 Concepts Catalog\s*(.*)", content, re.S)
+concepts_match = re.search(r"## 🧠 Catálogo de Conceptos\s*(.*)", content, re.S)
 if concepts_match:
     concepts_section = concepts_match.group(1)
     
     # Chemistry Concepts
-    chem_match = re.search(r"### ⚗️ Chemistry Concepts\s*(.*?)(?=### 💻|$)", concepts_section, re.S)
+    chem_match = re.search(r"### ⚗️ Conceptos de Química\s*(.*?)(?=### 💻|$)", concepts_section, re.S)
     if chem_match:
         items = re.findall(r"-\s+\*\*\[(.*?)\]\((.*?)\)\*\*\s*\((.*?)\)\s+—\s+\*(.*?)\*", chem_match.group(1))
         for name, link, stats, desc in items:
@@ -272,7 +272,7 @@ if concepts_match:
             })
             
     # Platforms
-    plat_match = re.search(r"### 💻 Diagnostic & Hardware Platforms\s*(.*?)(?=### 🏥|$)", concepts_section, re.S)
+    plat_match = re.search(r"### 💻 Plataformas de Diagnóstico y Hardware\s*(.*?)(?=### 🏥|$)", concepts_section, re.S)
     if plat_match:
         items = re.findall(r"-\s+\*\*\[(.*?)\]\((.*?)\)\*\*\s*\((.*?)\)\s+—\s+\*(.*?)\*", plat_match.group(1))
         for name, link, stats, desc in items:
@@ -284,7 +284,7 @@ if concepts_match:
             })
             
     # Clinical areas
-    clin_match = re.search(r"### 🏥 Clinical & Disease Areas\s*(.*?)(?=$)", concepts_section, re.S)
+    clin_match = re.search(r"### 🏥 Áreas Clínicas y Enfermedades\s*(.*?)(?=$)", concepts_section, re.S)
     if clin_match:
         items = re.findall(r"-\s+\*\*\[(.*?)\]\((.*?)\)\*\*\s*\((.*?)\)\s+—\s+\*(.*?)\*", clin_match.group(1))
         for name, link, stats, desc in items:
@@ -301,7 +301,7 @@ with open(out_json_path, "w", encoding="utf-8") as f:
     json.dump(data, f, indent=2, ensure_ascii=False)
 
 # Also write wiki_data.js for direct CORS-free loading
-out_js_path = os.path.join(base_dir, "wiki_data.js")
+out_js_path = os.path.join(base_dir, "js", "wiki_data.js")
 with open(out_js_path, "w", encoding="utf-8") as f:
     f.write("window.WIKI_DATA = " + json.dumps(data, indent=2, ensure_ascii=False) + ";\n")
 
