@@ -1,0 +1,7 @@
+{
+  "name": "brag",
+  "version": "1.0.0",
+  "description": "Genera documentos de méritos (CV completo Anexo IV, CVA, resumen ejecutivo, bio) a partir de las fuentes verificadas del repositorio de candidatura.",
+  "author": { "name": "Juan José Díaz-Mochón" },
+  "keywords": ["cv", "meritos", "anexo-iv", "curriculum", "brag"]
+}

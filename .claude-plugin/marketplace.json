@@ -1,0 +1,11 @@
+{
+  "name": "catedra-ugr-plugins",
+  "owner": { "name": "Juan José Díaz-Mochón" },
+  "plugins": [
+    {
+      "name": "brag",
+      "source": "./plugins/brag",
+      "description": "Documentos de méritos y CV completo (Anexo IV BOE) desde las fuentes del repositorio."
+    }
+  ]
+}

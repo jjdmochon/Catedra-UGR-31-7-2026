@@ -1,0 +1,8 @@
+{
+  "name": "cv-diaz-mochon",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Generador del CV completo (Anexo IV BOE-A-2026-16414) en DOCX",
+  "scripts": { "build": "node build_cv.js" },
+  "dependencies": { "docx": "^9.5.0" }
+}
