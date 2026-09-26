@@ -62,7 +62,7 @@
     {
       "year": 2025,
       "title": "Exploring Trisubstituted adenine derivatives as adenosine A1 receptor ligands wi...",
-      "authors": "Córdoba-Gómez, L.B., Franco-Montalban, F., García, A.G., Díaz-Mochón, J.J., Las Infantas, M.J.P.D., Lorente-Macías, Á., Mok, J., King, B., Unciti-Broceta, A., Loza, M.I., Brea, J., Martínez, A.L., Matos, M.J., Guardia-Monteagudo, J.J.",
+      "authors": "Córdoba-Gómez, L.B., Franco-Montalban, F., García, A.G., Díaz-Mochón, J.J., Las Infantas, M.J.P.D., Lorente-Macías, ?., Mok, J., King, B., Unciti-Broceta, A., Loza, M.I., Brea, J., Martínez, A.L., Matos, M.J., Guardia-Monteagudo, J.J.",
       "summary_link": "outputs/summaries_papers/Summary_of_Exploring_Trisubstituted_adenine_derivatives_as_adenosine_A1.md",
       "full_text_link": "sources/papers_md/Córdoba-Gómez%20et%20al.%20-%202025%20-%20Exploring%20Trisubstituted%20adenine%20derivatives%20as%20adenosine%20A1%20receptor%20ligands%20with%20antagonist%20activi/Córdoba-Gómez%20et%20al.%20-%202025%20-%20Exploring%20Trisubstituted%20adenine%20derivatives%20as%20adenosine%20A1%20receptor%20ligands%20with%20antagonist%20activi.md",
       "doi": "",
@@ -640,7 +640,7 @@
     },
     {
       "year": 2020,
-      "title": "Corrigendum to \"Challenges and opportunities of cfDNA analysis implementation in...",
+      "title": "Corrigendum to ?Challenges and opportunities of cfDNA analysis implementation in...",
       "authors": "Rolfo, C., Russo, A., Cardona, A.F., Cristofanilli, M., Paz-Ares, L., Díaz Mochón, J.J., Duran, I., Raez, L.E., Lorente, J.A., Serrano, M.J., Malapelle, U., Gil-Bazo, I., Jantus-Lewintre, E., Pauwels, P., Mok, T.",
       "summary_link": "outputs/summaries_papers/Summary_of_Challenges_and_opportunities_of_cfDNA_analysis_implementatio.md",
       "full_text_link": "sources/papers_md/Rolfo%20et%20al.%20-%202020%20-%20Challenges%20and%20opportunities%20of%20cfDNA%20analysis%20imp/Rolfo%20et%20al.%20-%202020%20-%20Challenges%20and%20opportunities%20of%20cfDNA%20analysis%20imp.md",
@@ -963,7 +963,7 @@
     {
       "year": 2017,
       "title": "Poly(ethylmethacrylate-co-diethylaminoethyl acrylate) coating improves endotheli...",
-      "authors": "López-Ruiz, E., Perán, M., Jiménez, G., Marchal, J.A., Venkateswaran, S., Pernagallo, S., Conde-González, A., Bradley, M., Melchor, J., Rus, G., Díaz-Mochón, J.J., Real, P.J., Tura-Ceide, O., Arrebola, F., Soto, J., Díaz-Ricart, M.",
+      "authors": "López-Ruiz, E., Perán, M., Jiménez, G., Marchal, J.A., Venkateswaran, S., Pernagallo, S., Conde-González, A., Bradley, M., Melchor, J., Rus, G., D?az-Mochón, J.J., Real, P.J., Tura-Ceide, O., Arrebola, F., Soto, J., DIaz-Ricart, M.",
       "summary_link": null,
       "full_text_link": "sources/papers_md/Lopez-Ruiz%20et%20al.%20-%202017%20-%20Poly(ethylmethacrylate-co-diethylaminoethyl%20acryla/Lopez-Ruiz%20et%20al.%20-%202017%20-%20Poly(ethylmethacrylate-co-diethylaminoethyl%20acryla.md",
       "doi": "",
@@ -1789,166 +1789,136 @@
       "journal": "",
       "preview": "",
       "images": []
-    },
-    {
-      "id": 97,
-      "title": "Polymer Microarrays for Cellular High-Content Screening",
-      "authors": "Pernagallo, S., Díaz-Mochón, J.J.",
-      "journal": "Methods in Molecular Biology (Cell-Based Assays for High-Throughput Screening)",
-      "year": 2010,
-      "volume": "669",
-      "pages": "203-214",
-      "doi": "10.1007/978-1-60761-845-4_14",
-      "type": "chapter",
-      "category": "Capítulo de Libro",
-      "summary": "Presentación de microarrays poliméricos como plataformas miniaturizadas para cribado celular de alto rendimiento (HTS), permitiendo evaluar la adhesión, diferenciación y comportamiento funcional de líneas celulares sobre librerías de nuevos biomateriales.",
-      "quartile": "Book Chapter",
-      "citations": 14
-    },
-    {
-      "id": 98,
-      "title": "Time-Gated Luminescence Acquisition for Biochemical Sensing: miRNA Detection",
-      "authors": "Garcia-Fernandez, E., Pernagallo, S., González-Vera, J.A., Ruedas-Rama, M.J., Díaz-Mochón, J.J., Orte, A.",
-      "journal": "Methods in Molecular Biology (Fluorescence Spectroscopy and Microscopy in Biology)",
-      "year": 2019,
-      "volume": "2039",
-      "pages": "213-228",
-      "doi": "10.1007/978-1-4939-9684-1_15",
-      "type": "chapter",
-      "category": "Capítulo de Libro",
-      "summary": "Protocolo metodológico avanzado para la adquisición de luminiscencia resuelta en tiempo (Time-Gated) empleando quelatos de lantánidos y sondas químicas SMART para la detección ultra-sensible y sin enzimas de microARNs circulantes.",
-      "quartile": "Book Chapter",
-      "citations": 18
     }
   ],
   "patents": [
     {
       "title": "NUCLEOBASE CHARACTERISATION",
-      "inventors": "BRADLEY MARK [GB] , DIAZ-MOCHON JUAN J [GB]",
-      "assignee": "University of Edinburgh [GB]",
-      "publication": "US2011028337A1  / US8716457B2",
-      "priority": "2007-09-19",
-      "date": "2011-02-03 \n2014-05-06"
+      "publication_number": "US2011028337A1 US8716457B2",
+      "priority_date": "2007-09-19",
+      "summary_link": "outputs/summaries_patents/Summary_of_Patent_US2011028337A1.md",
+      "full_text_link": "sources/patents_md/Patent_US2011028337A1/Patent_US2011028337A1.md",
+      "preview": "- Patent ID/Number: US2011028337A1 - Legal Status: Granted - Inventors: Bradley Mark , Díaz-Mochón Juan J - Applicants: Nucleobase Characterisation , Bradley Mark , Díaz-Mochón Juan J , Univ Edinburgh - Priority Date: 2007-09-19 - Publication Date: 2011-02-03 - Granted Date: 2014-05-06 --- This patent describes the foundational technology for nucleobase characterisation using abasic peptide nuclei"
     },
     {
       "title": "POLYMERS FOR GROWING CELLS",
-      "inventors": "HAY DAVID C [GB] , IREDALE JOHN P [GB] , BRADLEY MARK [GB] , DIAZ-MOCHON JUAN J [GB] , PERNAGALLO SALVATORE [GB]",
-      "assignee": "University of Edinburgh [GB]",
-      "publication": "US2012052525A1",
-      "priority": "2009-03-20",
-      "date": "2012-03-01"
+      "publication_number": "US2012052525A1",
+      "priority_date": "2009-03-20",
+      "summary_link": "outputs/summaries_patents/Summary_of_Patent_US2012052525A1.md",
+      "full_text_link": "sources/patents_md/Patent_US2012052525A1/Patent_US2012052525A1.md",
+      "preview": "- Patent ID/Number: US2012052525A1 - Legal Status: Pending/Application - Inventors: Hay David C , Iredale John P , Bradley Mark , Díaz-Mochón Juan J , Pernagallo Salvatore - Applicants: Hay David C , Iredale John P , Bradley Mark , Díaz-Mochón Juan J , Pernagallo Salvatore - Priority Date: 2009-03-20 - Publication Date: 2012-03-01 --- This patent describes polymer microarrays and compositions desi"
     },
     {
-      "title": "SINGLE MOLECULE DETECTION AND QUANTIFICATION OF NUCLEIC ACIDS WITH SINGLE BASE SPECIFICITY",
-      "inventors": "DÍAZ-MOCHÓN JUAN J [ES] , DUFFY DAVID C [US] , PERNAGALLO SALVATORE [ES] , ILYINE HUGH [GB] , RISSIN DAVID M [US] , LÓPEZ-LONGARELA BARBARA [ES]",
-      "assignee": "Quanterix Corp. [US] , DestiNA Genomics Ltd. [GB]",
-      "publication": "US2020123592A1",
-      "priority": "2017-05-30",
-      "date": "2020-04-23"
+      "title": "SINGLE MOLECULE DETECTION AND QUANTIFICATION OF NUCLEIC ACIDS WITH SINGLE BASE S...",
+      "publication_number": "US2020123592A1",
+      "priority_date": "2017-05-30",
+      "summary_link": "outputs/summaries_patents/Summary_of_Patent_US2020123592A1.md",
+      "full_text_link": "sources/patents_md/Patent_US2020123592A1/Patent_US2020123592A1.md",
+      "preview": "- Patent ID/Number: US2020123592A1 - Legal Status: Pending/Application - Inventors: Díaz-Mochón Juan J , Duffy David C , Pernagallo Salvatore , Llyine Hugh , Rissin David M , López-Longarela Barbara - Applicants: Quanterix Corp , Destina Genomics Ltd - Priority Date: 2017-05-30 - Publication Date: 2020-04-23 --- This patent describes a method for the single-molecule detection and quantification of"
     },
     {
       "title": "IMPROVED PNA PROBE",
-      "inventors": "ILYINE HUGH ALEXANDER [GB] , DIAZ-MOCHON JUAN J [ES] , PERNAGALLO SALVATORE [ES] , CHAVEZ MAVYS TABRAUE [ES] , FARA MARIO ANTONIO [ES]",
-      "assignee": "DestiNA Genómica S.L. [ES]",
-      "publication": "US11242526B2  / US2019233818A1",
-      "priority": "2016-07-12",
-      "date": "2019-08-01 \n2022-02-08"
+      "publication_number": "US11242526B2 US2019233818A1",
+      "priority_date": "2016-07-12",
+      "summary_link": "outputs/summaries_patents/Summary_of_Patent_US11242526B2.md",
+      "full_text_link": "sources/patents_md/Patent_US11242526B2/Patent_US11242526B2.md",
+      "preview": "- Patent ID/Number: US11242526B2 - Legal Status: Granted - Inventors: Ilyine Hugh Alexander , Díaz-Mochón Juan J , Pernagallo Salvatore , Chavez Mavys Tabraue , Fara Mario Antonio - Applicants: Destina Genomica S L - Priority Date: 2016-07-12 - Publication Date: 2019-08-01 - Granted Date: 2022-02-08 --- This patent describes an improved abasic Peptide Nucleic Acid (PNA) probe with optimized backbo"
     },
     {
       "title": "ISOLATION OF CELLS OF EPITHELIAL ORIGIN CIRCULATING IN PERIPHERAL BLOOD",
-      "inventors": "ROMERO PALACIOS PEDRO JOSÉ [ES] , DÍAZ MOCHÓN JUAN JOSÉ [ES] , LORENTE ACOSTA JOSÉ ANTONIO [ES] , DE MIGUEL PÉREZ DIEGO [ES] , SERRANO FERNÁNDEZ MARÍA JOSÉ [ES] , ALCÁZAR NAVARRETE BERNARDINO [ES]",
-      "assignee": "Universidad de Granada [ES] , Servicio Andaluz de Salud (SAS) [ES]",
-      "publication": "US2020278347A1",
-      "priority": "2017-05-24",
-      "date": "2020-09-03"
+      "publication_number": "US2020278347A1",
+      "priority_date": "2017-05-24",
+      "summary_link": "outputs/summaries_patents/Summary_of_Patent_US2020278347A1.md",
+      "full_text_link": "sources/patents_md/Patent_US2020278347A1/Patent_US2020278347A1.md",
+      "preview": "- Patent ID/Number: US2020278347A1 - Legal Status: Pending/Application - Inventors: Romero Palacios Pedro José , Díaz Mochón Juan José , Lorente Acosta José Antonio , De Miguel Pérez Diego , Serrano Fernández María José , Alcázar Navarrete Bernardino - Applicants: Univ Granada , Servicio Andaluz De Salud - Priority Date: 2017-05-24 - Publication Date: 2020-09-03 --- This patent describes methods a"
     },
     {
-      "title": "Purine derivatives as inhibitors of DAPK-1",
-      "inventors": "MOLINA PINEDA DE LAS INFANTAS IGNACIO [ES] , TORRES RUSILLO SARA [ES] , FERNANDEZ RUBIO PABLO [ES] , PINEDA DE LAS INFANTAS Y VILLATORO MARÍA JOSÉ [ES] , DIAZ MOCHON JUAN JOSÉ [ES] , UNICITI BROCETA ASIER [ES]",
-      "assignee": "Universidad de Granada [ES] , University of Edinburgh [GB]",
-      "publication": "ES2548927A1  / ES2548927B1",
-      "priority": "2014-03-21",
-      "date": "2015-10-21 \n2016-08-11"
+      "title": "Purine derivatives as inhibitors of dapk-1 (Machine-translation by Google Transl...",
+      "publication_number": "ES2548927A1 ES2548927B1",
+      "priority_date": "2014-03-21",
+      "summary_link": "outputs/summaries_patents/Summary_of_Patent_ES2548927A1.md",
+      "full_text_link": "sources/patents_md/Patent_ES2548927A1/Patent_ES2548927A1.md",
+      "preview": "- Patent ID/Number: ES2548927A1 - Legal Status: Granted - Inventors: Molina Pineda De Las Infantas Ignacio , Torres Rusillo Sara , Fernandez Rubio Pablo , Pineda De Las Infantas Y Villatoro María José , Díaz Mochón Juan José , Uniciti Broceta Asier - Applicants: Univ Granada , Univ Edinburgh - Priority Date: 2014-03-21 - Publication Date: 2015-10-21 - Granted Date: 2016-08-11 --- This patent descr"
     },
     {
       "title": "CRISPNA FOR GENOME EDITING",
-      "inventors": "MARTÍN MOLINA FRANCISCO [ES] , AGUILAR GONZÁLEZ ARACELI [ES] , MALDONADO PÉREZ NOELIA [ES] , DÍAZ MOCHÓN JUAN JOSÉ [ES]",
-      "assignee": "Universidad de Granada [ES] , Fundación Pública Andaluza Progreso y Salud [ES]",
-      "publication": "US2024076718A1",
-      "priority": "2020-12-30",
-      "date": "2024-03-07"
+      "publication_number": "US2024076718A1",
+      "priority_date": "2020-12-30",
+      "summary_link": "outputs/summaries_patents/Summary_of_Patent_US2024076718A1.md",
+      "full_text_link": "sources/patents_md/Patent_US2024076718A1/Patent_US2024076718A1.md",
+      "preview": "- Patent ID/Number: US2024076718A1 - Legal Status: Pending/Application - Inventors: Martín Molina Francisco , Aguilar González Araceli , Maldonado Pérez Noelia , Díaz Mochón Juan José - Applicants: Univ Granada , Fund Publica Andaluza Progreso Y Salud - Priority Date: 2020-12-30 - Publication Date: 2024-03-07 --- This patent describes the 'CRISPNA' platform, which combines CRISPR-Cas genome editin"
     },
     {
-      "title": "DUAL-GUIDE RNA COMPOSITION FOR EXECUTING A SINGLE-GUIDE RNA CRISPR-ASSOCIATED SYSTEM",
-      "inventors": "MARTIN MOLINA FRANCISCO [ES] , AGUILAR GONZALEZ ARACELI [ES] , DÍAZ MOCHÓN JUAN JOSÉ [ES] , SÁNCHEZ MARTÍN ROSARIO MARÍA [ES] , MALDONADO PEREZ NOELIA [ES]",
-      "assignee": "Universidad de Granada [ES] , Servicio Andaluz de Salud (SAS) [ES]",
-      "publication": "EP4414452A1",
-      "priority": "2023-02-13",
-      "date": "2024-08-14"
+      "title": "DUAL-GUIDE RNA COMPOSITION FOR EXECUTING A SINGLE-GUIDE RNA CRISPR-ASSOCIATED SY...",
+      "publication_number": "EP4414452A1",
+      "priority_date": "2023-02-13",
+      "summary_link": "outputs/summaries_patents/Summary_of_Patent_EP4414452A1.md",
+      "full_text_link": "sources/patents_md/Patent_EP4414452A1/Patent_EP4414452A1.md",
+      "preview": "- Patent ID/Number: EP4414452A1 - Legal Status: Pending/Application - Inventors: Martin Molina Francisco , Aguilar Gonzalez Araceli , Díaz Mochón Juan José , Sánchez Martín Rosario María , Maldonado Perez Noelia - Applicants: Univ Granada , Servicio Andaluz De Salud - Priority Date: 2023-02-13 - Publication Date: 2024-08-14 --- This patent describes a novel dual-guide RNA composition that improves"
     },
     {
       "title": "DUAL PROBES FOR FLOW CYTOMETRY AND MASS CYTOMETRY",
-      "inventors": "DELGADO GONZÁLEZ ANTONIO [ES] , SÁNCHEZ MARTÍN ROSARIO MARÍA [ES] , DÍAZ MOCHÓN JUAN JOSÉ [ES] , VALERO GRIÑÁN MARÍA TERESA [ES] , ORTE GUTIÉRREZ ÁNGEL [ES] , GARCÍA FERNÁNDEZ EMILIO [ES]",
-      "assignee": "Universidad de Granada [ES]",
-      "publication": "WO2018224719A1",
-      "priority": "2017-06-07",
-      "date": "2018-12-13"
+      "publication_number": "WO2018224719A1",
+      "priority_date": "2017-06-07",
+      "summary_link": "outputs/summaries_patents/Summary_of_Patent_WO2018224719A1.md",
+      "full_text_link": "sources/patents_md/Patent_WO2018224719A1/Patent_WO2018224719A1.md",
+      "preview": "- Patent ID/Number: WO2018224719A1 - Legal Status: Pending/Application - Inventors: Delgado González Antonio , Sánchez Martín Rosario María , Díaz Mochón Juan José , Valero Griñán María Teresa , Orte Gutiérrez Ángel , García Fernández Emilio - Applicants: Univ Granada - Priority Date: 2017-06-07 - Publication Date: 2018-12-13 --- This patent details the design and use of dual-probe nanoparticles t"
     },
     {
       "title": "PHARMACEUTICALLY ACTIVE PROTEIN CRYSTALS GROWN IN-SITU WITHIN A HYDROGEL",
-      "inventors": "ÁLVAREZ DE CIENFUEGOS RODRÍGUEZ LUIS [ES] , GAVIRA GALLARDO JOSÉ ANTONIO [ES] , DÍAZ MOCHÓN JUAN JOSÉ [ES] , CONEJERO MURIEL MARÍA TERESA [ES] , CONTRERAS MONTOYA RAFAEL [ES]",
-      "assignee": "Universidad de Granada [ES] , Consejo Superior de Investigaciones Científicas (CSIC) [ES]",
-      "publication": "WO2017191323A1",
-      "priority": "2016-05-05",
-      "date": "2017-11-09"
+      "publication_number": "WO2017191323A1",
+      "priority_date": "2016-05-05",
+      "summary_link": "outputs/summaries_patents/Summary_of_Patent_WO2017191323A1.md",
+      "full_text_link": "sources/patents_md/Patent_WO2017191323A1/Patent_WO2017191323A1.md",
+      "preview": "- Patent ID/Number: WO2017191323A1 - Legal Status: Pending/Application - Inventors: Álvarez De Cienfuegos Rodríguez Luis , Gavira Gallardo José Antonio , Díaz Mochón Juan José , Conejero Muriel María Teresa , Contreras Montoya Rafael - Applicants: Univ Granada , Consejo Superior De Investig Científicas - Priority Date: 2016-05-05 - Publication Date: 2017-11-09 --- This patent describes a methodolo"
     },
     {
       "title": "MULTIPLEXED BIODETECTION SYSTEM",
-      "inventors": "RODRÍGUEZ MARIBLANCA ISABEL [ES] , PINI VALERIO [ES] , CEBRIÁN HERNANDO VIRGINIA [ES] , THON ANDREAS [ES] , AHUMADA HEREDERO JESÚS ÓSCAR [ES] , TABRAUE CHÁVEZ MAVYS [ES] , PERNAGALLO SALVATORE [ES] , DÍAZ-MOCHÓN JUAN JOSÉ [ES]",
-      "assignee": "Mecwins S.A. [ES]",
-      "publication": "EP4692368A1",
-      "priority": "2024-08-05",
-      "date": "2026-02-11"
+      "publication_number": "EP4692368A1",
+      "priority_date": "2024-08-05",
+      "summary_link": "outputs/summaries_patents/Summary_of_Patent_EP4692368A1.md",
+      "full_text_link": "sources/patents_md/Patent_EP4692368A1/Patent_EP4692368A1.md",
+      "preview": "- Patent ID/Number: EP4692368A1 - Legal Status: Pending/Application - Inventors: Rodríguez Mariblanca Isabel , Pini Valerio , Cebrián Hernando Virginia , Thon Andreas , Ahumada Heredero Jesús Óscar , Tabraue Chávez Mavys , Pernagallo Salvatore , Díaz-Mochón Juan José - Applicants: Mecwins S A - Priority Date: 2024-08-05 - Publication Date: 2026-02-11 --- This patent describes a multiplexed biodete"
     },
     {
-      "title": "Multifunctional nanoparticles for theragnosis",
-      "inventors": "SÁNCHEZ MARTÍN ROSARIO MARÍA [ES] , MARCHAL CORRALES JUAN ANTONIO [ES] , DÍAZ MOCHÓN JUAN JOSÉ [ES] , CANO CORTÉS VICTORIA [ES] , NAVARRO MARCHAL SAÚL ABENHAMAR [ES] , RUIZ BLAS MARIA PAZ [ES]",
-      "assignee": "Universidad de Granada [ES]",
-      "publication": "ES2776598A1",
-      "priority": "2018-10-15",
-      "date": "2020-07-30"
+      "title": "MULTIFUNCTIONAL NANOPARTICLES FOR TERAGNOSIS (Machine-translation by Google Tran...",
+      "publication_number": "ES2776598A1",
+      "priority_date": "2018-10-15",
+      "summary_link": "outputs/summaries_patents/Summary_of_Patent_ES2776598A1.md",
+      "full_text_link": "sources/patents_md/Patent_ES2776598A1/Patent_ES2776598A1.md",
+      "preview": "- Patent ID/Number: ES2776598A1 - Legal Status: Pending/Application - Inventors: Sánchez Martín Rosario María , Marchal Corrales Juan Antonio , Díaz Mochón Juan José , Cano Cortés Victoria , Navarro Marchal Saúl Abenhamar , Ruiz Blas Maria Paz - Applicants: Univ Granada - Priority Date: 2018-10-15 - Publication Date: 2020-07-30 --- This patent describes multifunctional nanoparticles designed for t"
     },
     {
       "title": "MULTIFUNCTIONAL NANOPARTICLES FOR THERAGNOSIS",
-      "inventors": "SÁNCHEZ MARTÍN ROSARIO MARÍA [ES] , MARCHAL CORRALES JUAN ANTONIO [ES] , DÍAZ MOCHÓN JUAN JOSÉ [ES] , CANO CORTÉS VICTORIA [ES] , NAVARRO MARCHAL SAÚL ABENHAMAR [ES] , RUIZ BLAS MARIA PAZ [ES]",
-      "assignee": "UNIV GRANADA [ES]",
-      "publication": "US2021162077A1",
-      "priority": "2018-04-12",
-      "date": "2021-06-03"
+      "publication_number": "US2021162077A1",
+      "priority_date": "2018-04-12",
+      "summary_link": "outputs/summaries_patents/Summary_of_Patent_US2021162077A1.md",
+      "full_text_link": "sources/patents_md/Patent_US2021162077A1/Patent_US2021162077A1.md",
+      "preview": "- Patent ID/Number: US2021162077A1 - Legal Status: Pending/Application - Inventors: Sánchez Martín Rosario María , Marchal Corrales Juan Antonio , Díaz Mochón Juan José , Cano Cortés Victoria , Navarro Marchal Saúl Abenhamar , Ruiz Blas Maria Paz - Applicants: Univ Granada - Priority Date: 2018-04-12 - Publication Date: 2021-06-03 --- This patent describes multifunctional nanoparticles for theragn"
     },
     {
-      "title": "Detection in circulating epithelial cells of viruses and/or bacteria causing inflammatory infections",
-      "inventors": "LORENTE ACOSTA JOSÉ ANTONIO [ES] , ROMERO PALACIOS PEDRO JOSÉ [ES] , DÍAZ MOCHÓN JUAN JOSÉ [ES] , MOLINA VALLEJO MARÍA PILAR [ES] , GARRIDO NAVAS MARÍA DEL CARMEN [ES] , SERRANO FERNÁNDEZ MARÍA JOSÉ [ES] , ALCAZAR NAVARRETE BERNARDINO [ES]",
-      "assignee": "Universidad de Granada [ES] , Servicio Andaluz de Salud (SAS) [ES]",
-      "publication": "ES2978437A1",
-      "priority": "2023-02-07",
-      "date": "2024-09-12"
+      "title": "Detection in circulating epithelial cells of viruses and/or bacteria causing inf...",
+      "publication_number": "ES2978437A1",
+      "priority_date": "2023-02-07",
+      "summary_link": "outputs/summaries_patents/Summary_of_Patent_ES2978437A1.md",
+      "full_text_link": "sources/patents_md/Patent_ES2978437A1/Patent_ES2978437A1.md",
+      "preview": "- Patent ID/Number: ES2978437A1 - Legal Status: Pending/Application - Inventors: Lorente Acosta José Antonio , Romero Palacios Pedro José , Díaz Mochón Juan José , Molina Vallejo María Pilar , Garrido-Navas María Del Carmen , Serrano Fernández María José , Alcázar-Navarrete Bernardino - Applicants: Servicio Andaluz De Salud , Univ Granada - Priority Date: 2023-02-07 - Publication Date: 2024-09-12 "
     },
     {
-      "title": "METHOD FOR THE DETECTION OF CIRCULATING TUMOUR CELLS, BOTH CIRCULATING TUMOUR CELLS OF THE EPITHELIAL PHENOTYPE AND CIRCULATING TUMOUR CELLS HAVING EPITHELIAL-MESENCHYMAL TRANSITION (EMT) MARKERS, USING THE MIRNA-21 AS A BIOMARKER",
-      "inventors": "SERRANO FERNÁNDEZ MARÍA JOSÉ [ES] , DÍAZ MOCHÓN JUAN JOSÉ [ES] , GABRIEL ORTEGA FRANCISCO [ES] , LORENTE ACOSTA JOSÉ ANTONIO [ES] , GARCÍA PUCHE JOSÉ LUIS [ES] , RUIZ BLAS MARIA PAZ [ES] , SÁNCHEZ MARTÍN ROSARIO MARÍA [ES]",
-      "assignee": "Universidad de Granada [ES] , Servicio Andaluz de Salud (SAS) [ES]",
-      "publication": "US2017321261A1",
-      "priority": "2014-09-18",
-      "date": "2017-11-09"
+      "title": "METHOD FOR THE DETECTION OF CIRCULATING TUMOUR CELLS, BOTH CIRCULATING TUMOUR CE...",
+      "publication_number": "US2017321261A1",
+      "priority_date": "2014-09-18",
+      "summary_link": "outputs/summaries_patents/Summary_of_Patent_US2017321261A1.md",
+      "full_text_link": "sources/patents_md/Patent_US2017321261A1/Patent_US2017321261A1.md",
+      "preview": "- Patent ID/Number: US2017321261A1 - Legal Status: Pending/Application - Inventors: Serrano Fernández María José , Díaz Mochón Juan José , Gabriel Ortega Francisco , Lorente Acosta José Antonio , García Puche José Luis , Ruiz Blas Maria Paz , Sánchez Martín Rosario María - Applicants: Univ Granada , Servicio Andaluz De Salud - Priority Date: 2014-09-18 - Publication Date: 2017-11-09 --- This paten"
     },
     {
       "title": "FUNCTIONALIZED NANOPARTICLES (NPS)",
-      "inventors": "DÍAZ MOCHÓN JUAN JOSÉ [ES] , SÁNCHEZ MARTÍN ROSARIO MARÍA [ES] , CANO CORTÉS MARÍA VICTORIA [ES] , LAZ RUIZ JOSE ANTONIO [ES] , LÓPEZ DELGADO FRANCISCO JAVIER [ES] , PERIS TORRES CARLOS [ES] , LÓPEZ GONZÁLEZ ROCÍO [ES]",
-      "assignee": "Universidad de Granada [ES] , Servicio Andaluz de Salud (SAS) [ES]",
-      "publication": "EP4747634A1",
-      "priority": "2023-07-20",
-      "date": "2026-05-27"
+      "publication_number": "EP4747634A1",
+      "priority_date": "2023-07-20",
+      "summary_link": "outputs/summaries_patents/Summary_of_Patent_EP4747634A1.md",
+      "full_text_link": "sources/patents_md/Patent_EP4747634A1/Patent_EP4747634A1.md",
+      "preview": "- Patent ID/Number: EP4747634A1 - Legal Status: Pending/Application - Inventors: Díaz Mochón Juan José , Sánchez Martín Rosario María , Cano Cortés María Victoria , Laz Ruiz Jose Antonio , López Delgado Francisco Javier , Peris Torres Carlos , López González Rocío - Applicants: Univ Granada , Servicio Andaluz De Salud - Priority Date: 2023-07-20 - Publication Date: 2026-05-27 --- This patent descr"
     }
   ],
   "preprints": [
@@ -2085,132 +2055,110 @@
   ],
   "theses": [
     {
-      "title": "Desarrollo de una plataforma de detección de miRNAs en biopsias líquidas basada en tecnología plasmónica y química dinámica",
-      "student": "Isabel Rodríguez Mariblanca",
-      "directors": "Dr. Óscar Ahumada Heredero y Prof. Juan José Díaz-Mochón",
-      "university": "Universidad Autónoma de Madrid (Facultad de Medicina) / Mecwins S.A. y Destina Genómica S.L.",
-      "year": "2026",
-      "mention": "Tesis Industrial · Colaboración Público-Privada",
-      "summary_link": "outputs/summaries_theses/Summary_of_Thesis_2026_0213_Tesis_Isabel_Rodriguez_Mecwins.md",
-      "full_text_link": "sources/theses_md/2026_0213_Tesis_Isabel_Rodriguez_Mecwins/2026_0213_Tesis_Isabel_Rodriguez_Mecwins.md",
-      "preview": "Tesis doctoral en colaboración público-privada entre Mecwins S.A., Destina Genómica S.L. y la UAM, integrando la química dinámica de marcaje (DCL) con la tecnología plasmónica ultrasensible AVAC para detección de miRNAs sin extracción de RNA."
-    },
-    {
-      "title": "Validación de ensayos moleculares para diagnóstico de leishmaniasis cutánea",
-      "student": "Nancy Elizabeth Villegas Villao",
-      "directors": "Dra. Rosario María Sánchez-Martín y Dr. Salvatore Pernagallo (Tutor: Prof. Juan José Díaz-Mochón)",
-      "university": "Universidad de Granada (Programa de Doctorado en Biomedicina)",
-      "year": "2025",
-      "mention": "Mención Internacional",
-      "summary_link": "outputs/summaries_theses/Summary_of_Thesis_2025_1001_Tesis_NancyVillegas.md",
-      "full_text_link": "sources/theses_md/2025_1001_Tesis_NancyVillegas/2025_1001_Tesis_NancyVillegas.md",
-      "preview": "Desarrollo y validación clínica de ensayos moleculares y nanotecnológicos colorimétricos para el diagnóstico sensible y específico de leishmaniasis cutánea y parasitosis desatendidas."
-    },
-    {
-      "title": "Desarrollo de nuevas estrategias de detección de ácidos nucleicos para diagnóstico molecular",
-      "student": "Agustín Robles Remacho",
-      "directors": "Prof. Juan José Díaz-Mochón y Dra. Rosario María Sánchez-Martín",
-      "university": "Universidad de Granada (Programa de Doctorado en Biomedicina)",
-      "year": "2021",
-      "mention": "Sobresaliente Cum Laude · Mención Internacional",
-      "summary_link": "outputs/summaries_theses/Summary_of_Thesis_2021_0629_Tesis_Agustin_Robles.md",
-      "full_text_link": "sources/theses_md/2021_0629_Tesis_Agustin_Robles/2021_0629_Tesis_Agustin_Robles.md",
-      "preview": "Diseño y validación de sondas PNA abásicas para discriminación monocatenaria a nivel de base única (SNPs e indels) mediante química dinámica sin enzimas ni amplificación previa."
-    },
-    {
-      "title": "Dynamic Chemical Labelling on Bead-Based Platforms for PCR-Free microRNA Interrogation",
-      "student": "Antonio Marín Romero",
-      "directors": "Prof. Juan José Díaz-Mochón y Dr. Salvatore Pernagallo (Co-supervisión: Dra. Mavys Tabraue Chávez)",
-      "university": "Universidad de Granada (Programa de Doctorado en Biomedicina)",
-      "year": "2020",
-      "mention": "Mención Internacional · Tesis de Excelencia",
-      "summary_link": "outputs/summaries_theses/Summary_of_Thesis_2020_1026_Thesis_Antonio_Marin_FINAL_SUBMISSION.md",
-      "full_text_link": "sources/theses_md/2020_1026_Thesis_Antonio_Marin_FINAL_SUBMISSION/2020_1026_Thesis_Antonio_Marin_FINAL_SUBMISSION.md",
-      "preview": "Plataforma Luminex/MAGPIX multiplexada acoplada a química dinámica (DCL) para el perfilado directo y cuantificación de miR-122 y miR-451a directamente en plasma de pacientes con toxicidad hepática (DILI)."
-    },
-    {
-      "title": "Design, synthesis and biological evaluation of 6-alkoxypurine derivatives as kinase inhibitors",
-      "student": "Álvaro Lorente Macías",
-      "directors": "Prof. Dr. Juan José Díaz-Mochón (UGR), Prof. Dr. Ignacio Jesús Molina Pineda de las Infantas (Catedrático de Inmunología, UGR) y Dra. María José Pineda de las Infantas y Villatoro (Titular de Química Farmacéutica, UGR)",
-      "university": "Universidad de Granada (Dpto. Química Farmacéutica y Orgánica)",
-      "year": "2019",
-      "mention": "International Doctoral Thesis · Sobresaliente Cum Laude",
-      "summary_link": "outputs/summaries_theses/Summary_of_Thesis_2019_1104_Thesis_Alvaro_Lorente_Macías.md",
-      "full_text_link": "sources/theses_md/2019_1104_Thesis_Alvaro_Lorente_Macías/2019_1104_Thesis_Alvaro_Lorente_Macías.md",
-      "preview": "Diseño, síntesis en fase sólida y evaluación biológica de 64 nuevos análogos purínicos y 6-alcoxipurinas inhibidoras selectivas de quinasas oncogénicas, mejorando el perfil de apoptosis y solubilidad celular."
-    },
-    {
-      "title": "Chem-MDBp: Development of chemistry-based Multiplexing Diagnostic Beadplatforms",
-      "student": "Antonio Delgado González",
-      "directors": "Prof. Juan José Díaz-Mochón y Dra. Rosario María Sánchez-Martín",
-      "university": "Universidad de Granada (Programa de Doctorado en Biomedicina)",
-      "year": "2019",
-      "mention": "International Doctoral Thesis · Sobresaliente Cum Laude",
-      "summary_link": "outputs/summaries_theses/Summary_of_Thesis_2019_Doctoral_Thesis_Antonio_Delgado_Gonzalez.md",
-      "full_text_link": "sources/theses_md/2019_Doctoral_Thesis_Antonio_Delgado_Gonzalez/2019_Doctoral_Thesis_Antonio_Delgado_Gonzalez.md",
-      "preview": "Desarrollo de micro y nanopartículas multifuncionales magnéticas y fluorogénicas con química superficial ortogonal para teragnóstica y análisis intracelular de biomarcadores proteicos y nucleotídicos."
-    },
-    {
-      "title": "Hidrogeles supramoleculares constituidos por pequeños péptidos como medio para la obtención de materiales compuestos",
-      "student": "Rafael Contreras Montoya",
-      "directors": "Prof. Juan José Díaz-Mochón y Dr. Luis Álvarez de Cienfuegos Rodríguez",
-      "university": "Universidad de Granada (Facultad de Ciencias, Dpto. Química Orgánica)",
-      "year": "2019",
-      "mention": "Sobresaliente Cum Laude · Mención Internacional",
-      "summary_link": "outputs/summaries_theses/Summary_of_Thesis_2019_0412_Tesis_Rafael_Contreras_Montoya.md",
-      "full_text_link": "sources/theses_md/2019_0412_Tesis_Rafael_Contreras_Montoya/2019_0412_Tesis_Rafael_Contreras_Montoya.md",
-      "preview": "Autoensamblaje molecular de péptidos cortos ultrarrápidos para formulación de hidrogeles supramoleculares biocompatibles y matrices tridimensionales para bioimpresión y liberación controlada de fármacos."
-    },
-    {
-      "title": "Chem-NAT: A unique chemical approach for Nucleic Acids Testing",
-      "student": "Mª Angélica Luque González",
-      "directors": "Prof. Juan José Díaz-Mochón y Dra. Rosario María Sánchez-Martín",
-      "university": "Universidad de Granada (Dpto. Química Farmacéutica y Orgánica)",
-      "year": "2018",
-      "mention": "European Doctoral Thesis · Sobresaliente Cum Laude",
-      "summary_link": "outputs/summaries_theses/Summary_of_Thesis_2018_Thesis_of_Angelica_Luque.md",
-      "full_text_link": "sources/theses_md/2018_Thesis_of_Angelica_Luque/2018_Thesis_of_Angelica_Luque.md",
-      "preview": "Desarrollo de sondas químicas SMART y metodologías de marcaje dinámico directo aplicadas al diagnóstico molecular in vitro libre de PCR para discriminación de mutaciones diana."
-    },
-    {
-      "title": "Desarrollo de nanopartículas multifuncionalizadas con aplicaciones biotecnológicas en biomedicina",
-      "student": "María Victoria Cano Cortés",
-      "directors": "Prof. Juan José Díaz-Mochón y Dra. Rosario María Sánchez-Martín",
-      "university": "Universidad de Granada (Programa Oficial de Doctorado)",
-      "year": "2018",
-      "mention": "Sobresaliente Cum Laude",
-      "summary_link": "outputs/summaries_theses/Summary_of_Thesis_2018_0703_Tesis_Victoria_Cano_Cortes.md",
-      "full_text_link": "sources/theses_md/2018_0703_Tesis_Victoria_Cano_Cortes/2018_0703_Tesis_Victoria_Cano_Cortes.md",
-      "preview": "Ingeniería de nanosistemas biocompatibles funcionalizados para direccionamiento selectivo intracelular, liberación espaciotemporal de agentes terapéuticos y diagnóstico molecular."
-    },
-    {
-      "title": "Reading DNA with PNA: A Dynamic Chemical Approach to DNA Sequence Analysis",
-      "student": "Frank R. Bowler",
-      "directors": "Prof. Mark Bradley y Prof. Juan José Díaz-Mochón",
-      "university": "University of Edinburgh (School of Chemistry, Scotland, UK)",
+      "title": "Dynamic chemistry for genotyping and DNA analysis Estudiante: Frank Bowler",
+      "university": "University of Edinburgh",
+      "advisors": "Mark Bradley, Juan José Díaz-Mochón",
       "year": "2011",
-      "mention": "Doctor of Philosophy (PhD) · DestiNA Genomics Co-development",
       "summary_link": "outputs/summaries_theses/Summary_of_Thesis_2010_DestiNA_Thesis_of_Frank_Bowler_2011.md",
       "full_text_link": "sources/theses_md/2010_DestiNA_Thesis_of_Frank_Bowler_2011/2010_DestiNA_Thesis_of_Frank_Bowler_2011.md",
-      "preview": "Desarrollo de la química fundamental de acoplamiento dinámico reversible de nucleobases modificadas sobre plantillas de PNA abásico para genotipado enzimático directo y discriminación de SNPs."
+      "preview": "- 👨‍🎓 Doctorando/a: Frank R. Bowler - 👥 Directores de Tesis: Prof. Mark Bradley y Prof. Juan José Díaz-Mochón - 🏛️ Universidad / Centro: University of Edinburgh (School of Chemistry, Scotland, UK) - 📅 Año de Defensa: 2011 - 🎖️ Calificación / Mención: Doctor of Philosophy (PhD) · DestiNA Genomics Co-development - 📄 Tipo de Documento: Tesis Doctoral --- Desarrollo de la química fundamental de acopla"
     },
     {
-      "title": "Cellular analysis and PNA encoded libraries",
-      "student": "Nina Svensen",
-      "directors": "Prof. Mark Bradley y Prof. Juan José Díaz-Mochón",
-      "university": "University of Edinburgh (College of Science and Engineering, Scotland, UK)",
+      "title": "Multifunctional Nanoparticles for Theranostics and Intracellular Screening Estudiante: Antonio Delgado-González",
+      "university": "Universidad de Granada",
+      "advisors": "Rosario María Sánchez-Martín, Juan José Díaz-Mochón",
+      "year": "2019",
+      "summary_link": "outputs/summaries_theses/Summary_of_Thesis_2019_Doctoral_Thesis_Antonio_Delgado_Gonzalez.md",
+      "full_text_link": "sources/theses_md/2019_Doctoral_Thesis_Antonio_Delgado_Gonzalez/2019_Doctoral_Thesis_Antonio_Delgado_Gonzalez.md",
+      "preview": "- 👨‍🎓 Doctorando/a: Antonio Delgado González - 👥 Directores de Tesis: Prof. Juan José Díaz-Mochón y Dra. Rosario María Sánchez-Martín - 🏛️ Universidad / Centro: Universidad de Granada (Programa de Doctorado en Biomedicina) - 📅 Año de Defensa: 2019 - 🎖️ Calificación / Mención: International Doctoral Thesis · Sobresaliente Cum Laude - 📄 Tipo de Documento: Tesis Doctoral --- Desarrollo de micro y nan"
+    },
+    {
+      "title": "DNA analysis by dynamic chemistry: applications in diagnostics Estudiante: Angélica Luque-González",
+      "university": "Universidad de Granada",
+      "advisors": "Juan José Díaz-Mochón, Rosario María Sánchez-Martín",
+      "year": "2018",
+      "summary_link": "outputs/summaries_theses/Summary_of_Thesis_2018_Thesis_of_Angelica_Luque.md",
+      "full_text_link": "sources/theses_md/2018_Thesis_of_Angelica_Luque/2018_Thesis_of_Angelica_Luque.md",
+      "preview": "- 👨‍🎓 Doctorando/a: Mª Angélica Luque González - 👥 Directores de Tesis: Prof. Juan José Díaz-Mochón y Dra. Rosario María Sánchez-Martín - 🏛️ Universidad / Centro: Universidad de Granada (Dpto. Química Farmacéutica y Orgánica) - 📅 Año de Defensa: 2018 - 🎖️ Calificación / Mención: European Doctoral Thesis · Sobresaliente Cum Laude - 📄 Tipo de Documento: Tesis Doctoral --- Estrategias químicas dinámi"
+    },
+    {
+      "title": "Dynamic Chemical Labelling on Bead-Based Platforms for PCR-Free microRNA Interrogation Estudiante: Antonio Marín-Romero",
+      "university": "Universidad de Granada",
+      "advisors": "Juan José Díaz-Mochón, Salvatore Pernagallo",
+      "year": "2020",
+      "summary_link": "outputs/summaries_theses/Summary_of_Thesis_2020_1026_Thesis_Antonio_Marin_FINAL_SUBMISSION.md",
+      "full_text_link": "sources/theses_md/2020_1026_Thesis_Antonio_Marin_FINAL_SUBMISSION/2020_1026_Thesis_Antonio_Marin_FINAL_SUBMISSION.md",
+      "preview": "- 👨‍🎓 Doctorando/a: Antonio Marín Romero - 👥 Directores de Tesis: Prof. Juan José Díaz-Mochón y Dr. Salvatore Pernagallo (Co-supervisión: Dra. Mavys Tabraue Chávez) - 🏛️ Universidad / Centro: Universidad de Granada (Programa de Doctorado en Biomedicina) - 📅 Año de Defensa: 2020 - 🎖️ Calificación / Mención: Mención Internacional · Tesis de Excelencia - 📄 Tipo de Documento: Tesis Doctoral --- Desarr"
+    },
+    {
+      "title": "Development of Abasic Peptide Nucleic Acid Probes for Single-Base Specific Nucleic Acid Detection Estudiante: Agustín Robles-Remacho",
+      "university": "Universidad de Granada",
+      "advisors": "Juan José Díaz-Mochón, Rosario María Sánchez-Martín",
+      "year": "2021",
+      "summary_link": "outputs/summaries_theses/Summary_of_Thesis_2021_0629_Tesis_Agustin_Robles.md",
+      "full_text_link": "sources/theses_md/2021_0629_Tesis_Agustin_Robles/2021_0629_Tesis_Agustin_Robles.md",
+      "preview": "- 👨‍🎓 Doctorando/a: Agustín Robles Remacho - 👥 Directores de Tesis: Prof. Juan José Díaz-Mochón y Dra. Rosario María Sánchez-Martín - 🏛️ Universidad / Centro: Universidad de Granada (Programa de Doctorado en Biomedicina) - 📅 Año de Defensa: 2021 - 🎖️ Calificación / Mención: Sobresaliente Cum Laude · Mención Internacional - 📄 Tipo de Documento: Tesis Doctoral --- Diseño, síntesis y validación de nu"
+    },
+    {
+      "title": "Colorimetric and Nanotechnology-Based Diagnostic Assays for Parasitic and Viral Infections Estudiante: Nancy Villegas Villao",
+      "university": "Universidad de Granada",
+      "advisors": "Juan José Díaz-Mochón, Salvatore Pernagallo",
+      "year": "2025",
+      "summary_link": "outputs/summaries_theses/Summary_of_Thesis_2025_1001_Tesis_NancyVillegas.md",
+      "full_text_link": "sources/theses_md/2025_1001_Tesis_NancyVillegas/2025_1001_Tesis_NancyVillegas.md",
+      "preview": "- 👨‍🎓 Doctorando/a: Nancy Elizabeth Villegas Villao - 👥 Directores de Tesis: Dra. Rosario María Sánchez-Martín y Dr. Salvatore Pernagallo (Tutor: Prof. Juan José Díaz-Mochón) - 🏛️ Universidad / Centro: Universidad de Granada (Programa de Doctorado en Biomedicina) - 📅 Año de Defensa: 2025 - 🎖️ Calificación / Mención: Mención Internacional - 📄 Tipo de Documento: Tesis Doctoral --- Validación preclín"
+    },
+    {
+      "title": "Cellular analysis and PNA encoded libraries Estudiante: Nina Svensen",
+      "university": "University of Edinburgh",
+      "advisors": "Juan José Díaz Mochón",
       "year": "2010",
-      "mention": "Doctor of Philosophy (PhD)",
       "summary_link": "outputs/summaries_theses/Summary_of_Thesis_2011_Thesis_Nina_Svensen.md",
       "full_text_link": "sources/theses_md/2011_Thesis_Nina_Svensen/2011_Thesis_Nina_Svensen.md",
-      "preview": "Síntesis y cribado de quimiotecas codificadas por PNA en microarrays de alta densidad para análisis celular fenotípico y descubrimiento de ligandos biológicos."
+      "preview": "- 👨‍🎓 Doctorando/a: Nina Svensen - 👥 Directores de Tesis: Prof. Mark Bradley y Prof. Juan José Díaz-Mochón - 🏛️ Universidad / Centro: University of Edinburgh (College of Science and Engineering, Scotland, UK) - 📅 Año de Defensa: 2010 - 🎖️ Calificación / Mención: Doctor of Philosophy (PhD) - 📄 Tipo de Documento: Tesis Doctoral --- Síntesis y cribado de quimiotecas combinatorias codificadas con PNA "
+    },
+    {
+      "title": "Hidrogeles supramoleculares constituidos por pequeños péptidos como medio para la obtención de materiales compuestos Estudiante: Rafael Contreras Montoya",
+      "university": "Universidad de Granada",
+      "advisors": "Luis Álvarez de Cienfuegos Rodríguez, Juan José Díaz Mochón",
+      "year": "2019",
+      "summary_link": "outputs/summaries_theses/Summary_of_Thesis_2019_0412_Tesis_Rafael_Contreras_Montoya.md",
+      "full_text_link": "sources/theses_md/2019_0412_Tesis_Rafael_Contreras_Montoya/2019_0412_Tesis_Rafael_Contreras_Montoya.md",
+      "preview": "- 👨‍🎓 Doctorando/a: Rafael Contreras Montoya - 👥 Directores de Tesis: Prof. Juan José Díaz-Mochón y Dr. Luis Álvarez de Cienfuegos Rodríguez - 🏛️ Universidad / Centro: Universidad de Granada (Facultad de Ciencias, Dpto. Química Orgánica) - 📅 Año de Defensa: 2019 - 🎖️ Calificación / Mención: Sobresaliente Cum Laude · Mención Internacional - 📄 Tipo de Documento: Tesis Doctoral --- Autoensamblaje mol"
+    },
+    {
+      "title": "Tesis Victoria Cano Cortes Estudiante: Victoria Cano Cortés",
+      "university": "Universidad de Granada",
+      "advisors": "Juan José Díaz Mochón",
+      "year": "2018",
+      "summary_link": "outputs/summaries_theses/Summary_of_Thesis_2018_0703_Tesis_Victoria_Cano_Cortes.md",
+      "full_text_link": "sources/theses_md/2018_0703_Tesis_Victoria_Cano_Cortes/2018_0703_Tesis_Victoria_Cano_Cortes.md",
+      "preview": "- 👨‍🎓 Doctorando/a: María Victoria Cano Cortés - 👥 Directores de Tesis: Prof. Juan José Díaz-Mochón y Dra. Rosario María Sánchez-Martín - 🏛️ Universidad / Centro: Universidad de Granada (Programa Oficial de Doctorado) - 📅 Año de Defensa: 2018 - 🎖️ Calificación / Mención: Sobresaliente Cum Laude - 📄 Tipo de Documento: Tesis Doctoral --- Funcionalización y vectorización de nanopartículas monodispers"
+    },
+    {
+      "title": "Design, synthesis and biological evaluation of 6-alkoxypurine derivatives as kinase inhibitors Estudiante: Alvaro Lorente Macías",
+      "university": "Universidad de Granada",
+      "advisors": "Juan José Díaz Mochón",
+      "year": "2019",
+      "summary_link": "outputs/summaries_theses/Summary_of_Thesis_2019_1104_Thesis_Alvaro_Lorente_Macías.md",
+      "full_text_link": "sources/theses_md/2019_1104_Thesis_Alvaro_Lorente_Macías/2019_1104_Thesis_Alvaro_Lorente_Macías.md",
+      "preview": "- 👨‍🎓 Doctorando/a: Álvaro Lorente Macías - 👥 Directores de Tesis: Prof. Dr. Juan José Díaz-Mochón (UGR), Prof. Dr. Ignacio Jesús Molina Pineda de las Infantas (Catedrático de Inmunología, UGR) y Dra. María José Pineda de las Infantas y Villatoro (Titular de Química Farmacéutica, UGR) - 🏛️ Universidad / Centro: Universidad de Granada (Dpto. Química Farmacéutica y Orgánica) - 📅 Año de Defensa: 2019"
+    },
+    {
+      "title": "Tesis Isabel Rodriguez Mecwins Estudiante: Isabel Rodríguez Mecwins",
+      "university": "Universidad de Granada",
+      "advisors": "Juan José Díaz-Mochón, Francisco Martín",
+      "year": "2026",
+      "summary_link": "outputs/summaries_theses/Summary_of_Thesis_2026_0213_Tesis_Isabel_Rodriguez_Mecwins.md",
+      "full_text_link": "sources/theses_md/2026_0213_Tesis_Isabel_Rodriguez_Mecwins/2026_0213_Tesis_Isabel_Rodriguez_Mecwins.md",
+      "preview": "- 👨‍🎓 Doctorando/a: Isabel Rodríguez Mariblanca - 👥 Directores de Tesis: Dr. Óscar Ahumada Heredero y Prof. Juan José Díaz-Mochón - 🏛️ Universidad / Centro: Universidad Autónoma de Madrid (Facultad de Medicina) / Mecwins S.A. y Destina Genómica S.L. - 📅 Año de Defensa: 2026 - 🎖️ Calificación / Mención: Tesis Industrial · Colaboración Público-Privada - 📄 Tipo de Documento: Tesis Doctoral --- Esta t"
     }
   ],
   "grants": [
     {
       "title": "DiazMochon 20161013 PLAN DE TRABAJO",
       "date": "2024",
-      "status": "Ingested",
+      "status": "Procesado",
       "summary_link": "outputs/summaries_projects/Summary_of_DiazMochon_20161013_PLAN_DE_TRABAJO.md",
       "full_text_link": "sources/converted_docs/DiazMochon_20161013_PLAN_DE_TRABAJO/DiazMochon_20161013_PLAN_DE_TRABAJO.md",
       "preview": "- Author: Juan José Díaz Mochón - Date/Year: 2016 - Document Type: Grant / Project - Original Folder: Grants 2016 --- --- - 🔗 Original Converted Markdown (Full Text)"
@@ -2218,7 +2166,7 @@
     {
       "title": "DiazMochon 2016 PSETC Presupuesto",
       "date": "2024",
-      "status": "Ingested",
+      "status": "Procesado",
       "summary_link": "outputs/summaries_projects/Summary_of_DiazMochon_2016_PSETC_Presupuesto.md",
       "full_text_link": "sources/converted_docs/DiazMochon_2016_PSETC_Presupuesto/DiazMochon_2016_PSETC_Presupuesto.md",
       "preview": "- Author: Juan José Díaz Mochón - Date/Year: 2016 - Document Type: Grant / Project - Original Folder: Grants 2016 --- PLAN == picture [145 x 45] intentionally omitted <== == picture [153 x 50] intentionally omitted <== == picture [141 x 43] intentionally omitted <== --- - 🔗 Original Converted Markdown (Full Text)"
@@ -2226,7 +2174,7 @@
     {
       "title": "PSTEC solicitud",
       "date": "2024",
-      "status": "Ingested",
+      "status": "Procesado",
       "summary_link": "outputs/summaries_projects/Summary_of_PSTEC_solicitud.md",
       "full_text_link": "sources/converted_docs/PSTEC_solicitud/PSTEC_solicitud.md",
       "preview": "- Author: Juan José Díaz Mochón - Date/Year: 2016 - Document Type: Grant / Project - Original Folder: Grants 2016 --- == picture [154 x 48] intentionally omitted <== --- - 🔗 Original Converted Markdown (Full Text)"
@@ -2234,7 +2182,7 @@
     {
       "title": "RSM28092014 20paginas Memoria cientifico tecnica Proyectos Excelencia y Retos Individual",
       "date": "2024",
-      "status": "Ingested",
+      "status": "Procesado",
       "summary_link": "outputs/summaries_projects/Summary_of_RSM28092014_20paginas_Memoria_cientifico_tecnica_Proyectos_Excelencia_y_Retos_Individual.md",
       "full_text_link": "sources/converted_docs/RSM28092014_20paginas_Memoria_cientifico_tecnica_Proyectos_Excelencia_y_Retos_Individual/RSM28092014_20paginas_Memoria_cientifico_tecnica_Proyectos_Excelencia_y_Retos_Individual.md",
       "preview": "- Author: Juan José Díaz Mochón - Date/Year: 2014 - Document Type: Grant / Project --- Memoria Científico-Técnica Proyectos Excelencia y Retos Individual 2014 [Content pending conversion from source file: JJD publications 03-03-2024, 20-19-21\\grants and projects\\Grants 2014\\RSM28092014-20paginas-Memoria cientifico tecnica Proyectos Excelencia y Retos Individual.doc] --- - 🔗 Original Converted Mark"
@@ -2242,7 +2190,7 @@
     {
       "title": "Selection of bead displayed, PNA encoded chemicals Wissinger",
       "date": "2024",
-      "status": "Placeholder (Pending Ingestion)",
+      "status": "Pendiente de procesar",
       "summary_link": null,
       "full_text_link": null,
       "preview": ""
@@ -2250,7 +2198,7 @@
     {
       "title": "JJD ERC CoG B2 V8",
       "date": "2024",
-      "status": "Ingested",
+      "status": "Procesado",
       "summary_link": "outputs/summaries_projects/Summary_of_JJD_ERC_CoG_B2_V8.md",
       "full_text_link": "sources/converted_docs/JJD_ERC_CoG_B2_V8/JJD_ERC_CoG_B2_V8.md",
       "preview": "- Author: Juan José Díaz Mochón - Date/Year: 2013 - Document Type: Grant / Project - Status: Not Awarded - Original Folder: ERC CoGrant JJD 2013 --- Diaz-Mochon ChemArrays Part B2 --- - 🔗 Original Converted Markdown (Full Text)"
@@ -2258,7 +2206,7 @@
     {
       "title": "JJD ERC CoG B2 SUBMITTED",
       "date": "2024",
-      "status": "Ingested",
+      "status": "Procesado",
       "summary_link": "outputs/summaries_projects/Summary_of_JJD_ERC_CoG_B2_SUBMITTED.md",
       "full_text_link": "sources/converted_docs/JJD_ERC_CoG_B2_SUBMITTED/JJD_ERC_CoG_B2_SUBMITTED.md",
       "preview": "- Author: Juan José Díaz Mochón - Date/Year: 2013 - Document Type: Grant / Project - Status: Not Awarded - Original Folder: ERC CoGrant JJD 2013 --- Diaz-Mochon ChemArrays Part B2 --- - 🔗 Original Converted Markdown (Full Text)"
@@ -2266,7 +2214,7 @@
     {
       "title": "JJD ERC CoG B2 V6",
       "date": "2024",
-      "status": "Placeholder (Pending Ingestion)",
+      "status": "Pendiente de procesar",
       "summary_link": null,
       "full_text_link": null,
       "preview": ""
@@ -2274,7 +2222,7 @@
     {
       "title": "JJD ERC CoG B2 V7",
       "date": "2024",
-      "status": "Placeholder (Pending Ingestion)",
+      "status": "Pendiente de procesar",
       "summary_link": null,
       "full_text_link": null,
       "preview": ""
@@ -2282,7 +2230,7 @@
     {
       "title": "JJD ERC CoG B2 V8",
       "date": "2024",
-      "status": "Ingested",
+      "status": "Procesado",
       "summary_link": "outputs/summaries_projects/Summary_of_JJD_ERC_CoG_B2_V8.md",
       "full_text_link": "sources/converted_docs/JJD_ERC_CoG_B2_V8/JJD_ERC_CoG_B2_V8.md",
       "preview": "- Author: Juan José Díaz Mochón - Date/Year: 2013 - Document Type: Grant / Project - Status: Not Awarded - Original Folder: ERC CoGrant JJD 2013 --- Diaz-Mochon ChemArrays Part B2 --- - 🔗 Original Converted Markdown (Full Text)"
@@ -2290,7 +2238,7 @@
     {
       "title": "JJD ERC CoG B2 V9",
       "date": "2024",
-      "status": "Placeholder (Pending Ingestion)",
+      "status": "Pendiente de procesar",
       "summary_link": null,
       "full_text_link": null,
       "preview": ""
@@ -2298,7 +2246,7 @@
     {
       "title": "JJD ERC CoG V5 docx",
       "date": "2024",
-      "status": "Placeholder (Pending Ingestion)",
+      "status": "Pendiente de procesar",
       "summary_link": null,
       "full_text_link": null,
       "preview": ""
@@ -2306,7 +2254,7 @@
     {
       "title": "Nucleic Acid Templated Uncaging of Fluorophores Wissinger",
       "date": "2024",
-      "status": "Placeholder (Pending Ingestion)",
+      "status": "Pendiente de procesar",
       "summary_link": null,
       "full_text_link": null,
       "preview": ""
@@ -2314,7 +2262,7 @@
     {
       "title": "JJD ERC CoG 2013 B1 ChemArrays",
       "date": "2024",
-      "status": "Ingested",
+      "status": "Procesado",
       "summary_link": "outputs/summaries_projects/Summary_of_ChemArrays_CV-ERC_CoG_2013_B1__FINALsubmitted.md",
       "full_text_link": "sources/converted_docs/ChemArrays_CV-ERC_CoG_2013_B1__FINALsubmitted/ChemArrays_CV-ERC_CoG_2013_B1__FINALsubmitted.md",
       "preview": "- Author: Juan José Díaz Mochón - Date/Year: 2013 - Document Type: Grant / Project - Status: Not Awarded - Original Folder: ERC CoG2013 --- Diaz-Mochon ChemArrays Part B1 European Research Council --- - 🔗 Original Converted Markdown (Full Text)"
@@ -2322,7 +2270,7 @@
     {
       "title": "JJD ERC CoG B2 SUBMITTED",
       "date": "2024",
-      "status": "Ingested",
+      "status": "Procesado",
       "summary_link": "outputs/summaries_projects/Summary_of_JJD_ERC_CoG_B2_SUBMITTED.md",
       "full_text_link": "sources/converted_docs/JJD_ERC_CoG_B2_SUBMITTED/JJD_ERC_CoG_B2_SUBMITTED.md",
       "preview": "- Author: Juan José Díaz Mochón - Date/Year: 2013 - Document Type: Grant / Project - Status: Not Awarded - Original Folder: ERC CoGrant JJD 2013 --- Diaz-Mochon ChemArrays Part B2 --- - 🔗 Original Converted Markdown (Full Text)"
@@ -2330,7 +2278,7 @@
     {
       "title": "e9678b47 ebb4 468e 9243 093e51bfda16",
       "date": "2024",
-      "status": "Placeholder (Pending Ingestion)",
+      "status": "Pendiente de procesar",
       "summary_link": null,
       "full_text_link": null,
       "preview": ""
@@ -2338,7 +2286,7 @@
     {
       "title": "JJD ERC CoG 2013 B1 ChemArrays",
       "date": "2024",
-      "status": "Ingested",
+      "status": "Procesado",
       "summary_link": "outputs/summaries_projects/Summary_of_ChemArrays_CV-ERC_CoG_2013_B1__FINALsubmitted.md",
       "full_text_link": "sources/converted_docs/ChemArrays_CV-ERC_CoG_2013_B1__FINALsubmitted/ChemArrays_CV-ERC_CoG_2013_B1__FINALsubmitted.md",
       "preview": "- Author: Juan José Díaz Mochón - Date/Year: 2013 - Document Type: Grant / Project - Status: Not Awarded - Original Folder: ERC CoG2013 --- Diaz-Mochon ChemArrays Part B1 European Research Council --- - 🔗 Original Converted Markdown (Full Text)"
@@ -2346,7 +2294,7 @@
     {
       "title": "ERC CoG 2013 B2 Ethical Issues Annex FINAL",
       "date": "2024",
-      "status": "Ingested",
+      "status": "Procesado",
       "summary_link": "outputs/summaries_projects/Summary_of_ChemArrays_CV-ERC_CoG_2013_B1__FINAL-V8.md",
       "full_text_link": "sources/converted_docs/ChemArrays_CV-ERC_CoG_2013_B1__FINAL-V8/ChemArrays_CV-ERC_CoG_2013_B1__FINAL-V8.md",
       "preview": "- Author: Juan José Díaz Mochón - Date/Year: 2013 - Document Type: Grant / Project - Status: Not Awarded - Original Folder: ERC CoG2013 --- Diaz-Mochon ChemArrays Part B1 European Research Council --- - 🔗 Original Converted Markdown (Full Text)"
@@ -2354,7 +2302,7 @@
     {
       "title": "ERC CoG 2013 Host Support Letter template FINAL",
       "date": "2024",
-      "status": "Ingested",
+      "status": "Procesado",
       "summary_link": "outputs/summaries_projects/Summary_of_ChemArrays_CV-ERC_CoG_2013_B1__FINAL-V8.md",
       "full_text_link": "sources/converted_docs/ChemArrays_CV-ERC_CoG_2013_B1__FINAL-V8/ChemArrays_CV-ERC_CoG_2013_B1__FINAL-V8.md",
       "preview": "- Author: Juan José Díaz Mochón - Date/Year: 2013 - Document Type: Grant / Project - Status: Not Awarded - Original Folder: ERC CoG2013 --- Diaz-Mochon ChemArrays Part B1 European Research Council --- - 🔗 Original Converted Markdown (Full Text)"
@@ -2362,7 +2310,7 @@
     {
       "title": "ERC CoG 2013 B2 template FINAL",
       "date": "2024",
-      "status": "Ingested",
+      "status": "Procesado",
       "summary_link": "outputs/summaries_projects/Summary_of_ChemArrays_CV-ERC_CoG_2013_B1__FINAL-V8.md",
       "full_text_link": "sources/converted_docs/ChemArrays_CV-ERC_CoG_2013_B1__FINAL-V8/ChemArrays_CV-ERC_CoG_2013_B1__FINAL-V8.md",
       "preview": "- Author: Juan José Díaz Mochón - Date/Year: 2013 - Document Type: Grant / Project - Status: Not Awarded - Original Folder: ERC CoG2013 --- Diaz-Mochon ChemArrays Part B1 European Research Council --- - 🔗 Original Converted Markdown (Full Text)"
@@ -2370,7 +2318,7 @@
     {
       "title": "jjd2013 CV ERC CoG 2013 B1 template FINAL",
       "date": "2024",
-      "status": "Ingested",
+      "status": "Procesado",
       "summary_link": "outputs/summaries_projects/Summary_of_ChemArrays_CV-ERC_CoG_2013_B1__FINAL-V8.md",
       "full_text_link": "sources/converted_docs/ChemArrays_CV-ERC_CoG_2013_B1__FINAL-V8/ChemArrays_CV-ERC_CoG_2013_B1__FINAL-V8.md",
       "preview": "- Author: Juan José Díaz Mochón - Date/Year: 2013 - Document Type: Grant / Project - Status: Not Awarded - Original Folder: ERC CoG2013 --- Diaz-Mochon ChemArrays Part B1 European Research Council --- - 🔗 Original Converted Markdown (Full Text)"
@@ -2378,7 +2326,7 @@
     {
       "title": "ERC CoG 2013 B2 Security Issues Annex FINAL",
       "date": "2024",
-      "status": "Ingested",
+      "status": "Procesado",
       "summary_link": "outputs/summaries_projects/Summary_of_ChemArrays_CV-ERC_CoG_2013_B1__FINAL-V8.md",
       "full_text_link": "sources/converted_docs/ChemArrays_CV-ERC_CoG_2013_B1__FINAL-V8/ChemArrays_CV-ERC_CoG_2013_B1__FINAL-V8.md",
       "preview": "- Author: Juan José Díaz Mochón - Date/Year: 2013 - Document Type: Grant / Project - Status: Not Awarded - Original Folder: ERC CoG2013 --- Diaz-Mochon ChemArrays Part B1 European Research Council --- - 🔗 Original Converted Markdown (Full Text)"
@@ -2386,7 +2334,7 @@
     {
       "title": "jjd2013ERC CoG 2013 B1 template FINAL",
       "date": "2024",
-      "status": "Ingested",
+      "status": "Procesado",
       "summary_link": "outputs/summaries_projects/Summary_of_ChemArrays_CV-ERC_CoG_2013_B1__FINAL-V8.md",
       "full_text_link": "sources/converted_docs/ChemArrays_CV-ERC_CoG_2013_B1__FINAL-V8/ChemArrays_CV-ERC_CoG_2013_B1__FINAL-V8.md",
       "preview": "- Author: Juan José Díaz Mochón - Date/Year: 2013 - Document Type: Grant / Project - Status: Not Awarded - Original Folder: ERC CoG2013 --- Diaz-Mochon ChemArrays Part B1 European Research Council --- - 🔗 Original Converted Markdown (Full Text)"
@@ -2394,7 +2342,7 @@
     {
       "title": "A biomolecule compatible visible light induced azide reduction from a DNA encoded reaction discovery system Liu Nat Chem",
       "date": "2024",
-      "status": "Placeholder (Pending Ingestion)",
+      "status": "Pendiente de procesar",
       "summary_link": null,
       "full_text_link": null,
       "preview": ""
@@ -2402,7 +2350,7 @@
     {
       "title": "DNA templated release of functional molecules with an azide reductiontriggered immolative linker Wissinger 2011",
       "date": "2024",
-      "status": "Placeholder (Pending Ingestion)",
+      "status": "Pendiente de procesar",
       "summary_link": null,
       "full_text_link": null,
       "preview": ""
@@ -2410,7 +2358,7 @@
     {
       "title": "ChemArrays CV ERC CoG 2013 B1 FINAL",
       "date": "2024",
-      "status": "Ingested",
+      "status": "Procesado",
       "summary_link": "outputs/summaries_projects/Summary_of_ChemArrays_CV-ERC_CoG_2013_B1__FINALsubmitted.md",
       "full_text_link": "sources/converted_docs/ChemArrays_CV-ERC_CoG_2013_B1__FINALsubmitted/ChemArrays_CV-ERC_CoG_2013_B1__FINALsubmitted.md",
       "preview": "- Author: Juan José Díaz Mochón - Date/Year: 2013 - Document Type: Grant / Project - Status: Not Awarded - Original Folder: ERC CoG2013 --- Diaz-Mochon ChemArrays Part B1 European Research Council --- - 🔗 Original Converted Markdown (Full Text)"
@@ -2418,7 +2366,7 @@
     {
       "title": "ChemArrays Budget ERC CoGrant",
       "date": "2024",
-      "status": "Placeholder (Pending Ingestion)",
+      "status": "Pendiente de procesar",
       "summary_link": null,
       "full_text_link": null,
       "preview": ""
@@ -2426,7 +2374,7 @@
     {
       "title": "885b2722 9038 450f af88 ecf5e956bce6",
       "date": "2024",
-      "status": "Ingested",
+      "status": "Procesado",
       "summary_link": "outputs/summaries_projects/Summary_of_885b2722-9038-450f-af88-ecf5e956bce6.md",
       "full_text_link": "sources/converted_docs/885b2722-9038-450f-af88-ecf5e956bce6/885b2722-9038-450f-af88-ecf5e956bce6.md",
       "preview": "- Author: Juan José Díaz Mochón - Date/Year: 2013 - Document Type: Grant / Project - Original Folder: ERC CoGrant JJD 2013 --- --- - 🔗 Original Converted Markdown (Full Text)"
@@ -2434,7 +2382,7 @@
     {
       "title": "Budget ERC CoGrant",
       "date": "2024",
-      "status": "Placeholder (Pending Ingestion)",
+      "status": "Pendiente de procesar",
       "summary_link": null,
       "full_text_link": null,
       "preview": ""
@@ -2442,7 +2390,7 @@
     {
       "title": "Wissinger PNA on beads",
       "date": "2024",
-      "status": "Placeholder (Pending Ingestion)",
+      "status": "Pendiente de procesar",
       "summary_link": null,
       "full_text_link": null,
       "preview": ""
@@ -2450,7 +2398,7 @@
     {
       "title": "ChemArrays CV ERC CoG 2013 B1 FINALsubmitted",
       "date": "2024",
-      "status": "Ingested",
+      "status": "Procesado",
       "summary_link": "outputs/summaries_projects/Summary_of_ChemArrays_CV-ERC_CoG_2013_B1__FINALsubmitted.md",
       "full_text_link": "sources/converted_docs/ChemArrays_CV-ERC_CoG_2013_B1__FINALsubmitted/ChemArrays_CV-ERC_CoG_2013_B1__FINALsubmitted.md",
       "preview": "- Author: Juan José Díaz Mochón - Date/Year: 2013 - Document Type: Grant / Project - Status: Not Awarded - Original Folder: ERC CoG2013 --- Diaz-Mochon ChemArrays Part B1 European Research Council --- - 🔗 Original Converted Markdown (Full Text)"
@@ -2458,7 +2406,7 @@
     {
       "title": "PhDcertificate JJD",
       "date": "2024",
-      "status": "Placeholder (Pending Ingestion)",
+      "status": "Pendiente de procesar",
       "summary_link": null,
       "full_text_link": null,
       "preview": ""
@@ -2466,7 +2414,7 @@
     {
       "title": "ChemArrays CV ERC CoG 2013 B1 FINAL V8",
       "date": "2024",
-      "status": "Ingested",
+      "status": "Procesado",
       "summary_link": "outputs/summaries_projects/Summary_of_ChemArrays_CV-ERC_CoG_2013_B1__FINALsubmitted.md",
       "full_text_link": "sources/converted_docs/ChemArrays_CV-ERC_CoG_2013_B1__FINALsubmitted/ChemArrays_CV-ERC_CoG_2013_B1__FINALsubmitted.md",
       "preview": "- Author: Juan José Díaz Mochón - Date/Year: 2013 - Document Type: Grant / Project - Status: Not Awarded - Original Folder: ERC CoG2013 --- Diaz-Mochon ChemArrays Part B1 European Research Council --- - 🔗 Original Converted Markdown (Full Text)"
@@ -2474,7 +2422,7 @@
     {
       "title": "Host Institution UGR support letter",
       "date": "2024",
-      "status": "Ingested",
+      "status": "Procesado",
       "summary_link": "outputs/summaries_projects/Summary_of_Host_Institution_UGR_support_letter.md",
       "full_text_link": "sources/converted_docs/Host_Institution_UGR_support_letter/Host_Institution_UGR_support_letter.md",
       "preview": "- Author: Juan José Díaz Mochón - Date/Year: 2013 - Document Type: Grant / Project - Original Folder: ERC CoG2013 --- ... --- - 🔗 Original Converted Markdown (Full Text)"
@@ -2482,7 +2430,7 @@
     {
       "title": "ChemArrays CV ERC CoG 2013 B1 FINAL V8",
       "date": "2024",
-      "status": "Ingested",
+      "status": "Procesado",
       "summary_link": "outputs/summaries_projects/Summary_of_ChemArrays_CV-ERC_CoG_2013_B1__FINALsubmitted.md",
       "full_text_link": "sources/converted_docs/ChemArrays_CV-ERC_CoG_2013_B1__FINALsubmitted/ChemArrays_CV-ERC_CoG_2013_B1__FINALsubmitted.md",
       "preview": "- Author: Juan José Díaz Mochón - Date/Year: 2013 - Document Type: Grant / Project - Status: Not Awarded - Original Folder: ERC CoG2013 --- Diaz-Mochon ChemArrays Part B1 European Research Council --- - 🔗 Original Converted Markdown (Full Text)"
@@ -2490,7 +2438,7 @@
     {
       "title": "Submission of Proposals",
       "date": "2024",
-      "status": "Ingested",
+      "status": "Procesado",
       "summary_link": "outputs/summaries_projects/Summary_of_Submission_of_Proposals.md",
       "full_text_link": "sources/converted_docs/Submission_of_Proposals/Submission_of_Proposals.md",
       "preview": "- Author: Juan José Díaz Mochón - Date/Year: Unknown Year - Document Type: Grant / Project - Original Folder: Submitted --- 21/02/2013 Submission of Proposals | Step 6 <br Submit<br ERC-2013-CoG <br Juan Diaz mochon<br ERC-CG<br THU<br February 2013 17:00:00<br Brussels Local Time<br 21 <br Configuration <br... --- - 🔗 Original Converted Markdown (Full Text)"
@@ -2498,7 +2446,7 @@
     {
       "title": "JJD ERC CoG B2 V9 FINAL",
       "date": "2024",
-      "status": "Ingested",
+      "status": "Procesado",
       "summary_link": "outputs/summaries_projects/Summary_of_ChemArrays_CV-ERC_CoG_2013_B1__FINAL-V8.md",
       "full_text_link": "sources/converted_docs/ChemArrays_CV-ERC_CoG_2013_B1__FINAL-V8/ChemArrays_CV-ERC_CoG_2013_B1__FINAL-V8.md",
       "preview": "- Author: Juan José Díaz Mochón - Date/Year: 2013 - Document Type: Grant / Project - Status: Not Awarded - Original Folder: ERC CoG2013 --- Diaz-Mochon ChemArrays Part B1 European Research Council --- - 🔗 Original Converted Markdown (Full Text)"
@@ -2506,7 +2454,7 @@
     {
       "title": "ChemArrays CV ERC CoG 2013 B1 FINAL V8",
       "date": "2024",
-      "status": "Ingested",
+      "status": "Procesado",
       "summary_link": "outputs/summaries_projects/Summary_of_ChemArrays_CV-ERC_CoG_2013_B1__FINALsubmitted.md",
       "full_text_link": "sources/converted_docs/ChemArrays_CV-ERC_CoG_2013_B1__FINALsubmitted/ChemArrays_CV-ERC_CoG_2013_B1__FINALsubmitted.md",
       "preview": "- Author: Juan José Díaz Mochón - Date/Year: 2013 - Document Type: Grant / Project - Status: Not Awarded - Original Folder: ERC CoG2013 --- Diaz-Mochon ChemArrays Part B1 European Research Council --- - 🔗 Original Converted Markdown (Full Text)"
@@ -2514,7 +2462,7 @@
     {
       "title": "Host Institution UGR support letter",
       "date": "2024",
-      "status": "Ingested",
+      "status": "Procesado",
       "summary_link": "outputs/summaries_projects/Summary_of_Host_Institution_UGR_support_letter.md",
       "full_text_link": "sources/converted_docs/Host_Institution_UGR_support_letter/Host_Institution_UGR_support_letter.md",
       "preview": "- Author: Juan José Díaz Mochón - Date/Year: 2013 - Document Type: Grant / Project - Original Folder: ERC CoG2013 --- ... --- - 🔗 Original Converted Markdown (Full Text)"
@@ -2522,7 +2470,7 @@
     {
       "title": "Proyecto Motriz 2012 Detalles",
       "date": "2024",
-      "status": "Ingested",
+      "status": "Procesado",
       "summary_link": "outputs/summaries_projects/Summary_of_Proyecto_Motriz_2012_Memoria_tecnica__1_.md",
       "full_text_link": "sources/converted_docs/Proyecto_Motriz_2012_Memoria_tecnica__1_/Proyecto_Motriz_2012_Memoria_tecnica__1_.md",
       "preview": "- Author: Juan José Díaz Mochón - Date/Year: 2012 - Document Type: Grant / Project - Original Folder: Proyecto Motriz 2012 Junta --- Número registro: 201299900305392 Fecha y hora: 15/02/2012 13:32:47 TÍTULO DEL PROYECTO: Desarrollo de la Plataforma NanoChem-ISH. Plataforma de Alta Especificidad y Sensiblidad para la detección in-... --- - 🔗 Original Converted Markdown (Full Text)"
@@ -2530,7 +2478,7 @@
     {
       "title": "JJD PARTB FP7 PEOPLE 2012 CIG revised (3)",
       "date": "2024",
-      "status": "Ingested",
+      "status": "Procesado",
       "summary_link": "outputs/summaries_projects/Summary_of_JJD_PARTB_FP7-PEOPLE-2012-CIG_revised__3_.md",
       "full_text_link": "sources/converted_docs/JJD_PARTB_FP7-PEOPLE-2012-CIG_revised__3_/JJD_PARTB_FP7-PEOPLE-2012-CIG_revised__3_.md",
       "preview": "- Author: Juan José Díaz Mochón - Date/Year: Unknown Year - Document Type: Grant / Project - Original Folder: FP7-CIG --- --- - 🔗 Original Converted Markdown (Full Text)"
@@ -2538,7 +2486,7 @@
     {
       "title": "Annex 4 322276 CHEMiRNA Collaboration Agreement (1)",
       "date": "2024",
-      "status": "Ingested",
+      "status": "Procesado",
       "summary_link": "outputs/summaries_projects/Summary_of_Annex_4_322276_CHEMiRNA_Collaboration_Agreement__1_.md",
       "full_text_link": "sources/converted_docs/Annex_4_322276_CHEMiRNA_Collaboration_Agreement__1_/Annex_4_322276_CHEMiRNA_Collaboration_Agreement__1_.md",
       "preview": "- Author: Juan José Díaz Mochón - Date/Year: Unknown Year - Document Type: Grant / Project - Original Folder: FP7-CIG --- ... --- - 🔗 Original Converted Markdown (Full Text)"
@@ -2546,7 +2494,7 @@
     {
       "title": "Ethical Approval CHEMIRNA (1)",
       "date": "2024",
-      "status": "Ingested",
+      "status": "Procesado",
       "summary_link": "outputs/summaries_projects/Summary_of_Ethical_Approval_CHEMIRNA__1_.md",
       "full_text_link": "sources/converted_docs/Ethical_Approval_CHEMIRNA__1_/Ethical_Approval_CHEMIRNA__1_.md",
       "preview": "- Author: Juan José Díaz Mochón - Date/Year: Unknown Year - Document Type: Grant / Project - Original Folder: FP7-CIG --- --- - 🔗 Original Converted Markdown (Full Text)"
@@ -2554,7 +2502,7 @@
     {
       "title": "DiazMochon CIG Declaration of conformity (1)",
       "date": "2024",
-      "status": "Placeholder (Pending Ingestion)",
+      "status": "Pendiente de procesar",
       "summary_link": null,
       "full_text_link": null,
       "preview": ""
@@ -2562,7 +2510,7 @@
     {
       "title": "Annex 5 322276 CHEMiRNA Registro Proyect Conv Europ J. D. Mochon (UGR Anat Patol) (1) (1)",
       "date": "2024",
-      "status": "Ingested",
+      "status": "Procesado",
       "summary_link": "outputs/summaries_projects/Summary_of_Annex_4_322276_CHEMiRNA_Collaboration_Agreement__1_.md",
       "full_text_link": "sources/converted_docs/Annex_4_322276_CHEMiRNA_Collaboration_Agreement__1_/Annex_4_322276_CHEMiRNA_Collaboration_Agreement__1_.md",
       "preview": "- Author: Juan José Díaz Mochón - Date/Year: Unknown Year - Document Type: Grant / Project - Original Folder: FP7-CIG --- ... --- - 🔗 Original Converted Markdown (Full Text)"
@@ -2570,7 +2518,7 @@
     {
       "title": "JJD PARTB FP7 PEOPLE 2012 CIG FINAL (1)",
       "date": "2024",
-      "status": "Ingested",
+      "status": "Procesado",
       "summary_link": "outputs/summaries_projects/Summary_of_JJD_PARTB_FP7-PEOPLE-2012-CIG_revised__3_.md",
       "full_text_link": "sources/converted_docs/JJD_PARTB_FP7-PEOPLE-2012-CIG_revised__3_/JJD_PARTB_FP7-PEOPLE-2012-CIG_revised__3_.md",
       "preview": "- Author: Juan José Díaz Mochón - Date/Year: Unknown Year - Document Type: Grant / Project - Original Folder: FP7-CIG --- --- - 🔗 Original Converted Markdown (Full Text)"
@@ -2578,7 +2526,7 @@
     {
       "title": "Ethical Approval CHEMIRNA",
       "date": "2024",
-      "status": "Ingested",
+      "status": "Procesado",
       "summary_link": "outputs/summaries_projects/Summary_of_Ethical_Approval_CHEMIRNA__1_.md",
       "full_text_link": "sources/converted_docs/Ethical_Approval_CHEMIRNA__1_/Ethical_Approval_CHEMIRNA__1_.md",
       "preview": "- Author: Juan José Díaz Mochón - Date/Year: Unknown Year - Document Type: Grant / Project - Original Folder: FP7-CIG --- --- - 🔗 Original Converted Markdown (Full Text)"
@@ -2586,7 +2534,7 @@
     {
       "title": "Proyecto Motriz 2012 Memoria tecnica (1)",
       "date": "2024",
-      "status": "Ingested",
+      "status": "Procesado",
       "summary_link": "outputs/summaries_projects/Summary_of_Proyecto_Motriz_2012_Memoria_tecnica__1_.md",
       "full_text_link": "sources/converted_docs/Proyecto_Motriz_2012_Memoria_tecnica__1_/Proyecto_Motriz_2012_Memoria_tecnica__1_.md",
       "preview": "- Author: Juan José Díaz Mochón - Date/Year: 2012 - Document Type: Grant / Project - Original Folder: Proyecto Motriz 2012 Junta --- Número registro: 201299900305392 Fecha y hora: 15/02/2012 13:32:47 TÍTULO DEL PROYECTO: Desarrollo de la Plataforma NanoChem-ISH. Plataforma de Alta Especificidad y Sensiblidad para la detección in-... --- - 🔗 Original Converted Markdown (Full Text)"
@@ -2594,7 +2542,7 @@
     {
       "title": "PRESUP Gennova 1015",
       "date": "2024",
-      "status": "Placeholder (Pending Ingestion)",
+      "status": "Pendiente de procesar",
       "summary_link": null,
       "full_text_link": null,
       "preview": ""
@@ -2602,7 +2550,7 @@
     {
       "title": "Presupuesto desglosado del proyecto 2012 (2)",
       "date": "2024",
-      "status": "Placeholder (Pending Ingestion)",
+      "status": "Pendiente de procesar",
       "summary_link": null,
       "full_text_link": null,
       "preview": ""
@@ -2610,7 +2558,7 @@
     {
       "title": "Proyecto Motriz 2012 JJ (Español) (1)",
       "date": "2024",
-      "status": "Ingested",
+      "status": "Procesado",
       "summary_link": "outputs/summaries_projects/Summary_of_Proyecto_Motriz_2012_Memoria_tecnica__1_.md",
       "full_text_link": "sources/converted_docs/Proyecto_Motriz_2012_Memoria_tecnica__1_/Proyecto_Motriz_2012_Memoria_tecnica__1_.md",
       "preview": "- Author: Juan José Díaz Mochón - Date/Year: 2012 - Document Type: Grant / Project - Original Folder: Proyecto Motriz 2012 Junta --- Número registro: 201299900305392 Fecha y hora: 15/02/2012 13:32:47 TÍTULO DEL PROYECTO: Desarrollo de la Plataforma NanoChem-ISH. Plataforma de Alta Especificidad y Sensiblidad para la detección in-... --- - 🔗 Original Converted Markdown (Full Text)"
@@ -2618,7 +2566,7 @@
     {
       "title": "proyecto motriz presupuesto",
       "date": "2024",
-      "status": "Ingested",
+      "status": "Procesado",
       "summary_link": "outputs/summaries_projects/Summary_of_Proyecto_Motriz_2012_Memoria_tecnica__1_.md",
       "full_text_link": "sources/converted_docs/Proyecto_Motriz_2012_Memoria_tecnica__1_/Proyecto_Motriz_2012_Memoria_tecnica__1_.md",
       "preview": "- Author: Juan José Díaz Mochón - Date/Year: 2012 - Document Type: Grant / Project - Original Folder: Proyecto Motriz 2012 Junta --- Número registro: 201299900305392 Fecha y hora: 15/02/2012 13:32:47 TÍTULO DEL PROYECTO: Desarrollo de la Plataforma NanoChem-ISH. Plataforma de Alta Especificidad y Sensiblidad para la detección in-... --- - 🔗 Original Converted Markdown (Full Text)"
@@ -2626,7 +2574,7 @@
     {
       "title": "Proyecto Motriz 2012 Detalles",
       "date": "2024",
-      "status": "Ingested",
+      "status": "Procesado",
       "summary_link": "outputs/summaries_projects/Summary_of_Proyecto_Motriz_2012_Memoria_tecnica__1_.md",
       "full_text_link": "sources/converted_docs/Proyecto_Motriz_2012_Memoria_tecnica__1_/Proyecto_Motriz_2012_Memoria_tecnica__1_.md",
       "preview": "- Author: Juan José Díaz Mochón - Date/Year: 2012 - Document Type: Grant / Project - Original Folder: Proyecto Motriz 2012 Junta --- Número registro: 201299900305392 Fecha y hora: 15/02/2012 13:32:47 TÍTULO DEL PROYECTO: Desarrollo de la Plataforma NanoChem-ISH. Plataforma de Alta Especificidad y Sensiblidad para la detección in-... --- - 🔗 Original Converted Markdown (Full Text)"
@@ -2634,7 +2582,7 @@
     {
       "title": "carta coordinacion Gennova (1)",
       "date": "2024",
-      "status": "Placeholder (Pending Ingestion)",
+      "status": "Pendiente de procesar",
       "summary_link": null,
       "full_text_link": null,
       "preview": ""
@@ -2642,7 +2590,7 @@
     {
       "title": "CV JJDM CEIBioTicNov2012 (1)",
       "date": "2024",
-      "status": "Placeholder (Pending Ingestion)",
+      "status": "Pendiente de procesar",
       "summary_link": null,
       "full_text_link": null,
       "preview": ""
@@ -2650,7 +2598,7 @@
     {
       "title": "TbrRNA",
       "date": "2024",
-      "status": "Placeholder (Pending Ingestion)",
+      "status": "Pendiente de procesar",
       "summary_link": null,
       "full_text_link": null,
       "preview": ""
@@ -2658,7 +2606,7 @@
     {
       "title": "LmrRNA (1)",
       "date": "2024",
-      "status": "Placeholder (Pending Ingestion)",
+      "status": "Pendiente de procesar",
       "summary_link": null,
       "full_text_link": null,
       "preview": ""
@@ -2666,7 +2614,7 @@
     {
       "title": "CEI BioTic Diaz Mochon Final (1)",
       "date": "2024",
-      "status": "Placeholder (Pending Ingestion)",
+      "status": "Pendiente de procesar",
       "summary_link": null,
       "full_text_link": null,
       "preview": ""
@@ -2674,7 +2622,7 @@
     {
       "title": "2013 0301 CEI BioTic modified",
       "date": "2024",
-      "status": "Placeholder (Pending Ingestion)",
+      "status": "Pendiente de procesar",
       "summary_link": null,
       "full_text_link": null,
       "preview": ""
@@ -2682,7 +2630,7 @@
     {
       "title": "carta de adhesión FIBAO JJDiazMochon (1)",
       "date": "2024",
-      "status": "Ingested",
+      "status": "Procesado",
       "summary_link": "outputs/summaries_projects/Summary_of_carta_de_adhesi_n_FIBAO_JJDiazMochon__1_.md",
       "full_text_link": "sources/converted_docs/carta_de_adhesi_n_FIBAO_JJDiazMochon__1_/carta_de_adhesi_n_FIBAO_JJDiazMochon__1_.md",
       "preview": "- Author: Juan José Díaz Mochón - Date/Year: 2012 - Document Type: Grant / Project - Original Folder: CEI BioTic 2012 --- ... --- - 🔗 Original Converted Markdown (Full Text)"
@@ -2690,7 +2638,7 @@
     {
       "title": "Email de la estrategia Secuencias rRNA Trypanosoma",
       "date": "2024",
-      "status": "Ingested",
+      "status": "Procesado",
       "summary_link": "outputs/summaries_projects/Summary_of_Email_de_la_estrategia_-_Secuencias_rRNA_Trypanosoma.md",
       "full_text_link": "sources/converted_docs/Email_de_la_estrategia_-_Secuencias_rRNA_Trypanosoma/Email_de_la_estrategia_-_Secuencias_rRNA_Trypanosoma.md",
       "preview": "- Author: Juan José Díaz Mochón - Date/Year: 2012 - Document Type: Grant / Project - Original Folder: CEI BioTic 2012 --- 3/6/13 Gmail - Secuencias rRNA Trypanosoma Juan J Diaz Mochon <jjdugr@gmail.com == picture [77 x 32] intentionally omitted <== --- - 🔗 Original Converted Markdown (Full Text)"
@@ -2698,7 +2646,7 @@
     {
       "title": "2012 0917 Abasic Probes DiazMochon (Final) (1)",
       "date": "2024",
-      "status": "Placeholder (Pending Ingestion)",
+      "status": "Pendiente de procesar",
       "summary_link": null,
       "full_text_link": null,
       "preview": ""
@@ -2706,7 +2654,7 @@
     {
       "title": "C CV JAGS (1)",
       "date": "2024",
-      "status": "Placeholder (Pending Ingestion)",
+      "status": "Pendiente de procesar",
       "summary_link": null,
       "full_text_link": null,
       "preview": ""
@@ -2714,7 +2662,7 @@
     {
       "title": "LmrRNA",
       "date": "2024",
-      "status": "Placeholder (Pending Ingestion)",
+      "status": "Pendiente de procesar",
       "summary_link": null,
       "full_text_link": null,
       "preview": ""
@@ -2722,7 +2670,7 @@
     {
       "title": "TcrRNA",
       "date": "2024",
-      "status": "Placeholder (Pending Ingestion)",
+      "status": "Pendiente de procesar",
       "summary_link": null,
       "full_text_link": null,
       "preview": ""
@@ -2730,7 +2678,7 @@
     {
       "title": "Memoria Técnica Rosalba (1)",
       "date": "2024",
-      "status": "Ingested",
+      "status": "Procesado",
       "summary_link": "outputs/summaries_projects/Summary_of_Memoria_Técnica_Rosalba_1.md",
       "full_text_link": "sources/converted_docs/Memoria_Técnica_Rosalba_1/Memoria_Técnica_Rosalba_1.md",
       "preview": "- Author: Juan José Díaz Mochón - Date/Year: 2012 - Document Type: Grant / Project --- Rosalba !Single White Rose Breakthrough Nanoparticle Anti-Infectives and Anti-tumoral Rosalba combinará su knowhow en preparación y desarrollo de nanopartículas para aplicaciones biológicas con su extenso conocimiento en miméticos de ácidos nucleicos para desarrollar una novedosa plataforma de ensayo que permita"
@@ -2738,7 +2686,7 @@
     {
       "title": "2012 012013 PlanFundacionEveris",
       "date": "2024",
-      "status": "Ingested",
+      "status": "Procesado",
       "summary_link": "outputs/summaries_projects/Summary_of_2012_012013_PlanFundacionEveris.md",
       "full_text_link": "sources/converted_docs/2012_012013_PlanFundacionEveris/2012_012013_PlanFundacionEveris.md",
       "preview": "- Author: Juan José Díaz Mochón - Date/Year: 2012 - Document Type: Grant / Project - Original Folder: Fundación Everis 2012 --- --- - 🔗 Original Converted Markdown (Full Text)"
@@ -2746,7 +2694,7 @@
     {
       "title": "carta apoyo",
       "date": "2024",
-      "status": "Ingested",
+      "status": "Procesado",
       "summary_link": "outputs/summaries_projects/Summary_of_Carta_de_Apoyo_JJD-Ministerio2012__1_.md",
       "full_text_link": "sources/converted_docs/Carta_de_Apoyo_JJD-Ministerio2012__1_/Carta_de_Apoyo_JJD-Ministerio2012__1_.md",
       "preview": "- Author: Juan José Díaz Mochón - Date/Year: 2012 - Document Type: Grant / Project - Original Folder: Ministerio 2012 --- == picture [71 x 70] intentionally omitted <== --- - 🔗 Original Converted Markdown (Full Text)"
@@ -2754,7 +2702,7 @@
     {
       "title": "justificanteFirma",
       "date": "2024",
-      "status": "Placeholder (Pending Ingestion)",
+      "status": "Pendiente de procesar",
       "summary_link": null,
       "full_text_link": null,
       "preview": ""
@@ -2762,7 +2710,7 @@
     {
       "title": "Memoria Ministerio FINAL Version (2)",
       "date": "2024",
-      "status": "Ingested",
+      "status": "Procesado",
       "summary_link": "outputs/summaries_projects/Summary_of_Memoria_Ministerio_FINAL_Version_4.md",
       "full_text_link": "sources/converted_docs/Memoria_Ministerio_FINAL_Version_4/Memoria_Ministerio_FINAL_Version_4.md",
       "preview": "- Author: Juan José Díaz Mochón - Date/Year: 2012 - Document Type: Grant / Project --- Memoria Ministerio FINAL Version 4 [Content pending conversion from source file: JJD publications 03-03-2024, 20-19-21\\grants and projects\\Grants 2012\\Ministerio 2012\\Memoria Ministerio FINAL Version (4).doc] --- - 🔗 Original Converted Markdown (Full Text)"
@@ -2770,7 +2718,7 @@
     {
       "title": "Definitivo (2) (1)",
       "date": "2024",
-      "status": "Ingested",
+      "status": "Procesado",
       "summary_link": "outputs/summaries_projects/Summary_of_Definitivo__2___1_.md",
       "full_text_link": "sources/converted_docs/Definitivo__2___1_/Definitivo__2___1_.md",
       "preview": "- Author: Juan José Díaz Mochón - Date/Year: 2012 - Document Type: Grant / Project - Original Folder: Ministerio 2012 --- MINISTERIO DE ECONOMIA Y COMPETITIVIDAD PLAN NACIONAL de I+D+i 2008-2011 Subprograma de Proyectos de Investigación Fundamental SPID201200X034796IV0 == picture [125 x 35] intentionally o... --- - 🔗 Original Converted Markdown (Full Text)"
@@ -2778,7 +2726,7 @@
     {
       "title": "Curriculum vitae Ministerio JJD2012 VCC (2)",
       "date": "2024",
-      "status": "Placeholder (Pending Ingestion)",
+      "status": "Pendiente de procesar",
       "summary_link": null,
       "full_text_link": null,
       "preview": ""
@@ -2786,7 +2734,7 @@
     {
       "title": "Ref Juan 2012 Letter of Support MBR",
       "date": "2024",
-      "status": "Placeholder (Pending Ingestion)",
+      "status": "Pendiente de procesar",
       "summary_link": null,
       "full_text_link": null,
       "preview": ""
@@ -2794,7 +2742,7 @@
     {
       "title": "Memoria Ministerio FINAL Version (4)",
       "date": "2024",
-      "status": "Ingested",
+      "status": "Procesado",
       "summary_link": "outputs/summaries_projects/Summary_of_Memoria_Ministerio_FINAL_Version_4.md",
       "full_text_link": "sources/converted_docs/Memoria_Ministerio_FINAL_Version_4/Memoria_Ministerio_FINAL_Version_4.md",
       "preview": "- Author: Juan José Díaz Mochón - Date/Year: 2012 - Document Type: Grant / Project --- Memoria Ministerio FINAL Version 4 [Content pending conversion from source file: JJD publications 03-03-2024, 20-19-21\\grants and projects\\Grants 2012\\Ministerio 2012\\Memoria Ministerio FINAL Version (4).doc] --- - 🔗 Original Converted Markdown (Full Text)"
@@ -2802,7 +2750,7 @@
     {
       "title": "JJD PIFNO 2012",
       "date": "2024",
-      "status": "Ingested",
+      "status": "Procesado",
       "summary_link": "outputs/summaries_projects/Summary_of_JJD_PIFNO_2012.md",
       "full_text_link": "sources/converted_docs/JJD_PIFNO_2012/JJD_PIFNO_2012.md",
       "preview": "- Author: Juan José Díaz Mochón - Date/Year: 2012 - Document Type: Grant / Project - Original Folder: Ministerio 2012 --- Convocatoria de ayudas de Proyectos de Investigación Fundamental no orientada --- - 🔗 Original Converted Markdown (Full Text)"
@@ -2810,7 +2758,7 @@
     {
       "title": "Carta de Apoyo JJD Ministerio2012 (1)",
       "date": "2024",
-      "status": "Ingested",
+      "status": "Procesado",
       "summary_link": "outputs/summaries_projects/Summary_of_Carta_de_Apoyo_JJD-Ministerio2012__1_.md",
       "full_text_link": "sources/converted_docs/Carta_de_Apoyo_JJD-Ministerio2012__1_/Carta_de_Apoyo_JJD-Ministerio2012__1_.md",
       "preview": "- Author: Juan José Díaz Mochón - Date/Year: 2012 - Document Type: Grant / Project - Original Folder: Ministerio 2012 --- == picture [71 x 70] intentionally omitted <== --- - 🔗 Original Converted Markdown (Full Text)"
@@ -2818,7 +2766,7 @@
     {
       "title": "PSSERRANO Formato Genyo",
       "date": "2024",
-      "status": "Placeholder (Pending Ingestion)",
+      "status": "Pendiente de procesar",
       "summary_link": null,
       "full_text_link": null,
       "preview": ""
@@ -2826,7 +2774,7 @@
     {
       "title": "MEMORIA AECC 15F",
       "date": "2024",
-      "status": "Ingested",
+      "status": "Procesado",
       "summary_link": "outputs/summaries_projects/Summary_of_MEMORIA_AECC_15F.md",
       "full_text_link": "sources/converted_docs/MEMORIA_AECC_15F/MEMORIA_AECC_15F.md",
       "preview": "- Author: Juan José Díaz Mochón - Date/Year: 2016 - Document Type: Grant / Project - Original Folder: Grants 2016-2017 --- == picture [182 x 78] intentionally omitted <== == picture [57 x 57] intentionally omitted <== --- - 🔗 Original Converted Markdown (Full Text)"
@@ -2834,7 +2782,7 @@
     {
       "title": "Pre proposal application form TRANSCAN2 JTC 2016 definitive",
       "date": "2024",
-      "status": "Ingested",
+      "status": "Procesado",
       "summary_link": "outputs/summaries_projects/Summary_of_Pre-proposal_application_form_TRANSCAN2_JTC-2016_definitive.md",
       "full_text_link": "sources/converted_docs/Pre-proposal_application_form_TRANSCAN2_JTC-2016_definitive/Pre-proposal_application_form_TRANSCAN2_JTC-2016_definitive.md",
       "preview": "- Author: Juan José Díaz Mochón - Date/Year: 2016 - Document Type: Grant / Project - Original Folder: Grants 2016-2017 --- ||JTC 2016 Pre-proposal Application Form<br ERA-NET: Aligning national/regional translational cancer research<br programmes and activities<br ... --- - 🔗 Original Converted Markdown (Full Text)"
@@ -2845,198 +2793,198 @@
       {
         "name": "Agustín Robles-Remacho",
         "link": "entities/people/Agustin_Robles_Remacho.md",
-        "stats": "4 papers, 1 theses, 0 patents",
-        "description": "Agustín Robles-Remacho is a researcher at GenYo / Universidad de Granada, focusing on abasic Peptide Nucleic Acids and click chemistry-based nanosystems."
+        "stats": "4 artículos, 1 tesis, 0 patentes",
+        "description": "Agustín Robles-Remacho es investigador en GenYo / Universidad de Granada, centrado en ácidos nucleicos peptídicos (PNA) abásicos y nanosistemas basados en química click."
       },
       {
         "name": "Angel Orte",
         "link": "entities/people/Angel_Orte.md",
-        "stats": "5 papers, 0 theses, 1 patents",
-        "description": "Angel Orte is a Professor of Physical Chemistry at the University of Granada, specializing in time-gated fluorescence imaging and lifetime filtering biosensors for microRNA detection."
+        "stats": "5 artículos, 0 tesis, 1 patente",
+        "description": "Angel Orte es catedrático de Química Física en la Universidad de Granada, especializado en imagen de fluorescencia resuelta en tiempo (time-gated) y biosensores por filtrado de tiempo de vida para la detección de microRNAs."
       },
       {
         "name": "Antonio Delgado-González",
         "link": "entities/people/Antonio_Delgado_Gonzalez.md",
-        "stats": "2 papers, 1 theses, 1 patents",
-        "description": "Antonio Delgado-González is a researcher in the Department of Medicinal and Organic Chemistry at the University of Granada, focusing on nanoparticles and fluorescent trackers."
+        "stats": "2 artículos, 1 tesis, 1 patente",
+        "description": "Antonio Delgado-González es investigador en el Departamento de Química Médica y Orgánica de la Universidad de Granada, centrado en nanopartículas y marcadores fluorescentes."
       },
       {
         "name": "Antonio Marín-Romero",
         "link": "entities/people/Antonio_Marin_Romero.md",
-        "stats": "7 papers, 1 theses, 0 patents",
-        "description": "Antonio Marín-Romero is a researcher at GenYo, focusing on microRNA-122 profiling and bead-based diagnostic platforms like Luminex."
+        "stats": "7 artículos, 1 tesis, 0 patentes",
+        "description": "Antonio Marín-Romero es investigador en GenYo, centrado en el perfilado de microRNA-122 y plataformas de diagnóstico en microesferas como Luminex."
       },
       {
         "name": "Araceli Aguilar-González",
         "link": "entities/people/Araceli_Aguilar_Gonzalez.md",
-        "stats": "3 papers, 0 theses, 1 patents",
-        "description": "Araceli Aguilar-González is a researcher at GenYo / Universidad de Granada, specializing in genome editing, CRISPR-Cas13 systems, and single-nucleotide variant detection."
+        "stats": "3 artículos, 0 tesis, 1 patente",
+        "description": "Araceli Aguilar-González es investigadora en GenYo / Universidad de Granada, especializada en edición génica, sistemas CRISPR-Cas13 y detección de variantes de un solo nucleótido."
       },
       {
         "name": "Asier Unciti-Broceta",
         "link": "entities/people/Asier_Unciti_Broceta.md",
-        "stats": "9 papers, 0 theses, 1 patents",
-        "description": "Asier Unciti-Broceta is a Professor of Cancer Therapeutics at the University of Edinburgh, specializing in the synthesis of purine derivatives, kinase inhibitors, and bioorthogonal organometallic catalysts."
+        "stats": "9 artículos, 0 tesis, 1 patente",
+        "description": "Asier Unciti-Broceta es catedrático de Terapéutica del Cáncer en la Universidad de Edimburgo, especializado en la síntesis de derivados de purina, inhibidores de quinasas y catalizadores organometálicos bioortogonales."
       },
       {
         "name": "Bárbara López-Longarela",
         "link": "entities/people/Barbara_Lopez_Longarela.md",
-        "stats": "4 papers, 0 theses, 0 patents",
-        "description": "Bárbara López-Longarela is a researcher at DestiNA Genomica S."
+        "stats": "4 artículos, 0 tesis, 0 patentes",
+        "description": "Bárbara López-Longarela es investigadora en DestiNA Genomica S.L., centrada en la detección directa de microRNA-122 sin PCR y la validación de biomarcadores clínicos."
       },
       {
         "name": "Francisco Javier López-Delgado",
         "link": "entities/people/Francisco_Javier_Lopez_Delgado.md",
-        "stats": "7 papers, 0 theses, 1 patents",
-        "description": "Francisco Javier López-Delgado is a researcher at DestiNA Genomica S."
+        "stats": "7 artículos, 0 tesis, 1 patente",
+        "description": "Francisco Javier López-Delgado es investigador en DestiNA Genomica S.L., centrado en marcaje químico dinámico y ensayos moleculares para análisis genético."
       },
       {
         "name": "Francisco Martín",
         "link": "entities/people/Francisco_Martin.md",
-        "stats": "2 papers, 0 theses, 1 patents",
-        "description": "Francisco Martín is a researcher at GenYo / Servicio Andaluz de Salud, focusing on gene editing, dual-guide CRISPR-Cas13 tools (CRISPNA), and clinical molecular diagnostics."
+        "stats": "2 artículos, 0 tesis, 1 patente",
+        "description": "Francisco Martín es investigador en GenYo / Servicio Andaluz de Salud, centrado en edición génica, herramientas CRISPR-Cas13 de doble guía (CRISPNA) y diagnóstico molecular clínico."
       },
       {
         "name": "Frank Bowler",
         "link": "entities/people/Frank_Bowler.md",
-        "stats": "0 papers, 1 theses, 0 patents",
-        "description": "Frank Bowler is a researcher who conducted his doctoral thesis in Mark Bradley's group at the University of Edinburgh, developing dynamic chemistry for genotyping and DNA analysis by MALDI-TOF mass spectrometry."
+        "stats": "0 artículos, 1 tesis, 0 patentes",
+        "description": "Frank Bowler es investigador; realizó su tesis doctoral en el grupo de Mark Bradley en la Universidad de Edimburgo, desarrollando química dinámica para genotipado y análisis de ADN por espectrometría de masas MALDI-TOF."
       },
       {
         "name": "James W. Dear",
         "link": "entities/people/James_W_Dear.md",
-        "stats": "4 papers, 0 theses, 0 patents",
-        "description": "James W."
+        "stats": "4 artículos, 0 tesis, 0 patentes",
+        "description": "James W. Dear es catedrático de Farmacología Clínica en la Universidad de Edimburgo y médico consultor, centrado en biomarcadores de toxicidad por paracetamol y daño hepático inducido por fármacos (DILI)."
       },
       {
         "name": "José Antonio Lorente",
         "link": "entities/people/Jose_Antonio_Lorente.md",
-        "stats": "0 papers, 0 theses, 3 patents",
-        "description": "José Antonio Lorente is a Professor of Forensic Medicine at the University of Granada and director of GENYO, specializing in circulating biomarkers, forensic genetics, and liquid biopsy."
+        "stats": "0 artículos, 0 tesis, 3 patentes",
+        "description": "José Antonio Lorente es catedrático de Medicina Forense en la Universidad de Granada y director de GENYO, especializado en biomarcadores circulantes, genética forense y biopsia líquida."
       },
       {
         "name": "Juan J. Guardia-Monteagudo",
         "link": "entities/people/Juan_J_Guardia_Monteagudo.md",
-        "stats": "1 papers, 0 theses, 0 patents",
-        "description": "Juan J."
+        "stats": "1 artículo, 0 tesis, 0 patentes",
+        "description": "Juan J. Guardia-Monteagudo es investigador en DestiNA Genomica S.L., especializado en química covalente dinámica y ensayos de detección de ácidos nucleicos."
       },
       {
         "name": "Juan José Díaz-Mochón",
         "link": "entities/people/Juan_Jose_Diaz_Mochon.md",
-        "stats": "20 papers, 7 theses, 11 patents",
-        "description": "Juan José Díaz-Mochón is a Professor of Medicinal Chemistry at the University of Granada, co-founder of DestiNA Genomica S."
+        "stats": "20 artículos, 7 tesis, 11 patentes",
+        "description": "Juan José Díaz-Mochón es Profesor de Química Médica en la Universidad de Granada, cofundador de DESTINA Genomics Ltd."
       },
       {
         "name": "Mario Antonio Fara",
         "link": "entities/people/Mario_Antonio_Fara.md",
-        "stats": "3 papers, 0 theses, 1 patents",
-        "description": "Mario Antonio Fara is a scientist at DestiNA Genomica S."
+        "stats": "3 artículos, 0 tesis, 1 patente",
+        "description": "Mario Antonio Fara es científico en DestiNA Genomica S.L., especializado en síntesis de sondas de ácidos nucleicos peptídicos (PNA) y tecnologías de marcaje químico."
       },
       {
         "name": "Mark Bradley",
         "link": "entities/people/Mark_Bradley.md",
-        "stats": "25 papers, 1 theses, 0 patents",
-        "description": "Mark Bradley is a Professor of Chemical Biology at the University of Edinburgh, specializing in high-throughput chemistry, polymer microarrays, and cell-material interactions."
+        "stats": "25 artículos, 1 tesis, 0 patentes",
+        "description": "Mark Bradley es catedrático de Biología Química en la Universidad de Edimburgo, especializado en química de alto rendimiento, micromatrices de polímeros e interacciones célula-material."
       },
       {
         "name": "María José Serrano",
         "link": "entities/people/Maria_Jose_Serrano.md",
-        "stats": "1 papers, 1 theses, 3 patents",
-        "description": "María José Serrano is a clinical researcher at GenYo / Servicio Andaluz de Salud, specializing in liquid biopsy, circulating tumor cells (CTCs), and cancer biomarkers."
+        "stats": "1 artículo, 1 tesis, 3 patentes",
+        "description": "María José Serrano es investigadora clínica en GenYo / Servicio Andaluz de Salud, especializada en biopsia líquida, células tumorales circulantes (CTC) y biomarcadores de cáncer."
       },
       {
         "name": "Mavys Tabraue-Chávez",
         "link": "entities/people/Mavys_Tabraue_Chavez.md",
-        "stats": "7 papers, 0 theses, 1 patents",
-        "description": "Mavys Tabraue-Chávez is a researcher at GenYo/DestiNA Genomica, specializing in chemistry-based diagnostic platforms, leishmaniasis species identification, and microRNA sensing."
+        "stats": "7 artículos, 0 tesis, 1 patente",
+        "description": "Mavys Tabraue-Chávez es investigadora en GenYo/DestiNA Genomica, especializada en plataformas de diagnóstico basadas en química, identificación de especies de leishmania y detección de microRNAs."
       },
       {
         "name": "Nancy Villegas Villao",
         "link": "entities/people/Nancy_Villegas_Villao.md",
-        "stats": "2 papers, 1 theses, 0 patents",
-        "description": "Nancy Villegas Villao is a researcher at the University of Granada and GenYo, focusing on colorimetric assays and nanotechnology-based diagnostics for parasitic and viral infections."
+        "stats": "2 artículos, 1 tesis, 0 patentes",
+        "description": "Nancy Villegas Villao es investigadora en la Universidad de Granada y GenYo, centrada en ensayos colorimétricos y diagnósticos basados en nanotecnología para infecciones parasitarias y virales."
       },
       {
         "name": "Rosario María Sánchez-Martín",
         "link": "entities/people/Rosario_Maria_Sanchez_Martin.md",
-        "stats": "8 papers, 3 theses, 6 patents",
-        "description": "Rosario María Sánchez-Martín is a Professor of Pharmacy and Pharmaceutical Technology at the University of Granada, specializing in multifunctional nanoparticles and intracellular transfection systems."
+        "stats": "8 artículos, 3 tesis, 6 patentes",
+        "description": "Rosario María Sánchez-Martín es catedrática de Farmacia y Tecnología Farmacéutica en la Universidad de Granada, especializada en nanopartículas multifuncionales y sistemas de transfección intracelular."
       },
       {
         "name": "Salvatore Pernagallo",
         "link": "entities/people/Salvatore_Pernagallo.md",
-        "stats": "19 papers, 2 theses, 4 patents",
-        "description": "Salvatore Pernagallo is a scientist and co-founder/director of DestiNA Genomica S."
+        "stats": "19 artículos, 2 tesis, 4 patentes",
+        "description": "Salvatore Pernagallo es científico y cofundador/director de DestiNA Genomica S.L., especializado en química de polímeros, micromatrices y biochips para el análisis de ácidos nucleicos."
       }
     ],
     "institutions": [
       {
         "name": "DestiNA Genomica",
         "link": "entities/institutions/DestiNA_Genomica.md",
-        "stats": "15 papers, 1 theses, 2 patents",
-        "description": "DestiNA Genomica S."
+        "stats": "15 artículos, 1 tesis, 2 patentes",
+        "description": "Empresa spin-off biotecnológica (DESTINA Genomics Ltd., Edimburgo, 2010) con filial en Granada (DestiNA Genomica S.L., Parque Tecnológico de la Salud)."
       },
       {
         "name": "GenYo",
         "link": "entities/institutions/GenYo.md",
-        "stats": "23 papers, 0 theses, 0 patents",
-        "description": "The Pfizer/Universidad de Granada/Junta de Andalucía Centre for Genomics and Oncological Research (GENYO) is a state-of-the-art research facility dedicated to genomic medicine, cancer diagnosis, and bioorthogonal chemistry platforms."
+        "stats": "23 artículos, 0 tesis, 0 patentes",
+        "description": "El Centro Pfizer/Universidad de Granada/Junta de Andalucía de Genómica e Investigación Oncológica (GENYO) es un centro de investigación de vanguardia dedicado a la medicina genómica, el diagnóstico del cáncer y las plataformas de química bioortogonal."
       },
       {
         "name": "Mecwins S.A.",
         "link": "entities/institutions/Mecwins.md",
-        "stats": "0 papers, 0 theses, 1 patents",
-        "description": "Mecwins S."
+        "stats": "0 artículos, 0 tesis, 1 patente",
+        "description": "Mecwins S.A. es una empresa de nanotecnología que fabrica biosensores ópticos y sistemas de detección para diagnóstico, y colabora con DestiNA Genomica en ensayos de biodetección multiplexada."
       },
       {
         "name": "Quanterix Corporation",
         "link": "entities/institutions/Quanterix.md",
-        "stats": "1 papers, 0 theses, 1 patents",
-        "description": "Quanterix Corporation is a life sciences company that commercialized the Single Molecule Array (Simoa) platform for digital detection of low-abundance proteins and nucleic acids."
+        "stats": "1 artículo, 0 tesis, 1 patente",
+        "description": "Quanterix Corporation es una empresa de ciencias de la vida que comercializó la plataforma Single Molecule Array (Simoa) para la detección digital de proteínas y ácidos nucleicos de baja abundancia."
       },
       {
         "name": "Servicio Andaluz de Salud",
         "link": "entities/institutions/Servicio_Andaluz_de_Salud.md",
-        "stats": "0 papers, 0 theses, 5 patents",
-        "description": "The Servicio Andaluz de Salud (SAS) is the public health provider in Andalusia, Spain."
+        "stats": "0 artículos, 0 tesis, 5 patentes",
+        "description": "El Servicio Andaluz de Salud (SAS) es el proveedor público de salud de Andalucía, España."
       },
       {
         "name": "Universidad de Granada",
         "link": "entities/institutions/Universidad_de_Granada.md",
-        "stats": "33 papers, 6 theses, 11 patents",
-        "description": "The University of Granada (UGR) is a prestigious public university in southern Spain."
+        "stats": "33 artículos, 6 tesis, 11 patentes",
+        "description": "La Universidad de Granada (UGR) es una prestigiosa universidad pública del sur de España."
       },
       {
         "name": "University of Edinburgh",
         "link": "entities/institutions/University_of_Edinburgh.md",
-        "stats": "21 papers, 1 theses, 2 patents",
-        "description": "The University of Edinburgh is a world-renowned research university in Scotland."
+        "stats": "21 artículos, 1 tesis, 2 patentes",
+        "description": "La Universidad de Edimburgo es una universidad investigadora de renombre mundial en Escocia."
       }
     ],
     "projects": [
       {
         "name": "CRISPNA",
         "link": "entities/projects/CRISPNA.md",
-        "stats": "0 papers, 0 theses, 1 patents",
-        "description": "CRISPNA is a hybrid platform developed by Diaz-Mochon and colleagues that integrates CRISPR-Cas13 gene editing and diagnostic systems with Peptide Nucleic Acid (PNA) chemistry, providing exceptional specificity for single-nucleotide variant detection."
+        "stats": "0 artículos, 0 tesis, 1 patente",
+        "description": "CRISPNA es una plataforma híbrida desarrollada por Díaz-Mochón y colaboradores que integra la edición génica y los sistemas de diagnóstico CRISPR-Cas13 con la química de ácidos nucleicos peptídicos (PNA), aportando una especificidad excepcional para la detección de variantes de un solo nucleótido."
       },
       {
         "name": "CoVradar",
         "link": "entities/projects/CoVradar.md",
-        "stats": "1 papers, 0 theses, 0 patents",
-        "description": "CoVradar is a smartphone-associated diagnostic device developed for rapid, point-of-care colorimetric detection of SARS-CoV-2 viral RNA directly from centrifuge tubes, paired with the CoVreader mobile application."
+        "stats": "1 artículo, 0 tesis, 0 patentes",
+        "description": "CoVradar es un dispositivo de diagnóstico asociado a smartphone desarrollado para la detección colorimétrica rápida en el punto de atención de ARN viral de SARS-CoV-2 directamente desde tubos de centrífuga, junto con la aplicación móvil CoVreader."
       },
       {
         "name": "DestiNA Spin-Tube",
         "link": "entities/projects/DestiNA_Spin_Tube.md",
-        "stats": "1 papers, 0 theses, 0 patents",
-        "description": "The DestiNA spin-tube is a chemical diagnostic technology that enables rapid detection and differentiation of nucleic acid targets (e."
+        "stats": "1 artículo, 0 tesis, 0 patentes",
+        "description": "El spin-tube de DestiNA es una tecnología de diagnóstico químico que permite la detección y diferenciación rápida de dianas de ácidos nucleicos (p. ej., para el diagnóstico de tuberculosis y micobacteriosis) mediante química covalente dinámica sin amplificación enzimática."
       },
       {
         "name": "LIQBIOPSENS",
         "link": "entities/projects/LIQBIOPSENS.md",
-        "stats": "0 papers, 0 theses, 0 patents",
-        "description": "LIQBIOPSENS was a major European Horizon 2020 project (H2020-IA 687785) aimed at developing a novel, reliable, and affordable diagnostic platform for colorectal cancer screening using liquid biopsy (specifically detecting miR-21 and CTCs) without PCR amplification."
+        "stats": "0 artículos, 0 tesis, 0 patentes",
+        "description": "LIQBIOPSENS fue un gran proyecto europeo Horizonte 2020 (H2020-IA 687785) destinado a desarrollar una plataforma de diagnóstico novedosa, fiable y asequible para el cribado de cáncer colorrectal mediante biopsia líquida (detectando miR-21 y CTC) sin amplificación por PCR."
       }
     ]
   },
@@ -3045,627 +2993,175 @@
       {
         "name": "Abasic Probes",
         "link": "concepts/chemistry/Abasic_Probes.md",
-        "stats": "1 papers, 0 theses, 0 patents",
-        "description": "Abasic probes are Peptide Nucleic Acid (PNA) sequences that contain a 'blank' or abasic position (typically replacing a base with an abasic monomer)."
+        "stats": "1 artículo, 0 tesis, 0 patentes",
+        "description": "Las sondas abásicas son secuencias de ácido nucleico peptídico (PNA) que contienen una posición 'en blanco' o abásica (normalmente sustituyendo una base por un monómero abásico)."
       },
       {
         "name": "Click Chemistry",
         "link": "concepts/chemistry/Click_Chemistry.md",
-        "stats": "6 papers, 0 theses, 0 patents",
-        "description": "Click Chemistry describes a class of biocompatible reactions that are fast, high-yielding, and highly selective under mild conditions."
+        "stats": "6 artículos, 0 tesis, 0 patentes",
+        "description": "La química click describe una clase de reacciones biocompatibles, rápidas, de alto rendimiento y altamente selectivas en condiciones suaves."
       },
       {
         "name": "Dynamic Chemical Labeling (DCL)",
         "link": "concepts/chemistry/Dynamic_Chemical_Labeling.md",
-        "stats": "13 papers, 3 theses, 2 patents",
-        "description": "Dynamic Chemical Labeling (DCL) utilizes reversible dynamic covalent chemistry (such as aldehyde-amine condensation) to label and identify specific target sequences without enzymatic amplification."
+        "stats": "13 artículos, 3 tesis, 2 patentes",
+        "description": "El marcaje químico dinámico (DCL) utiliza química covalente dinámica reversible (como la condensación aldehído-amina) para marcar e identificar secuencias diana específicas sin amplificación enzimática."
       },
       {
         "name": "Hydrogels",
         "link": "concepts/chemistry/Hydrogels.md",
-        "stats": "8 papers, 0 theses, 1 patents",
-        "description": "Supramolecular and polymeric hydrogels are three-dimensional network structures used in cell culture, tissue engineering (such as cartilage reconstruction), and as media for growing protein crystals in-situ to enhance stability and control release."
+        "stats": "8 artículos, 0 tesis, 1 patente",
+        "description": "Los hidrogeles supramoleculares y poliméricos son estructuras de red tridimensional usadas en cultivo celular, ingeniería de tejidos (como la reconstrucción de cartílago) y como medios para crecer cristales de proteínas in situ, mejorando la estabilidad y controlando la liberación."
       },
       {
         "name": "Nanoparticles",
         "link": "concepts/chemistry/Nanoparticles.md",
-        "stats": "11 papers, 1 theses, 4 patents",
-        "description": "Functionalized nanoparticles and nanosystems (such as polymer nanoparticles, metallic nanoparticles, or tracker nanocatalysts) are widely utilized in Diaz-Mochon's research as carriers for targeted drug delivery, imaging agents, and platforms for bioorthogonal click chemistry reactions."
+        "stats": "11 artículos, 1 tesis, 4 patentes",
+        "description": "Las nanopartículas y nanosistemas funcionalizados (como nanopartículas poliméricas, metálicas o nanocatalizadores marcadores) se emplean ampliamente en la investigación de Díaz-Mochón como vehículos para la liberación dirigida de fármacos, agentes de imagen y plataformas para reacciones de química click bioortogonal."
       },
       {
         "name": "Peptide Libraries",
         "link": "concepts/chemistry/Peptide_Libraries.md",
-        "stats": "5 papers, 0 theses, 0 patents",
-        "description": "High-throughput combinatorial peptide and peptoid libraries (often encoded with Peptide Nucleic Acids) are synthesized on solid supports or microarrays to profile enzyme substrates, identify cellular binding ligands, and screen protease/kinase activities."
+        "stats": "5 artículos, 0 tesis, 0 patentes",
+        "description": "Las bibliotecas combinatorias de péptidos y peptoides de alto rendimiento (a menudo codificadas con ácidos nucleicos peptídicos) se sintetizan en soportes sólidos o micromatrices para perfilar sustratos de enzimas, identificar ligandos de unión celular y cribar actividades de proteasas y quinasas."
       },
       {
         "name": "Peptide Nucleic Acids (PNA)",
         "link": "concepts/chemistry/Peptide_Nucleic_Acids.md",
-        "stats": "17 papers, 2 theses, 4 patents",
-        "description": "Peptide Nucleic Acids (PNA) are synthetic DNA/RNA mimics with an uncharged pseudopeptide backbone instead of a sugar-phosphate backbone."
+        "stats": "17 artículos, 2 tesis, 4 patentes",
+        "description": "Los ácidos nucleicos peptídicos (PNA) son miméticos sintéticos del ADN/ARN con un esqueleto pseudopeptídico sin carga en lugar del esqueleto de azúcar-fosfato."
       },
       {
         "name": "Purine Derivatives",
         "link": "concepts/chemistry/Purine_Derivatives.md",
-        "stats": "11 papers, 0 theses, 1 patents",
-        "description": "Substituted purine and adenine derivatives are synthesized and evaluated as biologically active compounds, acting as adenosine receptor ligands, pro-apoptotic inducers of leukemic lymphocytes, and inhibitors of kinases like DAPK-1."
+        "stats": "11 artículos, 0 tesis, 1 patente",
+        "description": "Los derivados de purina y adenina sustituidos se sintetizan y evalúan como compuestos biológicamente activos, actuando como ligandos del receptor de adenosina, inductores proapoptóticos de linfocitos leucémicos e inhibidores de quinasas como DAPK-1."
       },
       {
         "name": "Solid-Phase Synthesis",
         "link": "concepts/chemistry/Solid_Phase_Synthesis.md",
-        "stats": "8 papers, 0 theses, 0 patents",
-        "description": "Solid-Phase Peptide Synthesis (SPPS) and combinatorial chemistry involve building polymer, peptide, or PNA chains step-by-step on solid supports (like resin beads)."
+        "stats": "8 artículos, 0 tesis, 0 patentes",
+        "description": "La síntesis de péptidos en fase sólida (SPPS) y la química combinatoria consisten en construir cadenas de polímeros, péptidos o PNA paso a paso sobre soportes sólidos (como resinas)."
       }
     ],
     "platforms": [
       {
         "name": "Biosensors",
         "link": "concepts/platforms/Biosensors.md",
-        "stats": "3 papers, 0 theses, 1 patents",
-        "description": "Biosensors and biochips integrate biochemical recognition elements (like abasic PNA probes) with physical transducers (such as colorimetric sensors, fluorescent imaging, or smartphone readers) to directly detect circulating biomarkers without PCR amplification."
+        "stats": "3 artículos, 0 tesis, 1 patente",
+        "description": "Los biosensores y biochips integran elementos de reconocimiento bioquímico (como sondas PNA abásicas) con transductores físicos (como sensores colorimétricos, imagen de fluorescencia o lectores de smartphone) para detectar directamente biomarcadores circulantes sin amplificación por PCR."
       },
       {
         "name": "CRISPR-Cas13",
         "link": "concepts/platforms/CRISPR_Cas13.md",
-        "stats": "2 papers, 0 theses, 1 patents",
-        "description": "CRISPR-Cas13 is an RNA-guided gene-editing and diagnostic effector that exhibits collateral RNA cleavage activity upon target binding."
+        "stats": "2 artículos, 0 tesis, 1 patente",
+        "description": "CRISPR-Cas13 es un efector de edición génica y diagnóstico guiado por ARN que muestra actividad colateral de corte de ARN al unirse a su diana."
       },
       {
         "name": "Flow Cytometry",
         "link": "concepts/platforms/Flow_Cytometry.md",
-        "stats": "6 papers, 0 theses, 1 patents",
-        "description": "Flow Cytometry is a laser-based biophysical technology used for cell counting, cell sorting, and biomarker detection."
+        "stats": "6 artículos, 0 tesis, 1 patente",
+        "description": "La citometría de flujo es una tecnología biofísica basada en láser para el recuento y la separación de células y la detección de biomarcadores."
       },
       {
         "name": "Luminex",
         "link": "concepts/platforms/Luminex.md",
-        "stats": "8 papers, 1 theses, 0 patents",
-        "description": "The Luminex platform (including MAGPIX and FLEXMAP 3D) is a multiplexing bead-based assay system that uses color-coded magnetic microspheres."
+        "stats": "8 artículos, 1 tesis, 0 patentes",
+        "description": "La plataforma Luminex (incluidas MAGPIX y FLEXMAP 3D) es un sistema de ensayo multiplexado basado en microesferas magnéticas codificadas por color."
       },
       {
         "name": "MALDI-TOF Mass Spectrometry",
         "link": "concepts/platforms/MALDI_TOF_Mass_Spectrometry.md",
-        "stats": "4 papers, 0 theses, 0 patents",
-        "description": "Matrix-Assisted Laser Desorption/Ionization Time-of-Flight (MALDI-TOF) mass spectrometry is utilized for enzyme-free, amplification-free allele discrimination, genotyping, and pathogen identification by detecting single nucleotide fingerprints."
+        "stats": "4 artículos, 0 tesis, 0 patentes",
+        "description": "La espectrometría de masas MALDI-TOF (desorción/ionización láser asistida por matriz, tiempo de vuelo) se utiliza para la discriminación de alelos sin enzimas ni amplificación, el genotipado y la identificación de patógenos mediante la detección de huellas de un solo nucleótido."
       },
       {
         "name": "Polymer Microarrays",
         "link": "concepts/platforms/Polymer_Microarrays.md",
-        "stats": "11 papers, 0 theses, 1 patents",
-        "description": "Polymer microarrays are high-throughput cell culture platforms where hundreds of distinct polymer formulations are printed on a single glass slide."
+        "stats": "11 artículos, 0 tesis, 1 patente",
+        "description": "Las micromatrices de polímeros son plataformas de cultivo celular de alto rendimiento en las que cientos de formulaciones poliméricas distintas se imprimen sobre un único portaobjetos de vidrio."
       },
       {
         "name": "Single Molecule Arrays (Simoa)",
         "link": "concepts/platforms/Single_Molecule_Arrays.md",
-        "stats": "2 papers, 0 theses, 1 patents",
-        "description": "Single Molecule Arrays (Simoa) capture and isolate single target molecules in femtoliter-sized wells, enabling ultrasensitive digital detection of low-abundance proteins and nucleic acids."
+        "stats": "2 artículos, 0 tesis, 1 patente",
+        "description": "Las Single Molecule Arrays (Simoa) capturan y aíslan moléculas diana individuales en pocillos de femtolitros, permitiendo la detección digital ultrasensible de proteínas y ácidos nucleicos de baja abundancia."
       },
       {
         "name": "Smartphone Diagnostics",
         "link": "concepts/platforms/Smartphone_Diagnostics.md",
-        "stats": "2 papers, 0 theses, 0 patents",
-        "description": "Smartphone-based diagnostic systems utilize mobile phone cameras to capture and interpret colorimetric color changes from molecular assays (e."
+        "stats": "2 artículos, 0 tesis, 0 patentes",
+        "description": "Los sistemas de diagnóstico basados en smartphone utilizan la cámara del teléfono para capturar e interpretar cambios colorimétricos de ensayos moleculares (p. ej., los tubos CoVradar y la app CoVreader), ofreciendo diagnóstico portátil de bajo coste en el punto de atención."
       },
       {
         "name": "Theranostics",
         "link": "concepts/platforms/Theranostics.md",
-        "stats": "1 papers, 1 theses, 3 patents",
-        "description": "Theranostics combines targeted therapeutic delivery with diagnostic imaging within a single platform (such as multifunctional polymer nanoparticles), allowing real-time monitoring of drug release and therapeutic efficacy in cancer models."
+        "stats": "1 artículo, 1 tesis, 3 patentes",
+        "description": "El theranostics combina la liberación dirigida de fármacos con la imagen de diagnóstico en una única plataforma (como nanopartículas poliméricas multifuncionales), permitiendo monitorizar en tiempo real la liberación del fármaco y la eficacia terapéutica en modelos de cáncer."
       },
       {
         "name": "Time-Gated Fluorescence",
         "link": "concepts/platforms/Time_Gated_Fluorescence.md",
-        "stats": "3 papers, 0 theses, 0 patents",
-        "description": "Time-gated fluorescence imaging and luminescence acquisition utilize long-lived fluorescent probes to filter out short-lived background autofluorescence, significantly improving the signal-to-noise ratio for ultra-sensitive biomarker detection in biofluids."
+        "stats": "3 artículos, 0 tesis, 0 patentes",
+        "description": "La imagen de fluorescencia resuelta en tiempo (time-gated) y la adquisición de luminiscencia utilizan sondas fluorescentes de larga vida para filtrar la autofluorescencia de fondo de corta duración, mejorando significativamente la relación señal-ruido en la detección ultrasensible de biomarcadores en biofluidos."
       }
     ],
     "clinical_areas": [
       {
         "name": "Cell-Free DNA (cfDNA)",
         "link": "concepts/clinical-areas/Cell_Free_DNA.md",
-        "stats": "1 papers, 0 theses, 0 patents",
-        "description": "Cell-free DNA (cfDNA) analysis in blood plasma is a cornerstone of non-invasive liquid biopsy, utilized for cancer profiling, treatment response monitoring, and early detection of disease recurrence in clinical practice."
+        "stats": "1 artículo, 0 tesis, 0 patentes",
+        "description": "El análisis de ADN libre de células (cfDNA) en plasma sanguíneo es un pilar de la biopsia líquida no invasiva, utilizado para el perfilado del cáncer, la monitorización de la respuesta al tratamiento y la detección precoz de recidivas en la práctica clínica."
       },
       {
         "name": "Circulating Tumor Cells (CTCs)",
         "link": "concepts/clinical-areas/Circulating_Tumor_Cells.md",
-        "stats": "1 papers, 0 theses, 2 patents",
-        "description": "Circulating Tumor Cells (CTCs) are cells that shed from a primary tumor into the vasculature, serving as critical biomarkers in liquid biopsies for cancer monitoring."
+        "stats": "1 artículo, 0 tesis, 2 patentes",
+        "description": "Las células tumorales circulantes (CTC) son células que se desprenden de un tumor primario hacia el sistema vascular y sirven como biomarcadores críticos en biopsias líquidas para la monitorización del cáncer."
       },
       {
         "name": "Hepatotoxicity (DILI)",
         "link": "concepts/clinical-areas/Hepatotoxicity.md",
-        "stats": "9 papers, 0 theses, 1 patents",
-        "description": "Hepatotoxicity and Drug-Induced Liver Injury (DILI) are major safety issues in clinical drug development and medical toxicology."
+        "stats": "9 artículos, 0 tesis, 1 patente",
+        "description": "La hepatotoxicidad y el daño hepático inducido por fármacos (DILI) son problemas de seguridad importantes en el desarrollo clínico de medicamentos y en toxicología médica."
       },
       {
         "name": "Liquid Biopsy",
         "link": "concepts/clinical-areas/Liquid_Biopsy.md",
-        "stats": "4 papers, 0 theses, 1 patents",
-        "description": "Liquid Biopsy is a minimally invasive diagnostic technique that analyzes biomarkers in blood or biofluids, such as circulating tumor cells (CTCs), cell-free DNA (cfDNA), and microRNAs (like miR-21)."
+        "stats": "4 artículos, 0 tesis, 1 patente",
+        "description": "La biopsia líquida es una técnica de diagnóstico mínimamente invasiva que analiza biomarcadores en sangre o biofluidos, como células tumorales circulantes (CTC), ADN libre de células (cfDNA) y microRNAs (como miR-21)."
       },
       {
         "name": "Parasitic Infections",
         "link": "concepts/clinical-areas/Parasitic_Infections.md",
-        "stats": "9 papers, 1 theses, 0 patents",
-        "description": "This clinical area targets the detection and species-specific differentiation of tropical parasites, specifically Leishmania (causing mucocutaneous and cutaneous leishmaniasis) and Trypanosoma cruzi (causing Chagas disease)."
+        "stats": "9 artículos, 1 tesis, 0 patentes",
+        "description": "Esta área clínica aborda la detección y diferenciación por especies de parásitos tropicales, en concreto Leishmania (causante de leishmaniasis mucocutánea y cutánea) y Trypanosoma cruzi (causante de la enfermedad de Chagas)."
       },
       {
         "name": "Tuberculosis",
         "link": "concepts/clinical-areas/Tuberculosis.md",
-        "stats": "1 papers, 0 theses, 0 patents",
-        "description": "Tuberculosis (TB) and related mycobacterioses are infectious diseases caused by Mycobacterium tuberculosis."
+        "stats": "1 artículo, 0 tesis, 0 patentes",
+        "description": "La tuberculosis (TB) y las micobacteriosis relacionadas son enfermedades infecciosas causadas por Mycobacterium tuberculosis."
       },
       {
         "name": "Viral Infections",
         "link": "concepts/clinical-areas/Viral_Infections.md",
-        "stats": "6 papers, 1 theses, 1 patents",
-        "description": "This clinical focus covers rapid diagnostic tools for viral detection (such as SARS-CoV-2/COVID-19 and influenza) using mobile apps and dynamic chemistry."
+        "stats": "6 artículos, 1 tesis, 1 patente",
+        "description": "Este foco clínico cubre herramientas de diagnóstico rápido para la detección de virus (como SARS-CoV-2/COVID-19 y gripe) usando aplicaciones móviles y química dinámica."
       },
       {
         "name": "microRNA-122 (miR-122)",
         "link": "concepts/clinical-areas/microRNA_122.md",
-        "stats": "7 papers, 0 theses, 0 patents",
-        "description": "MicroRNA-122 is a highly abundant, liver-specific microRNA that serves as a sensitive circulating biomarker for drug-induced liver injury (DILI) and hepatotoxicity."
+        "stats": "7 artículos, 0 tesis, 0 patentes",
+        "description": "El microRNA-122 es un microRNA hepático muy abundante que sirve como biomarcador circulante sensible del daño hepático inducido por fármacos (DILI) y la hepatotoxicidad."
       },
       {
         "name": "microRNA-21 (miR-21)",
         "link": "concepts/clinical-areas/microRNA_21.md",
-        "stats": "2 papers, 0 theses, 1 patents",
-        "description": "MicroRNA-21 is a well-known oncogenic microRNA frequently overexpressed in solid tumors."
+        "stats": "2 artículos, 0 tesis, 1 patente",
+        "description": "El microRNA-21 es un microRNA oncogénico bien conocido, frecuentemente sobreexpresado en tumores sólidos."
       }
     ]
-  },
-  "projects": [
-    {
-      "code": "PID2022-141065OB-I00",
-      "title": "Potencial de los ácidos nucleicos peptídicos como guías para los sistemas CRISPR-Cas dirigidos al ARN",
-      "role": "Investigador Principal (IP)",
-      "is_ip": true,
-      "category": "nacional",
-      "category_label": "Plan Estatal / Nacional",
-      "agency": "Ministerio de Ciencia, Innovación y Universidades / Agencia Estatal de Investigación (AEI)",
-      "call": "Proyectos de Generación de Conocimiento 2022",
-      "amount": "181.250 €",
-      "amount_val": 181250,
-      "dates": "01/09/2023 - 31/08/2027",
-      "year": 2023,
-      "description": "Exploración pionera de análogos sintéticos PNA como ribonucleoproteínas modificadas para dotar a la maquinaria CRISPR-Cas13 de ultra-especificidad frente a mutaciones puntuales y degradación selectiva de ARN oncológico."
-    },
-    {
-      "code": "PDC2022-133913-I00",
-      "title": "EXO-MAGBEADS: Validación de plataforma para la captura, marcaje y análisis de exosomas por citometría de flujo",
-      "role": "Investigador Principal (IP)",
-      "is_ip": true,
-      "category": "nacional",
-      "category_label": "Prueba de Concepto (PRTR)",
-      "agency": "Ministerio de Ciencia e Innovación / AEI / Financiado por la Unión Europea NextGenerationEU",
-      "call": "Proyectos de Prueba de Concepto 2022",
-      "amount": "148.350 €",
-      "amount_val": 148350,
-      "dates": "01/12/2022 - 30/11/2024",
-      "year": 2022,
-      "description": "Validación tecnológica y preclínica de microesferas magnéticas funcionalizadas químicamente para el aislamiento selectivo y marcaje dinámico de vesículas extracelulares en plasma de pacientes con cáncer."
-    },
-    {
-      "code": "EQC2024-008829-P",
-      "title": "Citómetro de flujo espectral con clasificador celular (cell sorter) de alta velocidad para nanomedicina y vesículas extracelulares",
-      "role": "Investigador Principal (IP)",
-      "is_ip": true,
-      "category": "nacional",
-      "category_label": "Infraestructura Científica / AEI (Plan Estatal)",
-      "agency": "Ministerio de Ciencia, Innovación y Universidades / Agencia Estatal de Investigación (AEI)",
-      "call": "Subprograma Estatal de Infraestructuras y Equipamiento Científico-Técnico 2024",
-      "amount": "272.000 €",
-      "amount_val": 272000,
-      "dates": "01/01/2025 - 31/12/2026",
-      "year": 2025,
-      "description": "Adquisición e implantación en la Universidad de Granada de equipamiento avanzado de citometría espectral de última generación para la detección de nanopartículas, liposomas y exosomas a nivel de partícula única."
-    },
-    {
-      "code": "PID2019-110987RB-I00",
-      "title": "Una nueva plataforma de diagnóstico de biopsia líquida: Detección combo de proteínas y ARN en exosomas",
-      "role": "Investigador Principal (IP)",
-      "is_ip": true,
-      "category": "nacional",
-      "category_label": "Plan Estatal / Nacional",
-      "agency": "Ministerio de Ciencia e Innovación / AEI",
-      "call": "Proyectos de I+D+i Retos Investigación 2019",
-      "amount": "157.300 €",
-      "amount_val": 157300,
-      "dates": "01/06/2020 - 30/11/2023",
-      "year": 2020,
-      "description": "Desarrollo de ensayos multiplexados simultáneos para la cuantificación combinada de biomarcadores proteicos de superficie y perfiles de microARN intraluminales en vesículas tumorales circulantes."
-    },
-    {
-      "code": "BIO2016-80519-R",
-      "title": "Detección de ácidos nucleicos circulantes y sus mutaciones mediante protocolos PCR-free para biopsia líquida",
-      "role": "Investigador Principal (IP)",
-      "is_ip": true,
-      "category": "nacional",
-      "category_label": "Plan Estatal / Nacional",
-      "agency": "Ministerio de Economía, Industria y Competitividad (MINECO / FEDER)",
-      "call": "Retos Investigación 2016",
-      "amount": "169.400 €",
-      "amount_val": 169400,
-      "dates": "30/12/2016 - 31/12/2020",
-      "year": 2016,
-      "description": "Consolidación de la química SMART basada en sondas PNA abásicas y marcadores fluorescentes para la identificación de mutaciones oncológicas en ADN tumoral circulante sin necesidad de amplificación enzimática."
-    },
-    {
-      "code": "P18-TP-4160",
-      "title": "NANO-GE-PNA: Desarrollo de una plataforma nanotecnológica para reprogramación celular in situ mediante PNA",
-      "role": "Investigador Principal (IP)",
-      "is_ip": true,
-      "category": "regional",
-      "category_label": "Junta de Andalucía (PAIDI)",
-      "agency": "Junta de Andalucía - Consejería de Conocimiento, Investigación y Universidad (PAIDI / FEDER)",
-      "call": "Proyectos de Investigación de Excelencia PAIDI 2018",
-      "amount": "120.500 €",
-      "amount_val": 120500,
-      "dates": "01/01/2020 - 31/01/2023",
-      "year": 2020,
-      "description": "Generación de nanovectores y sondas bifuncionales de ácido nucleico peptídico para modular la expresión génica post-transcripcionalmente y guiar procesos de reprogramación en modelos celulares."
-    },
-    {
-      "code": "FP7-PEOPLE-322276",
-      "title": "CHEMiRNA: Chemical-based platforms for micro-RNA detection. Towards novel oncomir assays",
-      "role": "Investigador Principal (IP)",
-      "is_ip": true,
-      "category": "internacional",
-      "category_label": "Unión Europea (FP7 Marie Curie)",
-      "agency": "Comisión Europea - Séptimo Programa Marco (FP7 Marie Curie Career Integration Grant)",
-      "call": "FP7-PEOPLE-2012-CIG",
-      "amount": "100.000 €",
-      "amount_val": 100000,
-      "dates": "01/10/2012 - 30/09/2016",
-      "year": 2012,
-      "description": "Proyecto internacional de reintegración para liderar en la UGR el diseño de plataformas de química bioorgánica aplicadas al perfilado analítico ultraselectivo de microARNs oncogénicos (oncomiRs)."
-    },
-    {
-      "code": "EXC BIO 1778-2012",
-      "title": "Desarrollo de nuevas herramientas químicas y nanobiosensores para diagnóstico molecular precoz",
-      "role": "Investigador Principal (IP)",
-      "is_ip": true,
-      "category": "regional",
-      "category_label": "Junta de Andalucía (Excelencia)",
-      "agency": "Junta de Andalucía - Consejería de Economía, Innovación y Ciencia",
-      "call": "Proyectos de Excelencia Convocatoria 2012",
-      "amount": "122.500 €",
-      "amount_val": 122500,
-      "dates": "01/05/2014 - 01/05/2018",
-      "year": 2014,
-      "description": "Investigación básica y traslacional orientada al diseño y caracterización de reactivos químicos para la detección selectiva de biomarcadores circulantes en fluidos biológicos."
-    },
-    {
-      "code": "CTQ2012-34778",
-      "title": "Integración de nanotecnología con química dinámica para el análisis fluorescente in situ de microRNA",
-      "role": "Investigador Principal (IP)",
-      "is_ip": true,
-      "category": "nacional",
-      "category_label": "Plan Estatal / Nacional",
-      "agency": "Ministerio de Economía y Competitividad (MINECO)",
-      "call": "Plan Nacional I+D+i - Subprograma de Proyectos de Investigación Fundamental (Química)",
-      "amount": "87.750 €",
-      "amount_val": 87750,
-      "dates": "01/01/2013 - 31/12/2015",
-      "year": 2013,
-      "description": "Acoplamiento de microesferas y nanoestructuras con el marcaje químico dinámico (DCL) para la detección sin enzimas de microARN en células y extractos biológicos."
-    },
-    {
-      "code": "A-FQM-760-UGR20",
-      "title": "Desarrollo de plataforma para aislamiento, marcaje y análisis de exosomas individuales por citometría de flujo espectral",
-      "role": "Investigador Principal (IP)",
-      "is_ip": true,
-      "category": "regional",
-      "category_label": "Junta de Andalucía / FEDER",
-      "agency": "Consejería de Transformación Económica, Industria, Conocimiento y Universidades / UGR",
-      "call": "Proyectos Operativos FEDER Andalucía 2020",
-      "amount": "40.000 €",
-      "amount_val": 40000,
-      "dates": "01/07/2021 - 30/06/2023",
-      "year": 2021,
-      "description": "Optimización metodológica del análisis citométrico de vesículas submicrométricas mediante sondas fluorogénicas específicas para lípidos de membrana y marcadores tetraspaninas."
-    },
-    {
-      "code": "RYC-2010-06637",
-      "title": "Contrato Ramón y Cajal: Química bioorgánica y nanobiotecnología",
-      "role": "Investigador Principal (IP)",
-      "is_ip": true,
-      "category": "nacional",
-      "category_label": "Recursos Humanos / Excelencia",
-      "agency": "Ministerio de Ciencia e Innovación - Programa Ramón y Cajal",
-      "call": "Convocatoria Ramón y Cajal 2010",
-      "amount": "15.000 €",
-      "amount_val": 15000,
-      "dates": "01/06/2011 - 31/05/2013",
-      "year": 2011,
-      "description": "Fondo de inicio de investigación asociado a la incorporación como investigador Ramón y Cajal en el Departamento de Química Farmacéutica y Orgánica de la UGR."
-    },
-    {
-      "code": "PIE16-00045",
-      "title": "Implementation of a novel platform to monitor tumour heterogeneity as a crucial determinant for individualised cancer therapy",
-      "role": "Equipo de Investigación",
-      "is_ip": false,
-      "category": "nacional",
-      "category_label": "ISCIII / Sanitario",
-      "agency": "Instituto de Salud Carlos III (ISCIII - Acción Estratégica en Salud)",
-      "call": "Proyectos Integrados de Excelencia en Institutos de Investigación Sanitaria (PIE 2016)",
-      "amount": "493.625 €",
-      "amount_val": 493625,
-      "dates": "01/01/2017 - 31/12/2019",
-      "year": 2017,
-      "description": "Proyecto multicéntrico de excelencia biomédica en el Instituto ibs.GRANADA y GENYO para el seguimiento de la heterogeneidad tumoral y resistencia terapéutica mediante biopsia líquida."
-    },
-    {
-      "code": "FP7-SME-643979",
-      "title": "LIQBIOPSENS: Reliable low-cost liquid biopsy diagnostics for colorectal cancer through integration of dynamic chemical labeling and photonic microsystems",
-      "role": "Equipo de Investigación",
-      "is_ip": false,
-      "category": "internacional",
-      "category_label": "Unión Europea (FP7 Capacities)",
-      "agency": "Comisión Europea - Séptimo Programa Marco (FP7 Research for the benefit of SMEs)",
-      "call": "FP7-SME-2013",
-      "amount": "1.850.000 €",
-      "amount_val": 1850000,
-      "dates": "01/01/2015 - 31/12/2018",
-      "year": 2015,
-      "description": "Consorcio internacional europeo con participación de DESTINA Genomics y la Universidad de Granada para la creación de un sistema de diagnóstico precoz de cáncer colorrectal en sangre basado en chips fotónicos y sondas SMART (nodo UGR/GENYO dotado con >320.000 €)."
-    },
-    {
-      "code": "H2020-MSCA-101007934",
-      "title": "DIARNAGNOSIS: A novel platform for the direct profiling of circulating cell-free ribonucleic acids in liquid biopsy",
-      "role": "Equipo de Investigación",
-      "is_ip": false,
-      "category": "internacional",
-      "category_label": "Unión Europea (Horizonte 2020)",
-      "agency": "Comisión Europea - Horizonte 2020 (Marie Sklodowska-Curie Actions - RISE)",
-      "call": "H2020-MSCA-RISE-2020",
-      "amount": "87.400 €",
-      "amount_val": 87400,
-      "dates": "01/01/2021 - 31/05/2025",
-      "year": 2021,
-      "description": "Red europea de intercambio e innovación científica entre universidades europeas, centros clínicos e industria biomédica para el análisis directo de cfRNA circulante en biopsia líquida (Presupuesto total consorcio: 846.400 €)."
-    },
-    {
-      "code": "P12-FQM-790",
-      "title": "Disociación homolítica de enlaces O-H: Aplicaciones prácticas e implicaciones en química, física y biología",
-      "role": "Equipo de Investigación",
-      "is_ip": false,
-      "category": "regional",
-      "category_label": "Junta de Andalucía (Excelencia)",
-      "agency": "Junta de Andalucía - Consejería de Economía, Innovación, Ciencia y Empleo",
-      "call": "Proyectos de Excelencia Convocatoria 2012",
-      "amount": "273.894 €",
-      "amount_val": 273894,
-      "dates": "15/02/2014 - 15/02/2018",
-      "year": 2014,
-      "description": "Investigación mecanística fundamental sobre procesos de rotura homolítica y reactividad radicalaria coordinada por el Dpto. de Química Farmacéutica y Orgánica de la UGR."
-    },
-    {
-      "code": "C-EXP-160-UGR23",
-      "title": "IMMUPLEX: Desarrollo de nanosistemas de caracterización de inmunidad celular mediante citometría de flujo espectral",
-      "role": "Equipo de Investigación",
-      "is_ip": false,
-      "category": "regional",
-      "category_label": "Junta de Andalucía / UGR",
-      "agency": "Universidad de Granada / Junta de Andalucía",
-      "call": "Proyectos de Transición Digital y Salud 2023",
-      "amount": "85.000 €",
-      "amount_val": 85000,
-      "dates": "01/01/2024 - 31/12/2026",
-      "year": 2024,
-      "description": "Diseño y aplicación de fluoróforos y reactivos de afinidad para el inmunofenotipado profundo de subpoblaciones linfocitarias y vesiculares en citómetros de última generación."
-    },
-    {
-      "code": "DTS18-00121",
-      "title": "NANO3DEVICES: Nanosistema multifuncionalizado con aplicación teranóstica en cáncer",
-      "role": "Equipo de Investigación",
-      "is_ip": false,
-      "category": "nacional",
-      "category_label": "ISCIII / Sanitario",
-      "agency": "Instituto de Salud Carlos III (ISCIII - Acción Estratégica en Salud)",
-      "call": "Proyectos de Desarrollo Tecnológico en Salud (DTS 2018)",
-      "amount": "78.650 €",
-      "amount_val": 78650,
-      "dates": "01/01/2019 - 31/12/2021",
-      "year": 2019,
-      "description": "Fabricación y funcionalización bioortogonal de nanopartículas mesoporosas inteligentes capaces de vehiculizar fármacos quimioterápicos y liberar sondas diagnósticas en respuesta al microambiente tumoral."
-    },
-    {
-      "code": "PC-0267-2017",
-      "title": "Biopsia líquida aplicada a la búsqueda de marcadores celulares y epigenéticos para el desarrollo de medicina personalizada",
-      "role": "Equipo de Investigación",
-      "is_ip": false,
-      "category": "regional",
-      "category_label": "Consejería de Salud",
-      "agency": "Consejería de Salud y Familias - Junta de Andalucía",
-      "call": "Proyectos de Investigación Biomédica y en Ciencias de la Salud 2017",
-      "amount": "58.549 €",
-      "amount_val": 58549,
-      "dates": "01/01/2018 - 31/12/2020",
-      "year": 2018,
-      "description": "Identificación de perfiles de metilación y ARN no codificante en vesículas extracelulares aisladas de sangre periférica en cohortes clínicas andaluzas."
-    },
-    {
-      "code": "PI-0533-2014",
-      "title": "Desarrollo de un sistema de nanodiagnóstico basado en miRNAs/exosomas característicos de células madre de melanoma",
-      "role": "Equipo de Investigación",
-      "is_ip": false,
-      "category": "regional",
-      "category_label": "Consejería de Salud",
-      "agency": "Consejería de Igualdad, Salud y Políticas Sociales - Junta de Andalucía",
-      "call": "Proyectos de Investigación e Innovación en Salud 2014",
-      "amount": "39.100 €",
-      "amount_val": 39100,
-      "dates": "31/07/2015 - 01/08/2017",
-      "year": 2015,
-      "description": "Generación de nanosensores fluorescentes dirigidos al panel de microARNs específicos secretados por células iniciadoras de tumores de melanoma."
-    },
-    {
-      "code": "B-FQM-475-UGR18",
-      "title": "NANO-TC-ENG: Desarrollo de un nanodispositivo multifuncional para generar células T reprogramadas como terapia avanzada",
-      "role": "Equipo de Investigación",
-      "is_ip": false,
-      "category": "regional",
-      "category_label": "Junta de Andalucía / FEDER",
-      "agency": "Junta de Andalucía / Universidad de Granada (FEDER)",
-      "call": "Proyectos Operativos FEDER Andalucía 2018",
-      "amount": "15.200 €",
-      "amount_val": 15200,
-      "dates": "01/01/2020 - 30/06/2022",
-      "year": 2020,
-      "description": "Nanodispositivos poliméricos biocompatibles para la transfección y activación específica de linfocitos T citotóxicos ex vivo."
-    },
-    {
-      "code": "CEI2014-PBS36",
-      "title": "Estudio del mecanismo de acción y actividad antitumoral in vivo de un compuesto obtenido de productos naturales",
-      "role": "Equipo de Investigación",
-      "is_ip": false,
-      "category": "regional",
-      "category_label": "CEI BioTic Granada",
-      "agency": "Campus de Excelencia Internacional BioTic Granada",
-      "call": "Proyectos de Investigación CEI BioTic 2014",
-      "amount": "21.500 €",
-      "amount_val": 21500,
-      "dates": "28/05/2014 - 31/12/2014",
-      "year": 2014,
-      "description": "Evaluación química y farmacológica de derivados semisintéticos en modelos de xonoinjertos."
-    },
-    {
-      "code": "CEI2014-PBS51",
-      "title": "Nanosensores FLIM de Quantum Dots para detección de pH intracelular: Aplicación en diagnóstico del cáncer",
-      "role": "Equipo de Investigación",
-      "is_ip": false,
-      "category": "regional",
-      "category_label": "CEI BioTic Granada",
-      "agency": "Campus de Excelencia Internacional BioTic Granada",
-      "call": "Proyectos de Investigación CEI BioTic 2014",
-      "amount": "21.500 €",
-      "amount_val": 21500,
-      "dates": "28/05/2014 - 31/12/2014",
-      "year": 2014,
-      "description": "Acoplamiento de puntos cuánticos semiconductores con marcadores sensibles al gradiente ácido pericelular tumoral."
-    },
-    {
-      "code": "CEI2014-PBS54",
-      "title": "Nueva plataforma nanotecnológica para la administración subcutánea de fármacos",
-      "role": "Equipo de Investigación",
-      "is_ip": false,
-      "category": "regional",
-      "category_label": "CEI BioTic Granada",
-      "agency": "Campus de Excelencia Internacional BioTic Granada",
-      "call": "Proyectos de Investigación CEI BioTic 2014",
-      "amount": "19.000 €",
-      "amount_val": 19000,
-      "dates": "28/05/2014 - 31/12/2014",
-      "year": 2014,
-      "description": "Vehiculización de principios activos hidrofóbicos en microemulsiones y nanocapsulas biodegradables."
-    },
-    {
-      "code": "CEI2013-P-5",
-      "title": "Aproximación directa a la síntesis de nuevos productos con actividad biológica",
-      "role": "Equipo de Investigación",
-      "is_ip": false,
-      "category": "regional",
-      "category_label": "CEI BioTic Granada",
-      "agency": "Campus de Excelencia Internacional BioTic Granada",
-      "call": "Proyectos Semilla CEI BioTic 2013",
-      "amount": "18.000 €",
-      "amount_val": 18000,
-      "dates": "01/01/2013 - 31/12/2013",
-      "year": 2013,
-      "description": "Metodologías de síntesis orgánica bioinspirada para la generación de librerías moleculares dirigidas a dianas quinasas."
-    },
-    {
-      "code": "CEI2015-MP-BS48",
-      "title": "Desarrollo de una plataforma nanotecnológica para la detección de nuevas dianas farmacológicas",
-      "role": "Equipo de Investigación",
-      "is_ip": false,
-      "category": "regional",
-      "category_label": "CEI BioTic Granada",
-      "agency": "Campus de Excelencia Internacional BioTic Granada",
-      "call": "Proyectos de Investigación CEI BioTic 2015",
-      "amount": "4.500 €",
-      "amount_val": 4500,
-      "dates": "01/01/2015 - 31/12/2015",
-      "year": 2015,
-      "description": "Screening funcional de interacciones ligando-receptor sobre soportes funcionalizados químicamente."
-    },
-    {
-      "code": "CEI2014-MPBS37",
-      "title": "Desarrollo de nanoesferas inmunodirigidas como plataformas terapéuticas",
-      "role": "Equipo de Investigación",
-      "is_ip": false,
-      "category": "regional",
-      "category_label": "CEI BioTic Granada",
-      "agency": "Campus de Excelencia Internacional BioTic Granada",
-      "call": "Proyectos de Investigación CEI BioTic 2014",
-      "amount": "3.000 €",
-      "amount_val": 3000,
-      "dates": "28/05/2014 - 31/12/2014",
-      "year": 2014,
-      "description": "Biotecnología de funcionalización de nanopartículas poliméricas con anticuerpos monoclonales."
-    },
-    {
-      "code": "CONTRATO-VITRO-2021",
-      "title": "Desarrollo y optimización de kits de detección de ácidos nucleicos basados en marcaje químico dinámico (DCL)",
-      "role": "Investigador Principal (IP)",
-      "is_ip": true,
-      "category": "transferencia",
-      "category_label": "Transferencia / Art. 83-60 LOSU",
-      "agency": "Vitro S.A. / Universidad de Granada (OTRI)",
-      "call": "Contrato de I+D y Transferencia Tecnológica",
-      "amount": "115.000 €",
-      "amount_val": 115000,
-      "dates": "01/03/2021 - 28/02/2023",
-      "year": 2021,
-      "description": "Traslación de la tecnología de sondas químicas SMART para su integración en la línea de reactivos diagnósticos in vitro (IVD) de Vitro S.A."
-    },
-    {
-      "code": "CONTRATO-QUANTERIX-2020",
-      "title": "Single-Molecule miRNA Profiling on Digital Bead Platforms (Simoa)",
-      "role": "Investigador Principal (IP)",
-      "is_ip": true,
-      "category": "transferencia",
-      "category_label": "Transferencia / Art. 83-60 LOSU",
-      "agency": "Quanterix Corporation (EE.UU.) / UGR / DESTINA",
-      "call": "Contrato Internacional de Colaboración Tecnológica",
-      "amount": "95.000 €",
-      "amount_val": 95000,
-      "dates": "01/01/2020 - 31/12/2022",
-      "year": 2020,
-      "description": "Validación de la detección de miR-122 a nivel de molécula única utilizando perlas magnéticas de 2.7 µm en plataformas comerciales Simoa HD-1."
-    },
-    {
-      "code": "CONTRATO-MECWINS-2018",
-      "title": "Integración de sondas SMART en biosensors nanomecánicos y ópticos",
-      "role": "Investigador Principal (IP)",
-      "is_ip": true,
-      "category": "transferencia",
-      "category_label": "Transferencia / Art. 83-60 LOSU",
-      "agency": "Mecwins S.A. / Universidad de Granada",
-      "call": "Contrato de I+D Industrial",
-      "amount": "60.000 €",
-      "amount_val": 60000,
-      "dates": "01/06/2018 - 31/12/2020",
-      "year": 2018,
-      "description": "Ensamblado de microcantilevers funcionalizados con reactivos químicos para biosensado ultraselectivo de mutaciones puntuales."
-    },
-    {
-      "code": "CONTRATO-OPTOI-2016",
-      "title": "Desarrollo de sensores fotónicos de silicio para lectura óptica de sondas SMART en punto de atención médica",
-      "role": "Investigador Principal (IP)",
-      "is_ip": true,
-      "category": "transferencia",
-      "category_label": "Transferencia / Art. 83-60 LOSU",
-      "agency": "Optoi Microelectronics (Italia) / UGR",
-      "call": "Convenio de Cooperación Tecnológica Transnacional",
-      "amount": "45.000 €",
-      "amount_val": 45000,
-      "dates": "01/09/2016 - 31/08/2018",
-      "year": 2016,
-      "description": "Miniaturización de detectores fotodiodo integrados en microchips para cuantificación de fluorescencia en tiempo real en dispositivos PoC."
-    }
-  ]
+  }
 }
