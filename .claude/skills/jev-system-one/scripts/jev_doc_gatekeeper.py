@@ -1,0 +1,590 @@
+#!/usr/bin/env python3
+r"""
+jev_doc_gatekeeper.py - Jev System-1 Gatekeeper para el Pipeline de Revision Documental.
+
+Triaje no autoregresivo que decide QUE etapas del pipeline necesita realmente un
+documento, y certifica el entregable al final (etapas 0 y 4 de CLAUDE.md seccion 3).
+
+Reparto de responsabilidades:
+  - Invisibles, homoglifos y metadatos -> deteccion DETERMINISTA local, sin API.
+    Son preguntas mecanicas con respuesta exacta; no se delegan en un modelo.
+  - Slop, voz y LaTeX                  -> Jev Noul con instrucciones especificadas.
+  - Idioma                             -> heuristica local (--lang la sobreescribe).
+  - Registro (alumnos, manuscrito...)  -> flag, marcador, .jev-registro o Jev Choice
+                                          (ver jev_registros.py).
+
+Modo diapositivas (--tipo diapositivas): solo para un .pptx o un .md exportado de un .pptx
+(scripts/pptx_a_markdown.py: cabeceras '## Slide N' o '## Diapositiva NN:'). La etapa 3_voz
+queda como no aplicable y la certificacion depende solo de marcas, slop y LaTeX. En un .pptx
+los metadatos se inspeccionan de verdad (C2PA, IPTC de IA) en lugar de marcarse por formato.
+Con cualquier otra entrada se ignora y se audita como documento, con aviso.
+
+Uso:
+  python jev_doc_gatekeeper.py documento.md
+  python jev_doc_gatekeeper.py informe.docx --json
+  python jev_doc_gatekeeper.py tesis.pdf --lang es --registro manuscrito --json
+  python jev_doc_gatekeeper.py "Tema 3. QFDOS Completa.md" --tipo diapositivas --json
+  python jev_doc_gatekeeper.py --listar-registros
+  echo "texto" | python jev_doc_gatekeeper.py -
+"""
+
+import os
+import re
+import sys
+import json
+import time
+import argparse
+import unicodedata
+import zipfile
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import jev_registros as reg  # noqa: E402
+
+# Asegurar encoding UTF-8 en consola de Windows
+if sys.platform == "win32":
+    try:
+        sys.stdout.reconfigure(encoding="utf-8")
+        sys.stderr.reconfigure(encoding="utf-8")
+    except AttributeError:
+        pass
+
+try:
+    import dotenv
+    dotenv.load_dotenv(Path.home() / ".env")
+except ImportError:
+    pass
+
+UMBRAL = 0.50
+MAX_CHARS = 9000  # ventana enviada a Jev; documentos largos se muestrean
+
+# --------------------------------------------------------------------------
+# Deteccion determinista (etapa 1 del pipeline)
+# --------------------------------------------------------------------------
+
+INVISIBLES = {
+    "\u200b": "ZWSP (espacio de ancho cero)",
+    "\u200c": "ZWNJ (no-unidor de ancho cero)",
+    "\u200d": "ZWJ (unidor de ancho cero)",
+    "\u2060": "WORD JOINER",
+    "\ufeff": "BOM / ZWNBSP",
+    "\u00ad": "SOFT HYPHEN",
+    "\u180e": "MONGOLIAN VOWEL SEPARATOR",
+    "\u2061": "FUNCTION APPLICATION",
+    "\u2062": "INVISIBLE TIMES",
+    "\u2063": "INVISIBLE SEPARATOR",
+    "\u2064": "INVISIBLE PLUS",
+}
+
+HOMOGLIFOS = {
+    "\u0430": "a", "\u0435": "e", "\u043e": "o", "\u0440": "p", "\u0441": "c",
+    "\u0443": "y", "\u0445": "x", "\u0410": "A", "\u0412": "B", "\u0415": "E",
+    "\u041a": "K", "\u041c": "M", "\u041d": "H", "\u041e": "O", "\u0420": "P",
+    "\u0421": "C", "\u0422": "T", "\u0425": "X", "\u03bf": "o", "\u0391": "A",
+    "\u0392": "B", "\u0395": "E", "\u0397": "H", "\u039f": "O", "\u03a1": "P",
+}
+
+METADATOS = {".docx", ".pdf", ".jpg", ".jpeg", ".png", ".tiff", ".webp",
+             ".pptx", ".xlsx", ".heic", ".mp4", ".mov"}
+
+LATEX_PATTERNS = [
+    r"\$[^$\n]+\$",
+    r"\\\([^)]+\\\)",
+    r"\\\[[^\]]+\\\]",
+    r"\\text\{[^}]+\}",
+    r"\\frac\{",
+]
+
+
+def _chunks_png(b):
+    i = 8
+    while i + 8 <= len(b):
+        yield b[i + 4:i + 8]
+        i += 12 + int.from_bytes(b[i:i + 4], "big")
+
+
+# Procedencia que se busca dentro de un .pptx en modo diapositivas. C2PA va en un chunk caBX
+# (PNG) o en cajas JUMBF con etiqueta c2pa (JPEG, WebP); la etiqueta IPTC de imagen generada
+# por IA la escriben en el XMP Google, OpenAI, Adobe Firefly y Microsoft Designer.
+MARCAS_PPTX = [
+    ("C2PA (Content Credentials)",
+     lambda b: (b.startswith(b"\x89PNG") and b"caBX" in set(_chunks_png(b)))
+     or (b"jumb" in b and b"c2pa" in b)),
+    ("IPTC DigitalSourceType de IA", lambda b: b"trainedAlgorithmicMedia" in b),
+]
+
+
+def metadatos_pptx(ruta):
+    """Inspeccion real de las partes de un .pptx (imagenes de diapositivas, patrones y
+    disenos, docProps). Si el zip no se puede leer se vuelve al aviso por formato."""
+    try:
+        with zipfile.ZipFile(str(ruta)) as z:
+            partes = {n: z.read(n) for n in z.namelist()}
+    except (zipfile.BadZipFile, OSError) as e:
+        return [{"tipo": "metadatos",
+                 "detalle": "no se pudo inspeccionar el .pptx (%s): puede portar C2PA/EXIF/XMP"
+                            % type(e).__name__,
+                 "codepoint": None, "ocurrencias": 1}]
+    hallazgos = []
+    for nombre, prueba in MARCAS_PPTX:
+        con = sorted(n for n, b in partes.items() if prueba(b))
+        if con:
+            hallazgos.append({"tipo": "metadatos",
+                              "detalle": "%s en %s%s" % (nombre, ", ".join(con[:5]),
+                                                         " ..." if len(con) > 5 else ""),
+                              "codepoint": None, "ocurrencias": len(con)})
+    return hallazgos
+
+
+def escanear_marcas(texto, ruta, inspeccionar_pptx=False):
+    """Barrido determinista de marcas invisibles, homoglifos y metadatos. Con
+    inspeccionar_pptx (modo diapositivas) un .pptx se abre y se buscan las marcas reales;
+    sin el, cualquier formato portador de metadatos se marca por su extension."""
+    hallazgos = []
+
+    for ch, nombre in INVISIBLES.items():
+        n = texto.count(ch)
+        if n:
+            hallazgos.append({"tipo": "invisible", "detalle": nombre,
+                              "codepoint": "U+%04X" % ord(ch), "ocurrencias": n})
+
+    vs = sum(1 for c in texto if "\ufe00" <= c <= "\ufe0f")
+    if vs:
+        hallazgos.append({"tipo": "invisible", "detalle": "VARIATION SELECTOR",
+                          "codepoint": "U+FE00-FE0F", "ocurrencias": vs})
+    tags = sum(1 for c in texto if "\U000e0000" <= c <= "\U000e007f")
+    if tags:
+        hallazgos.append({"tipo": "invisible",
+                          "detalle": "TAG CHARS (watermark encubierto)",
+                          "codepoint": "U+E0000-E007F", "ocurrencias": tags})
+
+    # Homoglifos: solo se reportan si el texto es mayoritariamente latino
+    intrusos = [(c, texto.count(c)) for c in HOMOGLIFOS if texto.count(c)]
+    if intrusos:
+        latinos = sum(1 for c in texto if "a" <= c.lower() <= "z")
+        no_latinos = sum(1 for c in texto if c.isalpha()
+                         and "CYRILLIC" in unicodedata.name(c, ""))
+        if latinos > no_latinos * 10:
+            for c, n in intrusos:
+                hallazgos.append({
+                    "tipo": "homoglifo",
+                    "detalle": "%s se hace pasar por '%s'"
+                               % (unicodedata.name(c, "?"), HOMOGLIFOS[c]),
+                    "codepoint": "U+%04X" % ord(c), "ocurrencias": n})
+
+    if inspeccionar_pptx and ruta is not None and ruta.suffix.lower() == ".pptx":
+        hallazgos.extend(metadatos_pptx(ruta))
+    elif ruta is not None and ruta.suffix.lower() in METADATOS:
+        hallazgos.append({
+            "tipo": "metadatos",
+            "detalle": "formato %s puede portar C2PA/EXIF/XMP" % ruta.suffix.lower(),
+            "codepoint": None, "ocurrencias": 1})
+
+    return hallazgos
+
+
+def latex_literal(texto):
+    """LaTeX crudo detectado por regex sobre texto ya extraido correctamente."""
+    return any(re.search(p, texto) for p in LATEX_PATTERNS)
+
+
+# --------------------------------------------------------------------------
+# Tipo de entrada. En diapositivas la voz no aplica (los fragmentos y las vinetas suspenden
+# cualquier Noul de voz: Tema 3 publicado, 0.90-0.94); solo cuentan marcas, slop y LaTeX.
+# --------------------------------------------------------------------------
+
+TIPOS = ("documento", "diapositivas")
+
+# Firma de scripts/pptx_a_markdown.py y export_pptx_simple.py: '## Slide N' (Temas 1 y 3) o
+# '## Diapositiva NN: TITULO' (Tema 2), numeradas desde 1 y separadas por '---'.
+RX_DIAPOSITIVA = re.compile(r"^##\s+(?:Slide\s+(\d+)|Diapositiva\s+(\d+)\s*:)", re.M)
+
+
+def exportacion_diapositivas(texto, ruta):
+    """(True, motivo) si la entrada es un .pptx o un Markdown exportado de un .pptx."""
+    if ruta is not None and ruta.suffix.lower() == ".pptx":
+        return True, "entrada .pptx"
+    if ruta is not None and ruta.suffix.lower() not in (".md", ".markdown"):
+        return False, "formato %s (admite .pptx o .md exportado)" % ruta.suffix.lower()
+    texto = texto.lstrip("\ufeff")  # un BOM inicial desplaza la primera cabecera; el barrido de marcas ve el texto original
+    numeros = [int(a or b) for a, b in RX_DIAPOSITIVA.findall(texto)]
+    separadores = len(re.findall(r"^---\s*$", texto, re.M))
+    if (len(numeros) >= 3 and numeros == list(range(1, len(numeros) + 1))
+            and separadores >= len(numeros) - 1):
+        return True, "Markdown exportado de .pptx (%d diapositivas)" % len(numeros)
+    return False, ("sin la estructura de pptx_a_markdown.py ('## Slide N' o "
+                   "'## Diapositiva NN:' correlativas y separadas por '---')")
+
+
+# --------------------------------------------------------------------------
+# Juicio -> Jev System-1
+#
+# Las instrucciones van deliberadamente especificadas al detalle. Medido:
+# con instrucciones vagas el Noul se queda en 0.63 sobre slop evidente y no
+# separa nada; con estas la separacion es 0.97 frente a 0.03.
+# --------------------------------------------------------------------------
+
+INSTR_SLOP = (
+    "El texto muestra senales de redaccion generada por IA sin editar: muletillas "
+    "(delve, tapestry, beacon, testament, pivotal, crucial, landscape, leverage, "
+    "synergy, robust, seamless, unparalleled, transformative, revolutionize, "
+    "profundizar, tapiz, faro, panorama, sin fisuras, papel crucial), transiciones "
+    "formulaicas, construcciones 'no solo X sino tambien Y', cadencia de tres "
+    "elementos repetida, clausulas -ing superficiales encadenadas, atribuciones vagas "
+    "('los expertos coinciden'), y relleno corporativo sin contenido verificable. "
+    "Responde verdadero solo si estas senales estan presentes de forma marcada."
+)
+
+# Voz por registro: las instrucciones calibradas viven en jev_registros.py (una por
+# registro e idioma). Estos nombres se conservan como alias del registro 'ceo', que era la
+# unica voz antes de los registros. La inglesa sigue el perfil de humanizer-juanjo: la
+# espanola aplicada a texto ingles lo suspendia casi siempre (0.7-0.8).
+INSTR_VOZ_ES = reg.REGISTROS["ceo"]["voz_es"]
+INSTR_VOZ_EN = reg.REGISTROS["ceo"]["voz_en"]
+INSTR_VOZ = INSTR_VOZ_ES
+
+INSTR_LATEX = (
+    "El texto contiene delimitadores LaTeX crudos que romperian una exportacion a Word "
+    "o Google Docs: $...$, \\(...\\), \\[...\\], \\text{...}, \\frac, \\alpha y "
+    "similares. Responde verdadero solo si aparecen delimitadores o macros LaTeX "
+    "literales, no si simplemente hay simbolos matematicos Unicode."
+)
+
+
+def detectar_idioma_rapido(t):
+    words_es = {'en', 'de', 'la', 'el', 'los', 'las', 'un', 'una', 'con', 'por', 'para', 'como', 'este', 'esta'}
+    words_en = {'the', 'of', 'and', 'to', 'in', 'is', 'that', 'for', 'it', 'as', 'was', 'with', 'on', 'at'}
+    t_words = set(t.lower().split()[:300])
+    return 'en' if len(t_words & words_en) > len(t_words & words_es) else 'es'
+
+
+def muestrear(texto):
+    """Documentos largos: cabeza + centro + cola, para no perder slop enterrado."""
+    if len(texto) <= MAX_CHARS:
+        return texto
+    t = MAX_CHARS // 3
+    medio = (len(texto) - t) // 2
+    return (texto[:t] + "\n\n[...]\n\n" + texto[medio:medio + t]
+            + "\n\n[...]\n\n" + texto[-t:])
+
+
+def resolver_registro(texto, ruta, registro=None):
+    """Registro fijado por el usuario o el documento, sin llamar a Jev.
+    Devuelve (registro, origen); (None, None) si hay que detectarlo."""
+    if registro:
+        r = reg.normalizar(registro)
+        if r is None:
+            raise ValueError("registro desconocido '%s' (validos: %s)"
+                             % (registro, ", ".join(reg.REGISTROS)))
+        return r, "parametro"
+    r = reg.registro_marcado(texto)
+    if r:
+        return r, "marcador en el documento"
+    r, fichero = reg.registro_carpeta(ruta)
+    if r:
+        return r, "carpeta (%s)" % fichero
+    return None, None
+
+
+# Por debajo de esta confianza del Choice manda la heuristica local si es clara.
+CONF_CHOICE_MIN = 0.40
+
+
+def consultar_jev(texto, lang=None, registro=None, ruta=None):
+    """Una sola llamada a Jev. Con registro conocido: slop + voz + LaTeX. Sin registro:
+    ademas un Choice de registro y el Noul de voz de todos los registros, para no pagar
+    una segunda llamada; la voz se lee del registro elegido."""
+    from typesafe_sdk import TypeSafeClient, Noul, Choice
+    cliente = TypeSafeClient(api_key=os.getenv("TYPESAFE_API_KEY"))
+    idioma_efectivo = lang if lang else detectar_idioma_rapido(texto)
+
+    if registro:
+        tolerancia = reg.REGISTROS[registro]["tolerancia_slop"]
+        preguntas = {"voz_" + registro: Noul(instructions=reg.instr_voz(registro, idioma_efectivo))}
+    else:
+        tolerancia = reg.TOLERANCIA_GENERICA
+        preguntas = {"voz_" + k: Noul(instructions=reg.instr_voz(k, idioma_efectivo))
+                     for k in reg.REGISTROS}
+        preguntas["registro"] = Choice(
+            instructions=reg.INSTR_CHOICE,
+            criteria={k: v["choice"] for k, v in reg.REGISTROS.items()})
+    preguntas["slop"] = Noul(instructions=(INSTR_SLOP + " " + tolerancia).strip())
+    preguntas["latex"] = Noul(instructions=INSTR_LATEX)
+
+    a = cliente.system_one(state={"documento": muestrear(texto)},
+                           questions=preguntas).answers
+
+    voz_por_registro = None
+    if registro:
+        origen, confianza = None, None
+    else:
+        voz_por_registro = {k: round(float(a["voz_" + k].noul), 3) for k in reg.REGISTROS}
+        elegido = reg.normalizar(a["registro"].choice) or reg.POR_DEFECTO
+        confianza = round(float(getattr(a["registro"], "confidence", 0.0) or 0.0), 3)
+        origen = "jev choice"
+        if confianza < CONF_CHOICE_MIN:
+            h, hc = reg.registro_heuristico(texto, ruta)
+            if hc >= 0.6:
+                elegido, confianza, origen = h, hc, "heuristica local (choice dudoso)"
+        registro = elegido
+
+    return {
+        "p_slop": round(float(a["slop"].noul), 3),
+        "p_voz": round(float(a["voz_" + registro].noul), 3),
+        "p_latex": round(float(a["latex"].noul), 3),
+        "idioma": idioma_efectivo,
+        "registro": registro,
+        "registro_origen": origen,
+        "registro_confianza": confianza,
+        "voz_por_registro": voz_por_registro,
+    }
+
+
+# --------------------------------------------------------------------------
+
+def extraer_texto(ruta):
+    """Extraccion real por formato. Leer un .docx o .pdf como texto plano
+    devuelve binario comprimido: el veredicto saldria calculado sobre ruido."""
+    ext = ruta.suffix.lower()
+    if ext == ".docx":
+        import docx
+        d = docx.Document(str(ruta))
+        partes = [p.text for p in d.paragraphs]
+        for tabla in d.tables:
+            for fila in tabla.rows:
+                partes.extend(c.text for c in fila.cells)
+        return "\n".join(partes)
+    if ext == ".pdf":
+        import fitz
+        with fitz.open(str(ruta)) as doc:
+            return "\n".join(pg.get_text() for pg in doc)
+    if ext == ".pptx":
+        try:
+            from pptx import Presentation
+        except ImportError:
+            raise RuntimeError("para .pptx instala python-pptx: python3 -m pip install --user python-pptx")
+        partes = []
+        for diapo in Presentation(str(ruta)).slides:
+            for forma in diapo.shapes:
+                if forma.has_text_frame:
+                    partes.extend(par.text for par in forma.text_frame.paragraphs if par.text)
+            if diapo.has_notes_slide:
+                partes.append(diapo.notes_slide.notes_text_frame.text)
+        return "\n".join(partes)
+    t = ruta.read_text(encoding="utf-8", errors="replace")
+    # Limpiar payloads base64 embebidos (data:image/...;base64,...) para evitar muestreo de ruido binario
+    return re.sub(r'data:image/[^;]+;base64,[A-Za-z0-9+/=]+', '[IMAGEN_BASE64]', t)
+
+
+GUIA_REGISTROS = Path(__file__).resolve().parent.parent / "references" / "registros.md"
+
+
+def auditar(texto, ruta, lang=None, registro=None, tipo=None):
+    t0 = time.perf_counter()
+    tipo_pedido = tipo or "documento"
+    if tipo_pedido not in TIPOS:
+        raise ValueError("tipo desconocido '%s' (validos: %s)" % (tipo, ", ".join(TIPOS)))
+    tipo_motivo, aviso_tipo = None, None
+    if tipo_pedido == "diapositivas":
+        elegible, tipo_motivo = exportacion_diapositivas(texto, ruta)
+        if not elegible:
+            aviso_tipo = ("--tipo diapositivas ignorado: %s. Se audita como documento y la "
+                          "voz cuenta." % tipo_motivo)
+            tipo_motivo = None
+    diapositivas = tipo_pedido == "diapositivas" and aviso_tipo is None
+
+    marcas = escanear_marcas(texto, ruta, inspeccionar_pptx=diapositivas)
+    latex_local = latex_literal(texto)
+    # Un registro desconocido es un error del llamante, no de Jev: se propaga.
+    # En diapositivas el registro es 'diapositivas' (su tolerancia de slop admite vinetas y
+    # fragmentos) salvo parametro o marcador; un .jev-registro de carpeta no lo cambia.
+    if diapositivas and not registro and not reg.registro_marcado(texto):
+        registro_fijo, origen_fijo = "diapositivas", "modo diapositivas"
+    else:
+        registro_fijo, origen_fijo = resolver_registro(texto, ruta, registro)
+
+    try:
+        jev = consultar_jev(texto, lang, registro_fijo, ruta)
+        if registro_fijo:
+            jev["registro_origen"] = origen_fijo
+        motor = "jev-native (typesafe-ai)"
+        aviso = None
+        degradado = False
+    except Exception as e:
+        # Sin veredicto de Jev no se descarta ninguna etapa NI se certifica nada.
+        # El registro si se resuelve en local: el humanizador necesita saber cual aplicar.
+        if registro_fijo:
+            r, r_origen, r_conf = registro_fijo, origen_fijo, None
+        else:
+            r, r_conf = reg.registro_heuristico(texto, ruta)
+            r_origen = "heuristica local (sin Jev)"
+        jev = {"p_slop": 1.0, "p_voz": 1.0, "p_latex": 1.0,
+               "idioma": lang or detectar_idioma_rapido(texto), "registro": r,
+               "registro_origen": r_origen, "registro_confianza": r_conf,
+               "voz_por_registro": None}
+        motor = "fallo-abierto (sin Jev)"
+        aviso = ("Jev no disponible (%s: %s). Se ejecutan todas las etapas y se "
+                 "deniega la certificacion." % (type(e).__name__, e))
+        degradado = True
+
+    latex_final = bool(latex_local or jev["p_latex"] >= UMBRAL)
+    humanizer = "humanizer-juanjo-es" if jev["idioma"] == "es" else "humanizer-juanjo"
+    registro_final = jev["registro"]
+    guia = "%s#%s" % (GUIA_REGISTROS, registro_final)
+    voz_pendiente = jev["p_voz"] >= UMBRAL and not diapositivas
+
+    etapas = {
+        "1_watermarks": {"ejecutar": bool(marcas), "motivo": "deteccion determinista",
+                         "evidencia": marcas},
+        "2_anti_slop": {"ejecutar": jev["p_slop"] >= UMBRAL,
+                        "probabilidad": jev["p_slop"], "motivo": "Jev Noul"},
+        "3_voz": {"ejecutar": voz_pendiente, "probabilidad": jev["p_voz"],
+                  "motivo": "Jev Noul (registro %s)" % registro_final, "skill": humanizer,
+                  "registro": registro_final, "guia_registro": guia},
+        "4_latex": {"ejecutar": latex_final, "probabilidad": jev["p_latex"],
+                    "motivo": "regex literal + Jev Noul"},
+    }
+    if diapositivas:
+        etapas["3_voz"]["aplicable"] = False
+        etapas["3_voz"]["motivo"] = ("no aplicable en diapositivas: la probabilidad es "
+                                     "informativa y no cuenta para la certificacion")
+    pendientes = [k for k, v in etapas.items() if v["ejecutar"]]
+
+    # La certificacion exige veredicto real de Jev. Una caida de API nunca aprueba.
+    aprobado = (not pendientes) and not degradado
+
+    if degradado:
+        dictamen = "Sin certificar: Jev inaccesible, ejecutar pipeline completo"
+    elif aprobado and diapositivas:
+        dictamen = "Certificado para entrega (diapositivas: voz no aplicable)"
+    elif aprobado:
+        dictamen = "Certificado para entrega"
+    else:
+        dictamen = "Rechazado por Gatekeeper: ejecutar " + ", ".join(pendientes)
+
+    res = {
+        "status": "success",
+        "engine": motor,
+        "documento": str(ruta) if ruta else "<stdin>",
+        "caracteres": len(texto),
+        "muestreado": len(texto) > MAX_CHARS,
+        "language": jev["idioma"],
+        "tipo": "diapositivas" if diapositivas else "documento",
+        # --- claves de compatibilidad con CLAUDE.md seccion 3 ---
+        "has_latex_violations": latex_final,
+        "slop_probability": jev["p_slop"],
+        "needs_humanizer_rewrite": voz_pendiente,
+        "quality_gate_passed": aprobado,
+        "recommendation": dictamen,
+        # --- triaje por etapas ---
+        "etapas": etapas,
+        "etapas_a_ejecutar": pendientes,
+        "humanizer_skill": humanizer,
+        # --- registro de voz ---
+        "registro": registro_final,
+        "registro_nombre": reg.REGISTROS[registro_final]["nombre"],
+        "registro_origen": jev.get("registro_origen"),
+        "registro_confianza": jev.get("registro_confianza"),
+        "guia_registro": guia,
+        "latencia_ms": round((time.perf_counter() - t0) * 1000),
+    }
+    if tipo_motivo:
+        res["tipo_motivo"] = tipo_motivo
+    if jev.get("voz_por_registro"):
+        res["voz_por_registro"] = jev["voz_por_registro"]
+    avisos = [a for a in (aviso_tipo, aviso) if a]
+    if avisos:
+        res["warning"] = " | ".join(avisos)
+    return res
+
+
+def main():
+    global UMBRAL
+    ap = argparse.ArgumentParser(description="Jev Document Pipeline Gatekeeper")
+    ap.add_argument("target", nargs="?", help="Ruta del documento, o '-' para leer de stdin")
+    ap.add_argument("--lang", choices=["es", "en"], default=None,
+                    help="Forzar idioma (por defecto lo detecta Jev)")
+    ap.add_argument("--registro", default=None,
+                    help="Registro de voz: %s (o alias: students, manuscript, slides, "
+                         "grant, report, outreach). Por defecto se detecta."
+                         % ", ".join(reg.REGISTROS))
+    ap.add_argument("--tipo", choices=TIPOS, default="documento",
+                    help="diapositivas: la voz no cuenta para certificar. Solo con un .pptx "
+                         "o un .md exportado por pptx_a_markdown.py; con otra entrada se "
+                         "ignora con aviso. Por defecto: documento")
+    ap.add_argument("--listar-registros", action="store_true",
+                    help="Muestra los registros disponibles y sale")
+    ap.add_argument("--json", action="store_true", help="Salida JSON")
+    ap.add_argument("--umbral", type=float, default=UMBRAL,
+                    help="Umbral de decision (def. 0.50)")
+    args = ap.parse_args()
+    UMBRAL = args.umbral
+
+    if args.listar_registros:
+        for r in reg.listar():
+            print("%-13s %s" % (r["registro"], r["nombre"]))
+        return
+    if not args.target:
+        ap.error("falta el documento (ruta o '-')")
+    if args.registro and reg.normalizar(args.registro) is None:
+        ap.error("registro desconocido '%s' (validos: %s)"
+                 % (args.registro, ", ".join(reg.REGISTROS)))
+
+    if args.target == "-":
+        texto, ruta = sys.stdin.read(), None
+    else:
+        ruta = Path(args.target)
+        if not ruta.exists():
+            print("ERROR: no existe %s" % ruta, file=sys.stderr)
+            sys.exit(2)
+        texto = extraer_texto(ruta)
+
+    res = auditar(texto, ruta, args.lang, args.registro, args.tipo)
+
+    if args.json:
+        print(json.dumps(res, indent=2, ensure_ascii=False))
+        return
+
+    def marca(b):
+        return "EJECUTAR" if b else "  omitir"
+
+    e = res["etapas"]
+    print("\n=== JEV SYSTEM-1 DOCUMENT GATEKEEPER ===")
+    print("Documento:     %s  (%d car.%s)"
+          % (res["documento"], res["caracteres"],
+             ", muestreado" if res["muestreado"] else ""))
+    print("Idioma:        %s" % res["language"])
+    print("Tipo:          %s%s" % (res["tipo"], "  (%s)" % res["tipo_motivo"]
+                                   if res.get("tipo_motivo") else ""))
+    conf = res["registro_confianza"]
+    print("Registro:      %s - %s  (%s%s)"
+          % (res["registro"], res["registro_nombre"], res["registro_origen"],
+             ", conf. %s" % conf if conf is not None else ""))
+    print("Etapa 1:       %s  watermarks/metadatos  (%d hallazgos deterministas)"
+          % (marca(e["1_watermarks"]["ejecutar"]), len(e["1_watermarks"]["evidencia"])))
+    for h in e["1_watermarks"]["evidencia"]:
+        cp = " " + h["codepoint"] if h["codepoint"] else ""
+        print("                 - %s%s x%d" % (h["detalle"], cp, h["ocurrencias"]))
+    print("Etapa 2:       %s  anti-slop  (p=%s)"
+          % (marca(e["2_anti_slop"]["ejecutar"]), e["2_anti_slop"]["probabilidad"]))
+    if e["3_voz"].get("aplicable") is False:
+        print("Etapa 3:       no aplica  voz en diapositivas, registro %s  (p=%s, informativa)"
+              % (e["3_voz"]["registro"], e["3_voz"]["probabilidad"]))
+    else:
+        print("Etapa 3:       %s  voz -> %s, registro %s  (p=%s)"
+              % (marca(e["3_voz"]["ejecutar"]), e["3_voz"]["skill"], e["3_voz"]["registro"],
+                 e["3_voz"]["probabilidad"]))
+    if res.get("voz_por_registro"):
+        print("               p_voz por registro: %s"
+              % ", ".join("%s=%s" % kv for kv in res["voz_por_registro"].items()))
+    print("LaTeX crudo:   %s  (p=%s)"
+          % (marca(e["4_latex"]["ejecutar"]), e["4_latex"]["probabilidad"]))
+    print("Quality Gate:  %s" % ("APROBADO" if res["quality_gate_passed"] else "RECHAZADO"))
+    print("Dictamen:      %s" % res["recommendation"])
+    print("Motor:         %s  (%d ms)\n" % (res["engine"], res["latencia_ms"]))
+    if res.get("warning"):
+        print("AVISO:         %s\n" % res["warning"])
+
+
+if __name__ == "__main__":
+    main()
