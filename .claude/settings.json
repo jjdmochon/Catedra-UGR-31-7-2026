@@ -1,0 +1,14 @@
+{
+  "extraKnownMarketplaces": {
+    "juanjo-marketplace": {
+      "source": {
+        "source": "github",
+        "repo": "jjdmochon/antigravity-sync"
+      }
+    }
+  },
+  "enabledPlugins": {
+    "juanjo-agents@juanjo-marketplace": true,
+    "juanjo-core-skills@juanjo-marketplace": true
+  }
+}
